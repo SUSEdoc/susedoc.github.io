@@ -16,6 +16,11 @@ a.jump:visited {
   color: #777;
 }
 
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 html {
   margin: 0 auto;
   max-width: 70em;

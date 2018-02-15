@@ -38,14 +38,3 @@ ul.basenav {
 }
 
 td:first-child { width: 20em;}
-
-a[href^='http']::after {
-  color: #439239;
-  border: 1px solid #439239;
-  border-radius: .2em;
-  font-size: .6em;
-  display: inline-block;
-  padding: .1em .2em;
-  margin-left: .5em;
-  line-height: 1em;
-}

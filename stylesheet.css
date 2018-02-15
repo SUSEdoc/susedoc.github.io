@@ -1,0 +1,51 @@
+a {
+  color: #439239;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #439239;
+}
+
+a.jump {
+  color: #777;
+  text-decoration: none;
+}
+
+a.jump:visited {
+  color: #777;
+}
+
+html {
+  margin: 0 auto;
+  max-width: 70em;
+  font-family: 'Open Sans', sans-serif;
+  overflow-y:scroll;
+}
+
+body {
+  margin: 1em 1em;
+  background-color: #FFF;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #CCC;
+}
+
+ul.basenav {
+  font-size: 1.5em;
+}
+
+td:first-child { width: 20em;}
+
+a[href^='http']::after {
+  color: #439239;
+  border: 1px solid #439239;
+  border-radius: .2em;
+  font-size: .6em;
+  display: inline-block;
+  padding: .1em .2em;
+  margin-left: .5em;
+  line-height: 1em;
+}

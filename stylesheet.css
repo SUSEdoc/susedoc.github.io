@@ -43,3 +43,8 @@ ul.basenav {
 }
 
 td:first-child { width: 20em;}
+
+.up {
+  float:right;
+  display:block;
+}

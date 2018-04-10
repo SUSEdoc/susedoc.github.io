@@ -1,0 +1,177 @@
+<indexconfig>
+  <meta>
+    <title>SUSE Documentation Draft Builds</title>
+    <head>SUSE Documentation - Draft Builds</head>
+    <tabs>
+     <a href="https://www.suse.com/documentation">SUSE Docs (official)</a>
+     <a href="https://doc.opensuse.org">openSUSE Docs (official)</a>
+     <a href="irc://irc.freenode.net:6667/#opensuse-doc">IRC Contact</a>
+    </tabs>
+    <desc>
+      <p>
+        This page contains links to draft builds from the SUSE documentation
+        source code repositories. These builds are triggered automatically
+        with each commit. They are work in progress and may contain a mixture
+        of up-to-date and outdated documentation.
+        <span style="color: #F00">Use the documents here at your own
+        risk.</span>
+      </p>
+      <p>
+        Find the released versions of the product documentation at:
+      </p>
+      <ul>
+        <li>SUSE Products: <a href="https://www.suse.com/documentation">https://www.suse.com/documentation</a></li>
+        <li>openSUSE: <a href="https://doc.opensuse.org">https://doc.opensuse.org</a></li>
+      </ul>
+      <p>
+        Find us on
+        <a href="irc://irc.freenode.net:6667/#opensuse-doc">irc://irc.freenode.net:6667/#opensuse-doc</a>.
+        Report issues with this page at
+        <a href="https://github.com/SUSEdoc/susedoc.github.io/issues">https://github.com/SUSEdoc/susedoc.github.io/issues</a>.
+        However, this feedback channel is <span style="color: #F00">not
+        official</span>. We cannot guarantee that we will respond to requests
+        there.
+      </p>
+      <p>
+       <em>Note:</em> The <em>develop</em> branch usually corresponds with the
+       upcoming release. In these cases the content may change heavily over a
+       very short period of time. The release branches usually are stable. In
+       some cases the develop branch also represents the most recent release.
+      </p>
+    </desc>
+    <bottominfo/>
+    <style>stylesheet.css</style>
+    <baseurl/>
+    <variants>
+     <variant dir="html">HTML</variant>
+     <variant dir="single-html">Single HTML</variant>
+    </variants>
+  </meta>
+  <cats>
+    <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
+    <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
+    <cat id="sleha"      repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
+    <cat id="slert"      repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
+    <cat id="slesforsap" repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
+    <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
+    <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
+    <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack Cloud</cat>
+    <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
+    <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
+    <cat id="ses"        repo="doc-ses">SUSE Enterprise Storage</cat>
+    <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
+    <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
+  </cats>
+
+  <doc cat="sles"  doc="SLES-admin"        branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">AutoYaST Guide Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Docker Quickstart Guide</doc>
+  <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Hardening Guide</doc>
+  <doc cat="sles"  doc="SLES-installquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
+  <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">kGraft Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="develop">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="develop">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-vt-best-practices" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Xen to KVM Migrations Guide</doc>
+
+  <doc cat="sled"  doc="SLED-admin"        branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-rmt"          branches="develop">RMT Guide</doc>
+  <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="develop">Upgrade Guide</doc>
+
+  <doc cat="sbp"   doc="SBP-DRBD"          branches="master">Data Replication across Geo Clusters via DRBD</doc>
+  <doc cat="sbp"   doc="SBP-KMP-Manual"    branches="master">Kernel Module Packages Manual for SUSE-based Distributions</doc>
+  <doc cat="sbp"   doc="SBP-Migrate-z-KVM" branches="master">Migrating from KVM for IBM Z to KVM integrated with SUSE Linux Enterprise Server</doc>
+  <doc cat="sbp"   doc="SBP-Multi-PXE-Install" branches="master">How to Set Up a Multi-PXE Installation Server</doc>
+  <doc cat="sbp"   doc="SBP-Oracle-WebLogic-SLES12SP3" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP3 for x86-64 Architectures</doc>
+  <doc cat="sbp"   doc="SBP-Quilting-OSC"  branches="master">How to Modify a Package in the Open Build Service</doc>
+  <doc cat="sbp"   doc="SBP-RPM-Packaging" branches="master">Introduction to RPM Packaging</doc>
+  <doc cat="sbp"   doc="SBP-SAP-KVM"       branches="master">SAP HANA on SUSE KVM</doc>
+  <doc cat="sbp"   doc="SBP-SLES-MFAD"     branches="master">Joining a SUSE Linux Enterprise Server to a Microsoft Azure Active Directory Domain Services Managed Domain</doc>
+  <doc cat="sbp"   doc="SBP-SBP-SLES12SP1-SAP-migrationguide" branches="master">Migrate SUSE Linux Enterprise Server 12 SP1 to SUSE Linux Enterprise Server for SAP Applications 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-intelsupport"  branches="master">SUSE Linux Enterprise Server - Support for Intel Server Platforms</doc>
+  <doc cat="sbp"   doc="SBP-oraclerac"     branches="master">Installing Oracle RAC on SUSE Linux Enterprise Server 12</doc>
+  <doc cat="sbp"   doc="SBP-oracleweblogic" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-performance-tuning" branches="master">Performance Analysis, Tuning and Tools on SUSE Linux Enterprise Products</doc>
+  <doc cat="sbp"   doc="SBP-publiccloudinfra" branches="master">SUSE Public Cloud Infrastructure Setup Guide</doc>
+  <doc cat="sbp"   doc="SBP-scominstallguide" branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - Installation Guide</doc>
+  <doc cat="sbp"   doc="SBP-scomusermanual" branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - User Manual</doc>
+  <doc cat="sbp"   doc="SBP-securitymodule" branches="master">Security Module in SUSE Linux Enterprise 11</doc>
+  <doc cat="sbp"   doc="SBP-strategy-short" branches="master">SUSE Best Practices Strategy and Plan - Short</doc>
+  <doc cat="sbp"   doc="SBP-sumaforrhel"   branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
+  <doc cat="sbp"   doc="SBP-susemanager"   branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
+  <doc cat="sbp"   doc="SBP-rpiquick"      branches="master">Introduction to SUSE Linux Enterprise Server for the Raspberry Pi</doc>
+  <doc cat="sbp"   doc="SBP-SLES12SP3-rpiquick" branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi</doc>
+
+  <doc cat="ses"   doc="ses-admin"         branches="develop ses4">Administration Guide</doc>
+  <doc cat="ses"   doc="ses-deployment"    branches="develop">Deployment Guide</doc>
+
+  <doc cat="manager" doc="susemanager-advanced-topics" branches="develop">Advanced Topics</doc>
+  <doc cat="manager" doc="susemanager-best-practices"  branches="develop">Best Practices</doc>
+  <doc cat="manager" doc="susemanager-getting-started" branches="develop">Getting Started</doc>
+  <doc cat="manager" doc="susemanager-reference"       branches="develop">Reference Manual</doc>
+
+  <doc cat="cap"   doc="cap-deployment"    branches="develop">Deployment Guide</doc>
+
+  <doc cat="sleha" doc="SLE-HA-guide"      branches="develop">Administration Guide</doc>
+  <doc cat="sleha" doc="SLE-HA-install-quick" branches="develop">Installation and Setup Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="develop">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="develop">Pacemaker Remote Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop">Geo Clustering Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="develop">Geo Clustering Guide</doc>
+
+  <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="develop">OpenStack (Upstream) Administrator Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="develop">OpenStack (Upstream) End User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="develop">Supplement to Administrator Guide and End User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop">Deploying With Crowbar</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-monitor-overview" branches="develop">Monitoring Overview</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-monitor-msoperator" branches="develop">Monitoring Service Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop">Monitoring OpenStack Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="develop">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="develop">Security Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="develop">Operations Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="develop">Operations Console Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop">User Guide</doc>
+
+
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-installation" branches="develop">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-planning"  branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-security"  branches="develop">Security Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-operations" branches="develop">Operations Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-opsconsole" branches="develop">Operations Console Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-user"      branches="develop">User Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-cloud-migration" branches="develop">Migration Guide</doc>
+
+  <doc cat="slert" doc="SLE-RT-hw"         branches="develop">Hardware Testing</doc>
+  <doc cat="slert" doc="SLE-RT-quick"      branches="develop">Quick Start</doc>
+  <doc cat="slert" doc="SLE-RT-shielding"  branches="develop">Shielding Linux Resources</doc>
+  <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
+
+  <doc cat="caasp" doc="caasp-quickstart"  branches="develop">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-deployment"  branches="develop">Deployment Guide</doc>
+
+
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
+
+  <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_42.3">AutoYaST Guide</doc>
+  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_42.3">Gnome User Guide</doc>
+  <doc cat="opensuse" doc="opensuse-reference" branches="develop openSUSE_Leap_42.3">Reference Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="develop openSUSE_Leap_42.3">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-startup"   branches="develop openSUSE_Leap_42.3">Startup Guide</doc>
+  <doc cat="opensuse" doc="opensuse-tuning"    branches="develop openSUSE_Leap_42.3">Tuning Guide</doc>
+  <doc cat="opensuse" doc="opensuse-virtualization" branches="develop openSUSE_Leap_42.3">Virtualization Guide</doc>
+
+</indexconfig>

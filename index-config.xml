@@ -125,11 +125,11 @@
 
   <doc cat="cap"   doc="cap-deployment"    branches="develop">Deployment Guide</doc>
 
-  <doc cat="sleha" doc="SLE-HA-guide"      branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
-  <doc cat="sleha" doc="SLE-HA-install-quick" branches="develop SLE12SP3 SLE12SP2">Installation and Setup Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Highly Available NFS Storage with DRBD and Pacemaker</doc>
-  <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="develop SLE12SP3 SLE12SP2">Pacemaker Remote Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Geo Clustering Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-guide"      branches="develop SLEHA12SP3 SLEHA12SP2 SLEHA12SP1 SLEHA12">Administration Guide</doc>
+  <doc cat="sleha" doc="SLE-HA-install-quick" branches="develop SLEHA12SP3 SLEHA12SP2">Installation and Setup Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="develop SLEHA12SP3 SLEHA12SP2 SLEHA12SP1 SLEHA12">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="develop SLEHA12SP3 SLEHA12SP2">Pacemaker Remote Quick Start</doc>
+  <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop SLEHA12SP3 SLEHA12SP2 SLEHA12SP1 SLEHA12">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="develop">Geo Clustering Guide</doc>
 
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="develop">OpenStack (Upstream) Administrator Guide</doc>

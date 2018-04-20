@@ -10,6 +10,8 @@
   format by inserting spaces between them. -->
   <!--<xsl:output method="xml" indent="yes"/>-->
 
+  <xsl:key name="categories" match="/indexconfig/doc" use="@cat"/>
+
   <xsl:variable name="baseurl" select="/indexconfig/meta/baseurl"/>
   <xsl:variable name="variants" select="/indexconfig/meta/variants"/>
 
@@ -66,10 +68,12 @@
   </xsl:template>
   <xsl:template match="cat">
     <xsl:variable name="node" select="."/>
-    <xsl:if test="/indexconfig/doc/@cat = @id">
+    <xsl:variable name="catnode" select="key('categories', $node/@id)"/>
+
+    <xsl:if test="$catnode">
       <h2 id="{@id}"><xsl:apply-templates select="node()" mode="copy"/></h2>
       <ul class="doclist">
-        <xsl:apply-templates select="/indexconfig/doc[@cat = $node/@id]">
+        <xsl:apply-templates select="$catnode">
           <xsl:sort lang="en" select="."/>
         </xsl:apply-templates>
       </ul>
@@ -79,7 +83,7 @@
 
   <xsl:template match="cat" mode="overview">
     <xsl:variable name="node" select="."/>
-    <xsl:if test="/indexconfig/doc/@cat = @id">
+    <xsl:if test="key('categories', @id)">
       <li><a href="#{@id}"><xsl:value-of select="."/></a></li>
     </xsl:if>
   </xsl:template>

@@ -55,7 +55,7 @@
     <cat id="slesforsap" repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
     <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
-    <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack Cloud</cat>
+    <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
     <cat id="ses"        repo="doc-ses">SUSE Enterprise Storage</cat>
@@ -147,13 +147,13 @@
   <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop">User Guide</doc>
 
 
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-installation" branches="develop">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-planning"  branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-security"  branches="develop">Security Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-operations" branches="develop">Operations Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-opsconsole" branches="develop">Operations Console Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-user"      branches="develop">User Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-cloud-migration" branches="develop">Migration Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-installation"   branches="develop">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-planning"       branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-security"       branches="develop">Security Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-operations"     branches="develop">Operations Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-opsconsole"     branches="develop">Operations Console Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-user"           branches="develop">User Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-migration"      branches="develop">Migration Guide</doc>
 
   <doc cat="slert" doc="SLE-RT-hw"         branches="develop">Hardware Testing</doc>
   <doc cat="slert" doc="SLE-RT-quick"      branches="develop">Quick Start</doc>

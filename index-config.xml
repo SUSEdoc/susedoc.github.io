@@ -112,8 +112,8 @@
   <doc cat="sbp"   doc="SBP-strategy-short" branches="master">SUSE Best Practices Strategy and Plan - Short</doc>
   <doc cat="sbp"   doc="SBP-sumaforrhel"   branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
   <doc cat="sbp"   doc="SBP-susemanager"   branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
-  <doc cat="sbp"   doc="SBP-rpiquick"      branches="master">Introduction to SUSE Linux Enterprise Server for the Raspberry Pi</doc>
-  <doc cat="sbp"   doc="SBP-SLES12SP3-rpiquick" branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi</doc>
+  <doc cat="sbp"   doc="SLES-rpiquick"      branches="master">Introduction to SUSE Linux Enterprise Server for the Raspberry Pi</doc>
+  <doc cat="sbp"   doc="SLES12SP3-rpiquick" branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi</doc>
 
   <doc cat="ses"   doc="ses-admin"         branches="develop ses4">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="develop">Deployment Guide</doc>

@@ -115,8 +115,8 @@
   <doc cat="sbp"   doc="SLES-rpiquick"      branches="master">Introduction to SUSE Linux Enterprise Server for the Raspberry Pi</doc>
   <doc cat="sbp"   doc="SLES12SP3-rpiquick" branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi</doc>
 
-  <doc cat="ses"   doc="ses-admin"         branches="develop ses4">Administration Guide</doc>
-  <doc cat="ses"   doc="ses-deployment"    branches="develop">Deployment Guide</doc>
+  <doc cat="ses"   doc="ses-admin"         branches="develop ses5 ses4">Administration Guide</doc>
+  <doc cat="ses"   doc="ses-deployment"    branches="develop ses5">Deployment Guide</doc>
 
   <doc cat="manager" doc="susemanager-advanced-topics" branches="develop">Advanced Topics</doc>
   <doc cat="manager" doc="susemanager-best-practices"  branches="develop">Best Practices</doc>

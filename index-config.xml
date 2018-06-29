@@ -1,7 +1,7 @@
 <indexconfig>
   <meta>
     <title>SUSE Documentation Draft Builds</title>
-    <head>SUSE Documentation - Draft Builds</head>
+    <head>SUSE Documentation - <span class="warn">Draft Builds</span></head>
     <tabs>
      <a href="https://www.suse.com/documentation">SUSE Docs (official)</a>
      <a href="https://doc.opensuse.org">openSUSE Docs (official)</a>
@@ -13,9 +13,8 @@
         source code repositories. These builds are triggered automatically
         with each commit. They are work in progress and may contain a mixture
         of up-to-date and outdated documentation.
-        <span style="color: #F00">Use the documents here at your own
-        risk.</span>
       </p>
+      <p class="warn">Use the documents here at your own risk.</p>
       <p>
         Find the released versions of the product documentation at:
       </p>
@@ -28,7 +27,7 @@
         <a href="irc://irc.freenode.net:6667/#opensuse-doc">irc://irc.freenode.net:6667/#opensuse-doc</a>.
         Report issues with this page at
         <a href="https://github.com/SUSEdoc/susedoc.github.io/issues">https://github.com/SUSEdoc/susedoc.github.io/issues</a>.
-        However, this feedback channel is <span style="color: #F00">not
+        However, this feedback channel is <span class="warn">not
         official</span>. We cannot guarantee that we will respond to requests
         there.
       </p>

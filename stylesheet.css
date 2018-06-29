@@ -430,6 +430,18 @@ button:hover, button:focus, button:active {
   background-color: #DDD;
 }
 
+.warn {
+  color: #E11;
+}
+
+p.warn {
+  color: #FFF;
+  background-color: #E11;
+  padding: 1em;
+  font-weight: 700;
+}
+
+
 #searchresults ul {
   padding: 0;
 }

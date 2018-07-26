@@ -160,7 +160,7 @@
 
   <doc cat="caasp" doc="caasp-quickstart"  branches="develop">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-admin"       branches="develop">Administration Guide</doc>
-  <doc cat="caasp" doc="caasp-deployment"  branches="develop">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-deployment"  branches="develop CaaS2 CaaS1">Deployment Guide</doc>
 
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>

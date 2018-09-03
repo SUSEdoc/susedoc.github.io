@@ -70,6 +70,7 @@
   <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">kGraft Guide</doc>
+  <doc cat="sles"  doc="SLES-modulesquick" branches="develop">Modules Quick Start Guide</doc>
   <doc cat="sles"  doc="SLES-security"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop">Raspberry Pi Quick Start</doc>
   <doc cat="sles"  doc="SLES-rmt"          branches="develop">RMT Guide</doc>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="metapackage.rnc" type="application/relax-ng-compact-syntax"?>
+<!--
+See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
+-->
+<metapackage xmlns="http://opensuse.org/Standards/One_Click_Install">
+ <group distversion="openSUSE Leap 15.0" recommended="true">
+  <name>Documentation:Tools</name>
+  <summary>Everything about the tools for SUSE documentation</summary>
+  <description></description>
+  <remainSubscribed>true</remainSubscribed>
+  <repositories>
+   <repository recommended="false">
+    <name>ibs_Documentation:Tools</name>
+    <summary>Internal documentation repo for commercial software</summary>
+    <description>Internal documentation repo for commercial software like XEP</description>
+    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>Documentation:Tools</name>
+    <summary>Main repo for SUSE doc Tools</summary>
+    <description>Main repo for SUSE doc Tools</description>
+    <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>Publishing</name>
+    <summary>Publishing</summary>
+    <description></description>
+    <url>http://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>Fate</name>
+    <summary>SUSE Feature Tracking</summary>
+    <description>SUSE Feature Tracking</description>
+    <url>http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>M17N:fonts</name>
+    <summary>Fonts</summary>
+    <description>Fonts</description>
+    <url>http://download.opensuse.org/repositories/M17N:/fonts/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>SUSE CA</name>
+    <summary>SUSE Internal CA Certificate</summary>
+    <description>SUSE Internal CA Certificate</description>
+    <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.0/</url>
+   </repository>
+   <repository>
+    <name>devel:tools:scm</name>
+    <summary>devel:tools:scm</summary>
+    <description>Development tools</description>
+    <url>http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Leap_15.0/</url>
+   </repository>
+  </repositories>
+  <software>
+   <!-- IBS:Documentation:Tools -->
+   <item recommended="false">
+    <name>xep</name>
+    <summary>Commercial Formatter for Printing XSLT Processed XML Files</summary>
+    <description>XEP is built around the mature, high-quality formatting kernel developed by
+RenderX and which has passed several years of deployment in a wide range of
+environments. XEP is continually improved in the quality of formatting,
+standards' conformance, support for advanced features and in compliance to
+strict requirements to the formatted output of print-ready materials.</description>
+   </item>
+   <!-- Standard -->
+   <item>
+    <name>emacs</name>
+    <summary>GNU Emacs Base Package</summary>
+    <description>Basic package for the GNU Emacs editor.</description>
+   </item>
+   <item>
+    <name>virt-manager</name>
+    <summary>Virtual Machine Manager</summary>
+    <description>Virtual Machine Manager provides a graphical tool for administering virtual
+machines for KVM, Xen, and QEmu.</description>
+   </item>
+   <item recommended="false">
+    <name>docker</name>
+    <summary>The Linux container runtime</summary>
+    <description>Docker complements LXC with a high-level API which operates at the process
+level. It runs unix processes with strong guarantees of isolation and
+repeatability across servers.</description>
+   </item>
+   <!-- Documentation:Tools -->
+   <item>
+    <name>daps</name>
+    <summary>DocBook Authoring and Publishing Suite (DAPS)</summary>
+    <description>DAPS contains a set of stylesheets, scripts and makefiles that enable
+you to create HTML, PDF, EPUB and other formats from DocBook XML with a
+single command. It also contains tools to generate profiled source
+tarballs for distributing your XML sources for translation or review.</description>
+   </item>
+   <item>
+    <name>geekodoc</name>
+    <summary>RELAX NG schema</summary>
+    <description>GeekoDoc is a RELAX NG schema used for current SUSE documentation.</description>
+   </item>
+   <item>
+    <name>novdoc</name>
+    <summary>DTD/RELAX NG schema</summary>
+    <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
+   </item>
+   <!-- SUSE CA -->
+   <item>
+    <name>ca-certificates-suse</name>
+    <summary>SUSE internal root certificates</summary>
+    <description>This package contains the internal root certificates from SUSE.</description>
+   </item>
+   <!-- M17N:fonts -->
+   <item>
+    <name>adobe-sourcecodepro-fonts</name>
+    <summary>A set of OpenType fonts designed for coding environments</summary>
+    <description>Source Code is a set of monospaced OpenType fonts that have been designed to work well with coding environments. This family of fonts is a complementary design to the Source Sans family.</description>
+   </item>
+   <item>
+    <name>adobe-sourcesanspro-fonts</name>
+    <summary>A set of OpenType fonts designed for user interfaces</summary>
+    <description>Source Sans is a set of OpenType fonts that have been designed to work well in user interface (UI) environments, as well as in text setting for screen and print.</description>
+   </item>
+   <item>
+    <name>adobe-sourceserifpro-fonts</name>
+    <summary>A set of OpenType fonts designed for user interfaces</summary>
+    <description>A set of serif OpenType fonts designed to complement Source Sans Pro</description>
+   </item>
+   <item>
+    <name>sil-charis-fonts</name>
+    <summary>Smart Unicode Font for Latin and Cyrillic Scripts</summary>
+    <description>Charis is similar to Bitstream Charter, one of the first fonts designed specifically for laser printers. It is highly readable and holds up well in less-than-ideal reproduction environments. It also has a full set of styles - regular, italic, bold, bold italic - and so is more useful in general publishing than Doulos SIL. Charis is a serif, proportionally-spaced font optimized for readability in long printed documents.</description>
+   </item>
+   <item>
+    <name>dejavu-fonts</name>
+    <summary>DejaVu Truetype Fonts</summary>
+    <description>The DejaVu fonts are a font family based on the Bitstream Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development.</description>
+   </item>
+   <!-- Publishing -->
+   <item>
+    <name>pdfgrep</name>
+    <summary>Search tool similar to grep</summary>
+    <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
+   </item>
+   <!-- devel:tools:scm -->
+   <item>
+    <name>git-flow-avh</name>
+    <summary>Git Extensions to Provide High-Level Workflow</summary>
+    <description>AVH Edition of the Git extensions to provide high-level repository
+operations for Vincent Driessen's branching model.</description>
+   </item>
+  </software>
+ </group>
+ <!-- ############################## -->
+ <group distversion="openSUSE Tumbleweed">
+   <name>Documentation:Tools</name>
+   <summary>Everything about the tools for SUSE documentation</summary>
+   <description></description>
+   <remainSubscribed>true</remainSubscribed>
+   <repositories>
+    <repository>
+     <name>Documentation:Tools</name>
+     <summary>Main repo for SUSE doc Tools</summary>
+     <description>Main repo for SUSE doc Tools</description>
+     <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Tumbleweed/</url>
+    </repository>
+    <repository>
+    <name>Publishing</name>
+    <summary>Publishing</summary>
+    <description></description>
+    <url>http://download.opensuse.org/repositories/Publishing/openSUSE_Tumbleweed/</url>
+   </repository>
+    <repository>
+     <name>Fate</name>
+     <summary>SUSE Feature Tracking</summary>
+     <description>SUSE Feature Tracking</description>
+     <url>http://download.opensuse.org/repositories/FATE/openSUSE_Tumbleweed/</url>
+    </repository>
+    <repository>
+     <name>M17N:fonts</name>
+     <summary>Fonts</summary>
+     <description>Fonts</description>
+     <url>http://download.opensuse.org/repositories/M17N:/fonts/openSUSE_Tumbleweed/</url>
+    </repository>
+    <repository>
+     <name>SUSE CA</name>
+     <summary>SUSE Internal CA Certificate</summary>
+     <description>SUSE Internal CA Certificate</description>
+     <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/</url>
+    </repository>
+    <repository>
+     <name>devel:tools:scm</name>
+     <summary>devel:tools:scm</summary>
+     <description>Development tools</description>
+     <url>http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Tumbleweed/</url>
+    </repository>
+  </repositories>
+  <software>
+      <!-- IBS:Documentation:Tools -->
+   <item recommended="false">
+    <name>xep</name>
+    <summary>Commercial Formatter for Printing XSLT Processed XML Files</summary>
+    <description>XEP is built around the mature, high-quality formatting kernel developed by
+RenderX and which has passed several years of deployment in a wide range of
+environments. XEP is continually improved in the quality of formatting,
+standards' conformance, support for advanced features and in compliance to
+strict requirements to the formatted output of print-ready materials.</description>
+   </item>
+   <!-- Standard -->
+   <item>
+    <name>emacs</name>
+    <summary>GNU Emacs Base Package</summary>
+    <description>Basic package for the GNU Emacs editor.</description>
+   </item>
+   <item>
+    <name>virt-manager</name>
+    <summary>Virtual Machine Manager</summary>
+    <description>Virtual Machine Manager provides a graphical tool for administering virtual
+machines for KVM, Xen, and QEmu.</description>
+   </item>
+   <item recommended="false">
+    <name>docker</name>
+    <summary>The Linux container runtime</summary>
+    <description>Docker complements LXC with a high-level API which operates at the process
+level. It runs unix processes with strong guarantees of isolation and
+repeatability across servers.</description>
+   </item>
+   <!-- Documentation:Tools -->
+   <item>
+    <name>daps</name>
+    <summary>DocBook Authoring and Publishing Suite (DAPS)</summary>
+    <description>DAPS contains a set of stylesheets, scripts and makefiles that enable
+you to create HTML, PDF, EPUB and other formats from DocBook XML with a
+single command. It also contains tools to generate profiled source
+tarballs for distributing your XML sources for translation or review.</description>
+   </item>
+   <item>
+    <name>geekodoc</name>
+    <summary>RELAX NG schema</summary>
+    <description>GeekoDoc is a RELAX NG schema used for current SUSE documentation.</description>
+   </item>
+   <item>
+    <name>novdoc</name>
+    <summary>DTD/RELAX NG schema</summary>
+    <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
+   </item>
+   <!-- SUSE CA -->
+   <item>
+    <name>ca-certificates-suse</name>
+    <summary>SUSE internal root certificates</summary>
+    <description>This package contains the internal root certificates from SUSE.</description>
+   </item>
+   <!-- M17N:fonts -->
+   <item>
+    <name>adobe-sourcecodepro-fonts</name>
+    <summary>A set of OpenType fonts designed for coding environments</summary>
+    <description>Source Code is a set of monospaced OpenType fonts that have been designed to work well with coding environments. This family of fonts is a complementary design to the Source Sans family.</description>
+   </item>
+   <item>
+    <name>adobe-sourcesanspro-fonts</name>
+    <summary>A set of OpenType fonts designed for user interfaces</summary>
+    <description>Source Sans is a set of OpenType fonts that have been designed to work well in user interface (UI) environments, as well as in text setting for screen and print.</description>
+   </item>
+   <item>
+    <name>adobe-sourceserifpro-fonts</name>
+    <summary>A set of OpenType fonts designed for user interfaces</summary>
+    <description>A set of serif OpenType fonts designed to complement Source Sans Pro</description>
+   </item>
+   <item>
+    <name>sil-charis-fonts</name>
+    <summary>Smart Unicode Font for Latin and Cyrillic Scripts</summary>
+    <description>Charis is similar to Bitstream Charter, one of the first fonts designed specifically for laser printers. It is highly readable and holds up well in less-than-ideal reproduction environments. It also has a full set of styles - regular, italic, bold, bold italic - and so is more useful in general publishing than Doulos SIL. Charis is a serif, proportionally-spaced font optimized for readability in long printed documents.</description>
+   </item>
+   <item>
+    <name>dejavu-fonts</name>
+    <summary>DejaVu Truetype Fonts</summary>
+    <description>The DejaVu fonts are a font family based on the Bitstream Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development.</description>
+   </item>
+   <!-- Publishing -->
+   <item>
+    <name>pdfgrep</name>
+    <summary>Search tool similar to grep</summary>
+    <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
+   </item>
+   <!-- devel:tools:scm -->
+   <item>
+    <name>git-flow-avh</name>
+    <summary>Git Extensions to Provide High-Level Workflow</summary>
+    <description>AVH Edition of the Git extensions to provide high-level repository
+     operations for Vincent Driessen's branching model.</description>
+   </item>
+  </software>
+ </group>
+</metapackage>

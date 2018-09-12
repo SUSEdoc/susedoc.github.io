@@ -65,7 +65,7 @@ standard conformance, support for advanced features and in compliance to
 strict requirements to the formatted output of print-ready materials.</description>
    </item>
    <!-- Standard -->
-   <item>
+   <item recommended="false">
     <name>emacs</name>
     <summary>GNU Emacs Base Package</summary>
     <description>Basic package for the GNU Emacs editor.</description>
@@ -205,7 +205,7 @@ standard conformance, support for advanced features and in compliance to
 strict requirements to the formatted output of print-ready materials.</description>
    </item>
    <!-- Standard -->
-   <item>
+   <item recommended="false">
     <name>emacs</name>
     <summary>GNU Emacs Base Package</summary>
     <description>Basic package for the GNU Emacs editor.</description>

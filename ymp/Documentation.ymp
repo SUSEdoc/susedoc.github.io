@@ -35,12 +35,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <url>http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.0/</url>
    </repository>
    <repository>
-    <name>M17N:fonts</name>
-    <summary>Fonts</summary>
-    <description>Fonts</description>
-    <url>http://download.opensuse.org/repositories/M17N:/fonts/openSUSE_Leap_15.0/</url>
-   </repository>
-   <repository>
     <name>SUSE CA</name>
     <summary>SUSE Internal CA Certificate</summary>
     <description>SUSE Internal CA Certificate</description>
@@ -108,32 +102,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <summary>SUSE internal root certificates</summary>
     <description>This package contains the internal root certificates from SUSE.</description>
    </item>
-   <!-- M17N:fonts -->
-   <item>
-    <name>adobe-sourcecodepro-fonts</name>
-    <summary>A set of OpenType fonts designed for coding environments</summary>
-    <description>Source Code is a set of monospaced OpenType fonts that have been designed to work well with coding environments. This family of fonts is a complementary design to the Source Sans family.</description>
-   </item>
-   <item>
-    <name>adobe-sourcesanspro-fonts</name>
-    <summary>A set of OpenType fonts designed for user interfaces</summary>
-    <description>Source Sans is a set of OpenType fonts that have been designed to work well in user interface (UI) environments, as well as in text setting for screen and print.</description>
-   </item>
-   <item>
-    <name>adobe-sourceserifpro-fonts</name>
-    <summary>A set of OpenType fonts designed for user interfaces</summary>
-    <description>A set of serif OpenType fonts designed to complement Source Sans Pro</description>
-   </item>
-   <item>
-    <name>sil-charis-fonts</name>
-    <summary>Smart Unicode Font for Latin and Cyrillic Scripts</summary>
-    <description>Charis is similar to Bitstream Charter, one of the first fonts designed specifically for laser printers. It is highly readable and holds up well in less-than-ideal reproduction environments. It also has a full set of styles - regular, italic, bold, bold italic - and so is more useful in general publishing than Doulos SIL. Charis is a serif, proportionally-spaced font optimized for readability in long printed documents.</description>
-   </item>
-   <item>
-    <name>dejavu-fonts</name>
-    <summary>DejaVu Truetype Fonts</summary>
-    <description>The DejaVu fonts are a font family based on the Bitstream Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development.</description>
-   </item>
    <!-- Publishing -->
    <item>
     <name>pdfgrep</name>
@@ -173,12 +141,6 @@ operations for Vincent Driessen's branching model.</description>
      <summary>SUSE Feature Tracking</summary>
      <description>SUSE Feature Tracking</description>
      <url>http://download.opensuse.org/repositories/FATE/openSUSE_Tumbleweed/</url>
-    </repository>
-    <repository>
-     <name>M17N:fonts</name>
-     <summary>Fonts</summary>
-     <description>Fonts</description>
-     <url>http://download.opensuse.org/repositories/M17N:/fonts/openSUSE_Tumbleweed/</url>
     </repository>
     <repository>
      <name>SUSE CA</name>
@@ -247,32 +209,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <name>ca-certificates-suse</name>
     <summary>SUSE internal root certificates</summary>
     <description>This package contains the internal root certificates from SUSE.</description>
-   </item>
-   <!-- M17N:fonts -->
-   <item>
-    <name>adobe-sourcecodepro-fonts</name>
-    <summary>A set of OpenType fonts designed for coding environments</summary>
-    <description>Source Code is a set of monospaced OpenType fonts that have been designed to work well with coding environments. This family of fonts is a complementary design to the Source Sans family.</description>
-   </item>
-   <item>
-    <name>adobe-sourcesanspro-fonts</name>
-    <summary>A set of OpenType fonts designed for user interfaces</summary>
-    <description>Source Sans is a set of OpenType fonts that have been designed to work well in user interface (UI) environments, as well as in text setting for screen and print.</description>
-   </item>
-   <item>
-    <name>adobe-sourceserifpro-fonts</name>
-    <summary>A set of OpenType fonts designed for user interfaces</summary>
-    <description>A set of serif OpenType fonts designed to complement Source Sans Pro</description>
-   </item>
-   <item>
-    <name>sil-charis-fonts</name>
-    <summary>Smart Unicode Font for Latin and Cyrillic Scripts</summary>
-    <description>Charis is similar to Bitstream Charter, one of the first fonts designed specifically for laser printers. It is highly readable and holds up well in less-than-ideal reproduction environments. It also has a full set of styles - regular, italic, bold, bold italic - and so is more useful in general publishing than Doulos SIL. Charis is a serif, proportionally-spaced font optimized for readability in long printed documents.</description>
-   </item>
-   <item>
-    <name>dejavu-fonts</name>
-    <summary>DejaVu Truetype Fonts</summary>
-    <description>The DejaVu fonts are a font family based on the Bitstream Vera Fonts. Its purpose is to provide a wider range of characters while maintaining the original look and feel through the process of collaborative development.</description>
    </item>
    <!-- Publishing -->
    <item>

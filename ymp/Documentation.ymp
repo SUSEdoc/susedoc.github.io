@@ -148,6 +148,19 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <summary>DTD/RELAX NG schema</summary>
     <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
    </item>
+   <item>
+    <name>suse-documentation-dicts-en</name>
+    <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
+    <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
+    openSUSE documentation.</description>
+   </item>
+   <item>
+    <name>pdfcompare</name>
+    <summary>Compare two PDF files, write a resulting PDF with highlighted changes</summary>
+    <description>Compare two PDF files, write a resulting PDF with highlighted changes.
+    Potential text portions that were moved around are recognized and analyzed
+    for similarity with a second level diff.</description>
+   </item>
    <!-- SUSE CA -->
    <item>
     <name>ca-certificates-suse</name>
@@ -307,6 +320,19 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <name>novdoc</name>
     <summary>DTD/RELAX NG schema</summary>
     <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
+   </item>
+   <item>
+    <name>suse-documentation-dicts-en</name>
+    <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
+    <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
+    openSUSE documentation.</description>
+   </item>
+   <item>
+    <name>pdfcompare</name>
+    <summary>Compare two PDF files, write a resulting PDF with highlighted changes</summary>
+    <description>Compare two PDF files, write a resulting PDF with highlighted changes.
+    Potential text portions that were moved around are recognized and analyzed
+    for similarity with a second level diff.</description>
    </item>
    <!-- SUSE CA -->
    <item>

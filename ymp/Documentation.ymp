@@ -10,7 +10,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
   <description></description>
   <remainSubscribed>true</remainSubscribed>
   <repositories>
-   <repository recommended="false">
+   <repository>
     <name>ibs_Documentation:Tools</name>
     <summary>Internal documentation repo for commercial software</summary>
     <description>Internal documentation repo for commercial software like XEP</description>
@@ -55,13 +55,13 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
   </repositories>
   <software>
    <!-- IBS:Documentation:Tools -->
-   <item recommended="false">
+   <item>
     <name>xep</name>
-    <summary>Commercial Formatter for Printing XSLT Processed XML Files</summary>
+    <summary>Commercial Formatter for XSL-FO Files</summary>
     <description>XEP is built around the mature, high-quality formatting kernel developed by
 RenderX and which has passed several years of deployment in a wide range of
 environments. XEP is continually improved in the quality of formatting,
-standards' conformance, support for advanced features and in compliance to
+standard conformance, support for advanced features and in compliance to
 strict requirements to the formatted output of print-ready materials.</description>
    </item>
    <!-- Standard -->
@@ -195,13 +195,13 @@ operations for Vincent Driessen's branching model.</description>
   </repositories>
   <software>
       <!-- IBS:Documentation:Tools -->
-   <item recommended="false">
+   <item>
     <name>xep</name>
-    <summary>Commercial Formatter for Printing XSLT Processed XML Files</summary>
+    <summary>Commercial Formatter for XSL-FO Files</summary>
     <description>XEP is built around the mature, high-quality formatting kernel developed by
 RenderX and which has passed several years of deployment in a wide range of
 environments. XEP is continually improved in the quality of formatting,
-standards' conformance, support for advanced features and in compliance to
+standard conformance, support for advanced features and in compliance to
 strict requirements to the formatted output of print-ready materials.</description>
    </item>
    <!-- Standard -->

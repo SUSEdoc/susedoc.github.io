@@ -70,6 +70,25 @@ strict requirements to the formatted output of print-ready materials.</descripti
     <description>Virtual Machine Manager provides a graphical tool for administering virtual
 machines for KVM, Xen, and QEmu.</description>
    </item>
+   <item>
+    <name>libvirt</name>
+    <summary>Library providing a simple virtualization API</summary>
+    <description>Libvirt is a C toolkit to interact with the virtualization
+    capabilities of Linux. Virtualization of the Linux Operating System means
+    the ability to run multiple instances of Operating Systems concurrently
+    on a single hardware system where the basic resources are driven by a
+    Linux instance. The library aims to provide long term stable C API
+    to interact with Linux virtualization technologies.</description>
+   </item>
+   <item>
+    <name>qemu-kvm</name>
+    <summary>Wrapper to enable KVM acceleration under QEMU</summary>
+    <description>QEMU provides full machine emulation and cross architecture
+    usage. It closely integrates with KVM and Xen virtualization, allowing
+    for excellent performance. Many options are available for defining the
+    emulated environment, including traditional devices, direct host device
+    access, and interfaces specific to virtualization.</description>
+   </item>
    <item recommended="false">
     <name>docker</name>
     <summary>The Linux container runtime</summary>
@@ -177,6 +196,25 @@ strict requirements to the formatted output of print-ready materials.</descripti
     <summary>Virtual Machine Manager</summary>
     <description>Virtual Machine Manager provides a graphical tool for administering virtual
 machines for KVM, Xen, and QEmu.</description>
+   </item>
+   <item>
+    <name>libvirt</name>
+    <summary>Library providing a simple virtualization API</summary>
+    <description>Libvirt is a C toolkit to interact with the virtualization
+    capabilities of Linux. Virtualization of the Linux Operating System means
+    the ability to run multiple instances of Operating Systems concurrently
+    on a single hardware system where the basic resources are driven by a
+    Linux instance. The library aims to provide long term stable C API
+    to interact with Linux virtualization technologies.</description>
+   </item>
+   <item>
+    <name>qemu-kvm</name>
+    <summary>Wrapper to enable KVM acceleration under QEMU</summary>
+    <description>QEMU provides full machine emulation and cross architecture
+    usage. It closely integrates with KVM and Xen virtualization, allowing
+    for excellent performance. Many options are available for defining the
+    emulated environment, including traditional devices, direct host device
+    access, and interfaces specific to virtualization.</description>
    </item>
    <item recommended="false">
     <name>docker</name>

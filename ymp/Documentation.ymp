@@ -89,6 +89,39 @@ machines for KVM, Xen, and QEmu.</description>
     emulated environment, including traditional devices, direct host device
     access, and interfaces specific to virtualization.</description>
    </item>
+   <item>
+    <name>git</name>
+    <summary>Fast, scalable, distributed revision control system</summary>
+    <description>Git is a fast, scalable, distributed revision control system with an
+    unusually rich command set that provides both high-level operations and
+    full access to internals.</description>
+   </item>
+   <item>
+    <name>subversion</name>
+    <summary>Subversion version control system</summary>
+    <description>Subversion exists to be universally recognized and adopted
+    as an open-source, centralized version control system characterized by
+    its reliability as a safe haven for valuable data; the simplicity of its
+    model and usage; and its ability to support the needs of a wide variety
+    of users and projects, from individuals to large-scale enterprise
+    operations.</description>
+   </item>
+   <item>
+    <name>meld</name>
+    <summary>Visual diff and merge tool</summary>
+    <description>Meld is a visual diff and merge tool. Two or three files can be
+    compared and be edited in place. (The diffs update dynamically). Two
+    or three directories can be compared and file comparisons be launched.
+    The working copy directory from version control systems such as CVS,
+    Subversion, Bazaar-ng and Mercurial can be browsed and viewed.</description>
+   </item>
+   <item recommended="false">
+    <name>gitg</name>
+    <summary>Git repository viewer</summary>
+    <description>gitg is a GitX clone for GNOME/gtk+. It aims at being a small, fast and
+    convenient tool to visualize git history and actions that benefit from a
+    graphical presentation.</description>
+   </item>
    <item recommended="false">
     <name>docker</name>
     <summary>The Linux container runtime</summary>
@@ -215,6 +248,39 @@ machines for KVM, Xen, and QEmu.</description>
     for excellent performance. Many options are available for defining the
     emulated environment, including traditional devices, direct host device
     access, and interfaces specific to virtualization.</description>
+   </item>
+   <item>
+    <name>git</name>
+    <summary>Fast, scalable, distributed revision control system</summary>
+    <description>Git is a fast, scalable, distributed revision control system with an
+    unusually rich command set that provides both high-level operations and
+    full access to internals.</description>
+   </item>
+   <item>
+    <name>subversion</name>
+    <summary>Subversion version control system</summary>
+    <description>Subversion exists to be universally recognized and adopted
+    as an open-source, centralized version control system characterized by
+    its reliability as a safe haven for valuable data; the simplicity of its
+    model and usage; and its ability to support the needs of a wide variety
+    of users and projects, from individuals to large-scale enterprise
+    operations.</description>
+   </item>
+   <item>
+    <name>meld</name>
+    <summary>Visual diff and merge tool</summary>
+    <description>Meld is a visual diff and merge tool. Two or three files can be
+    compared and be edited in place. (The diffs update dynamically). Two
+    or three directories can be compared and file comparisons be launched.
+    The working copy directory from version control systems such as CVS,
+    Subversion, Bazaar-ng and Mercurial can be browsed and viewed.</description>
+   </item>
+   <item recommended="false">
+    <name>gitg</name>
+    <summary>Git repository viewer</summary>
+    <description>gitg is a GitX clone for GNOME/gtk+. It aims at being a small, fast and
+    convenient tool to visualize git history and actions that benefit from a
+    graphical presentation.</description>
    </item>
    <item recommended="false">
     <name>docker</name>

@@ -11,3 +11,5 @@ Hence, to update the index page:
 1. Add documents/make text changes in `index-config.xml`.
 2. Run `./update-index.sh`.
 3. Commit & push your changes.
+
+To create draft builds of documentation with Travis CI, refer to https://github.com/openSUSE/doc-ci#travis-draft-builds

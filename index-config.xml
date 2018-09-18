@@ -62,34 +62,34 @@
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
   </cats>
 
-  <doc cat="sles"  doc="SLES-admin"        branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">AutoYaST Guide Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
-  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Docker Quickstart Guide</doc>
-  <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
-  <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Hardening Guide</doc>
-  <doc cat="sles"  doc="SLES-installquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
-  <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">kGraft Guide</doc>
+  <doc cat="sles"  doc="SLES-admin"        branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">AutoYaST Guide Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Docker Quickstart Guide</doc>
+  <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Hardening Guide</doc>
+  <doc cat="sles"  doc="SLES-installquick" branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
+  <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">kGraft Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="develop">Modules Quick Start Guide</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop">Raspberry Pi Quick Start</doc>
   <doc cat="sles"  doc="SLES-rmt"          branches="develop">RMT Guide</doc>
-  <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
   <doc cat="sles"  doc="SLES-upgrade"      branches="develop">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Guide</doc>
-  <doc cat="sles"  doc="SLES-vt-best-practices" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Best Practices</doc>
-  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Xen to KVM Migrations Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-vt-best-practices" branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Xen to KVM Migrations Guide</doc>
 
-  <doc cat="sled"  doc="SLED-admin"        branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-admin"        branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Security Guide</doc>
   <doc cat="sled"  doc="SLED-rmt"          branches="develop">RMT Guide</doc>
-  <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">SMT Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE12SP4 SLE12SP3 SLE12SP2 SLE12SP1 SLE12">Tuning Guide</doc>
   <doc cat="sled"  doc="SLED-upgrade"      branches="develop">Upgrade Guide</doc>
 
   <doc cat="sbp"   doc="SBP-DRBD"          branches="master">Data Replication across Geo Clusters via DRBD</doc>

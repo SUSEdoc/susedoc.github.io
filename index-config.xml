@@ -127,28 +127,27 @@
   <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop SLEHA12SP3 SLEHA12SP2 SLEHA12SP1 SLEHA12">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="develop">Geo Clustering Guide</doc>
 
-  <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="develop">OpenStack (Upstream) Administrator Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="develop">OpenStack (Upstream) End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="develop">Supplement to Administrator Guide and End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop">Deploying With Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="develop">Monitoring Overview</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="develop">Monitoring Service Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="develop">Monitoring OpenStack Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="develop">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="develop">Security Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="develop">Operations Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="develop">Operations Console Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop">User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="develop cloud_8">OpenStack (Upstream) Administrator Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="develop cloud_8">OpenStack (Upstream) End User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="develop cloud_8">Supplement to Administrator Guide and End User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop cloud_8">Deploying With Crowbar</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="develop cloud_8">Monitoring Overview</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="develop cloud_8">Monitoring Service Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="develop cloud_8">Monitoring OpenStack Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="develop cloud_8">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="develop cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="develop cloud_8">Security Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="develop cloud_8">Operations Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="develop cloud_8">Operations Console Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop cloud_8">User Guide</doc>
 
-
-  <doc cat="hos"   doc="hpe-helion-openstack-installation"   branches="develop">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-planning"       branches="develop">Planning an Installation with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-security"       branches="develop">Security Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-operations"     branches="develop">Operations Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-opsconsole"     branches="develop">Operations Console Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-user"           branches="develop">User Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-migration"      branches="develop">Migration Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-security"       branches="cloud_8">Security Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-operations"     branches="cloud_8">Operations Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-user"           branches="cloud_8">User Guide</doc>
+  <doc cat="hos"   doc="hpe-helion-openstack-migration"      branches="cloud_8">Migration Guide</doc>
 
   <doc cat="slert" doc="SLE-RT-hw"         branches="develop">Hardware Testing</doc>
   <doc cat="slert" doc="SLE-RT-quick"      branches="develop">Quick Start</doc>

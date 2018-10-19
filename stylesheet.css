@@ -1,6 +1,6 @@
 html {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 60em;
   font-family: 'Open Sans', sans-serif;
   overflow-y:scroll;
 }
@@ -117,7 +117,7 @@ ul.doclist > li > span {
   display: inline-block;
   width: 10em;
   padding: .25em .25em .25em 0;
-  margin-right: .4em;
+  margin-right: .25em;
   text-align: left;
   vertical-align: middle;
 }
@@ -528,7 +528,7 @@ div.searchstats {
 /* Tab strip */
 .tabs {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 60em;
   box-sizing: border-box;
   padding: 0;
 }

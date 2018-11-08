@@ -22,15 +22,15 @@ To subscribe to the repositories and install the packages from the YMP file,
 run:
 
 ```
-$ sudo /sbin/OneClickInstallUI https://gitlab.suse.de/susedoc/doc-ymp/raw/master/Documentation.ymp
+sudo /sbin/OneClickInstallUI https://gitlab.suse.de/susedoc/doc-ymp/raw/master/Documentation.ymp
 ```
 
 The installation contains two steps:
 
-1. The list of repositories you will to subscribe to.
+1. The list of repositories you will subscribe to.
 2. The list of packages you will install.
 
-Review them carefully. Usually, you shouldn't need to change the default
+Review them carefully. Usually, it is not necessary to change the default
 settings. In some cases, you can select or deselect some packages which are
 optional.
 

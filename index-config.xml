@@ -70,14 +70,14 @@
   <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3">kGraft Guide</doc>
-  <doc cat="sles"  doc="SLES-modulesquick" branches="develop SLE15">Modules Quick Start</doc>
+  <doc cat="sles"  doc="SLES-modulesquick" branches="develop SLE15SP0">Modules Quick Start</doc>
   <doc cat="sles"  doc="SLES-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Security Guide</doc>
-  <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop SLE15">Raspberry Pi Quick Start</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="develop SLE15">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop SLE15SP0">Raspberry Pi Quick Start</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="develop SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP4 SLE12SP3 ">SMT Guide</doc>
   <doc cat="sles"  doc="SLES-storage"      branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Storage Guide</doc>
   <doc cat="sles"  doc="SLES-tuning"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="develop SLE15">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="develop SLE15SP0">Upgrade Guide</doc>
   <doc cat="sles"  doc="SLES-virtualization" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
   <doc cat="sles"  doc="SLES-vt-best-practices" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Xen to KVM Migrations Guide</doc>
@@ -87,10 +87,10 @@
   <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sled"  doc="SLED-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>
   <doc cat="sled"  doc="SLED-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Security Guide</doc>
-  <doc cat="sled"  doc="SLED-rmt"          branches="develop SLE15">RMT Guide</doc>
+  <doc cat="sled"  doc="SLED-rmt"          branches="develop SLE15SP0">RMT Guide</doc>
   <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP4 SLE12SP3">SMT Guide</doc>
   <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3 ">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15SP0">Upgrade Guide</doc>
 
   <doc cat="sbp"   doc="SBP-DRBD"          branches="master">Data Replication across Geo Clusters via DRBD</doc>
   <doc cat="sbp"   doc="SBP-KMP-Manual"    branches="master">Kernel Module Packages Manual for SUSE-based Distributions</doc>

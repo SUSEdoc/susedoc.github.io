@@ -118,7 +118,7 @@
   <doc cat="ses"   doc="ses-admin"         branches="develop ses5 ses4">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="develop ses5">Deployment Guide</doc>
 
-  <doc cat="cap"   doc="cap-deployment"    branches="develop">Deployment Guide</doc>
+  <doc cat="cap"   doc="cap-guides"        branches="develop">Deployment, Administration, and User Guides</doc>
 
   <doc cat="sleha" doc="SLE-HA-guide"      branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
   <doc cat="sleha" doc="SLE-HA-install-quick" branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>

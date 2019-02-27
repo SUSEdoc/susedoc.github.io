@@ -134,7 +134,7 @@
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop cloud_8">Deploying With Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="develop cloud_8">Security Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="develop cloud_8">Operations Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop cloud_8">User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="cloud_8">User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="cloud_8">Monitoring Overview</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="cloud_8">Monitoring Service Operator's Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="cloud_8">Monitoring OpenStack Operator's Guide</doc>

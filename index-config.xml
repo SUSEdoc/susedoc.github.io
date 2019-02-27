@@ -87,7 +87,6 @@
   <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sled"  doc="SLED-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>
   <doc cat="sled"  doc="SLED-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Security Guide</doc>
-  <doc cat="sled"  doc="SLED-rmt"          branches="develop SLE15SP0">RMT Guide</doc>
   <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP4 SLE12SP3">SMT Guide</doc>
   <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3 ">Tuning Guide</doc>
   <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15SP0">Upgrade Guide</doc>
@@ -127,19 +126,21 @@
   <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
 
+  <doc cat="cloud" doc="suse-openstack-cloud-deploy-clm"     branches="develop">Deployment Guide Using Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-soc-operator"   branches="develop">Operations Guide Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="develop cloud_8">OpenStack (Upstream) Administrator Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="develop cloud_8">OpenStack (Upstream) End User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="develop cloud_8">Supplement to Administrator Guide and End User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="develop cloud_8">Deploying With Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="develop cloud_8">Monitoring Overview</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="develop cloud_8">Monitoring Service Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="develop cloud_8">Monitoring OpenStack Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="develop cloud_8">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="develop cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="develop cloud_8">Security Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="develop cloud_8">Operations Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="develop cloud_8">Operations Console Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="develop cloud_8">User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="cloud_8">Monitoring Overview</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="cloud_8">Monitoring Service Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="cloud_8">Monitoring OpenStack Operator's Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
 
   <doc cat="hos"   doc="hpe-helion-openstack-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
   <doc cat="hos"   doc="hpe-helion-openstack-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>

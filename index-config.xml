@@ -161,6 +161,7 @@
   <doc cat="caasp" doc="caasp-user"        branches="develop">User Guide</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_42.3">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_42.3">Gnome User Guide</doc>

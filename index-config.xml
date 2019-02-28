@@ -91,28 +91,41 @@
   <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3 ">Tuning Guide</doc>
   <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15SP0">Upgrade Guide</doc>
 
-  <doc cat="sbp"   doc="SBP-DRBD"          branches="master">Data Replication across Geo Clusters via DRBD</doc>
-  <doc cat="sbp"   doc="SBP-KMP-Manual"    branches="master">Kernel Module Packages Manual for SUSE-based Distributions</doc>
-  <doc cat="sbp"   doc="SBP-Migrate-z-KVM" branches="master">Migrating from KVM for IBM Z to KVM integrated with SUSE Linux Enterprise Server</doc>
-  <doc cat="sbp"   doc="SBP-Multi-PXE-Install" branches="master">How to Set Up a Multi-PXE Installation Server</doc>
-  <doc cat="sbp"   doc="SBP-Oracle-WebLogic-SLES12SP3" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP3 for x86-64 Architectures</doc>
-  <doc cat="sbp"   doc="SBP-Quilting-OSC"  branches="master">How to Modify a Package in the Open Build Service</doc>
-  <doc cat="sbp"   doc="SBP-RPM-Packaging" branches="master">Introduction to RPM Packaging</doc>
-  <doc cat="sbp"   doc="SBP-SLES-MFAD"     branches="master">Joining a SUSE Linux Enterprise Server to a Microsoft Azure Active Directory Domain Services Managed Domain</doc>
-  <doc cat="sbp"   doc="SBP-SBP-SLES12SP1-SAP-migrationguide" branches="master">Migrate SUSE Linux Enterprise Server 12 SP1 to SUSE Linux Enterprise Server for SAP Applications 12 SP1</doc>
-  <doc cat="sbp"   doc="SBP-intelsupport"  branches="master">SUSE Linux Enterprise Server - Support for Intel Server Platforms</doc>
-  <doc cat="sbp"   doc="SBP-oraclerac"     branches="master">Installing Oracle RAC on SUSE Linux Enterprise Server 12</doc>
-  <doc cat="sbp"   doc="SBP-oracleweblogic" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP1</doc>
-  <doc cat="sbp"   doc="SBP-performance-tuning" branches="master">Performance Analysis, Tuning and Tools on SUSE Linux Enterprise Products</doc>
-  <doc cat="sbp"   doc="SBP-publiccloudinfra" branches="master">SUSE Public Cloud Infrastructure Setup Guide</doc>
-  <doc cat="sbp"   doc="SBP-scominstallguide" branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - Installation Guide</doc>
-  <doc cat="sbp"   doc="SBP-scomusermanual" branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - User Manual</doc>
-  <doc cat="sbp"   doc="SBP-securitymodule" branches="master">Security Module in SUSE Linux Enterprise 11</doc>
-  <doc cat="sbp"   doc="SBP-sumaforrhel"   branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
-  <doc cat="sbp"   doc="SBP-susemanager"   branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
-  <doc cat="sbp"   doc="SLES12SP3-rpiquick" branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi</doc>
-  <doc cat="sbp"   doc="SBP-HANAonKVM-SLES12SP2" branches="master">SUSE Best Practices for SAP HANA on KVM</doc>
-  <doc cat="sbp"   doc="SBP-AMD-EPYC-SLES12SP3" branches="master">Optimizing Linux for AMD EPYC with SUSE Linux Enterprise 12 SP3</doc>
+
+  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide</doc>
+  <doc cat="sbp"   doc="SBP-AMD-EPYC-SLES12SP3"   branches="master">Optimizing Linux for AMD EPYC with SUSE Linux Enterprise 12 SP3</doc>
+  <doc cat="sbp"   doc="SBP-DRBD"                 branches="master">Data Replication across Geo Clusters via DRBD</doc>
+  <doc cat="sbp"   doc="SBP-HANAonKVM-SLES12SP2"  branches="master">SUSE Best Practices for SAP HANA on KVM</doc>
+  <doc cat="sbp"   doc="SBP-IaaS-SAP-Cloud"       branches="master">IaaS Architecture for SAP Cloud Platform, private edition</doc>
+  <doc cat="sbp"   doc="SBP-intelsupport"         branches="master">SUSE Linux Enterprise Server - Support for Intel Server Platforms</doc>
+  <doc cat="sbp"   doc="SBP-KMP-Manual"           branches="master">Kernel Module Packages Manual for SUSE-based Distributions</doc>
+  <doc cat="sbp"   doc="SBP-Migrate-z-KVM"        branches="master">Migrating from KVM for IBM Z to KVM integrated with SUSE Linux Enterprise Server</doc>
+  <doc cat="sbp"   doc="SBP-Multi-PXE-Install"    branches="master">How to Set Up a Multi-PXE Installation Server</doc>
+  <doc cat="sbp"   doc="SBP-openFaaS"             branches="master">How to Set up open Function as a Service in SUSE Containers as a Service Platform</doc>
+  <doc cat="sbp"   doc="SBP-oraclerac"            branches="master">Installing Oracle RAC on SUSE Linux Enterprise Server 12</doc>
+  <doc cat="sbp"   doc="SBP-oracleweblogic"       branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-OracleWeblogic-SLES12SP3" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP3 for x86-64 Architectures</doc>
+  <doc cat="sbp"   doc="SBP-performance-tuning"   branches="master">Performance Analysis, Tuning and Tools on SUSE Linux Enterprise Products</doc>
+  <doc cat="sbp"   doc="SBP-publiccloudinfra"     branches="master">SUSE Public Cloud Infrastructure Setup Guide</doc>
+  <doc cat="sbp"   doc="SBP-Quilting-OSC"         branches="master">How to Modify a Package in the Open Build Service</doc>
+  <doc cat="sbp"   doc="SBP-RPM-Packaging"        branches="master">Introduction to RPM Packaging</doc>
+  <doc cat="sbp"   doc="SBP-SAP-AzureSolutionTemplates" branches="master">SUSE and Microsoft Solution Templates for SAP Applications</doc>
+  <doc cat="sbp"   doc="SBP-scominstallguide"     branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - Installation Guide</doc>
+  <doc cat="sbp"   doc="SBP-scomusermanual"       branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - User Manual</doc>
+  <doc cat="sbp"   doc="SBP-securitymodule"       branches="master">Security Module in SUSE Linux Enterprise 11</doc>
+  <doc cat="sbp"   doc="SBP-SLE15-Custom-Installation-Medium" branches="master">How to Create a Custom Installation Medium for SUSE Linux Enterprise 15</doc>
+  <doc cat="sbp"   doc="SBP-SLES12SP1-SAP-migrationguide" branches="master">Migrate SUSE Linux Enterprise Server 12 SP1 to SUSE Linux Enterprise Server for SAP Applications 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-SLES-MFAD"            branches="master">Joining a SUSE Linux Enterprise Server to a Microsoft Azure Active Directory Domain Services Managed Domain</doc>
+  <doc cat="sbp"   doc="SBP-sumaforrhel"          branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
+  <doc cat="sbp"   doc="SBP-SUMA-on-IBM-PowerVM"  branches="master">How to Deploy SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM</doc>
+  <doc cat="sbp"   doc="SBP-susemanager"          branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
+  <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3</doc>
+  <doc cat="sbp"   doc="SLES4SAP-hana-scaleOut-PerfOpt-12" branches="master">SAP HANA System Replication Scale-Out - Performance Optimized Scenario</doc>
+  <doc cat="sbp"   doc="SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud" branches="master">SAP HANA High Availability Cross-Zone Solution on Alibaba Cloud: With SUSE Linux Enterprise Server for SAP Applications</doc>
+  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>
+  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>
+  <doc cat="sbp"   doc="SLES-rpiquick"            branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
+
 
   <doc cat="ses"   doc="ses-admin"         branches="develop ses5 ses4">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="develop ses5">Deployment Guide</doc>

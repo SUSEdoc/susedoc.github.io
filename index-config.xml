@@ -163,12 +163,12 @@
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
 
-  <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_42.3">AutoYaST Guide</doc>
-  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_42.3">Gnome User Guide</doc>
-  <doc cat="opensuse" doc="opensuse-reference" branches="develop openSUSE_Leap_42.3">Reference Guide</doc>
-  <doc cat="opensuse" doc="opensuse-security"  branches="develop openSUSE_Leap_42.3">Security Guide</doc>
-  <doc cat="opensuse" doc="opensuse-startup"   branches="develop openSUSE_Leap_42.3">Startup Guide</doc>
-  <doc cat="opensuse" doc="opensuse-tuning"    branches="develop openSUSE_Leap_42.3">Tuning Guide</doc>
-  <doc cat="opensuse" doc="opensuse-virtualization" branches="develop openSUSE_Leap_42.3">Virtualization Guide</doc>
+  <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_15.0">AutoYaST Guide</doc>
+  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_15.0">Gnome User Guide</doc>
+  <doc cat="opensuse" doc="opensuse-reference" branches="develop openSUSE_Leap_15.0">Reference Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="develop openSUSE_Leap_15.0">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-startup"   branches="develop openSUSE_Leap_15.0">Startup Guide</doc>
+  <doc cat="opensuse" doc="opensuse-tuning"    branches="develop openSUSE_Leap_15.0">Tuning Guide</doc>
+  <doc cat="opensuse" doc="opensuse-virtualization" branches="develop openSUSE_Leap_15.0">Virtualization Guide</doc>
 
 </indexconfig>

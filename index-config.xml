@@ -71,7 +71,7 @@
   <doc cat="sles"  doc="SLES-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3">kGraft Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="develop SLE15SP0">Modules Quick Start</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3 feature/389-ds_ldap_server">Security Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop SLE15SP0">Raspberry Pi Quick Start</doc>
   <doc cat="sles"  doc="SLES-rmt"          branches="develop SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP4 SLE12SP3 ">SMT Guide</doc>

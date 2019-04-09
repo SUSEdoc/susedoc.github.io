@@ -171,7 +171,7 @@
   <doc cat="slert" doc="SLE-RT-shielding"  branches="develop">Shielding Linux Resources</doc>
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
 
-  <doc cat="caasp" doc="caasp-quickstart"  branches="develop CaaS2 Caas1">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-quickstart"  branches="develop adoc CaaS2 Caas1">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-admin"       branches="develop beta1/v4">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"  branches="develop beta1/v4 CaaS2 CaaS1">Deployment Guide</doc>
   <doc cat="caasp" doc="caasp-user"        branches="develop">User Guide</doc>

@@ -5,7 +5,7 @@
 * `index-config.xml`
    * Configuration file that defines
       * Which documents Travis CI will build from which source repo and branch
-      * Links to all relevant documents
+      * Links to all output documents on `https://susedoc.github.io/index.html`
       * HTML-based preamble text for the index page
 * `index.html` - Output HTML navigation page as displayed at `https://susedoc.github.io/index.html`.
 * `update-index.sh` - Script to generate `index.html`.

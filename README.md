@@ -18,6 +18,7 @@
       * `cat="..."`, a category ID (usually for the product), categories are defined in the `<cats/>` section of the document.
       * `doc="..."`, the name of the DC file but with the `DC-` suffix removed
       * `branches="..."`, a space-separated list of branches that the document is available on
+      
      Finally, a `<doc/>` tag includes the human-readable name of the document as its element text.
    * Preamble text changes need to happen within in the `<meta/>` element.
 2. Run `./update-index.sh`.

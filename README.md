@@ -1,6 +1,6 @@
-# Overview Page for susedoc.github.io and Configuration of Which Files to Build in Travis
+## Overview Page for susedoc.github.io and Configuration of Which Files to Build in Travis
 
-Important Files in this repo:
+### Important Files in this repo:
 
 * `index-config.xml`
    * Configuration file that defines
@@ -10,7 +10,7 @@ Important Files in this repo:
 * `index.html` - Output HTML navigation page as displayed at `https://susedoc.github.io/index.html`.
 * `update-index.sh` - Script to generate `index.html`.
 
-To update the index page:
+### To update the index page:
 
 0. Clone this repository locally.
 1. Add documents/make text changes in `index-config.xml`.

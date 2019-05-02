@@ -72,7 +72,8 @@
   <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>
-  <doc cat="sles"  doc="SLES-kgraft"       branches="develop SLE15SP0 SLE12SP4 SLE12SP3">kGraft Guide</doc>
+  <doc cat="sles"  doc="SLES-kgraft"       branches="SLE15SP0 SLE12SP4 SLE12SP3">kGraft Guide</doc>
+  <doc cat="sles"  doc="SLES-klp"          branches="develop">Kernel Live Patching Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="develop SLE15SP0">Modules Quick Start</doc>
   <doc cat="sles"  doc="SLES-security"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3 feature/389-ds_ldap_server">Security Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop SLE15SP0">Raspberry Pi Quick Start</doc>

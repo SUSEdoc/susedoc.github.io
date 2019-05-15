@@ -12,8 +12,7 @@
 
 ### To update the index page:
 
-0. Clone this repository locally.
-1. Add documents/make text changes in `index-config.xml`.
+Add documents/make text changes in `index-config.xml`.
    * To change document builds, modify/add/remove `<doc/>` tags. `<doc/>` tags have the following attributes:
       * `cat="..."`, a category ID (usually for the product), categories are defined in the `<cats/>` section of the document.
       * `doc="..."`, the name of the DC file but with the `DC-` suffix removed
@@ -21,7 +20,10 @@
       
      Finally, a `<doc/>` tag includes the human-readable name of the document as its element text.
    * Preamble text changes need to happen within in the `<meta/>` element.
-2. Run `./update-index.sh`.
-3. Commit & push your changes.
+Commit & push your changes.
+
+Travis will then take of updating the `index.html` file that is displayed as
+the navigation page.
+
 
 To initially enable draft builds of documentation with Travis CI, see https://github.com/openSUSE/doc-ci#travis-draft-builds.

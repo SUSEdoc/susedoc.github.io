@@ -174,7 +174,7 @@
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
 
   <doc cat="caasp" doc="caasp-quickstart"    branches="develop adoc CaaS3">Installation Quick Start</doc>
-  <doc cat="caasp" doc="caasp-architecture"  branches="develop adoc CaaS3">Architecture Guide</doc>
+  <doc cat="caasp" doc="caasp-architecture"  branches="adoc">Architecture Guide</doc>
   <doc cat="caasp" doc="caasp-admin"         branches="develop adoc">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="develop adoc CaaS3">Deployment Guide</doc>
   <doc cat="caasp" doc="caasp-user"          branches="develop">User Guide</doc>

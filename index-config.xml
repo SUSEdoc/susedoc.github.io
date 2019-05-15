@@ -59,6 +59,7 @@
     <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
+    <cat id="cap-rn"     repo="cap-release-notes">SUSE Cloud Application Platform (Release Notes)</cat>
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
     <cat id="ses"        repo="doc-ses">SUSE Enterprise Storage</cat>
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
@@ -134,6 +135,7 @@
   <doc cat="ses"   doc="ses-deployment"    branches="develop ses5">Deployment Guide</doc>
 
   <doc cat="cap"   doc="cap-guides"        branches="develop">Deployment, Administration, and User Guides</doc>
+  <doc cat="cap-rn" doc="release-notes"    branches="master feature/travis-builds">Release Notes</doc>
 
   <doc cat="sleha" doc="SLE-HA-guide"      branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
   <doc cat="sleha" doc="SLE-HA-install-quick" branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>

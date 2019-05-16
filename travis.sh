@@ -74,7 +74,7 @@ CONFIGXML="index-config.xml"
 
 if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding HTML index file after original commit $TRAVIS_COMMIT."
-  ./update-index.sh
+  I_AM_A_MACHINE=1 ./update-index.sh
   if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^\+/ p' | sed -r -n -e '/^\+\+\+/ !p' | wc -l) -le 1 ]]; then
     succeed "It seems only the time stamp of index.html has changed. Not pushing."
   fi

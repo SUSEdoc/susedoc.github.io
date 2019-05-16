@@ -1,4 +1,4 @@
-FROM susedoc/ci:openSUSE-42.3
+FROM susedoc/mini-ci:openSUSE-42.3
 
 # copy the sources
 RUN mkdir -p /usr/src/app

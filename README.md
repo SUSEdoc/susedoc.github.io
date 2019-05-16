@@ -22,13 +22,28 @@ The Travis job for this repository will then take care of updating the
 To initially enable draft builds of documentation with Travis CI, see https://github.com/openSUSE/doc-ci#travis-draft-builds.
 
 
-### Important Files in this Repo
+### Files in this Repo
+
+#### Important for Users
 
 * `index-config.xml`
    * Configuration file that defines
       * Which documents Travis CI will build from which source repo and branch
       * Links to all output documents on `https://susedoc.github.io/index.html`
       * HTML-based preamble text for the index page
-* `index.html` - Output HTML navigation page as displayed at `https://susedoc.github.io/index.html`.
-* `update-index.sh` - Script to generate `index.html`.
+* `index.html` - Output HTML navigation page as displayed at `https://susedoc.github.io/index.html` -- do not edit manually
+* `README.md` - This README file
 
+
+#### Others
+
+* `.travis.yml` - Main Travis CI configuration file
+* `Dockerfile` - Necessary for custom Docker container in Travis CI
+* `favicon.ico` - An image for the tab strip in your browser
+* `google26b19e50039fbeba.html` - Google verification file
+* `robots.txt` - disallows crawling by search engines to avoid our beta documentation from creeping into people's search results
+* `ssh_key.enc` - Encrypted SSH key that allows Travis CI to push back to this repository
+* `stylesheet.css` - Formatting for the navigation page
+* `travis.sh` - Script that will be run by Travis CI in our Docker container
+* `update-index.sh` - Script that actually updates the `index.html` page, can also be run manually on a local machine if need be
+* `update-index.xsl` - XSL stylesheet that transforms the configuration file into an HTML page

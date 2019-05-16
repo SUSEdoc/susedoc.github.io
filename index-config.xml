@@ -69,7 +69,7 @@
   <doc cat="sles"  doc="SLES-admin"        branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE15SP0 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
   <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Deployment Guide</doc>
-  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE15SP0 SLE12SP4 SLE12SP3 feature/docker_reorg">Docker Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Docker Guide</doc>
   <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="develop SLE15SP0 SLE12SP4 SLE12SP3">Installation Guide</doc>

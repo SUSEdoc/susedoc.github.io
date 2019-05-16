@@ -65,6 +65,10 @@ $GIT remote add "$NEWREMOTE" ssh://git@github.com/SUSEdoc/susedoc.github.io.git
 
 CONFIGXML="index-config.xml"
 
+[[ $TRAVIS_BRANCH == "master" ]] || succeed "We currently only build for master. Stopping early."
+
+$GIT checkout "$TRAVIS_BRANCH"
+
 if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding index.html file after original commit $TRAVIS_COMMIT."
   I_AM_A_MACHINE=1 ./update-index.sh
@@ -80,6 +84,6 @@ $GIT add index.html
 log "Commit"
 $GIT commit -m "Travis update of index.html after commit ${TRAVIS_COMMIT}"
 log "Push"
-$GIT push $extraparams --set-upstream "$NEWREMOTE" "$(git rev-parse --abbrev-ref HEAD)"
+$GIT push $extraparams --set-upstream "$NEWREMOTE" "$TRAVIS_BRANCH"
 
 succeed "We're done."

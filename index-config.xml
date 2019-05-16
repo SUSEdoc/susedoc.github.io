@@ -55,6 +55,7 @@
     <cat id="sleha"      repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="slert"      repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
     <cat id="slesforsap" repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
+    <cat id="slehpc"     repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
     <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack</cat>
@@ -183,6 +184,8 @@
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
+  
+  <doc cat="slehpc"     doc="hpc-guide"      branches="develop">HPC Guide</doc>
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_15.0">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_15.0">Gnome User Guide</doc>

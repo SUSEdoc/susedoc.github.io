@@ -181,7 +181,7 @@
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
   <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
-  <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
+<!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc>-->
 
   <doc cat="caasp-rn" doc="release-notes"    branches="4.0-beta2">Release Notes</doc>
 

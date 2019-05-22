@@ -63,7 +63,7 @@ $GIT remote add "$NEWREMOTE" ssh://git@github.com/SUSEdoc/susedoc.github.io.git
 CONFIGXML="index-config.xml"
 
 [[ $TRAVIS_BRANCH == "master" ]] || succeed "We currently only build for master. Stopping early."
-[[ $(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP "^\[auto-commit\]") ]] || succeed "This commit appears to have been created automatically by Travis. Stopping early."
+[[ $(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP "^\[auto-commit\]") ]] && succeed "This commit appears to have been created automatically by Travis. Stopping early."
 
 $GIT checkout "$TRAVIS_BRANCH"
 

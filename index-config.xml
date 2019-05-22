@@ -62,6 +62,7 @@
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
     <cat id="cap-rn"     repo="cap-release-notes">SUSE Cloud Application Platform (Release Notes)</cat>
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
+    <cat id="caasp-rn"   repo="caasp-release-notes">SUSE CaaS Platform (Release Notes)</cat>
     <cat id="ses"        repo="doc-ses">SUSE Enterprise Storage</cat>
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
@@ -176,15 +177,17 @@
   <doc cat="slert" doc="SLE-RT-shielding"  branches="develop">Shielding Linux Resources</doc>
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
 
-  <doc cat="caasp" doc="caasp-quickstart"    branches="develop adoc CaaS3">Installation Quick Start</doc>
-  <doc cat="caasp" doc="caasp-architecture"  branches="adoc">Architecture Guide</doc>
-  <doc cat="caasp" doc="caasp-admin"         branches="develop adoc">Administration Guide</doc>
-  <doc cat="caasp" doc="caasp-deployment"    branches="develop adoc CaaS3">Deployment Guide</doc>
-  <doc cat="caasp" doc="caasp-user"          branches="develop">User Guide</doc>
+  <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
+  <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
+  <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc>
+
+  <doc cat="caasp-rn" doc="release-notes"    branches="4.0-beta2">Release Notes</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
-  
+
   <doc cat="slehpc"     doc="hpc-guide"      branches="develop">HPC Guide</doc>
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_15.0">AutoYaST Guide</doc>

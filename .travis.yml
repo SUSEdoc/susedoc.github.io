@@ -7,15 +7,12 @@ env:
   global:
     - secure: YHWXu1mdWHUO93CrdmN9x91xhlGOLVX6QCdYiRdSaqZC2TcCUhn+BZo34vajGymYAHeNSG6+EqdY0yzJjaNUBNaxQIOWamagoZsRfWPyj0FPUnrVsm770j1W+SVDn1L+6Uq6fEwo8QRaWU8qf8tfR3T/2PIfmRyR5a1G/+w+uYkmP21afIzjHbFyCJ+KX8PAc+423BiWqde1j5Ujx2GhyaXx6UKy1WafQSZgyh6ckMTWG1gyGjkbHysMib59GNwVsOt0YDJBzFipd4cZo1qDf/TtKjjkWw6VQP8Lasa8yoeLTfoRRtHmVC3mVm+60/JfIBgzXAMHQSgKQOZu6eb8/Bck6OXY1MiXPLOlHgx4RtpylclstXZP+9451izjj7yWPkw6Il3KdVaI8yMkZrhMnuwpEnwFOEmCU1MLV+orkOrwPZ6FyF1W50xVH70PL+Bg3PhEB8sqiQkoiOjucWrgonb9y5exAZr+EXgKed7pOu6VybR4GArAq6A7xPA/v/SNBrvAEuKY5T/QiO4nXkm2FF5Zh2+t5UCHC4fnuQLhojnlhN9pGV4qQT8xNbg3r1wigRrAIGeiGvGnI5WwmzUhYJMDnHbA3DyOuzy22+8Xh0quiHnOI+9jz6TONCD0fPQg5FJUaxWcj8bWJtentlDqClJFw1JJaiHtWqSl35wfj7I=
     - COMMIT_AUTHOR_MAIL: "doc-team@suse.com"
-    # If you want to see a list of installed packages in the doc-ci docker container, set to TRUE
-    - LIST_PACKAGES=0
 
 before_install:
   - echo "TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST" >> env.list
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH" >> env.list
   - echo "SOURCE_BRANCH=$SOURCE_BRANCH" >> env.list
   - echo "TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG" >> env.list
-  - echo "LIST_PACKAGES=$LIST_PACKAGES" >> env.list
   - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - echo "TRAVIS_COMMIT=$TRAVIS_COMMIT" >> env.list
   - ls

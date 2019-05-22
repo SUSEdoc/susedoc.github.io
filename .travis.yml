@@ -11,10 +11,9 @@ env:
 before_install:
   - echo "TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST" >> env.list
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH" >> env.list
-  - echo "SOURCE_BRANCH=$SOURCE_BRANCH" >> env.list
-  - echo "TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG" >> env.list
-  - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - echo "TRAVIS_COMMIT=$TRAVIS_COMMIT" >> env.list
+  - echo "TRAVIS_COMMIT_MESSAGE=$TRAVIS_COMMIT_MESSAGE" >> env.list
+  - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - ls
   - echo "Building docker image"
   - docker build -t sle-doc-image .

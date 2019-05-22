@@ -20,7 +20,7 @@ before_install:
   - echo "TRAVIS_COMMIT=$TRAVIS_COMMIT" >> env.list
   - ls
   - RUN_CI=1
-  - AUTOCOMMIT=$(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP '^[auto-commit]')
+  - AUTOCOMMIT=$(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP '^\[auto-commit\]')
   - \[\[ "$AUTOCOMMIT" \]\] \&\& RUN_CI=0
   - \[\[ RUN_CI -eq 1 \]\] \&\& {echo "Building docker image"; docker build -t sle-doc-image .}
 

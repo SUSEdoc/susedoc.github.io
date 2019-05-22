@@ -12,7 +12,13 @@ before_install:
   - echo "TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST" >> env.list
   - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH" >> env.list
   - echo "TRAVIS_COMMIT=$TRAVIS_COMMIT" >> env.list
-  - echo "TRAVIS_COMMIT_MESSAGE=$TRAVIS_COMMIT_MESSAGE" >> env.list
+  # a. The `sed` below tries to make sure commit messages use a safe subset
+  #    of characters that Bash won't randomly interpret. Temporarily enabling
+  #   `set -f` (disables globbing) might also be an option but not sure that
+  #    globbing is our only problem. Maybe there would be other issues.
+  # b. Note the position of ] and - in the character class. This is the only
+  #    way to combine those two characters in a regex.
+  - echo "TRAVIS_COMMIT_MESSAGE='"$(echo "$TRAVIS_COMMIT_MESSAGE" | sed -r 's/[^][() _0-9a-z-]/_/g')"'" >> env.list
   - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - ls
   - echo "Building docker image"

@@ -5,16 +5,16 @@
     <tabs>
      <a href="https://www.suse.com/documentation">SUSE Docs (official)</a>
      <a href="https://doc.opensuse.org">openSUSE Docs (official)</a>
-     <a href="irc://irc.freenode.net:6667/#opensuse-doc">IRC Contact</a>
+     <a href="mailto:doc-team@suse.com">Contact doc-team@suse.com</a>
     </tabs>
     <desc>
       <p>
         This page contains links to draft builds from the SUSE documentation
-        source code repositories. These builds are triggered automatically
+        source code repositories. Builds are triggered automatically
         with each commit. They are work in progress and may contain a mixture
         of up-to-date and outdated documentation.
       </p>
-      <p class="warn">Use the documents here at your own risk.</p>
+      <p class="warn">Use documents from this page at your own risk.</p>
       <p>
         Find the released versions of the product documentation at:
       </p>
@@ -184,8 +184,8 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
-  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop maintenance/15_GA maintenance/12_SP4">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop maintenance/15_GA">Quick Start</doc>
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="develop">HPC Guide</doc>
 

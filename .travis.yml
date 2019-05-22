@@ -16,16 +16,13 @@ before_install:
   - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - echo "TRAVIS_COMMIT=$TRAVIS_COMMIT" >> env.list
   - ls
-  - RUN_CI=1
-  - AUTOCOMMIT=$(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP '^\[auto-commit\]')
-  - \[\[ "$AUTOCOMMIT" \]\] \&\& RUN_CI=0
-  - \[\[ RUN_CI -eq 1 \]\] \&\& {echo "Building docker image"; docker build -t sle-doc-image .}
+  - echo "Building docker image"
+  - docker build -t sle-doc-image .
 
 script:
-  - \[\[ RUN_CI -eq 1 \]\] \&\& {echo "This commit appears to come from a feeble human. Running CI on it."; docker run --rm -it sle-doc-image /bin/bash -c '/bin/bash travis.sh'}
-  - \[\[ RUN_CI -eq 0 \]\] \&\& echo "This commit was an automatic commit by Travis (marked [auto-commit]). Not running CI on that."
+  - docker run --rm -it sle-doc-image /bin/bash -c '/bin/bash travis.sh'
 
 notifications:
   email:
     on_success: change
-    on_failure: always
+    on_failure: change

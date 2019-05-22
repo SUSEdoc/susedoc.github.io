@@ -72,7 +72,7 @@ $GIT checkout "$TRAVIS_BRANCH"
 if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding index.html file after original commit $TRAVIS_COMMIT."
   I_AM_A_MACHINE=1 ./update-index.sh
-  if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^\+/ p' | sed -r -n -e '/^\+\+\+/ !p' | wc -l) -le 1 ]]; then
+  if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^[-+]/ p' | sed -r -n -e '/^(\+\+\+|---|.*@@buildtimestamp@@)/ !p' | wc -l) -eq 0 ]]; then
     succeed "It seems only the time stamp of index.html has changed. Not pushing."
   fi
 else
@@ -82,7 +82,7 @@ fi
 # Add all changed files to the staging area, commit and push
 $GIT add index.html
 log "Commit"
-$GIT commit -m "Travis update of index.html after commit ${TRAVIS_COMMIT}"
+$GIT commit -m "[auto-commit] Travis update of index.html after commit ${TRAVIS_COMMIT}"
 log "Push"
 $GIT push $extraparams --set-upstream "$NEWREMOTE" "$TRAVIS_BRANCH"
 

@@ -42,7 +42,10 @@
         <xsl:apply-templates select="cats"/>
         <div class="topmargin"></div>
         <xsl:apply-templates select="meta/bottominfo"/>
-        <p>Build time for this overview page: <xsl:value-of select="date:date-time()"/></p>
+
+        <!-- This time stamp XML comment is important for travis.sh! Don't
+        rename, don't remove! -->
+        <xsl:comment> @@buildtimestamp@@ </xsl:comment><p>Build time for this navigation page: <xsl:value-of select="date:date-time()"/></p>
       </body>
     </html>
   </xsl:template>

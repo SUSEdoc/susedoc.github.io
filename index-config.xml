@@ -183,7 +183,7 @@
   <doc cat="caasp" doc="caasp-deployment"    branches="master beta2">Deployment Guide</doc>
   <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master beta2">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="beta2">Release Notes</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>

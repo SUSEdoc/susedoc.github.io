@@ -177,13 +177,13 @@
   <doc cat="slert" doc="SLE-RT-shielding"  branches="develop">Shielding Linux Resources</doc>
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
 
-  <doc cat="caasp" doc="caasp-quickstart"    branches="master beta2">Installation Quick Start</doc>
-  <doc cat="caasp" doc="caasp-architecture"  branches="master beta2">Architecture Guide</doc>
-  <doc cat="caasp" doc="caasp-admin"         branches="master beta2">Administration Guide</doc>
-  <doc cat="caasp" doc="caasp-deployment"    branches="master beta2">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-quickstart"    branches="master beta">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-architecture"  branches="master beta">Architecture Guide</doc>
+  <doc cat="caasp" doc="caasp-admin"         branches="master beta">Administration Guide</doc>
+  <doc cat="caasp" doc="caasp-deployment"    branches="master beta">Deployment Guide</doc>
   <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master beta2">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>

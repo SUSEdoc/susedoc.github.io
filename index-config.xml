@@ -5,16 +5,16 @@
     <tabs>
      <a href="https://www.suse.com/documentation">SUSE Docs (official)</a>
      <a href="https://doc.opensuse.org">openSUSE Docs (official)</a>
-     <a href="mailto:doc-team@suse.com">Contact doc-team@suse.com</a>
+     <a href="irc://irc.freenode.net:6667/#opensuse-doc">IRC Contact</a>
     </tabs>
     <desc>
       <p>
         This page contains links to draft builds from the SUSE documentation
-        source code repositories. Builds are triggered automatically
+        source code repositories. These builds are triggered automatically
         with each commit. They are work in progress and may contain a mixture
         of up-to-date and outdated documentation.
       </p>
-      <p class="warn">Use documents from this page at your own risk.</p>
+      <p class="warn">Use the documents here at your own risk.</p>
       <p>
         Find the released versions of the product documentation at:
       </p>
@@ -177,15 +177,16 @@
   <doc cat="slert" doc="SLE-RT-shielding"  branches="develop">Shielding Linux Resources</doc>
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="develop">Virtualization Guide</doc>
 
-  <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
-  <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
-  <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
-  <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-quickstart"    branches="master beta2">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-architecture"  branches="master beta2">Architecture Guide</doc>
+  <doc cat="caasp" doc="caasp-admin"         branches="master beta2">Administration Guide</doc>
+  <doc cat="caasp" doc="caasp-deployment"    branches="master beta2">Deployment Guide</doc>
+  <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="master beta2">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop maintenance/15_GA maintenance/12_SP4">Guide</doc>
-  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop maintenance/15_GA">Quick Start</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop">Quick Start</doc>
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="develop">HPC Guide</doc>
 

@@ -27,12 +27,14 @@
         <xsl:apply-templates select="meta/style"/>
       </head>
       <body>
-        <nav class="tabwrap">
-          <div class="tabs">
-            <xsl:apply-templates select="meta/tabs"/>
-            <a href="#"></a>
-          </div>
-        </nav>
+        <xsl:if test="meta/tabs">
+          <nav class="tabwrap">
+            <div class="tabs">
+              <xsl:apply-templates select="meta/tabs"/>
+              <a href="#"></a>
+            </div>
+          </nav>
+        </xsl:if>
         <xsl:apply-templates select="meta/head"/>
         <xsl:apply-templates select="meta/desc"/>
         <ul>

@@ -23,4 +23,11 @@ fi
 sourcedir=$mydir
 copydir=$mydir
 
+xmllint --noout --noent --dtdvalid $mydir/config.dtd $mydir/index-config.xml 2>&1
+code=$?
+echo -e "\n"
+[[ $code -eq 0 ]] || {
+  "index-config.xml does not validate."
+  exit 1
+}
 xsltproc "$mydir/update-index.xsl" "$sourcedir/index-config.xml" > "$copydir/index.html"

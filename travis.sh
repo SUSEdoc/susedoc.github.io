@@ -61,6 +61,7 @@ NEWREMOTE="origin-ssh"
 $GIT remote add "$NEWREMOTE" ssh://git@github.com/SUSEdoc/susedoc.github.io.git
 
 CONFIGXML="index-config.xml"
+CONFIGDTD="config.dtd"
 
 [[ $TRAVIS_BRANCH == "master" ]] || succeed "We currently only build for master. Stopping early."
 [[ $(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP "^\[auto-commit\]") ]] && succeed "This commit appears to have been created automatically by Travis. Stopping early."
@@ -70,6 +71,7 @@ $GIT checkout "$TRAVIS_BRANCH"
 if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding index.html file after original commit $TRAVIS_COMMIT."
   I_AM_A_MACHINE=1 ./update-index.sh
+  [[ $? -eq 0 ]] || fail "Update-index script failed."
   if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^[-+]/ p' | sed -r -n -e '/^(\+\+\+|---|.*@@buildtimestamp@@)/ !p' | wc -l) -eq 0 ]]; then
     succeed "It seems only the time stamp of index.html has changed. Not pushing."
   fi

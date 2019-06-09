@@ -150,7 +150,6 @@
 
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"             branches="develop">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="develop">Operations Guide for Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="rhel-installation"                           branches="susedoc-rhel-trial">Trial Branch Publication</doc>  
   <doc cat="cloud" doc="suse-openstack-cloud-crowbar-deployment"     branches="develop">Deployment Guide for Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-crowbar-operations"      branches="develop">Operations Guide for Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="cloud_8">OpenStack (Upstream) Administrator Guide</doc>

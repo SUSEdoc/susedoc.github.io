@@ -59,7 +59,7 @@
     <cat id="slesforsap" repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
     <cat id="slehpc"     repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
-    <cat id="csoc"       repo="doc-cloud">Containerized SUSE OpenStack Cloud</cat>
+  #  <cat id="csoc"       repo="doc-cloud">Containerized SUSE OpenStack Cloud</cat>
     <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
@@ -149,7 +149,7 @@
   <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="develop SLEHA15 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
 
-  <doc cat="csoc"  doc="ccp-tech-preview"  branches="ccp-tech-preview">Containerized SUSE OpenStack Cloud</doc>
+  # <doc cat="csoc"  doc="ccp-tech-preview"  branches="ccp-tech-preview">Containerized SUSE OpenStack Cloud</doc>
   
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"             branches="develop">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="develop">Operations Guide for Cloud Lifecycle Manager</doc>

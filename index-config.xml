@@ -193,7 +193,7 @@
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop maintenance/15_GA maintenance/12_SP4">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop maintenance/15_GA">Quick Start</doc>
 
-  <doc cat="slehpc"     doc="hpc-guide"      branches="develop">HPC Guide</doc>
+  <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_15.0">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_15.0">Gnome User Guide</doc>

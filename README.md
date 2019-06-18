@@ -21,6 +21,32 @@ The Travis job for this repository will then take care of updating the
 
 To initially enable draft builds of documentation with Travis CI, see https://github.com/openSUSE/doc-ci#travis-draft-builds.
 
+### Patience! and Other Dubitable Troubleshooting Wisdom
+
+GitHub does not always update the Web page immediately or as fast as you may wish. Travis may run longer or do unexpected things. Here's a quick guide to the most important troubleshooting steps:
+
+* Patience is a virtue. Both Travis and GitHub are free (as in money) Web services providing significant computing
+  resources to a global audience. In exchange for that, they are not always as quick as you might expect from an
+  internal-only, high-priority service.
+  * **Travis** may take some time to spin up a VM/Docker image. You can watch the progress of your build:
+    * GitHub Pull Request view: Click "Travis" > "Details"
+    * GitHub Commit list: Click the little green/orange/red icon next to your commit's name > "Details"
+  * **GitHub Pages** employs a server cache and uses a CDN. It usually takes around 2-5 minutes after Travis is finished
+    before you can see the build results.
+  * Your **browser** has a local cache. Try checking the website in the Private/Incognito mode of your browser to
+    exclude issues with browser caching.
+  * Sometimes, **GitHub** runs into glitches. To see whether GitHub has any outages currently, check
+    https://status.github.com/.
+
+* Make sure to the Travis logs if you continue to see issues after applying an appropriate amount of patience:
+  * The build result may be "green" but that does not mean the log is uninteresting. Travis does not provide a light-red
+    state, there are only red or green. Hence, some smaller issues may be ignored during build. 
+  * In particular, check the logs for whether your branch is set up for building or whether it is only set up for validation.
+  * If you log in to Travis, you can use the "Trigger Rebuild" button. That can help with:
+    * Travis runs that failed because of timeout issues
+    * Travis runs that did not lead to a HTML document build/upload because Travis started the build before the
+      `index-config.xml` was properly configured.
+
 
 ### Files in this Repo
 

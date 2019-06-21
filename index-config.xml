@@ -61,7 +61,6 @@
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
     <cat id="csoc"       repo="doc-cloud">Containerized SUSE OpenStack Cloud</cat>
     <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
-    <cat id="hos"        repo="doc-cloud">HPE Helion OpenStack</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
     <cat id="cap-rn"     repo="cap-release-notes">SUSE Cloud Application Platform (Release Notes)</cat>
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>

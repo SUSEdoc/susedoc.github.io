@@ -154,14 +154,12 @@
   <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="master cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-crowbar-deployment"     branches="master cloud_9">Deployment Guide for Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-crowbar-operations"      branches="master cloud_9">Operations Guide for Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="master cloud_9">Supplement to Administrator Guide and End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="master cloud_9">Security Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="master cloud_9 cloud 8">Supplement to Administrator Guide and End User Guide</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="master cloud_9 cloud 8">Security Guide</doc>
 
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="cloud_8">OpenStack (Upstream) Administrator Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="cloud_8">OpenStack (Upstream) End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="cloud_8">Supplement to Administrator Guide and End User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="cloud_8">Deploying With Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="cloud_8">Security Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="cloud_8">Operations Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="cloud_8">User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="cloud_8">Monitoring Overview</doc>

@@ -171,14 +171,6 @@
   <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
-
-  <doc cat="hos"   doc="hpe-helion-openstack-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-security"       branches="cloud_8">Security Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-operations"     branches="cloud_8">Operations Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-user"           branches="cloud_8">User Guide</doc>
-  <doc cat="hos"   doc="hpe-helion-openstack-migration"      branches="cloud_8">Migration Guide</doc>
   
   <doc cat="slert" doc="SLE-RT-hw"         branches="develop">Hardware Testing</doc>
   <doc cat="slert" doc="SLE-RT-quick"      branches="develop">Quick Start</doc>

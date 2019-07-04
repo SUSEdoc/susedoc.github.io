@@ -27,7 +27,7 @@ xmllint --noout --noent --dtdvalid $mydir/config.dtd $mydir/index-config.xml 2>&
 code=$?
 echo -e "\n"
 [[ $code -eq 0 ]] || {
-  "index-config.xml does not validate."
+  echo "index-config.xml does not validate."
   exit 1
 }
 xsltproc "$mydir/update-index.xsl" "$sourcedir/index-config.xml" > "$copydir/index.html"

@@ -182,8 +182,8 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="develop maintenance/15_GA maintenance/12_SP4">Guide</doc>
-  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="develop maintenance/15_GA">Quick Start</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master maintenance/15_SP1 maintenance/15_GA maintenance/12_SP4">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master maintenance/15_SP1 maintenance/15_GA">Quick Start</doc>
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
 

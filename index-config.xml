@@ -101,8 +101,10 @@
   <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
 
-  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide</doc>
+  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>
+  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE15"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 15</doc>
   <doc cat="sbp"   doc="SBP-AMD-EPYC-SLES12SP3"   branches="master">Optimizing Linux for AMD EPYC with SUSE Linux Enterprise 12 SP3</doc>
+  <doc cat="sbp"   doc="SBP-CloudLS-master"       branches="master">Large Scale SUSE OpenStack Clouds - An Architecture Guide</doc>
   <doc cat="sbp"   doc="SBP-DRBD"                 branches="master">Data Replication across Geo Clusters via DRBD</doc>
   <doc cat="sbp"   doc="SBP-HANAonKVM-SLES12SP2"  branches="master">SUSE Best Practices for SAP HANA on KVM</doc>
 <!--  <doc cat="sbp"   doc="SBP-IaaS-SAP-Cloud"       branches="master">IaaS Architecture for SAP Cloud Platform, private edition</doc>-->

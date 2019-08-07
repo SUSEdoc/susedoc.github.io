@@ -44,7 +44,6 @@ if [[ $(echo -e "$redirect_to" | grep -P '^(https?://|s?ftps?://|/|mailto:|file:
   echo "Redirect 'to' must be relative."
   code=$(( $code + 1))
 fi
-echo "$code"
 
 
 echo -e "\n"

@@ -70,6 +70,9 @@
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
   </cats>
 
+  <redirect from="caasp-4-rn" to="caasp-release-notes/master/release-notes/html/"/>
+  <redirect from="caasp-4-deploy" to="doc-caasp/master/caasp-deployment/html/"/>
+
   <doc cat="sles"  doc="SLES-admin"        branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
   <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>

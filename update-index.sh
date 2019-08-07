@@ -64,5 +64,5 @@ for l in $(seq 1 $len); do
   from=$(echo -e "$redirect_from" | sed -n "$l p")
   to=$(echo -e "$redirect_to" | sed -n "$l p")
   mkdir -p "$mydir/r/$from"
-  echo '<html><head><meta http-equiv="refresh" content="0;URL='"'https://susedoc.github.io/$to'"' /></head></html>' > "$mydir/r/$from/index.html"
+  echo '<html><head><meta http-equiv="refresh" content="0;URL='"'https://susedoc.github.io/$to'"'"></head><title>Redirect</title><body><a href="'"https://susedoc.github.io/$to"'">'"$to"'</a></body></html>' > "$mydir/r/$from/index.html"
 done

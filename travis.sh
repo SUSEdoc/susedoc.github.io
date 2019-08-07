@@ -72,7 +72,9 @@ if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding index.html file after original commit $TRAVIS_COMMIT."
   I_AM_A_MACHINE=1 ./update-index.sh
   [[ $? -eq 0 ]] || fail "Update-index script failed."
-  if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^[-+]/ p' | sed -r -n -e '/^(\+\+\+|---|.*@@buildtimestamp@@)/ !p' | wc -l) -eq 0 ]]; then
+  git add 'r/'
+  if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^[-+]/ p' | sed -r -n -e '/^(\+\+\+|---|.*@@buildtimestamp@@)/ !p' | wc -l) -eq 0 \
+        && -z $(git status | grep -P '\br/') ]]; then
     succeed "It seems only the time stamp of index.html has changed. Not pushing."
   fi
 else

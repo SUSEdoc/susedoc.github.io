@@ -80,7 +80,7 @@ else
 fi
 
 # Add all changed files to the staging area, commit and push
-$GIT add index.html
+$GIT add index.html r/
 log "Commit"
 $GIT commit -m "[auto-commit] Travis update of index.html after commit ${TRAVIS_COMMIT}"
 log "Push"

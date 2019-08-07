@@ -14,7 +14,7 @@
   ul|ol|li|p|div|pre|img|
   em|strong|a|span|code">
 
-<!ELEMENT indexconfig     (meta, cats, doc+)>
+<!ELEMENT indexconfig     (meta, cats, redirect*, doc+)>
 
 <!ELEMENT doc             (#PCDATA) >
 <!ATTLIST doc
@@ -22,6 +22,10 @@
                           doc        CDATA   #REQUIRED
                           branches   CDATA   #REQUIRED >
 
+<!ELEMENT redirect        EMPTY >
+<!ATTLIST redirect
+                          from       CDATA   #REQUIRED
+                          to         CDATA   #REQUIRED >
 
 <!ELEMENT cats            (cat+) >
 

@@ -25,9 +25,45 @@ copydir=$mydir
 
 xmllint --noout --noent --dtdvalid $mydir/config.dtd $mydir/index-config.xml 2>&1
 code=$?
+
+redirect_from=$(xml sel -t -v '//redirect/@from' $mydir/index-config.xml)
+redirect_to=$(xml sel -t -v '//redirect/@to' $mydir/index-config.xml)
+
+# only allow very simple constructs here
+if [[ $(echo -e "$redirect_from" | grep -P '[^-_.a-zA-Z0-9]') ]]; then
+  echo "Redirect 'from' is not simple enough (-_.a-zA-Z0-9)."
+  code=$(( $code + 1))
+fi
+# make sure all redirect froms are only defined once
+if [[ $(echo -e "$redirect_from" | sort) != $(echo -e "$redirect_from" | sort -u) ]]; then
+  echo "Redirect 'from' values must be unique."
+  code=$(( $code + 1))
+fi
+# only relative links allowed
+if [[ $(echo -e "$redirect_to" | grep -P '^(https?://|s?ftps?://|/|mailto:|file:)') ]]; then
+  echo "Redirect 'to' must be relative."
+  code=$(( $code + 1))
+fi
+echo "$code"
+
+
 echo -e "\n"
 [[ $code -eq 0 ]] || {
   echo "index-config.xml does not validate."
   exit 1
 }
 xsltproc "$mydir/update-index.xsl" "$sourcedir/index-config.xml" > "$copydir/index.html"
+
+# Add a dir for redirect links (let's make the name short)
+rm -rf "$mydir/r"
+mkdir -p "$mydir/r"
+
+len=$(echo -e "$redirect_from" | wc -l)
+
+n=0
+for l in $(seq 1 $len); do
+  from=$(echo -e "$redirect_from" | sed -n "$l p")
+  to=$(echo -e "$redirect_to" | sed -n "$l p")
+  mkdir -p "$mydir/r/$from"
+  echo '<html><head><meta http-equiv="refresh" content="0;URL='"'https://susedoc.github.io/$to'"' /></head></html>' > "$mydir/r/$from/index.html"
+done

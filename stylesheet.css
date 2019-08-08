@@ -111,6 +111,7 @@ ul.doclist > li > span.branch:nth-of-type(2) {
 ul.doclist > li > span.branch > span.branchname {
   text-align: center;
   display: block;
+  overflow-wrap: break-word;
 }
 
 ul.doclist > li > span {

@@ -7,6 +7,7 @@
 
 me="$(test -L $(realpath $0) && readlink $(realpath $0) || echo $(realpath $0))"
 mydir="$(dirname $me)"
+configdir=$mydir/..
 
 if [[ $1 == '--help' ]] || [[ $1 == '-h' ]]; then
   sed -rn '/#!/{n; p; :loop n; p; /^[ \t]*$/q; b loop}' $0 | sed -r 's/^# ?//'
@@ -20,14 +21,14 @@ if [[ ! $I_AM_A_MACHINE -eq 1 ]]; then
   exit 1
 fi
 
-sourcedir=$mydir
-copydir=$mydir
+sourcedir=$configdir
+copydir=$configdir
 
-xmllint --noout --noent --dtdvalid $mydir/config.dtd $mydir/index-config.xml 2>&1
+xmllint --noout --noent --dtdvalid $mydir/config.dtd $configdir/config.xml 2>&1
 code=$?
 
-redirect_from=$(xml sel -t -v '//redirect/@from' $mydir/index-config.xml)
-redirect_to=$(xml sel -t -v '//redirect/@to' $mydir/index-config.xml)
+redirect_from=$(xml sel -t -v '//redirect/@from' $configdir/config.xml)
+redirect_to=$(xml sel -t -v '//redirect/@to' $configdir/config.xml)
 
 # only allow very simple constructs here
 if [[ $(echo -e "$redirect_from" | grep -P '[^-_.a-zA-Z0-9]') ]]; then
@@ -48,14 +49,14 @@ fi
 
 echo -e "\n"
 [[ $code -eq 0 ]] || {
-  echo "index-config.xml does not validate."
+  echo "config.xml does not validate."
   exit 1
 }
-xsltproc "$mydir/update-index.xsl" "$sourcedir/index-config.xml" > "$copydir/index.html"
+xsltproc "$mydir/update-index.xsl" "$sourcedir/config.xml" > "$copydir/index.html"
 
 # Add a dir for redirect links (let's make the name short)
-rm -rf "$mydir/r"
-mkdir -p "$mydir/r"
+rm -rf "$configdir/r"
+mkdir -p "$configdir/r"
 
 len=$(echo -e "$redirect_from" | wc -l)
 
@@ -63,6 +64,6 @@ n=0
 for l in $(seq 1 $len); do
   from=$(echo -e "$redirect_from" | sed -n "$l p")
   to=$(echo -e "$redirect_to" | sed -n "$l p")
-  mkdir -p "$mydir/r/$from"
-  echo '<html><head><meta http-equiv="refresh" content="0;URL='"'https://susedoc.github.io/$to'"'"></head><title>Redirect</title><body><a href="'"https://susedoc.github.io/$to"'">'"$to"'</a></body></html>' > "$mydir/r/$from/index.html"
+  mkdir -p "$configdir/r/$from"
+  echo '<html><head><meta http-equiv="refresh" content="0;URL='"'https://susedoc.github.io/$to'"'"></head><title>Redirect</title><body><a href="'"https://susedoc.github.io/$to"'">'"$to"'</a></body></html>' > "$configdir/r/$from/index.html"
 done

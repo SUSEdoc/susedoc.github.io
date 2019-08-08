@@ -29,12 +29,16 @@ succeed() {
   exit 0
 }
 
+me="$(test -L $(realpath $0) && readlink $(realpath $0) || echo $(realpath $0))"
+mydir="$(dirname $me)"
+
+cd $mydir/..
 
 source env.list
 echo "TRAVIS_BRANCH=\"$TRAVIS_BRANCH\""
 
 # Decrypt the SSH private key
-openssl aes-256-cbc -md md5 -pass "pass:$ENCRYPTED_PRIVKEY_SECRET" -in ./ssh_key.enc -out ./ssh_key -d -a
+openssl aes-256-cbc -md md5 -pass "pass:$ENCRYPTED_PRIVKEY_SECRET" -in _stuff/ssh_key.enc -out ssh_key -d -a
 # SSH refuses to use the key if its readable to the world
 chmod 0600 ssh_key
 # Start the SSH authentication agent
@@ -59,7 +63,7 @@ NEWREMOTE="origin-ssh"
 
 $GIT remote add "$NEWREMOTE" ssh://git@github.com/SUSEdoc/susedoc.github.io.git
 
-CONFIGXML="index-config.xml"
+CONFIGXML="config.xml"
 
 [[ $TRAVIS_BRANCH == "master" ]] || succeed "We currently only build for master. Stopping early."
 [[ $(echo "$TRAVIS_COMMIT_MESSAGE" | head -1 | grep -oP "^\[auto-commit\]") ]] && succeed "This commit appears to have been created automatically by Travis. Stopping early."
@@ -68,7 +72,7 @@ $GIT checkout "$TRAVIS_BRANCH"
 
 if [[ ! $(cat "$CONFIGXML" | xmllint --noout --noent - 2>&1) ]]; then
   log "Rebuilding index.html file after original commit $TRAVIS_COMMIT."
-  I_AM_A_MACHINE=1 ./update-index.sh
+  I_AM_A_MACHINE=1 $mydir/update-index.sh
   [[ $? -eq 0 ]] || fail "Update-index script failed."
   git add 'r/'
   if [[ $($GIT diff -U0 index.html | sed -r -n -e '/^[-+]/ p' | sed -r -n -e '/^(\+\+\+|---|.*@@buildtimestamp@@)/ !p' | wc -l) -eq 0 \

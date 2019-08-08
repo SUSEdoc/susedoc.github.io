@@ -21,11 +21,10 @@ before_install:
   - echo "TRAVIS_COMMIT_MESSAGE='"$(echo "$TRAVIS_COMMIT_MESSAGE" | sed -r 's/[^][() _0-9a-z-]/_/g')"'" >> env.list
   - echo "ENCRYPTED_PRIVKEY_SECRET=$ENCRYPTED_PRIVKEY_SECRET" >> env.list
   - ls
-  - echo "Building docker image"
-  - docker build -t sle-doc-image .
+  - echo "$PWD"
 
 script:
-  - docker run --rm -it sle-doc-image /bin/bash -c '/bin/bash travis.sh'
+  - docker run --rm -it --mount type=bind,source="$PWD",target="/app" susedoc/mini-ci:openSUSE-42.3 /bin/bash -c '/bin/bash /app/_stuff/travis.sh'
 
 notifications:
   email:

@@ -136,7 +136,7 @@
   <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3</doc>
   <doc cat="sbp"   doc="SLES4SAP-hana-scaleOut-PerfOpt-12" branches="master">SAP HANA System Replication Scale-Out - Performance Optimized Scenario</doc>
   <doc cat="sbp"   doc="SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud" branches="master">SAP HANA High Availability Cross-Zone Solution on Alibaba Cloud: With SUSE Linux Enterprise Server for SAP Applications</doc>
-<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>-->
+  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>
 <!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>-->
   <doc cat="sbp"   doc="SLES-rpiquick"            branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
 

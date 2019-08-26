@@ -34,7 +34,7 @@ GitHub does not always update the Web page immediately or as fast as you may wis
   * **GitHub Pages** employs a server cache and uses a CDN. It usually takes around 2-5 minutes after Travis is finished
     before you can see the build results.
   * Your **browser** has a local cache. Try checking the website in the Private/Incognito mode of your browser to
-    exclude issues with browser caching.
+    exclude issues with browser caching. 
   * Sometimes, **GitHub** runs into glitches. To see whether GitHub has any outages currently, check
     https://status.github.com/.
 
@@ -42,7 +42,7 @@ GitHub does not always update the Web page immediately or as fast as you may wis
   * The build result may be "green" but that does not mean the log is uninteresting. Travis does not provide a light-red
     state, there are only red or green. Hence, some smaller issues may be ignored during build. 
   * In particular, check the logs for whether your branch is set up for building or whether it is only set up for validation.
-  * If you log in to Travis, you can use the "Trigger Rebuild" button. That can help with:
+  * If the content of the document you have added to `config.xml` still displays a `404 error` after waiting for a reasonable amount of time, log in to Travis (https://travis-ci.org/). Select the build job you are in interested in and click `Restart Build`. That can help with:
     * Travis runs that failed because of timeout issues
     * Travis runs that did not lead to a HTML document build/upload because Travis started the build before the
       `config.xml` was properly configured.

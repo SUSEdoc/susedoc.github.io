@@ -73,35 +73,35 @@
   <redirect from="caasp-4-rn" to="caasp-release-notes/master/release-notes/html/"/>
   <redirect from="caasp-4-deploy" to="doc-caasp/master/caasp-deployment/html/"/>
 
-  <doc cat="sles"  doc="SLES-admin"        branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
-  <doc cat="sles"  doc="SLES-dockerquick"  branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
-  <doc cat="sles"  doc="SLES-gnomeuser"    branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
-  <doc cat="sles"  doc="SLES-hardening"    branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
-  <doc cat="sles"  doc="SLES-installquick" branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Guide</doc>
+  <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
+  <doc cat="sles"  doc="SLES-gnomeuser"    branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-hardening"    branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
+  <doc cat="sles"  doc="SLES-installquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Guide</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
-  <doc cat="sles"  doc="SLES-modulesquick" branches="develop SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3 feature/389-ds_ldap_server">Security Guide</doc>
-  <doc cat="sles"  doc="SLES-rpi-quick"    branches="develop SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="develop SLE15SP1 SLE15SP0">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-modulesquick" branches="master SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3 feature/389-ds_ldap_server">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-rpi-quick"    branches="master SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="master SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="develop SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
-  <doc cat="sles"  doc="SLES-vt-best-practices" branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
-  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="master SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
 
-  <doc cat="sled"  doc="SLED-admin"        branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modulesquick" branches="develop SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-modulesquick" branches="master SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
   <doc cat="sled"  doc="SLED-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="develop SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3 ">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="develop SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3 ">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="master SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
 
   <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>
@@ -193,12 +193,12 @@
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
 
-  <doc cat="opensuse" doc="opensuse-autoyast"  branches="develop openSUSE_Leap_15.0">AutoYaST Guide</doc>
-  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="develop openSUSE_Leap_15.0">Gnome User Guide</doc>
-  <doc cat="opensuse" doc="opensuse-reference" branches="develop openSUSE_Leap_15.0">Reference Guide</doc>
-  <doc cat="opensuse" doc="opensuse-security"  branches="develop openSUSE_Leap_15.0">Security Guide</doc>
-  <doc cat="opensuse" doc="opensuse-startup"   branches="develop openSUSE_Leap_15.0">Startup Guide</doc>
-  <doc cat="opensuse" doc="opensuse-tuning"    branches="develop openSUSE_Leap_15.0">Tuning Guide</doc>
-  <doc cat="opensuse" doc="opensuse-virtualization" branches="develop openSUSE_Leap_15.0">Virtualization Guide</doc>
+  <doc cat="opensuse" doc="opensuse-autoyast"  branches="master openSUSE_Leap_15.0">AutoYaST Guide</doc>
+  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master openSUSE_Leap_15.0">Gnome User Guide</doc>
+  <doc cat="opensuse" doc="opensuse-reference" branches="master openSUSE_Leap_15.0">Reference Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="master openSUSE_Leap_15.0">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-startup"   branches="master openSUSE_Leap_15.0">Startup Guide</doc>
+  <doc cat="opensuse" doc="opensuse-tuning"    branches="master openSUSE_Leap_15.0">Tuning Guide</doc>
+  <doc cat="opensuse" doc="opensuse-virtualization" branches="master openSUSE_Leap_15.0">Virtualization Guide</doc>
 
 </indexconfig>

@@ -4,7 +4,7 @@
     <title>SUSE Documentation Draft Builds</title>
     <head>SUSE Documentation - <span class="warn">Draft Builds</span></head>
     <tabs>
-     <a href="https://www.suse.com/documentation">SUSE Docs (official)</a>
+     <a href="https://documentation.suse.com/">SUSE Docs (official)</a>
      <a href="https://doc.opensuse.org">openSUSE Docs (official)</a>
      <a href="mailto:doc-team@suse.com">Contact doc-team@suse.com</a>
     </tabs>
@@ -21,7 +21,7 @@
         Find the released versions of the product documentation at:
       </p>
       <ul>
-        <li>SUSE Products: <a href="https://www.suse.com/documentation">https://www.suse.com/documentation</a></li>
+        <li>SUSE Products: <a href="https://documentation.suse.com/">https://www.suse.com/documentation</a></li>
         <li>openSUSE: <a href="https://doc.opensuse.org">https://doc.opensuse.org</a></li>
       </ul>
       <p>

@@ -68,6 +68,7 @@
     <cat id="ses"        repo="doc-ses">SUSE Enterprise Storage</cat>
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
+    <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
   </cats>
 
   <redirect from="caasp-4-rn" to="caasp-release-notes/master/release-notes/html/"/>
@@ -200,5 +201,7 @@
   <doc cat="opensuse" doc="opensuse-startup"   branches="master openSUSE_Leap_15.0">Startup Guide</doc>
   <doc cat="opensuse" doc="opensuse-tuning"    branches="master openSUSE_Leap_15.0">Tuning Guide</doc>
   <doc cat="opensuse" doc="opensuse-virtualization" branches="master openSUSE_Leap_15.0">Virtualization Guide</doc>
+
+  <doc cat="vmdp"     doc="vmdp"               branches="master">Installation Guide</doc>
 
 </indexconfig>

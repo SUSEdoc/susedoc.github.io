@@ -181,10 +181,10 @@
   <doc cat="slert" doc="SLE-RT-shielding"  branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Shielding Linux Resources</doc>
   <doc cat="slert" doc="SLE-RT-virtguide"  branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Virtualization Guide</doc>
 
-  <doc cat="caasp" doc="caasp-quickstart"    branches="master beta">Installation Quick Start</doc>
-  <doc cat="caasp" doc="caasp-architecture"  branches="master beta">Architecture Guide</doc>
-  <doc cat="caasp" doc="caasp-admin"         branches="master beta">Administration Guide</doc>
-  <doc cat="caasp" doc="caasp-deployment"    branches="master beta">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
+  <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
+  <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
+  <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
   <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>

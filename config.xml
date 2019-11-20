@@ -75,7 +75,6 @@
   <redirect from="caasp-4-deploy" to="doc-caasp/master/caasp-deployment/html/"/>
 
   <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-amd-sev"      branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
   <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
   <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
   <doc cat="sles"  doc="SLES-dockerquick"  branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>

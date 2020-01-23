@@ -145,7 +145,7 @@
   <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5.5 ses4">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5.5">Deployment Guide</doc>
 
-  <doc cat="cap"   doc="cap-guides"        branches="develop">Deployment, Administration, and User Guides</doc>
+  <doc cat="cap"   doc="cap-guides"        branches="develop master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
   <doc cat="sleha" doc="SLE-HA-guide"      branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>

@@ -145,12 +145,12 @@
   <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5.5 ses4">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5.5">Deployment Guide</doc>
 
-  <doc cat="cap"   doc="cap-guides"        branches="develop master">Deployment, Administration, and User Guides</doc>
+  <doc cat="cap"   doc="cap-guides"        branches="develop">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
   <doc cat="sleha" doc="SLE-HA-guide"      branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
   <doc cat="sleha" doc="SLE-HA-install-quick" branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3 ">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
   <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
@@ -160,7 +160,7 @@
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"             branches="master cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="master cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-crowbar-deployment"     branches="master cloud_9">Deployment Guide for Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-crowbar-operations"      branches="master cloud_9">Operations Guide for Crowbar</doc>
+  <doc cat="cloud" doc="suse-openstack-cloud-crowbar-operations"     branches="master cloud_9">Operations Guide for Crowbar</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-supplement"     branches="master cloud_9 cloud_8">Supplement to Administrator Guide and End User Guide</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-security"       branches="master cloud_9 cloud_8">Security Guide</doc>
 
@@ -176,10 +176,10 @@
   <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
   
-  <doc cat="slert" doc="SLE-RT-hw"         branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Hardware Testing</doc>
-  <doc cat="slert" doc="SLE-RT-quick"      branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Quick Start</doc>
-  <doc cat="slert" doc="SLE-RT-shielding"  branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Shielding Linux Resources</doc>
-  <doc cat="slert" doc="SLE-RT-virtguide"  branches="master maintenance/SLERT15 maintenance/SLERT15SP1 maintenance/SLERT12SP1 maintenance/SLERT12SP2 maintenance/SLERT12SP3 maintenance/SLERT12SP4 ">Virtualization Guide</doc>
+  <doc cat="slert" doc="SLE-RT-hw"         branches="master SLERT15 SLERT15SP1 SLERT12SP1 SLERT12SP2 SLERT12SP3 SLERT12SP4 ">Hardware Testing</doc>
+  <doc cat="slert" doc="SLE-RT-quick"      branches="master SLERT15 SLERT15SP1 SLERT12SP1 SLERT12SP2 SLERT12SP3 SLERT12SP4 ">Quick Start</doc>
+  <doc cat="slert" doc="SLE-RT-shielding"  branches="master SLERT15 SLERT15SP1 SLERT12SP1 SLERT12SP2 SLERT12SP3 SLERT12SP4 ">Shielding Linux Resources</doc>
+  <doc cat="slert" doc="SLE-RT-virtguide"  branches="master SLERT15 SLERT15SP1 SLERT12SP1 SLERT12SP2 SLERT12SP3 SLERT12SP4 ">Virtualization Guide</doc>
 
   <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
@@ -189,8 +189,8 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master maintenance/15_SP1 maintenance/15_GA maintenance/12_SP4 maintenance/12_SP5">Guide</doc>
-  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master maintenance/15_SP1 maintenance/15_GA">Quick Start</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP4 12_SP5">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master 15_SP1 15_GA">Quick Start</doc>
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
 

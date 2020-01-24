@@ -10,13 +10,10 @@
     </tabs>
     <desc>
       <p>
-        This page contains links to draft builds from the SUSE documentation
-        source code repositories. Builds are triggered automatically
-        with each commit. The output documents published here are works in
-        progress and may contain a mixture of up-to-date and outdated
-        documentation.
+        This page contains links to draft documents built and uploaded automatically.
+        They may document beta software and be incomplete or even incorrect. 
       </p>
-      <p class="warn">Use the documents from this page at your own risk.</p>
+      <p class="warn">Use these documents at your own risk.</p>
       <p>
         Find the released versions of the product documentation at:
       </p>
@@ -34,10 +31,10 @@
         there.
       </p>
       <p>
-       <em>Note:</em> The <em>develop</em> branch usually corresponds with the
+       <em>Note:</em> The <em>master</em> branch usually corresponds with the
        upcoming release. In these cases the content may change heavily over a
        very short period of time. The release branches usually are stable. In
-       some cases the develop branch also represents the most recent release.
+       some cases, the master branch also represents the most recent release.
       </p>
       <ul>
         <li><a href="https://opensource.suse.com/doc-susemanager/" target="_blank" style="display: inline;">SUSE Manager</a> (own web site)</li>

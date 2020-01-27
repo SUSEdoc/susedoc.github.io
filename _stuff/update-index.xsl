@@ -127,7 +127,8 @@
       <span class="branch">
         <span class="branchname"><xsl:value-of select="$branch"/></span>
         <xsl:call-template name="generate-links">
-          <xsl:with-param name="url" select="concat($urlstart, '/', $branch, '/', $doc)"/>
+          <xsl:with-param name="url" select="concat($urlstart, '/', $branch)"/>
+          <xsl:with-param name="doc" select="$doc"/>
         </xsl:call-template>
       </span>
       <xsl:call-template name="prepare-links">
@@ -140,13 +141,15 @@
 
   <xsl:template name="generate-links">
     <xsl:param name="url" select="''"/>
+    <xsl:param name="doc" select="''"/>
     <xsl:param name="context" select="/indexconfig/meta/variants/variant[1]"/>
     <xsl:variable name="variant-dir" select="$context/@dir"/>
     <xsl:variable name="variant-name" select="$context/text()"/>
-    <a href="{$url}/{$variant-dir}"><xsl:value-of select="$variant-name"/></a>
+    <a href="{$url}/{$variant-dir}/{$doc}/"><xsl:value-of select="$variant-name"/></a>
     <xsl:if test="$context/following-sibling::variant[1]">
       <xsl:call-template name="generate-links">
         <xsl:with-param name="url" select="$url"/>
+        <xsl:with-param name="doc" select="$doc"/>
         <xsl:with-param name="context" select="$context/following-sibling::variant[1]"/>
       </xsl:call-template>
     </xsl:if>

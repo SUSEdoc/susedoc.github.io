@@ -151,8 +151,6 @@
   <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
   <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
-
-  <doc cat="csoc"  doc="ccp-tech-preview"  branches="ccp-tech-preview">Containerized SUSE OpenStack Cloud</doc>
   
   <doc cat="cloud" doc="suse-openstack-cloud-deployment"             branches="cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
@@ -182,7 +180,6 @@
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
   <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
-  <!-- <doc cat="caasp" doc="caasp-user"          branches="master">User Guide</doc> -->
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
@@ -191,13 +188,13 @@
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
 
-  <doc cat="opensuse" doc="opensuse-autoyast"  branches="master openSUSE_Leap_15.0">AutoYaST Guide</doc>
-  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master openSUSE_Leap_15.0">Gnome User Guide</doc>
-  <doc cat="opensuse" doc="opensuse-reference" branches="master openSUSE_Leap_15.0">Reference Guide</doc>
-  <doc cat="opensuse" doc="opensuse-security"  branches="master openSUSE_Leap_15.0">Security Guide</doc>
-  <doc cat="opensuse" doc="opensuse-startup"   branches="master openSUSE_Leap_15.0">Startup Guide</doc>
-  <doc cat="opensuse" doc="opensuse-tuning"    branches="master openSUSE_Leap_15.0">Tuning Guide</doc>
-  <doc cat="opensuse" doc="opensuse-virtualization" branches="master openSUSE_Leap_15.0">Virtualization Guide</doc>
+  <doc cat="opensuse" doc="opensuse-autoyast"  branches="master">AutoYaST Guide</doc>
+  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master">Gnome User Guide</doc>
+  <doc cat="opensuse" doc="opensuse-reference" branches="master">Reference Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="master">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-startup"   branches="master">Startup Guide</doc>
+  <doc cat="opensuse" doc="opensuse-tuning"    branches="master">Tuning Guide</doc>
+  <doc cat="opensuse" doc="opensuse-virtualization" branches="master">Virtualization Guide</doc>
 
   <doc cat="vmdp"     doc="vmdp"               branches="master">Installation Guide</doc>
 

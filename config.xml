@@ -171,10 +171,10 @@
   <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
   
-  <doc cat="slert" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3 SLERT12SP2 SLERT12SP1">Hardware Testing</doc>
-  <doc cat="slert" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3 SLERT12SP2 SLERT12SP1">Quick Start</doc>
-  <doc cat="slert" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3 SLERT12SP2 SLERT12SP1">Shielding Linux Resources</doc>
-  <doc cat="slert" doc="SLE-RT-virtguide"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3 SLERT12SP2 SLERT12SP1">Virtualization Guide</doc>
+  <doc cat="slert" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
+  <doc cat="slert" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
+  <doc cat="slert" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
+  <doc cat="slert" doc="SLE-RT-virtguide"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
 
   <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>

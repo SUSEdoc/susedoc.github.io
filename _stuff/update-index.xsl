@@ -127,7 +127,7 @@
       <span class="branch">
         <span class="branchname"><xsl:value-of select="$branch"/></span>
         <xsl:call-template name="generate-links">
-          <xsl:with-param name="url" select="concat($urlstart, '/', $branch)"/>
+          <xsl:with-param name="url" select="concat($urlstart, '/', translate($branch, '/', ','))"/>
           <xsl:with-param name="doc" select="$doc"/>
         </xsl:call-template>
       </span>

@@ -183,7 +183,7 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
+  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP5 12_SP4 bugfix/fate325479-sap-systemrole">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master 15_SP1 15_GA">Quick Start</doc>
 
   <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>

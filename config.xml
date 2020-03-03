@@ -141,7 +141,9 @@
 
   <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5">Deployment Guide</doc>
-
+  <doc cat="ses"   doc="ses-bp-troublesehooting"    branches="master">Best Practices and Troubleshooting Guide</doc>
+  <doc cat="ses"   doc="ses-tuning"    branches="master">Tuning Guide</doc>
+  
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 

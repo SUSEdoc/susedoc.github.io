@@ -26,13 +26,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <name>Publishing</name>
     <summary>Publishing</summary>
     <description></description>
-    <url>http://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.1/</url>
-   </repository>
-   <repository>
-    <name>Fate</name>
-    <summary>SUSE Feature Tracking</summary>
-    <description>SUSE Feature Tracking</description>
-    <url>http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.1/</url>
+    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.1/</url>
    </repository>
    <repository>
     <name>SUSE CA</name>
@@ -192,13 +186,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <name>Publishing</name>
     <summary>Publishing</summary>
     <description></description>
-    <url>http://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.0/</url>
-   </repository>
-   <repository>
-    <name>Fate</name>
-    <summary>SUSE Feature Tracking</summary>
-    <description>SUSE Feature Tracking</description>
-    <url>http://download.opensuse.org/repositories/FATE/openSUSE_Leap_15.0/</url>
+    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.0/</url>
    </repository>
    <repository>
     <name>SUSE CA</name>
@@ -352,13 +340,7 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <name>Publishing</name>
     <summary>Publishing</summary>
     <description></description>
-    <url>http://download.opensuse.org/repositories/Publishing/openSUSE_Tumbleweed/</url>
-   </repository>
-    <repository>
-     <name>Fate</name>
-     <summary>SUSE Feature Tracking</summary>
-     <description>SUSE Feature Tracking</description>
-     <url>http://download.opensuse.org/repositories/FATE/openSUSE_Tumbleweed/</url>
+    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Tumbleweed/</url>
     </repository>
     <repository>
      <name>SUSE CA</name>

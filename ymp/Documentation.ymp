@@ -40,12 +40,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>SUSE Internal CA Certificate</description>
     <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.1/</url>
    </repository>
-   <repository>
-    <name>devel:tools:scm</name>
-    <summary>devel:tools:scm</summary>
-    <description>Development tools</description>
-    <url>http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Leap_15.1/</url>
-   </repository>
   </repositories>
   <software>
    <!-- IBS:Documentation:Tools -->
@@ -173,13 +167,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <summary>Search tool similar to grep</summary>
     <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
    </item>
-   <!-- devel:tools:scm -->
-   <item>
-    <name>git-flow-avh</name>
-    <summary>Git Extensions to Provide High-Level Workflow</summary>
-    <description>AVH Edition of the Git extensions to provide high-level repository
-     operations for Vincent Driessen's branching model.</description>
-   </item>
   </software>
  </group>
  <!-- ############################## -->
@@ -218,12 +205,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <summary>SUSE Internal CA Certificate</summary>
     <description>SUSE Internal CA Certificate</description>
     <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.0/</url>
-   </repository>
-   <repository>
-    <name>devel:tools:scm</name>
-    <summary>devel:tools:scm</summary>
-    <description>Development tools</description>
-    <url>http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Leap_15.0/</url>
    </repository>
   </repositories>
   <software>
@@ -352,13 +333,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <summary>Search tool similar to grep</summary>
     <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
    </item>
-   <!-- devel:tools:scm -->
-   <item>
-    <name>git-flow-avh</name>
-    <summary>Git Extensions to Provide High-Level Workflow</summary>
-    <description>AVH Edition of the Git extensions to provide high-level repository
-operations for Vincent Driessen's branching model.</description>
-   </item>
   </software>
  </group>
  <!-- ############################## -->
@@ -392,15 +366,9 @@ operations for Vincent Driessen's branching model.</description>
      <description>SUSE Internal CA Certificate</description>
      <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/</url>
     </repository>
-    <repository>
-     <name>devel:tools:scm</name>
-     <summary>devel:tools:scm</summary>
-     <description>Development tools</description>
-     <url>http://download.opensuse.org/repositories/devel:/tools:/scm/openSUSE_Tumbleweed/</url>
-    </repository>
   </repositories>
   <software>
-      <!-- IBS:Documentation:Tools -->
+   <!-- IBS:Documentation:Tools -->
    <item>
     <name>xep</name>
     <summary>Commercial Formatter for XSL-FO Files</summary>
@@ -524,13 +492,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <name>pdfgrep</name>
     <summary>Search tool similar to grep</summary>
     <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
-   </item>
-   <!-- devel:tools:scm -->
-   <item>
-    <name>git-flow-avh</name>
-    <summary>Git Extensions to Provide High-Level Workflow</summary>
-    <description>AVH Edition of the Git extensions to provide high-level repository
-     operations for Vincent Driessen's branching model.</description>
    </item>
   </software>
  </group>

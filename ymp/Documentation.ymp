@@ -5,39 +5,39 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
 -->
 <metapackage xmlns="http://opensuse.org/Standards/One_Click_Install">
  <group distversion="openSUSE Leap 15.1" recommended="true">
-  <name>Documentation:Tools</name>
-  <summary>Everything about the tools for SUSE documentation</summary>
+  <name>SUSE Documentation Tools</name>
+  <summary>Tools for editing SUSE documentation</summary>
   <description/>
   <remainSubscribed>true</remainSubscribed>
   <repositories>
    <repository>
-    <name>ibs_Documentation:Tools</name>
-    <summary>Internal documentation repo for commercial software</summary>
-    <description>Internal documentation repo for commercial software like XEP</description>
-    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.1/</url>
-   </repository>
-   <repository>
-    <name>Documentation:Tools</name>
-    <summary>Main repo for SUSE doc Tools</summary>
-    <description>Main repo for SUSE doc Tools</description>
+    <name>OBS: Documentation:Tools</name>
+    <summary>Open-source documentation tools</summary>
+    <description/>
     <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.1/</url>
    </repository>
    <repository>
-    <name>Publishing</name>
-    <summary>Publishing</summary>
-    <description></description>
+    <name>OBS: Publishing</name>
+    <summary>Publishing tools</summary>
+    <description/>
     <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.1/</url>
    </repository>
    <repository>
-    <name>SUSE CA</name>
-    <summary>SUSE Internal CA Certificate</summary>
-    <description>SUSE Internal CA Certificate</description>
+    <name>OBS: SUSE:CA</name>
+    <summary>SUSE-internal Certificate Authority</summary>
+    <description/>
     <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.1/</url>
+   </repository>
+   <repository>
+    <name>IBS: Documentation:Tools</name>
+    <summary>Third-party proprietary documentation tools and other documentation tools that we cannot publish shipped publicly</summary>
+    <description/>
+    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.1/</url>
    </repository>
   </repositories>
   <software>
    <!-- IBS:Documentation:Tools -->
-   <item>
+   <item recommended="false">
     <name>xep</name>
     <summary>Commercial Formatter for XSL-FO Files</summary>
     <description>XEP is built around the mature, high-quality formatting kernel developed by
@@ -52,13 +52,13 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <summary>GNU Emacs Base Package</summary>
     <description>Basic package for the GNU Emacs editor.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>virt-manager</name>
     <summary>Virtual Machine Manager</summary>
     <description>Virtual Machine Manager provides a graphical tool for administering virtual
      machines for KVM, Xen, and QEmu.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>libvirt</name>
     <summary>Library providing a simple virtualization API</summary>
     <description>Libvirt is a C toolkit to interact with the virtualization
@@ -68,7 +68,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
      Linux instance. The library aims to provide long term stable C API
      to interact with Linux virtualization technologies.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>qemu-kvm</name>
     <summary>Wrapper to enable KVM acceleration under QEMU</summary>
     <description>QEMU provides full machine emulation and cross architecture
@@ -84,7 +84,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
      unusually rich command set that provides both high-level operations and
      full access to internals.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>subversion</name>
     <summary>Subversion version control system</summary>
     <description>Subversion exists to be universally recognized and adopted
@@ -94,7 +94,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
      of users and projects, from individuals to large-scale enterprise
      operations.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>meld</name>
     <summary>Visual diff and merge tool</summary>
     <description>Meld is a visual diff and merge tool. Two or three files can be
@@ -142,7 +142,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
      openSUSE documentation.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>pdfcompare</name>
     <summary>Compare two PDF files, write a resulting PDF with highlighted changes</summary>
     <description>Compare two PDF files, write a resulting PDF with highlighted changes.
@@ -152,46 +152,52 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
    <!-- SUSE CA -->
    <item>
     <name>ca-certificates-suse</name>
-    <summary>SUSE internal root certificates</summary>
+    <summary>SUSE-internal root certificates</summary>
     <description>This package contains the internal root certificates from SUSE.</description>
    </item>
    <!-- Publishing -->
-   <item>
+   <item recommended="false">
     <name>pdfgrep</name>
     <summary>Search tool similar to grep</summary>
-    <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
+    <description>pdfgrep is a tool to search text in PDF files, similar to grep.</description>
    </item>
   </software>
  </group>
  <!-- ############################## -->
  <group distversion="openSUSE Tumbleweed">
-   <name>Documentation:Tools</name>
-   <summary>Everything about the tools for SUSE documentation</summary>
+  <name>SUSE Documentation Tools</name>
+  <summary>Repository for open-source documentation tools</summary>
    <description></description>
    <remainSubscribed>true</remainSubscribed>
    <repositories>
     <repository>
-     <name>Documentation:Tools</name>
-     <summary>Main repo for SUSE doc Tools</summary>
-     <description>Main repo for SUSE doc Tools</description>
+     <name>OBS: Documentation:Tools</name>
+     <summary>Open-source documentation tools</summary>
+     <description/>
      <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Tumbleweed/</url>
     </repository>
     <repository>
-    <name>Publishing</name>
-    <summary>Publishing</summary>
-    <description></description>
+    <name>OBS: Publishing</name>
+    <summary>Publishing tools</summary>
+    <description/>
     <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Tumbleweed/</url>
     </repository>
     <repository>
-     <name>SUSE CA</name>
-     <summary>SUSE Internal CA Certificate</summary>
-     <description>SUSE Internal CA Certificate</description>
+     <name>OBS: SUSE:CA</name>
+     <summary>SUSE-internal Certificate Authority</summary>
+     <description/>
      <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/</url>
+    </repository>
+    <repository>
+     <name>IBS: Documentation:Tools</name>
+     <summary>Third-party proprietary documentation tools and other documentation tools that we cannot publish shipped publicly</summary>
+     <description/>
+     <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Tumbleweed/</url>
     </repository>
   </repositories>
   <software>
    <!-- IBS:Documentation:Tools -->
-   <item>
+   <item recommended="false">
     <name>xep</name>
     <summary>Commercial Formatter for XSL-FO Files</summary>
     <description>XEP is built around the mature, high-quality formatting kernel developed by
@@ -206,13 +212,13 @@ strict requirements to the formatted output of print-ready materials.</descripti
     <summary>GNU Emacs Base Package</summary>
     <description>Basic package for the GNU Emacs editor.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>virt-manager</name>
     <summary>Virtual Machine Manager</summary>
     <description>Virtual Machine Manager provides a graphical tool for administering virtual
 machines for KVM, Xen, and QEmu.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>libvirt</name>
     <summary>Library providing a simple virtualization API</summary>
     <description>Libvirt is a C toolkit to interact with the virtualization
@@ -222,7 +228,7 @@ machines for KVM, Xen, and QEmu.</description>
     Linux instance. The library aims to provide long term stable C API
     to interact with Linux virtualization technologies.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>qemu-kvm</name>
     <summary>Wrapper to enable KVM acceleration under QEMU</summary>
     <description>QEMU provides full machine emulation and cross architecture
@@ -238,7 +244,7 @@ machines for KVM, Xen, and QEmu.</description>
     unusually rich command set that provides both high-level operations and
     full access to internals.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>subversion</name>
     <summary>Subversion version control system</summary>
     <description>Subversion exists to be universally recognized and adopted
@@ -248,7 +254,7 @@ machines for KVM, Xen, and QEmu.</description>
     of users and projects, from individuals to large-scale enterprise
     operations.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>meld</name>
     <summary>Visual diff and merge tool</summary>
     <description>Meld is a visual diff and merge tool. Two or three files can be
@@ -296,13 +302,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
     openSUSE documentation.</description>
    </item>
-   <item>
-    <name>pdfcompare</name>
-    <summary>Compare two PDF files, write a resulting PDF with highlighted changes</summary>
-    <description>Compare two PDF files, write a resulting PDF with highlighted changes.
-    Potential text portions that were moved around are recognized and analyzed
-    for similarity with a second level diff.</description>
-   </item>
    <!-- SUSE CA -->
    <item>
     <name>ca-certificates-suse</name>
@@ -310,10 +309,10 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <description>This package contains the internal root certificates from SUSE.</description>
    </item>
    <!-- Publishing -->
-   <item>
+   <item recommended="false">
     <name>pdfgrep</name>
     <summary>Search tool similar to grep</summary>
-    <description>Pdfgrep is a tool to search text in PDF files. It works similar to `grep'.</description>
+    <description>pdfgrep is a tool to search text in PDF files, similar to grep.</description>
    </item>
   </software>
  </group>

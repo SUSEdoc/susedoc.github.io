@@ -91,6 +91,7 @@
   <doc cat="sles"  doc="SLES-virtualization" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
   <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
+  <doc cat="sles"  doc="SLES-jeos"         branches="master">JeOS Guide</doc>
 
   <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP1 SLE15SP0">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP1 SLE15SP0">Deployment Guide</doc>
@@ -131,10 +132,10 @@
   <doc cat="sbp"   doc="SBP-sumaforrhel"          branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
 <!--  <doc cat="sbp"   doc="SBP-SUMA-on-IBM-PowerVM"  branches="master">How to Deploy SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM</doc>-->
   <doc cat="sbp"   doc="SBP-susemanager"          branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
-  <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3</doc>
+  <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3)</doc>
   <doc cat="sbp"   doc="SLES4SAP-hana-scaleOut-PerfOpt-12" branches="master">SAP HANA System Replication Scale-Out - Performance Optimized Scenario</doc>
   <doc cat="sbp"   doc="SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud" branches="master">SAP HANA High Availability Cross-Zone Solution on Alibaba Cloud: With SUSE Linux Enterprise Server for SAP Applications</doc>
-  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>
+<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>-->
 <!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>-->
   <doc cat="sbp"   doc="SLES-rpiquick"            branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
 

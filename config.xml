@@ -186,7 +186,7 @@
   <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master release-5.0.0.beta2">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master 15_SP1 15_GA">Quick Start</doc>

@@ -68,7 +68,7 @@
     <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
   </cats>
 
-  <redirect from="caasp-4-rn" to="caasp-release-notes/master/html/release-notes/"/>
+  <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
   <redirect from="caasp-4-deploy" to="doc-caasp/master/html/caasp-deployment/"/>
 
   <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
@@ -186,7 +186,7 @@
   <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="master release-5.0.0.beta2">Release Notes</doc>
 
   <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
   <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master 15_SP1 15_GA">Quick Start</doc>

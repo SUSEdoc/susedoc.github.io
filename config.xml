@@ -51,13 +51,12 @@
   <cats>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
-    <cat id="sleha"      repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
-    <cat id="slert"      repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
-    <cat id="slesforsap" repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
-    <cat id="slehpc"     repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
+    <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
+    <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
+    <cat id="sles-sap"   repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
+    <cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
-    <cat id="csoc"       repo="doc-cloud">Containerized SUSE OpenStack Cloud</cat>
-    <cat id="cloud"      repo="doc-cloud">SUSE OpenStack Cloud</cat>
+    <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
     <cat id="cap-rn"     repo="cap-release-notes">SUSE Cloud Application Platform (Release Notes)</cat>
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
@@ -71,37 +70,37 @@
   <redirect from="caasp-5-rn" to="caasp-release-notes/beta/html/release-notes/"/>
   <redirect from="caasp-4-deploy" to="doc-caasp/master/html/caasp-deployment/"/>
 
-  <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-amd-sev"      branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
-  <doc cat="sles"  doc="SLES-dockerquick"  branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
-  <doc cat="sles"  doc="SLES-gnomeuser"    branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
-  <doc cat="sles"  doc="SLES-hardening"    branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
-  <doc cat="sles"  doc="SLES-installquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start</doc>
+  <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-amd-sev"      branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
+  <doc cat="sles"  doc="SLES-gnomeuser"    branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-hardening"    branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
+  <doc cat="sles"  doc="SLES-installquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
-  <doc cat="sles"  doc="SLES-modulesquick" branches="master SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
-  <doc cat="sles"  doc="SLES-rpi-quick"    branches="master SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="master SLE15SP1 SLE15SP0">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-modulesquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-rpi-quick"    branches="master SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="master SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="master SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
-  <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
-  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="master SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
-  <doc cat="sles"  doc="SLES-jeos"         branches="master">JeOS Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="master SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-xen2kvmquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
+  <doc cat="sles"  doc="SLES-jeos"         branches="master SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLES-container"    branches="feature/containers_expanded">Expanded Container Guide</doc>
 
-  <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP1 SLE15SP0">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP1 SLE15SP0">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="master SLE15SP1 SLE15SP0">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="master SLE15SP1 SLE15SP0">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modulesquick" branches="master SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="master SLE15SP1 SLE15SP0">Security Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="master SLE15SP1 SLE15SP0">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="master SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="master SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-modulesquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="master SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="master SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="master SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
 
   <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>
@@ -150,36 +149,36 @@
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
-  <doc cat="sleha" doc="SLE-HA-guide"      branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
-  <doc cat="sleha" doc="SLE-HA-install-quick" branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-nfs-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
-  <doc cat="sleha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
-  <doc cat="sleha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-guide"      branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
   
-  <doc cat="cloud" doc="suse-openstack-cloud-deployment"             branches="cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-operations"             branches="cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-crowbar-deployment"     branches="cloud_9">Deployment Guide for Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-crowbar-operations"     branches="cloud_9">Operations Guide for Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-supplement"             branches="cloud_9 cloud_8">Supplement to Administrator Guide and End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-security"               branches="cloud_9 cloud_8">Security Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-deployment"             branches="cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-operations"             branches="cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-crowbar-deployment"     branches="cloud_9">Deployment Guide for Crowbar</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-crowbar-operations"     branches="cloud_9">Operations Guide for Crowbar</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-supplement"             branches="cloud_9 cloud_8">Supplement to Administrator Guide and End User Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-security"               branches="cloud_9 cloud_8">Security Guide</doc>
 
-  <doc cat="cloud" doc="suse-openstack-cloud-upstream-admin" branches="cloud_8">OpenStack (Upstream) Administrator Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-upstream-user"  branches="cloud_8">OpenStack (Upstream) End User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-deployment"     branches="cloud_8">Deploying With Crowbar</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-operations"     branches="cloud_8">Operations Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-user"           branches="cloud_8">User Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmoverview"   branches="cloud_8">Monitoring Overview</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmmsoperator" branches="cloud_8">Monitoring Service Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-socmosoperator" branches="cloud_8">Monitoring OpenStack Operator's Guide</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
-  <doc cat="cloud" doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-upstream-admin" branches="cloud_8">OpenStack (Upstream) Administrator Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-upstream-user"  branches="cloud_8">OpenStack (Upstream) End User Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-deployment"     branches="cloud_8">Deploying With Crowbar</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-operations"     branches="cloud_8">Operations Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-user"           branches="cloud_8">User Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-socmoverview"   branches="cloud_8">Monitoring Overview</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-socmmsoperator" branches="cloud_8">Monitoring Service Operator's Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-socmosoperator" branches="cloud_8">Monitoring OpenStack Operator's Guide</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
+  <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
   
-  <doc cat="slert" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
-  <doc cat="slert" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
-  <doc cat="slert" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
-  <doc cat="slert" doc="SLE-RT-virtguide"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
+  <doc cat="sle-rt" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
+  <doc cat="sle-rt" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
+  <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
+  <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
 
   <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
@@ -188,12 +187,14 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 
-  <doc cat="slesforsap" doc="SLES4SAP-guide" branches="master 15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
-  <doc cat="slesforsap" doc="SLES4SAP-quick" branches="master 15_SP1 15_GA">Quick Start</doc>
-  <doc cat="slesforsap" doc="SLES-SAP-sol-automation" branches="master 15_SP2">SAP Monitoring</doc>
-  <doc cat="slesforsap" doc="SLES-SAP-sol-monitoring" branches="master 15_SP2">SAP Automation</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="master 15_SP2">Guide (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="master 15_SP2">Quick Start (newer)</doc>
+  <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
+  <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="master 15_SP2">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="master 15_SP2">SAP Automation</doc>
 
-  <doc cat="slehpc"     doc="hpc-guide"      branches="master">HPC Guide</doc>
+  <doc cat="sle-hpc"  doc="hpc-guide"      branches="master">HPC Guide</doc>
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="master">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master">Gnome User Guide</doc>

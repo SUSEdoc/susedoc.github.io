@@ -83,7 +83,7 @@ This is helpful in the following cases:
 
 * If https://susedoc.github.io/ displays a link for a newly configured document/branch but clicking it still displays a `404 error`.
   In this case, there often has not have been a new commit since you updated `config.xml`.
-  Therefore, Travis did not started a new build with the updated configuration file.
+  Therefore, Travis did not start a new build with the updated configuration file.
 
 * If a Travis CI build failed because of a timeout or other technical issue.
 

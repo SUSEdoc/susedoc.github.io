@@ -65,6 +65,7 @@
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
     <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
+    <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
   </cats>
 
   <redirect from="caasp-5-rn" to="caasp-release-notes/beta/html/release-notes/"/>
@@ -205,5 +206,8 @@
   <doc cat="opensuse" doc="opensuse-virtualization" branches="master">Virtualization Guide</doc>
 
   <doc cat="vmdp"     doc="vmdp"               branches="master">Installation Guide</doc>
+
+  <doc cat="styleguide" doc="docu_styleguide" branches="master">Style Guide</doc>
+  <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="master">Style Guide with Change Log</doc>
 
 </indexconfig>

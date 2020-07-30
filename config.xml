@@ -92,6 +92,7 @@
   <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
   <doc cat="sles"  doc="SLES-jeos"         branches="master SLE15SP2">JeOS Guide</doc>
+  <doc cat="sles"  doc="SLES-container"         branches="master SLE15SP2">Container Guide</doc>
 
   <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>

@@ -145,7 +145,8 @@
   <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5">Deployment Guide</doc>
   <doc cat="ses"   doc="ses-troubleshooting" branches="master">Troubleshooting Guide</doc>
   <doc cat="ses"   doc="ses-tuning"        branches="master ses6">Tuning Guide</doc>
-  <doc cat="ses"   doc="ses-security" branches="master">Security Hardening Guide</doc>
+  <doc cat="ses"   doc="ses-security"      branches="master">Security Hardening Guide</doc>
+  <doc cat="ses"   doc="ceph-windows"      branches="master">Ceph for Windows</doc>
 
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>

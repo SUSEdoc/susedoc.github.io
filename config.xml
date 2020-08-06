@@ -11,7 +11,7 @@
     <desc>
       <p>
         This page contains links to draft documents built and uploaded automatically.
-        They may document beta software and be incomplete or even incorrect. 
+        They may document beta software and be incomplete or even incorrect.
       </p>
       <p class="warn">Use these documents at your own risk.</p>
       <p>
@@ -146,7 +146,7 @@
   <doc cat="ses"   doc="ses-troubleshooting" branches="master">Troubleshooting Guide</doc>
   <doc cat="ses"   doc="ses-tuning"        branches="master ses6">Tuning Guide</doc>
   <doc cat="ses"   doc="ses-security" branches="master">Security Hardening Guide</doc>
-  
+
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
@@ -156,7 +156,7 @@
   <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
-  
+
   <doc cat="soc"   doc="suse-openstack-cloud-deployment"             branches="cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-operations"             branches="cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-crowbar-deployment"     branches="cloud_9">Deployment Guide for Crowbar</doc>
@@ -175,7 +175,7 @@
   <doc cat="soc"   doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
-  
+
   <doc cat="sle-rt" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
   <doc cat="sle-rt" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
   <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
@@ -185,6 +185,7 @@
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
   <doc cat="caasp" doc="caasp-admin"         branches="master">Administration Guide</doc>
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
+  <doc cat="caasp" doc="caasp-airgap"        branches="master">Airgap Deployment Guide</doc>
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
 

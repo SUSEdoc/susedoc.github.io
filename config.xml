@@ -68,7 +68,8 @@
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
   </cats>
 
-  <redirect from="caasp-5-rn" to="caasp-release-notes/beta/html/release-notes/"/>
+  <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
+  <redirect from="caasp-45-rn" to="caasp-release-notes/master/html/release-notes/"/>
   <redirect from="caasp-4-deploy" to="doc-caasp/master/html/caasp-deployment/"/>
 
   <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
@@ -188,7 +189,7 @@
   <doc cat="caasp" doc="caasp-deployment"    branches="master">Deployment Guide</doc>
   <doc cat="caasp" doc="caasp-airgap"        branches="master">Airgap Deployment Guide</doc>
 
-  <doc cat="caasp-rn" doc="release-notes"    branches="master beta">Release Notes</doc>
+  <doc cat="caasp-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
   <doc cat="sles-sap" doc="SLES-SAP-guide" branches="master 15_SP2">Guide (newer)</doc>
   <doc cat="sles-sap" doc="SLES-SAP-quick" branches="master 15_SP2">Quick Start (newer)</doc>

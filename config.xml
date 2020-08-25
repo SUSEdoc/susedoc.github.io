@@ -76,7 +76,7 @@
   <doc cat="sles"  doc="SLES-amd-sev"      branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
   <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
   <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
-  <doc cat="sles"  doc="SLES-dockerquick"  branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
+  <doc cat="sles"  doc="SLES-dockerquick"  branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
   <doc cat="sles"  doc="SLES-gnomeuser"    branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start</doc>

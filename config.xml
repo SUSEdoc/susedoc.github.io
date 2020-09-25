@@ -36,9 +36,6 @@
        very short period of time. The release branches usually are stable. In
        some cases, the master branch also represents the most recent release.
       </p>
-      <ul>
-        <li><a href="https://opensource.suse.com/doc-susemanager/" target="_blank" style="display: inline;">SUSE Manager</a> (own web site)</li>
-      </ul>
     </desc>
     <bottominfo/>
     <style>stylesheet.css</style>

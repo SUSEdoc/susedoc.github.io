@@ -146,6 +146,7 @@
   <doc cat="ses"   doc="ses-security"      branches="master">Security Hardening Guide</doc>
   <doc cat="ses"   doc="ses-rook"          branches="master">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
   <doc cat="ses"   doc="ses-windows"       branches="master">SUSE Enterprise Storage for Windows</doc>
+  <doc cat="ses"   doc="ses-man"           branches="master">man pages</doc>
 
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>

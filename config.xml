@@ -142,7 +142,7 @@
   <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5">Administration Guide</doc>
   <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5">Deployment Guide</doc>
   <doc cat="ses"   doc="ses-troubleshooting" branches="master">Troubleshooting Guide</doc>
-  <doc cat="ses"   doc="ses-tuning"        branches="master ses6">Tuning Guide</doc>
+  <doc cat="ses"   doc="ses-tuning"        branches="ses6">Tuning Guide</doc>
   <doc cat="ses"   doc="ses-security"      branches="master">Security Hardening Guide</doc>
   <doc cat="ses"   doc="ses-rook"          branches="master">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
   <doc cat="ses"   doc="ses-windows"       branches="master">SUSE Enterprise Storage for Windows</doc>

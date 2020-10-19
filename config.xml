@@ -51,7 +51,7 @@
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
     <cat id="sles-sap"   repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
-    <cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
+    <!--<cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>-->
     <cat id="manager"    repo="doc-susemanager">SUSE Manager</cat>
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="cap"        repo="doc-cap">SUSE Cloud Application Platform</cat>
@@ -197,7 +197,7 @@
   <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="master 15_SP2">SAP Automation</doc>
   <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="master 15_SP2">SAP Monitoring</doc>
 
-  <doc cat="sle-hpc"  doc="hpc-guide"      branches="master">HPC Guide</doc>
+  <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="master">HPC Guide</doc>-->
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="master">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master">Gnome User Guide</doc>

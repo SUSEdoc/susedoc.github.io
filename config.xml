@@ -137,7 +137,7 @@
 <!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>-->
 <!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>-->
   <doc cat="sbp"   doc="SLES-rpiquick"            branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
-  <doc cat="sbp"   doc="SBP-Private-Registry"  branches"master">SUSE Private Registry Powered by Harbor 2.1<doc>
+  <doc cat="sbp"   doc="SBP-Private-Registry"  branches"master">SUSE Private Registry Powered by Harbor 2.1</doc>
 
 
   <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5">Administration Guide</doc>

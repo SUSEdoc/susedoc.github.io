@@ -4,7 +4,7 @@
 See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
 -->
 <metapackage xmlns="http://opensuse.org/Standards/One_Click_Install">
- <group distversion="openSUSE Leap 15.1" recommended="true">
+ <group distversion="openSUSE Leap 15.2" recommended="true">
   <name>SUSE Documentation Tools</name>
   <summary>Tools for editing SUSE documentation</summary>
   <description/>
@@ -14,25 +14,25 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <name>OBS: Documentation:Tools</name>
     <summary>Open-source documentation tools</summary>
     <description/>
-    <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.1/</url>
+    <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.2/</url>
    </repository>
    <repository>
     <name>OBS: Publishing</name>
     <summary>Publishing tools</summary>
     <description/>
-    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.1/</url>
+    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.2/</url>
    </repository>
    <repository>
     <name>OBS: SUSE:CA</name>
     <summary>SUSE-internal Certificate Authority</summary>
     <description/>
-    <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.1/</url>
+    <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.2/</url>
    </repository>
    <repository>
     <name>IBS: Documentation:Tools</name>
     <summary>Third-party proprietary documentation tools and other documentation tools that we cannot publish shipped publicly</summary>
     <description/>
-    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.1/</url>
+    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.2/</url>
    </repository>
   </repositories>
   <software>

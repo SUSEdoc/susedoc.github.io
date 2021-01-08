@@ -208,7 +208,7 @@
   <doc cat="opensuse" doc="opensuse-tuning"    branches="master">Tuning Guide</doc>
   <doc cat="opensuse" doc="opensuse-virtualization" branches="master">Virtualization Guide</doc>
 
-  <doc cat="vmdp"     doc="vmdp"               branches="master">Installation Guide</doc>
+  <doc cat="vmdp"     doc="vmdp"               branches="main">Installation Guide</doc>
 
   <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>
   <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="main">Style Guide with Change Log</doc>

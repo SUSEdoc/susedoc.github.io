@@ -31,10 +31,10 @@
         there.
       </p>
       <p>
-       <em>Note:</em> The <em>master</em> branch usually corresponds with the
+       <em>Note:</em> The <em>main</em> branch usually corresponds with the
        upcoming release. In these cases the content may change heavily over a
        very short period of time. The release branches usually are stable. In
-       some cases, the master branch also represents the most recent release.
+       some cases, the main branch also represents the most recent release.
       </p>
     </desc>
     <bottominfo/>
@@ -69,95 +69,95 @@
   <redirect from="caasp-45-rn" to="caasp-release-notes/master/html/release-notes/"/>
   <redirect from="caasp-4-deploy" to="doc-caasp/master/html/caasp-deployment/"/>
 
-  <doc cat="sles"  doc="SLES-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-amd-sev"      branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-admin"        branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
   <doc cat="sles"  doc="SLES-dockerquick"  branches="SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
-  <doc cat="sles"  doc="SLES-gnomeuser"    branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-gnomeuser"    branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
-  <doc cat="sles"  doc="SLES-installquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start</doc>
+  <doc cat="sles"  doc="SLES-installquick" branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
-  <doc cat="sles"  doc="SLES-modulesquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
-  <doc cat="sles"  doc="SLES-rpi-quick"    branches="master SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="master SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-modulesquick" branches="main SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-rpi-quick"    branches="main SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="master SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
-  <doc cat="sles"  doc="SLES-vt-best-practices" branches="master SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="main SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-vt-best-practices" branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
-  <doc cat="sles"  doc="SLES-jeos"         branches="master SLE15SP2">JeOS Guide</doc>
-  <doc cat="sles"  doc="SLES-container"         branches="master SLE15SP2">Container Guide</doc>
+  <doc cat="sles"  doc="SLES-jeos"         branches="main SLE15SP2">JeOS Guide</doc>
+  <doc cat="sles"  doc="SLES-container"         branches="main SLE15SP2">Container Guide</doc>
 
-  <doc cat="sled"  doc="SLED-admin"        branches="master SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="master SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="master SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modulesquick" branches="master SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="master SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="master SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="master SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-
-
-  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>
-  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE15"    branches="master">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 15</doc>
-  <doc cat="sbp"   doc="SBP-AMD-EPYC-SLES12SP3"   branches="master">Optimizing Linux for AMD EPYC with SUSE Linux Enterprise 12 SP3</doc>
-  <doc cat="sbp"   doc="SBP-CloudLS-master"       branches="master">Large Scale SUSE OpenStack Clouds - An Architecture Guide</doc>
-  <doc cat="sbp"   doc="SBP-DRBD"                 branches="master">Data Replication across Geo Clusters via DRBD</doc>
-  <doc cat="sbp"   doc="SBP-HANAonKVM-SLES12SP2"  branches="master">SUSE Best Practices for SAP HANA on KVM</doc>
-<!--  <doc cat="sbp"   doc="SBP-IaaS-SAP-Cloud"       branches="master">IaaS Architecture for SAP Cloud Platform, private edition</doc>-->
-  <doc cat="sbp"   doc="SBP-intelsupport"         branches="master">SUSE Linux Enterprise Server - Support for Intel Server Platforms</doc>
-  <doc cat="sbp"   doc="SBP-KMP-Manual"           branches="master">Kernel Module Packages Manual for SUSE-based Distributions</doc>
-  <doc cat="sbp"   doc="SBP-Migrate-z-KVM"        branches="master">Migrating from KVM for IBM Z to KVM integrated with SUSE Linux Enterprise Server</doc>
-  <doc cat="sbp"   doc="SBP-Multi-PXE-Install"    branches="master">How to Set Up a Multi-PXE Installation Server</doc>
-<!--  <doc cat="sbp"   doc="SBP-openFaaS"             branches="master">How to Set up open Function as a Service in SUSE Containers as a Service Platform</doc>-->
-  <doc cat="sbp"   doc="SBP-oraclerac"            branches="master">Installing Oracle RAC on SUSE Linux Enterprise Server 12</doc>
-  <doc cat="sbp"   doc="SBP-oracleweblogic"       branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP1</doc>
-  <doc cat="sbp"   doc="SBP-OracleWeblogic-SLES12SP3" branches="master">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP3 for x86-64 Architectures</doc>
-  <doc cat="sbp"   doc="SBP-performance-tuning"   branches="master">Performance Analysis, Tuning and Tools on SUSE Linux Enterprise Products</doc>
-  <doc cat="sbp"   doc="SBP-publiccloudinfra"     branches="master">SUSE Public Cloud Infrastructure Setup Guide</doc>
-  <doc cat="sbp"   doc="SBP-Quilting-OSC"         branches="master">How to Modify a Package in the Open Build Service</doc>
-  <doc cat="sbp"   doc="SBP-RPM-Packaging"        branches="master">Introduction to RPM Packaging</doc>
-  <doc cat="sbp"   doc="SBP-SAP-AzureSolutionTemplates" branches="master">SUSE and Microsoft Solution Templates for SAP Applications</doc>
-  <doc cat="sbp"   doc="SBP-scominstallguide"     branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - Installation Guide</doc>
-  <doc cat="sbp"   doc="SBP-scomusermanual"       branches="master">SUSE Manager Management Pack for Microsoft System Center Operations Manager - User Manual</doc>
-  <doc cat="sbp"   doc="SBP-securitymodule"       branches="master">Security Module in SUSE Linux Enterprise 11</doc>
-  <doc cat="sbp"   doc="SBP-SLE15-Custom-Installation-Medium" branches="master">How to Create a Custom Installation Medium for SUSE Linux Enterprise 15</doc>
-  <doc cat="sbp"   doc="SBP-SLES12SP1-SAP-migrationguide" branches="master">Migrate SUSE Linux Enterprise Server 12 SP1 to SUSE Linux Enterprise Server for SAP Applications 12 SP1</doc>
-  <doc cat="sbp"   doc="SBP-SLES-MFAD"            branches="master">Joining a SUSE Linux Enterprise Server to a Microsoft Azure Active Directory Domain Services Managed Domain</doc>
-  <doc cat="sbp"   doc="SBP-sumaforrhel"          branches="master">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
-<!--  <doc cat="sbp"   doc="SBP-SUMA-on-IBM-PowerVM"  branches="master">How to Deploy SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM</doc>-->
-  <doc cat="sbp"   doc="SBP-susemanager"          branches="master">Advanced Patch Lifecycle Management with SUSE Manager</doc>
-  <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3)</doc>
-  <doc cat="sbp"   doc="SLES4SAP-hana-scaleOut-PerfOpt-12" branches="master">SAP HANA System Replication Scale-Out - Performance Optimized Scenario</doc>
-  <doc cat="sbp"   doc="SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud" branches="master">SAP HANA High Availability Cross-Zone Solution on Alibaba Cloud: With SUSE Linux Enterprise Server for SAP Applications</doc>
-<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>-->
-<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="master">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>-->
-  <doc cat="sbp"   doc="SLES-rpiquick"            branches="master">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
-  <doc cat="sbp"   doc="SBP-Private-Registry"     branches="master">SUSE Private Registry Powered by Harbor 2.1</doc>
+  <doc cat="sled"  doc="SLED-admin"        branches="main SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="main SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="main SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-modulesquick" branches="main SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
 
-  <doc cat="ses"   doc="ses-admin"         branches="master ses6 ses5">Administration Guide</doc>
-  <doc cat="ses"   doc="ses-deployment"    branches="master ses6 ses5">Deployment Guide</doc>
-  <doc cat="ses"   doc="ses-troubleshooting" branches="master">Troubleshooting Guide</doc>
+  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="main">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>
+  <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE15"    branches="main">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 15</doc>
+  <doc cat="sbp"   doc="SBP-AMD-EPYC-SLES12SP3"   branches="main">Optimizing Linux for AMD EPYC with SUSE Linux Enterprise 12 SP3</doc>
+  <doc cat="sbp"   doc="SBP-CloudLS-master"       branches="main">Large Scale SUSE OpenStack Clouds - An Architecture Guide</doc>
+  <doc cat="sbp"   doc="SBP-DRBD"                 branches="main">Data Replication across Geo Clusters via DRBD</doc>
+  <doc cat="sbp"   doc="SBP-HANAonKVM-SLES12SP2"  branches="main">SUSE Best Practices for SAP HANA on KVM</doc>
+<!--  <doc cat="sbp"   doc="SBP-IaaS-SAP-Cloud"       branches="main">IaaS Architecture for SAP Cloud Platform, private edition</doc>-->
+  <doc cat="sbp"   doc="SBP-intelsupport"         branches="main">SUSE Linux Enterprise Server - Support for Intel Server Platforms</doc>
+  <doc cat="sbp"   doc="SBP-KMP-Manual"           branches="main">Kernel Module Packages Manual for SUSE-based Distributions</doc>
+  <doc cat="sbp"   doc="SBP-Migrate-z-KVM"        branches="main">Migrating from KVM for IBM Z to KVM integrated with SUSE Linux Enterprise Server</doc>
+  <doc cat="sbp"   doc="SBP-Multi-PXE-Install"    branches="main">How to Set Up a Multi-PXE Installation Server</doc>
+<!--  <doc cat="sbp"   doc="SBP-openFaaS"             branches="main">How to Set up open Function as a Service in SUSE Containers as a Service Platform</doc>-->
+  <doc cat="sbp"   doc="SBP-oraclerac"            branches="main">Installing Oracle RAC on SUSE Linux Enterprise Server 12</doc>
+  <doc cat="sbp"   doc="SBP-oracleweblogic"       branches="main">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-OracleWeblogic-SLES12SP3" branches="main">Installing Oracle WebLogic Server 12cR2 on SUSE Linux Enterprise Server 12 SP3 for x86-64 Architectures</doc>
+  <doc cat="sbp"   doc="SBP-performance-tuning"   branches="main">Performance Analysis, Tuning and Tools on SUSE Linux Enterprise Products</doc>
+  <doc cat="sbp"   doc="SBP-publiccloudinfra"     branches="main">SUSE Public Cloud Infrastructure Setup Guide</doc>
+  <doc cat="sbp"   doc="SBP-Quilting-OSC"         branches="main">How to Modify a Package in the Open Build Service</doc>
+  <doc cat="sbp"   doc="SBP-RPM-Packaging"        branches="main">Introduction to RPM Packaging</doc>
+  <doc cat="sbp"   doc="SBP-SAP-AzureSolutionTemplates" branches="main">SUSE and Microsoft Solution Templates for SAP Applications</doc>
+  <doc cat="sbp"   doc="SBP-scominstallguide"     branches="main">SUSE Manager Management Pack for Microsoft System Center Operations Manager - Installation Guide</doc>
+  <doc cat="sbp"   doc="SBP-scomusermanual"       branches="main">SUSE Manager Management Pack for Microsoft System Center Operations Manager - User Manual</doc>
+  <doc cat="sbp"   doc="SBP-securitymodule"       branches="main">Security Module in SUSE Linux Enterprise 11</doc>
+  <doc cat="sbp"   doc="SBP-SLE15-Custom-Installation-Medium" branches="main">How to Create a Custom Installation Medium for SUSE Linux Enterprise 15</doc>
+  <doc cat="sbp"   doc="SBP-SLES12SP1-SAP-migrationguide" branches="main">Migrate SUSE Linux Enterprise Server 12 SP1 to SUSE Linux Enterprise Server for SAP Applications 12 SP1</doc>
+  <doc cat="sbp"   doc="SBP-SLES-MFAD"            branches="main">Joining a SUSE Linux Enterprise Server to a Microsoft Azure Active Directory Domain Services Managed Domain</doc>
+  <doc cat="sbp"   doc="SBP-sumaforrhel"          branches="main">How to Directly Connect SUSE Manager to Red Hat Content Delivery Network</doc>
+<!--  <doc cat="sbp"   doc="SBP-SUMA-on-IBM-PowerVM"  branches="main">How to Deploy SUSE Linux Enterprise Products with SUSE Manager on IBM PowerVM</doc>-->
+  <doc cat="sbp"   doc="SBP-susemanager"          branches="main">Advanced Patch Lifecycle Management with SUSE Manager</doc>
+  <doc cat="sbp"   doc="SLES12SP3-rpiquick"       branches="main">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP3)</doc>
+  <doc cat="sbp"   doc="SLES4SAP-hana-scaleOut-PerfOpt-12" branches="main">SAP HANA System Replication Scale-Out - Performance Optimized Scenario</doc>
+  <doc cat="sbp"   doc="SLES4SAP-hana-sr-guide-PerfOpt-12-Alicloud" branches="main">SAP HANA High Availability Cross-Zone Solution on Alibaba Cloud: With SUSE Linux Enterprise Server for SAP Applications</doc>
+<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart" branches="main">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4)</doc>-->
+<!--  <doc cat="sbp"   doc="SLES-JeOS-12SP4-Quickstart-Ascii" branches="main">SUSE Linux Enterprise Server JeOS Quick Start Guide (SLES JeOS 12 SP4/AsciiDoc)</doc>-->
+  <doc cat="sbp"   doc="SLES-rpiquick"            branches="main">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
+  <doc cat="sbp"   doc="SBP-Private-Registry"     branches="main">SUSE Private Registry Powered by Harbor 2.1</doc>
+
+
+  <doc cat="ses"   doc="ses-admin"         branches="main ses6 ses5">Administration Guide</doc>
+  <doc cat="ses"   doc="ses-deployment"    branches="main ses6 ses5">Deployment Guide</doc>
+  <doc cat="ses"   doc="ses-troubleshooting" branches="main">Troubleshooting Guide</doc>
   <doc cat="ses"   doc="ses-tuning"        branches="ses6">Tuning Guide</doc>
-  <doc cat="ses"   doc="ses-security"      branches="master">Security Hardening Guide</doc>
-  <doc cat="ses"   doc="ses-rook"          branches="master">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
-  <doc cat="ses"   doc="ses-windows"       branches="master">SUSE Enterprise Storage for Windows</doc>
-  <doc cat="ses"   doc="ses-man"           branches="master">man pages</doc>
+  <doc cat="ses"   doc="ses-security"      branches="main">Security Hardening Guide</doc>
+  <doc cat="ses"   doc="ses-rook"          branches="main">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
+  <doc cat="ses"   doc="ses-windows"       branches="main">SUSE Enterprise Storage for Windows</doc>
+  <doc cat="ses"   doc="ses-man"           branches="main">man pages</doc>
 
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>
   <doc cat="cap-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
-  <doc cat="sle-ha" doc="SLE-HA-guide"      branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
-  <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
-  <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="master SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-guide"      branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
 
   <doc cat="soc"   doc="suse-openstack-cloud-deployment"             branches="cloud_9">Deployment Guide for Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-operations"             branches="cloud_9">Operations Guide for Cloud Lifecycle Manager</doc>
@@ -178,10 +178,10 @@
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
 
-  <doc cat="sle-rt" doc="SLE-RT-hw"         branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
-  <doc cat="sle-rt" doc="SLE-RT-quick"      branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
-  <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
-  <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="master SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
+  <doc cat="sle-rt" doc="SLE-RT-hw"         branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
+  <doc cat="sle-rt" doc="SLE-RT-quick"      branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
+  <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
+  <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
 
   <doc cat="caasp" doc="caasp-quickstart"    branches="master">Installation Quick Start</doc>
   <doc cat="caasp" doc="caasp-architecture"  branches="master">Architecture Guide</doc>
@@ -191,22 +191,22 @@
 
   <doc cat="caasp-rn" doc="release-notes"    branches="master">Release Notes</doc>
 
-  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="master 15_SP2">Guide (newer)</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="master 15_SP2">Quick Start (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP2">Guide (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="main 15_SP2">Quick Start (newer)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide</doc>
   <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="master 15_SP2">SAP Automation</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="master 15_SP2">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="main 15_SP2">SAP Automation</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="main 15_SP2">SAP Monitoring</doc>
 
-  <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="master">HPC Guide</doc>-->
+  <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>-->
 
-  <doc cat="opensuse" doc="opensuse-autoyast"  branches="master">AutoYaST Guide</doc>
-  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="master">Gnome User Guide</doc>
-  <doc cat="opensuse" doc="opensuse-reference" branches="master">Reference Guide</doc>
-  <doc cat="opensuse" doc="opensuse-security"  branches="master">Security Guide</doc>
-  <doc cat="opensuse" doc="opensuse-startup"   branches="master">Startup Guide</doc>
-  <doc cat="opensuse" doc="opensuse-tuning"    branches="master">Tuning Guide</doc>
-  <doc cat="opensuse" doc="opensuse-virtualization" branches="master">Virtualization Guide</doc>
+  <doc cat="opensuse" doc="opensuse-autoyast"  branches="main">AutoYaST Guide</doc>
+  <doc cat="opensuse" doc="opensuse-gnomeuser" branches="main">Gnome User Guide</doc>
+  <doc cat="opensuse" doc="opensuse-reference" branches="main">Reference Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="main">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-startup"   branches="main">Startup Guide</doc>
+  <doc cat="opensuse" doc="opensuse-tuning"    branches="main">Tuning Guide</doc>
+  <doc cat="opensuse" doc="opensuse-virtualization" branches="main">Virtualization Guide</doc>
 
   <doc cat="vmdp"     doc="vmdp"               branches="main">Installation Guide</doc>
 

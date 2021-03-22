@@ -60,6 +60,7 @@
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
     <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
+    <cat id="slemicro"	 repo="doc-sle">SUSE Linux Enterprise Micro</cat>
   </cats>
 
   <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
@@ -209,5 +210,8 @@
 
   <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>
   <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="main">Style Guide with Change Log</doc>
+  
+  <doc cat="slemicro" doc="SLE-Micro-installquick" branches="main">Installation Guide</doc>
+  <doc cat="slemicro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
 
 </indexconfig>

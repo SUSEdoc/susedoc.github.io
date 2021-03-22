@@ -44,6 +44,7 @@
   </meta>
   <cats>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
+    <cat id="sle-micro"	 repo="doc-sle">SUSE Linux Enterprise Micro</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
@@ -60,7 +61,6 @@
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
     <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
-    <cat id="slemicro"	 repo="doc-sle">SUSE Linux Enterprise Micro</cat>
   </cats>
 
   <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
@@ -89,6 +89,11 @@
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
   <doc cat="sles"  doc="SLES-jeos"         branches="main SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLES-container"         branches="main SLE15SP2">Container Guide</doc>
+
+
+  <doc cat="sle-micro" doc="SLE-Micro-installquick" branches="main">Installation Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
+
 
   <doc cat="sled"  doc="SLED-admin"        branches="main SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
@@ -210,8 +215,5 @@
 
   <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>
   <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="main">Style Guide with Change Log</doc>
-  
-  <doc cat="slemicro" doc="SLE-Micro-installquick" branches="main">Installation Guide</doc>
-  <doc cat="slemicro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
 
 </indexconfig>

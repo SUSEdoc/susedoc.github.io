@@ -152,12 +152,12 @@
   <doc cat="sbp"   doc="SBP-Private-Registry"     branches="main">SUSE Private Registry Powered by Harbor 2.1</doc>
 
   
-  <doc cat="sle-ha" doc="DC-SLE-HA-administration"       branches="main">Administration Guide (newer)</doc>
-  <doc cat="sle-ha" doc="DC-SLE-HA-installation"         branches="main">Installation and Setup Quick Start (newer)</doc>
-  <doc cat="sle-ha" doc="DC-SLE-HA-nfs-storage"          branches="main">Highly Available NFS Storage with DRBD and Pacemaker (newer)</doc>
-  <doc cat="sle-ha" doc="DC-SLE-HA-pacemaker-remote"     branches="main">Pacemaker Remote Quick Start (newer)</doc>
-  <doc cat="sle-ha" doc="DC-SLE-HA-geo-clustering"       branches="main">Geo Clustering Quick Start (newer)</doc>
-  <doc cat="sle-ha" doc="DC-SLE-HA-geo-clustering-guide" branches="main">Geo Clustering Guide (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-administration"       branches="main">Administration Guide (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-installation"         branches="main">Installation and Setup Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-nfs-storage"          branches="main">Highly Available NFS Storage with DRBD and Pacemaker (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-pacemaker-remote"     branches="main">Pacemaker Remote Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-clustering"       branches="main">Geo Clustering Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-clustering-guide" branches="main">Geo Clustering Guide (newer)</doc>
   
   <doc cat="sle-ha" doc="SLE-HA-guide"      branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide (older)</doc>
   <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start (older)</doc>

@@ -151,12 +151,20 @@
   <doc cat="sbp"   doc="SLES-rpiquick"            branches="main">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
   <doc cat="sbp"   doc="SBP-Private-Registry"     branches="main">SUSE Private Registry Powered by Harbor 2.1</doc>
 
-  <doc cat="sle-ha" doc="SLE-HA-guide"      branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide</doc>
-  <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
-  <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="main SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide</doc>
+  
+  <doc cat="sle-ha" doc="DC-SLE-HA-administration"       branches="main">Administration Guide (newer)</doc>
+  <doc cat="sle-ha" doc="DC-SLE-HA-installation"         branches="main">Installation and Setup Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="DC-SLE-HA-nfs-storage"          branches="main">Highly Available NFS Storage with DRBD and Pacemaker (newer)</doc>
+  <doc cat="sle-ha" doc="DC-SLE-HA-pacemaker-remote"     branches="main">Pacemaker Remote Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="DC-SLE-HA-geo-clustering"       branches="main">Geo Clustering Quick Start (newer)</doc>
+  <doc cat="sle-ha" doc="DC-SLE-HA-geo-clustering-guide" branches="main">Geo Clustering Guide (newer)</doc>
+  
+  <doc cat="sle-ha" doc="SLE-HA-guide"      branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide (older)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start (older)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker (older)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Pacemaker Remote Quick Start (older)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Quick Start (older)</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide (older)</doc>
 
 
   <doc cat="sle-rt" doc="SLE-RT-hw"         branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>

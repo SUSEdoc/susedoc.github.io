@@ -142,13 +142,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
      openSUSE documentation.</description>
    </item>
-   <item recommended="false">
-    <name>pdfcompare</name>
-    <summary>Compare two PDF files, write a resulting PDF with highlighted changes</summary>
-    <description>Compare two PDF files, write a resulting PDF with highlighted changes.
-     Potential text portions that were moved around are recognized and analyzed
-     for similarity with a second level diff.</description>
-   </item>
    <!-- SUSE CA -->
    <item>
     <name>ca-certificates-suse</name>

@@ -30,7 +30,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
    </repository>
    <repository>
     <name>IBS: Documentation:Tools</name>
-    <summary>Third-party proprietary documentation tools and other documentation tools that we cannot publish shipped publicly</summary>
+    <summary>Third-party proprietary documentation tools and other documentation tools that cannot be shipped publicly</summary>
     <description/>
     <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.2/</url>
    </repository>
@@ -190,7 +190,7 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     </repository>
     <repository>
      <name>IBS: Documentation:Tools</name>
-     <summary>Third-party proprietary documentation tools and other documentation tools that we cannot publish shipped publicly</summary>
+     <summary>Third-party proprietary documentation tools and other documentation tools that cannot be shipped publicly</summary>
      <description/>
      <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Tumbleweed/</url>
     </repository>

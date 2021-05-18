@@ -1,48 +1,49 @@
-# Making Installation Easier for Documentation People
+# Making it easier to install the SUSE documentation toolchain
 
-Whenever you installed a new openSUSE Leap or Tumbleweed on your machine
-from scratch, you face this problems:
+After installing openSUSE Leap or Tumbleweed, you may have faced the
+following questions:
 
-* which packages do I need for my documentation work?
-* where do I find them?
+* Which packages are necessary for my documentation work?
+* Where do I find them?
 
-These questions can be solved with a YMP file. Everything is in one place,
-be it repositories or packages.
-
-
-## Requirements
-
-Make sure you have the `yast2-metapackage-handler` package installed
-(usually already available on your system by default).
+This YMP file tries to solve the issue by subscribing you to relevant
+software repositories and allowing you to select relevant software packages
+easily.
 
 
-## Using the YMP File
+## Prerequisites
+
+Make sure that the package `yast2-metapackage-handler` is installed.
+(Usually installed by default).
+
+
+## Installing packages with the YMP file
 
 To subscribe to the repositories and install the packages from the YMP file,
 run:
 
 ```
-sudo OneClickInstallUI https://gitlab.suse.de/susedoc/doc-ymp/raw/master/Documentation.ymp
+sudo OneClickInstallUI https://gitlab.nue.suse.com/susedoc/doc-ymp/raw/master/Documentation.ymp
 ```
 
-The installation contains two steps:
+The installation consists of two steps:
 
-1. The list of repositories you will subscribe to.
-2. The list of packages you will install.
+1. You will be offered a list of repositories to subscribe to.
+2. You will be offered a list of packages to install.
 
-Review them carefully. Usually, it is not necessary to change the default
-settings. In some cases, you can select or deselect some packages which are
-optional.
-
-
-## How to Contribute
-
-If you are missing packages? Please open an issue, thanks!
+Review the suggestions, in particular package suggestions.
+In many cases, it is not necessary to change the default settings.
+However, you can select additional optional packages.
 
 
-## See Also
+## Contributing
 
-* First post about YMP on doku-intern:
+If you are you missing any packages, open an issue in this repository.
+
+
+## More information
+
+* First post about this YMP file on doku-intern:
 
   https://mailman.suse.de/mailman/private/doku-intern/2018-September/008602.html
 

@@ -23,7 +23,7 @@ To subscribe to the repositories and install the packages from the YMP file,
 run:
 
 ```
-sudo OneClickInstallUI https://gitlab.nue.suse.com/susedoc/doc-ymp/raw/master/Documentation.ymp
+sudo OneClickInstallUI https://susedoc.github.io/ymp/Documentation.ymp
 ```
 
 The installation consists of two steps:

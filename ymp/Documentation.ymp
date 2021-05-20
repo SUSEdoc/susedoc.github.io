@@ -22,30 +22,8 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description/>
     <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.3/</url>
    </repository>
-   <repository>
-    <name>OBS: SUSE:CA</name>
-    <summary>SUSE-internal Certificate Authority</summary>
-    <description/>
-    <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.3/</url>
-   </repository>
-   <repository>
-    <name>IBS: Documentation:Tools</name>
-    <summary>Third-party proprietary documentation tools and other documentation tools that cannot be shipped publicly</summary>
-    <description/>
-    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.3/</url>
-   </repository>
   </repositories>
   <software>
-   <!-- IBS:Documentation:Tools -->
-   <item recommended="false">
-    <name>xep</name>
-    <summary>Commercial Formatter for XSL-FO Files</summary>
-    <description>XEP is built around the mature, high-quality formatting kernel developed by
-     RenderX and which has passed several years of deployment in a wide range of
-     environments. XEP is continually improved in the quality of formatting,
-     standard conformance, support for advanced features and in compliance to
-     strict requirements to the formatted output of print-ready materials.</description>
-   </item>
    <!-- Standard -->
    <item recommended="false">
     <name>emacs</name>
@@ -141,12 +119,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
      openSUSE documentation.</description>
-   </item>
-   <!-- SUSE CA -->
-   <item>
-    <name>ca-certificates-suse</name>
-    <summary>SUSE-internal root certificates</summary>
-    <description>This package contains the internal root certificates from SUSE.</description>
    </item>
    <!-- Publishing -->
    <item recommended="false">
@@ -176,30 +148,8 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description/>
     <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.2/</url>
    </repository>
-   <repository>
-    <name>OBS: SUSE:CA</name>
-    <summary>SUSE-internal Certificate Authority</summary>
-    <description/>
-    <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Leap_15.2/</url>
-   </repository>
-   <repository>
-    <name>IBS: Documentation:Tools</name>
-    <summary>Third-party proprietary documentation tools and other documentation tools that cannot be shipped publicly</summary>
-    <description/>
-    <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Leap_15.2/</url>
-   </repository>
   </repositories>
   <software>
-   <!-- IBS:Documentation:Tools -->
-   <item recommended="false">
-    <name>xep</name>
-    <summary>Commercial Formatter for XSL-FO Files</summary>
-    <description>XEP is built around the mature, high-quality formatting kernel developed by
-     RenderX and which has passed several years of deployment in a wide range of
-     environments. XEP is continually improved in the quality of formatting,
-     standard conformance, support for advanced features and in compliance to
-     strict requirements to the formatted output of print-ready materials.</description>
-   </item>
    <!-- Standard -->
    <item recommended="false">
     <name>emacs</name>
@@ -296,12 +246,6 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
      openSUSE documentation.</description>
    </item>
-   <!-- SUSE CA -->
-   <item>
-    <name>ca-certificates-suse</name>
-    <summary>SUSE-internal root certificates</summary>
-    <description>This package contains the internal root certificates from SUSE.</description>
-   </item>
    <!-- Publishing -->
    <item recommended="false">
     <name>pdfgrep</name>
@@ -330,30 +274,8 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description/>
     <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Tumbleweed/</url>
     </repository>
-    <repository>
-     <name>OBS: SUSE:CA</name>
-     <summary>SUSE-internal Certificate Authority</summary>
-     <description/>
-     <url>http://download.suse.de/ibs/SUSE:/CA/openSUSE_Tumbleweed/</url>
-    </repository>
-    <repository>
-     <name>IBS: Documentation:Tools</name>
-     <summary>Third-party proprietary documentation tools and other documentation tools that cannot be shipped publicly</summary>
-     <description/>
-     <url>http://download.suse.de/ibs/Documentation:/Tools/openSUSE_Tumbleweed/</url>
-    </repository>
   </repositories>
   <software>
-   <!-- IBS:Documentation:Tools -->
-   <item recommended="false">
-    <name>xep</name>
-    <summary>Commercial Formatter for XSL-FO Files</summary>
-    <description>XEP is built around the mature, high-quality formatting kernel developed by
-RenderX and which has passed several years of deployment in a wide range of
-environments. XEP is continually improved in the quality of formatting,
-standard conformance, support for advanced features and in compliance to
-strict requirements to the formatted output of print-ready materials.</description>
-   </item>
    <!-- Standard -->
    <item recommended="false">
     <name>emacs</name>
@@ -449,12 +371,6 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
     openSUSE documentation.</description>
-   </item>
-   <!-- SUSE CA -->
-   <item>
-    <name>ca-certificates-suse</name>
-    <summary>SUSE internal root certificates</summary>
-    <description>This package contains the internal root certificates from SUSE.</description>
    </item>
    <!-- Publishing -->
    <item recommended="false">

@@ -64,54 +64,54 @@
 
   <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
 
-  <doc cat="sles"  doc="SLES-administration" branches="main">Administration Guide (newer)</doc>
-  <doc cat="sles"  doc="SLES-gnome-user"   branches="main">GNOME User Guide (newer)</doc>
-  <doc cat="sles"  doc="SLES-installation" branches="main">Installation Quick Start (newer)</doc>
-  <doc cat="sles"  doc="SLES-modules"      branches="main">Modules and Extensions Quick Start (newer)</doc>
-  <doc cat="sles"  doc="SLES-raspberry-pi" branches="main">Raspberry Pi Quick Start (newer)</doc>
-  <doc cat="sles"  doc="SLES-virtualization-best-practices" branches="main">Virtualization Best Practices (newer)</doc>
+  <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP3">Administration Guide (newer)</doc>
+  <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP3">GNOME User Guide (newer)</doc>
+  <doc cat="sles"  doc="SLES-installation" branches="main SLE15SP3">Installation Quick Start (newer)</doc>
+  <doc cat="sles"  doc="SLES-modules"      branches="main SLE15SP3">Modules and Extensions Quick Start (newer)</doc>
+  <doc cat="sles"  doc="SLES-raspberry-pi" branches="main SLE15SP3">Raspberry Pi Quick Start (newer)</doc>
+  <doc cat="sles"  doc="SLES-virtualization-best-practices" branches="main SLE15SP3">Virtualization Best Practices (newer)</doc>
 
   <doc cat="sles"  doc="SLES-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Administration Guide (older)</doc>
-  <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">AutoYaST Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Deployment Guide</doc>
   <doc cat="sles"  doc="SLES-dockerquick"  branches="SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Docker Guide</doc>
   <doc cat="sles"  doc="SLES-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">GNOME User Guide (older)</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="SLE12SP5 SLE12SP4 SLE12SP3">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start (older)</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (older)</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start (older)</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="main SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="main SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Guide</doc>
   <doc cat="sles"  doc="SLES-vt-best-practices" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Virtualization Best Practices (older)</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Xen to KVM Migration Guide</doc>
-  <doc cat="sles"  doc="SLES-jeos"         branches="main SLE15SP2">JeOS Guide</doc>
-  <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP2">Container Guide</doc>
+  <doc cat="sles"  doc="SLES-jeos"         branches="main SLE15SP3 SLE15SP2">JeOS Guide</doc>
+  <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP3 SLE15SP2">Container Guide</doc>
 
 
   <doc cat="sle-micro" doc="SLE-Micro-installation" branches="main">Installation Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
 
 
-  <doc cat="sled"  doc="SLED-administration" branches="main">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-gnome-user"   branches="main">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installation" branches="main">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modules"      branches="main">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP3">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP3">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP3">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP3">Modules and Extensions Quick Start</doc>
 
   <doc cat="sled"  doc="SLED-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
   <doc cat="sled"  doc="SLED-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide</doc>
   <doc cat="sled"  doc="SLED-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide</doc>
   <doc cat="sled"  doc="SLED-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
 
   <doc cat="sbp"   doc="SAP_S4HA10_SetupGuide-SLE12"    branches="main">SAP S/4 HANA - Enqueue Replication 2 High Availability Cluster - Setup Guide, SUSE Linux Enterprise Server for SAP Applications 12</doc>

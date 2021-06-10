@@ -172,13 +172,16 @@
   <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
   <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
 
+  <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main">Quick Start (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main">SAP Automation (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main">SAP Monitoring (newer)</doc>
 
   <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP2">Guide (newer)</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="main 15_SP2">Quick Start (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (newer)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide (older)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start (older)</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="main 15_SP2">SAP Automation</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="main 15_SP2">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="15_SP2">SAP Automation</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring</doc>
 
 
   <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>-->

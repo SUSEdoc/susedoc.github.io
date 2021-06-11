@@ -177,11 +177,11 @@
   <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main">SAP Monitoring (newer)</doc>
 
   <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP2">Guide (newer)</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (newer)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (newish)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide (older)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start (older)</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="15_SP2">SAP Automation</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="15_SP2">SAP Automation (older)</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring (older)</doc>
 
 
   <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>-->

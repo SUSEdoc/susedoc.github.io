@@ -1,0 +1,6 @@
+name: "Update the susedoc.github.io homepage"
+author: "@sknorr"
+
+runs:
+  using: docker
+  image: "Dockerfile"

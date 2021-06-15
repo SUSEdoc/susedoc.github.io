@@ -1,0 +1,135 @@
+<!-- DTD to validate index-config.xml -->
+<!--  To validate, do
+        $ xmllint -dtdvalid [PATH TO THIS DTD] [PATH TO index-config.xml]
+-->
+
+<!ENTITY % htmlattrs
+ "id          ID             #IMPLIED
+  class       CDATA          #IMPLIED
+  style       CDATA          #IMPLIED
+  title       CDATA          #IMPLIED" >
+
+<!ENTITY % htmlelems
+ "h1|h2|h3|h4|h5|h6|
+  ul|ol|li|p|div|pre|img|
+  em|strong|a|span|code">
+
+<!ELEMENT indexconfig     (meta, cats, redirect*, doc+)>
+
+<!ELEMENT doc             (#PCDATA) >
+<!ATTLIST doc
+                          cat        CDATA   #REQUIRED
+                          doc        CDATA   #REQUIRED
+                          branches   CDATA   #REQUIRED >
+
+<!ELEMENT redirect        EMPTY >
+<!ATTLIST redirect
+                          from       CDATA   #REQUIRED
+                          to         CDATA   #REQUIRED >
+
+<!ELEMENT cats            (cat+) >
+
+<!ELEMENT cat             (#PCDATA) >
+<!ATTLIST cat
+                          id         CDATA   #REQUIRED
+                          repo       CDATA   #REQUIRED >
+
+
+<!ELEMENT meta            (title, head, tabs?, desc?, bottominfo?, style+, baseurl?, variants) >
+
+<!ELEMENT title           (#PCDATA) >
+
+<!ELEMENT head            (#PCDATA|%htmlelems;)* >
+
+<!ELEMENT tabs            (a)* >
+
+<!ELEMENT desc            (#PCDATA|%htmlelems;)* >
+<!ELEMENT bottominfo      (#PCDATA|%htmlelems;)* >
+
+<!ELEMENT style           (#PCDATA) >
+
+<!ELEMENT baseurl         (#PCDATA) >
+
+<!ELEMENT variants        (variant)+ >
+
+<!ELEMENT variant         (#PCDATA) >
+<!ATTLIST variant
+                          dir        CDATA   #REQUIRED >
+
+<!-- wild HTML -->
+
+
+
+<!ELEMENT h1              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h1
+                          %htmlattrs; >
+
+<!ELEMENT h2              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h2
+                          %htmlattrs; >
+
+<!ELEMENT h3              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h3
+                          %htmlattrs; >
+
+<!ELEMENT h4              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h4
+                          %htmlattrs; >
+
+<!ELEMENT h5              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h5
+                          %htmlattrs; >
+
+<!ELEMENT h6              (#PCDATA|%htmlelems;)* >
+<!ATTLIST h6
+                          %htmlattrs; >
+
+<!ELEMENT ul              (#PCDATA|%htmlelems;)* >
+<!ATTLIST ul
+                          %htmlattrs; >
+
+<!ELEMENT ol              (#PCDATA|%htmlelems;)* >
+<!ATTLIST ol
+                          %htmlattrs; >
+
+<!ELEMENT li              (#PCDATA|%htmlelems;)* >
+<!ATTLIST li
+                          %htmlattrs; >
+
+<!ELEMENT p               (#PCDATA|%htmlelems;)* >
+<!ATTLIST p
+                          %htmlattrs; >
+
+<!ELEMENT div             (#PCDATA|%htmlelems;)* >
+<!ATTLIST div
+                          %htmlattrs; >
+
+<!ELEMENT img             (#PCDATA|%htmlelems;)* >
+<!ATTLIST img
+                          %htmlattrs; >
+
+<!ELEMENT em              (#PCDATA|%htmlelems;)* >
+<!ATTLIST em
+                          %htmlattrs; >
+
+<!ELEMENT strong          (#PCDATA|%htmlelems;)* >
+<!ATTLIST strong
+                          %htmlattrs; >
+
+<!ELEMENT a               (#PCDATA|%htmlelems;)* >
+<!ATTLIST a
+                          %htmlattrs;
+                          href       CDATA   #REQUIRED
+                          target     CDATA   #IMPLIED  >
+
+<!ELEMENT span            (#PCDATA|%htmlelems;)* >
+<!ATTLIST span
+                          %htmlattrs; >
+
+<!ELEMENT pre             (#PCDATA|%htmlelems;)* >
+<!ATTLIST pre
+                          %htmlattrs; >
+
+<!ELEMENT code            (#PCDATA|%htmlelems;)* >
+<!ATTLIST code
+                          %htmlattrs; >

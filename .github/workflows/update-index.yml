@@ -1,0 +1,15 @@
+name: Update index.html on gh-pages branch
+
+on:
+  push:
+    paths:
+        - 'config.xml'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Updating index.html
+        uses: SUSEdoc/susedoc.github.io@gha-sdgio-publish
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY_SDGIO }}

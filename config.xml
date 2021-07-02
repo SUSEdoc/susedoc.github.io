@@ -49,7 +49,7 @@
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
     <cat id="sles-sap"   repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
-    <!--<cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>-->
+    <cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>
     <cat id="vmdp"       repo="doc-vmdp">SLE Virtual Machine Driver Pack</cat>
@@ -184,9 +184,9 @@
   <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring (older)</doc>
 
 
-  <!--<doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>-->
+  <doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>
 
-  
+
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="main">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnome-user" branches="main">Gnome User Guide</doc>
   <doc cat="opensuse" doc="opensuse-reference" branches="main">Reference Guide</doc>

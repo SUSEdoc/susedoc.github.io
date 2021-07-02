@@ -4,7 +4,7 @@ html {
   margin: 0 1rem 0 22rem;
   max-width: 90rem;
   font-family: 'Poppins', sans-serif;
-  overflow-y: scroll;
+  overflow-y: auto;
   color: #0C322C;
 }
 

@@ -2,8 +2,10 @@ name: Update index.html on gh-pages branch
 
 on:
   push:
+    branches:
+      - main
     paths:
-        - 'config.xml'
+      - 'config.xml'
 
 jobs:
   update-index:

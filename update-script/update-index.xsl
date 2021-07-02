@@ -37,7 +37,7 @@
         </xsl:if>
         <xsl:apply-templates select="meta/head"/>
         <xsl:apply-templates select="meta/desc"/>
-        <ul>
+        <ul class="sidebar">
           <xsl:apply-templates select="cats/cat" mode="overview"/>
         </ul>
         <div class="topmargin"></div>

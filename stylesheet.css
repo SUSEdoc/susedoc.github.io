@@ -1,8 +1,8 @@
 @import "https://documentation.suse.com/docserv/res/fonts/poppins/poppins.css";
 
 html {
-  margin: 0 auto;
-  max-width: 60em;
+  margin: 0 1rem 0 22rem;
+  max-width: 90rem;
   font-family: 'Poppins', sans-serif;
   overflow-y: scroll;
   color: #0C322C;
@@ -312,6 +312,50 @@ span.anchor:target {
 h2 {
   position: relative;
 }
+ul.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20rem;
+  background-color: #30ba78;
+  height: 100vh;
+  margin: 0;
+  padding: 4rem 0 1rem;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  z-index: 9000;
+}
+
+ul.sidebar > li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.sidebar a {
+  color: #FFF !important;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+ul.sidebar a:hover, ul.sidebar a:focus {
+  background-color: #FFF3;
+}
+
+@media only screen and (max-width: 40rem) {
+  html {
+    margin: 0 auto;
+  }
+  ul.sidebar {
+    position: static;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+  ul.sidebar a {
+    padding: 0.25rem;
+  }
+}
 
 @media only screen and (max-width: 52.5em) {
   ul.doclist > li > a {
@@ -343,3 +387,4 @@ h2 {
     columns: 2 auto;
   }
 }
+

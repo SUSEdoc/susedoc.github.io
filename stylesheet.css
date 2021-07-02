@@ -57,6 +57,11 @@ h2 {
   font-size: 1.2em;
 }
 
+h2[id] {
+  margin-top: -2em;
+  padding-top: 3em;
+}
+
 ul.doclist {
   display: block;
   padding: 0;
@@ -321,7 +326,7 @@ ul.sidebar {
   height: 100vh;
   margin: 0;
   padding: 4rem 0 1rem;
-  overflow-y: scroll;
+  overflow-y: auto;
   box-sizing: border-box;
   z-index: 9000;
 }

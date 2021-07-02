@@ -1,8 +1,10 @@
+@import "https://documentation.suse.com/docserv/res/fonts/poppins/poppins.css";
+
 html {
   margin: 0 auto;
   max-width: 60em;
-  font-family: 'Open Sans', sans-serif;
-  overflow-y:scroll;
+  font-family: 'Poppins', sans-serif;
+  overflow-y: scroll;
 }
 
 body {
@@ -395,7 +397,7 @@ input[type='text'], button {
   box-sizing: border-box;
   border: 1px solid #DDD;
   float: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #666;
   line-height: 2.9em;
   height: 3em;

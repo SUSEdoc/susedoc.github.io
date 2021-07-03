@@ -22,10 +22,9 @@ To configure a new branch for building, there is:
 After the changes have been pushed, the GitHub Actions job for this repository *automatically* updates the navigation page.
 That means it updates the `index.html` file.
 
-### Enabling a Documentation Repository for Travis CI Draft Builds
+### Enabling a Documentation Repository for CI Draft Builds
 
-To initially enable draft builds of documentation with Travis CI within a documentation repository,
-see the instructions at https://github.com/openSUSE/doc-ci#travis-draft-builds.
+To initially enable draft builds of documentation with CI within a documentation repository, see the instructions at https://github.com/openSUSE/doc-ci#enabling-github-actions-within-documentation-repositories.
 
 
 ### Troubleshooting
@@ -43,7 +42,7 @@ The following bottlenecks exist:
 
 * **GitHub Pages** serves the documents built by CI.
   It employs a server cache and uses a CDN (content delivery network).
-  It usually takes around 2-5 minutes after Travis is finished before you see the build results.
+  It usually takes around 2-5 minutes after CI is finished before you see the build results.
 
 * **Your browser** has a local cache.
   This may lead to you being shown outdated content.
@@ -56,21 +55,27 @@ In exchange for that, they are not always as quick as you might expect from an i
 #### Checking the status of CI
 
 It may take some time until the results are displayed.
-You can check the progress of a Travis build job directly from the documentation repository which hosts the documentation sources:
+You can check the progress of a CI build job directly from the documentation repository which hosts the documentation sources:
 
-* From the *Actions* tab of the repo: Click the job you are interested in.
-* In the GitHub Commit list: Click the little green/orange/red icon next to your commit's name and click "Details".
+* From the *Actions* tab of the repository: Click the job you are interested in.
+* In the GitHub commit list:
+  Click the little green/orange/red icon next to the commit's description and click *Details*.
   This option takes you directly to the related build job.
 
 Read the CI logs carefully.
 Some smaller issues may be reported there even though the build as a whole succeeded.
 Within the CI log, there may be a few items you could be especially interested in:
 
-* The line "Check whether repo/branch are configured for builds".
-  To display more details, unfold the section.
+* The job *select-dc-files*, step *Selecting DC files to build*.
+  To display more details, unfold the step and look at the end result (*Builds will be enabled*).
   If the branch is not configured for builds but should be, this may be because of either:
   * the configuration is wrong: adjust `config.xml`, then restart the CI build (see below)
   * the build you are looking at ran before the last configuration update: restart the CI build (see below)
+
+* The job *publish*, step *Publishing builds on susedoc.github.io*.
+  This job is set to fail silently, because sometimes there are hard-to-avoid Git-related issues when publishing builds for too many jobs at the same time.
+  If you see the message *Target repository could not be pushed to* at the end of that step, unfortunately, your job has been caught up in this issue.
+  You can click *Re-run jobs* to try again, if necessary.
 
 
 #### Restarting CI builds
@@ -78,7 +83,7 @@ Within the CI log, there may be a few items you could be especially interested i
 CI allows restarting jobs manually.
 This is helpful in the following cases:
 
-* If https://susedoc.github.io/ displays a link for a newly configured document/branch but clicking it still displays a `404 error`.
+* If https://susedoc.github.io/ displays a link for a newly configured document/branch but clicking it still displays a *404 error*.
   In this case, there often has not have been a new commit since you updated `config.xml`.
   Therefore, CI did not start a new build with the updated configuration file.
 
@@ -87,7 +92,7 @@ This is helpful in the following cases:
 To manually trigger a rebuild:
 
 1. Go to a job log page as described in *Checking the Status of CI* above.
-3. Click *Re-run jobs*.
+2. Click *Re-run jobs*.
 
 
 #### Checking the status of GitHub Pages
@@ -119,9 +124,10 @@ The `main` branch is used to configure the output and CI builds.
 
 * `config.xml`
    * Configuration file that defines
-      * Which documents Travis CI will build from which source repo and branch
+      * Which documents CI will build from which source repo and branch
       * Links to all output documents on `https://susedoc.github.io/index.html`
       * HTML-based preamble text for the index page
+      * Redirect links under `https://susedoc.github.io/r/`
 * `README.md` - This README file
 * `_stuff/config.dtd` - A schema file to validate `config.xml` with.
 * `.github/workflows/` - GitHub Actions workflow files.

@@ -248,8 +248,8 @@ ul.sidebar {
   background-color: #30ba78;
   height: 100vh;
   margin: 0;
-  /* align with the <h1/> of the page */
-  padding: 5rem 0 1rem;
+  /* visually(!) align with the <h1/> of the page */
+  padding: calc(5rem - .5rem) 0 1rem;
   overflow-y: auto;
   box-sizing: border-box;
   z-index: 9000;

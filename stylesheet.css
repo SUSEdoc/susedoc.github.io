@@ -169,6 +169,7 @@ ul.branchlist > li > a:focus {
   z-index: 9002;
   width: 100%;
   background-color: #0C322C;
+  border-bottom: 1px solid #FFF;
 }
 
 /* Tab strip */

@@ -124,13 +124,13 @@ ul.branchlist {
   flex-direction: row;
   justify-content: start;
   padding: 0;
-  margin: -.5rem;
+  margin: -.25rem -.5rem;
 }
 
 ul.branchlist > li {
   display: block;
   width: 8rem;
-  margin: .5rem;
+  margin: .25rem .5rem;
 }
 
 ul.branchlist > li > .branchname,

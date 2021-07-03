@@ -106,14 +106,16 @@
       <xsl:value-of select="/indexconfig/cats/cat[@id = $cat]/@repo"/>
     </xsl:variable>
     <li>
-      <span>
+      <h3 class="doctitle">
         <xsl:value-of select="."/>
-      </span>
-      <xsl:call-template name="prepare-links">
-        <xsl:with-param name="urlstart" select="$urlstart"/>
-        <xsl:with-param name="doc" select="@doc"/>
-        <xsl:with-param name="branches" select="concat(normalize-space(@branches), ' ')"/>
-      </xsl:call-template>
+      </h3>
+      <ul class="branchlist">
+        <xsl:call-template name="prepare-links">
+          <xsl:with-param name="urlstart" select="$urlstart"/>
+          <xsl:with-param name="doc" select="@doc"/>
+          <xsl:with-param name="branches" select="concat(normalize-space(@branches), ' ')"/>
+        </xsl:call-template>
+      </ul>
     </li>
   </xsl:template>
 
@@ -124,13 +126,13 @@
     <xsl:param name="branch" select="substring-before($branches, ' ')"/>
 
     <xsl:if test="$branch != '' and $branch != ' '">
-      <span class="branch">
+      <li class="branch">
         <span class="branchname"><xsl:value-of select="$branch"/></span>
         <xsl:call-template name="generate-links">
           <xsl:with-param name="url" select="concat($urlstart, '/', translate($branch, '/', ','))"/>
           <xsl:with-param name="doc" select="$doc"/>
         </xsl:call-template>
-      </span>
+      </li>
       <xsl:call-template name="prepare-links">
         <xsl:with-param name="urlstart" select="$urlstart"/>
         <xsl:with-param name="doc" select="$doc"/>

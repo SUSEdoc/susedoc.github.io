@@ -9,17 +9,8 @@ html {
 }
 
 body {
-  margin: 5em 1em;
+  margin: 5rem 1rem;
   background-color: #FFF;
-}
-
-hr {
-  border: none;
-  border-bottom: 1px solid #C0C2C4;
-}
-
-ul.basenav {
-  font-size: 1.5em;
 }
 
 a[href^='https://']::after,
@@ -36,7 +27,6 @@ a[href^='irc://']::after {
   line-height: 1em;
 }
 
-
 .initialCollapsed.unmarkedExternal a[href^='https://']::after,
 .initialCollapsed.unmarkedExternal a[href^='http://']::after,
 .initialCollapsed.unmarkedExternal a[href^='irc://']::after {
@@ -47,24 +37,39 @@ a[href^='irc://']::after {
   margin-top: 30px;
 }
 
-.power {
-  font-size: .4em;
-  margin-top: 10px;
-}
-
 h2 {
-  margin: 1em 0 .5em 0;
+  margin: 5rem 0 .5rem 0;
   font-size: 1.2em;
 }
-
-h2[id] {
-  margin-top: -2em;
-  padding-top: 3em;
+/* Trick to create an offset for scrolling despite the fixed header. */
+span.anchor {
+  position: absolute;
+  display: block;
+  top: -5rem;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
-ul.doclist {
-  display: block;
+h3 {
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin: 0 0 .5rem 0;
   padding: 0;
+  font-style: italic;
+  position: relative;
+}
+/* Use em units here, we want this to scale with the parent's text size */
+:hover > h3::before {
+  content: '';
+  display: block;
+  background-color: #fe7c3f;
+  width: .5em;
+  height: .5em;
+  position: absolute;
+  left: -.75em;
+  top: .3em;
+  border-radius: 50%;
 }
 
 a {
@@ -80,138 +85,13 @@ a:hover, a:focus, a:active {
   text-decoration: underline;
 }
 
-ul.doclist > li {
-  margin: 15px 0;
-  display: block;
-  position: relative;
-  clear: both;
-}
-
-ul.doclist > li > span:nth-of-type(1)::before {
-  content: ' ';
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  position: absolute;
-  left: -.8em;
-  top: .65em;
-  border-width: .375em 0 .375em .5em;
-  border-style: solid;
-}
-
-ul.doclist > li:hover > span:nth-of-type(1)::before {
-  border-color: transparent #000;
-}
-
-ul.doclist > li > span.branch {
-  border-left: 1px solid #CCC;
-  margin-left: 5px;
-  padding-left: 5px;
-  width: calc(8em);
-}
-
-ul.doclist > li > span.branch:nth-of-type(2) {
-  border-left: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-ul.doclist > li > span.branch > span.branchname {
-  text-align: center;
-  display: block;
-  overflow-wrap: break-word;
-}
-
-ul.doclist > li > span {
-  display: inline-block;
-  width: 10em;
-  padding: .25em .25em .25em 0;
-  margin-right: .25em;
-  text-align: left;
-  vertical-align: middle;
-}
-
-ul.doclist > li > span:nth-of-type(1) {
-  display: block !important;
-  width: auto !important;
-  font-style: italic;
-}
-
-ul.doclist > li > span:nth-child(1) {
-  min-width: 15em;
-}
-
-ul.doclist > li > span > a {
-  background-color: #EEE;
-  border-radius: 0;
-  border: 1px solid #DDD;
-  color: #666;
-  display: inline-block;
-  margin-left: -1px;
-  margin-right: 0;
-  min-width: 8em;
-  padding: .25em;
-  text-align: center;
-  text-decoration: none;
-  position: relative;
-  z-index: 1;
-  transition: background-color 0.2s;
-}
-
-ul.doclist > li > span > a:nth-of-type(1) {
-  border-radius: 4px 4px 0 0;
-}
-
-ul.doclist > li > span > a:last-of-type {
-  border-radius: 0 0 4px 4px;
-}
-
-ul.doclist > li > span > a:nth-of-type(1):last-of-type {
-  border-radius: 4px;
-}
-
-ul.doclist > li > span > a:hover, ul.doclist > li > span > a:focus, ul.doclist > li > span > a:active {
-  background-color: #DDD;
-  border-color: #AAA;
-  color: #333;
-  z-index: 10;
-}
-
-iframe {
-  border: none;
-  height: 2.25em;
-  width: 100%;
-}
-
 .topmargin {
-  margin-top: 4em;
+  margin-top: 4rem;
 }
+
 
 hr {
-  border: none;
-  border-bottom: 1px solid #CCC;
-}
-
-ul.doclist > li.archive > span:nth-child(1) {
-  color: #AAA;
-}
-
-ul.doclist > li.archive > span:nth-child(1)::after {
-  content: 'archived';
-  margin-left: 5px;
-  vertical-align: super;
-  font-size: 0.7em;
-}
-
-ul.miniToc {
-  columns: 4 auto;
-  column-gap: 1em;
-}
-
-h2 > a {
-  text-decoration: none !important;
-  color: #000;
+  display: none;
 }
 
 .warn {
@@ -225,6 +105,61 @@ p.warn {
   font-weight: 700;
 }
 
+/* List of document & list of branches */
+ul.doclist {
+  display: block;
+  padding: 0;
+}
+
+ul.doclist > li {
+  margin: 1.5rem 0;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+ul.branchlist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0;
+  margin: -.5rem;
+}
+
+ul.branchlist > li {
+  display: block;
+  width: 8rem;
+  margin: .5rem;
+}
+
+ul.branchlist > li > .branchname,
+ul.branchlist > li > a {
+  display: inline-block;
+  width: 100%;
+  padding: .25rem;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+}
+
+
+ul.branchlist > li > .branchname {
+  background-color: #efefef;
+}
+
+ul.branchlist > li > a {
+  background-color: #dedfe0;
+  color: #0c322c;
+  z-index: 1;
+  transition: background-color 0.2s;
+}
+
+ul.branchlist > li > a:hover,
+ul.branchlist > li > a:focus {
+  background-color: #c0c2c4;
+  text-decoration: underline;
+}
 
 /* Wrap for top tabs */
 .tabwrap {
@@ -301,19 +236,6 @@ p.warn {
   line-height: 1em;
 }
 
-#adv_settings {
-  display: none;
-}
-
-/* Trick to create an offset for scrolling despite the fixed header. */
-span.anchor:target {
-  position: absolute;
-  display: block;
-  top: -2em;
-  width: 0;
-  height: 0;
-}
-
 h2 {
   position: relative;
 }
@@ -325,7 +247,8 @@ ul.sidebar {
   background-color: #30ba78;
   height: 100vh;
   margin: 0;
-  padding: 4rem 0 1rem;
+  /* align with the <h1/> of the page */
+  padding: 5rem 0 1rem;
   overflow-y: auto;
   box-sizing: border-box;
   z-index: 9000;
@@ -338,13 +261,22 @@ ul.sidebar > li {
 }
 
 ul.sidebar a {
-  color: #FFF !important;
+  color: #0c322c !important;
   display: block;
   padding: 0.5rem 1rem;
 }
 
 ul.sidebar a:hover, ul.sidebar a:focus {
   background-color: #FFF3;
+}
+
+@media only screen and (max-width: 60rem) {
+  html {
+    margin-left: 16rem;
+  }
+  ul.sidebar {
+    width: 15rem;
+  }
 }
 
 @media only screen and (max-width: 40rem) {
@@ -361,35 +293,3 @@ ul.sidebar a:hover, ul.sidebar a:focus {
     padding: 0.25rem;
   }
 }
-
-@media only screen and (max-width: 52.5em) {
-  ul.doclist > li > a {
-    min-width: 7em;
-  }
-  ul.miniToc {
-    columns: 3 auto;
-  }
-}
-@media only screen and (max-width: 45.5em) {
-  ul.doclist > li > a {
-    min-width: 6em;
-  }
-}
-@media only screen and (max-width: 39em) {
-  ul.doclist > li > a {
-    min-width: 5em;
-  }
-}
-@media only screen and (max-width: 36em) {
-  ul.doclist > li > span {
-    display: block;
- }
-  ul.doclist > li > a {
-    /* Whatever. Not sure what I am calculating here. */
-    width: calc(33.3% - 16px);
-  }
-  ul.miniToc {
-    columns: 2 auto;
-  }
-}
-

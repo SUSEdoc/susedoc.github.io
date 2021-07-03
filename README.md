@@ -22,7 +22,7 @@ To configure a new branch for building, there is:
 After the changes have been pushed, the GitHub Actions job for this repository *automatically* updates the navigation page.
 That means it updates the `index.html` file.
 
-### Enabling a Documentation Repository for CI Draft Builds
+### Enabling a documentation repository for CI draft builds
 
 To initially enable draft builds of documentation with CI within a documentation repository, see the instructions at https://github.com/openSUSE/doc-ci#enabling-github-actions-within-documentation-repositories.
 
@@ -116,7 +116,7 @@ To exclude issues related to browser caching from interfering with what you are 
   To see whether GitHub has any outages currently, check https://status.github.com/.
 
 
-### Files and branches of in this repo
+### Files and branches in this repository
 
 #### `main` branch
 

@@ -167,10 +167,10 @@
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide (older)</doc>
 
 
-  <doc cat="sle-rt" doc="SLE-RT-hw"         branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
-  <doc cat="sle-rt" doc="SLE-RT-quick"      branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Quick Start</doc>
-  <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
-  <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="main SLERT15SP1 SLERT15 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
+  <doc cat="sle-rt" doc="SLE-RT-hw"         branches="main SLERT15SP1 SLERT12SP5 SLERT12SP4 SLERT12SP3">Hardware Testing</doc>
+  <doc cat="sle-rt" doc="SLE-RT-quick"      branches="main SLERT15SP1 SLERT12SP5 SLERT12SP4 SLERT12SP3">Quick Start</doc>
+  <doc cat="sle-rt" doc="SLE-RT-shielding"  branches="main SLERT15SP1 SLERT12SP5 SLERT12SP4 SLERT12SP3">Shielding Linux Resources</doc>
+  <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="main SLERT15SP1 SLERT12SP5 SLERT12SP4 SLERT12SP3">Virtualization Guide</doc>
 
   <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main">Quick Start (newer)</doc>
   <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main">SAP Automation (newer)</doc>

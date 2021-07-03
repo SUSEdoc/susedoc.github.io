@@ -99,16 +99,16 @@
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
 
 
-  <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP3">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP3">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP3">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP3">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP3">Administration Guide (newer)</doc>
+  <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP3">GNOME User Guide (newer)</doc>
+  <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP3">Installation Guide (newer)</doc>
+  <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP3">Modules and Extensions Quick Start (newer)</doc>
 
-  <doc cat="sled"  doc="SLED-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide (older)</doc>
   <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide (older)</doc>
+  <doc cat="sled"  doc="SLED-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide (older)</doc>
+  <doc cat="sled"  doc="SLED-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (older)</doc>
   <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
   <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
   <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>

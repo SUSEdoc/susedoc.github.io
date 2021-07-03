@@ -79,7 +79,10 @@
     <xsl:variable name="catnode" select="key('categories', $node/@id)"/>
 
     <xsl:if test="$catnode">
-      <h2 id="{@id}"><xsl:apply-templates select="node()" mode="copy"/></h2>
+      <h2>
+        <xsl:apply-templates select="node()" mode="copy"/>
+        <xsl:text> </xsl:text>
+        <span class="anchor" id="{@id}">#</span></h2>
       <ul class="doclist">
         <xsl:apply-templates select="$catnode">
           <xsl:sort lang="en" select="."/>

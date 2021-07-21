@@ -204,14 +204,14 @@
   <doc cat="vmdp"     doc="vmdp"               branches="main">Installation Guide</doc>
 
 
-  <doc cat="ses"   doc="ses-admin"         branches="main ses6 ses5">Administration Guide</doc>
-  <doc cat="ses"   doc="ses-deployment"    branches="main ses6 ses5">Deployment Guide</doc>
-  <doc cat="ses"   doc="ses-troubleshooting" branches="main">Troubleshooting Guide</doc>
+  <doc cat="ses"   doc="ses-admin"         branches="main ses7 ses6 ses5">Administration Guide</doc>
+  <doc cat="ses"   doc="ses-deployment"    branches="main ses7 ses6 ses5">Deployment Guide</doc>
+  <doc cat="ses"   doc="ses-troubleshooting" branches="main ses7">Troubleshooting Guide</doc>
   <doc cat="ses"   doc="ses-tuning"        branches="ses6">Tuning Guide</doc>
-  <doc cat="ses"   doc="ses-security"      branches="main">Security Hardening Guide</doc>
-  <doc cat="ses"   doc="ses-rook"          branches="main">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
-  <doc cat="ses"   doc="ses-windows"       branches="main">SUSE Enterprise Storage for Windows</doc>
-  <doc cat="ses"   doc="ses-man"           branches="main">man pages</doc>
+  <doc cat="ses"   doc="ses-security"      branches="main ses7">Security Hardening Guide</doc>
+  <doc cat="ses"   doc="ses-rook"          branches="main ses7">Deploying and Administrating Ceph on SUSE CaaS Platform</doc>
+  <doc cat="ses"   doc="ses-windows"       branches="main ses7">SUSE Enterprise Storage for Windows</doc>
+  <doc cat="ses"   doc="ses-man"           branches="main ses7">man pages</doc>
 
 
   <doc cat="cap"   doc="cap-guides"        branches="master">Deployment, Administration, and User Guides</doc>

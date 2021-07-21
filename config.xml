@@ -168,8 +168,8 @@
 
 
   
-  <doc cat="sle-rt" doc="SLE-RT-hardware-testing"   branches="main">Hardware Testing</doc>
-  <doc cat="sle-rt" doc="SLE-RT-installation"          branches="main">Quick Start</doc>
+  <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main">Hardware Testing</doc>
+  <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main">Setup Guide</doc>
   <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP2 SLERT15SP1 SLERT12SP5 SLERT12SP4">Shielding Linux Resources</doc>
   <doc cat="sle-rt" doc="SLE-RT-virtualization"        branches="main">Virtualization Guide</doc>
 

@@ -66,6 +66,7 @@
     <cat id="caasp"      repo="doc-caasp">SUSE CaaS Platform</cat>
     <cat id="caasp-rn"   repo="caasp-release-notes">SUSE CaaS Platform (Release Notes)</cat>
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
+    <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
   </cats>
 
@@ -251,6 +252,9 @@
   <doc cat="soc"   doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
+
+
+  <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
 
   <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>

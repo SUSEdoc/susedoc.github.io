@@ -51,7 +51,7 @@
   </meta>
   <cats>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
-    <cat id="sle-micro"	 repo="doc-sle">SUSE Linux Enterprise Micro</cat>
+    <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>

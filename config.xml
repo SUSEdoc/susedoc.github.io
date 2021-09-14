@@ -103,7 +103,7 @@
   <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP3 SLE15SP2">Container Guide</doc>
 
 
-  <doc cat="sle-micro" doc="SLE-Micro-installation" branches="main">Installation Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main">Deployment Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main">AutoYaST Guide</doc>
 
 

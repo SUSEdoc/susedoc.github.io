@@ -64,8 +64,8 @@ mkdir ~/.ssh
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # Set the git username and email used for the commits
-git config --global user.name "SUSE Doc Team CI"
-git config --global user.email "doc-team@suse.com"
+git config --global user.name "SUSE Docs Bot"
+git config --global user.email "doc-team+docbot@suse.com"
 
 
 #--

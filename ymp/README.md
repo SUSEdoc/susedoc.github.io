@@ -13,33 +13,33 @@ Make sure that the package `yast2-metapackage-handler` is installed.
 (This package is usually installed by default.)
 
 
-## Starting the installation, command line
-
-To subscribe to the repositories and install the packages from the YMP file, run:
-
-```
-sudo OneClickInstallUI https://susedoc.github.io/ymp/Documentation.ymp
-```
-
-Enter your root password, YaST should open afterward.
+## Installing
 
 
-## Starting the installation, GUI
+1. Alternatively, use the GUI or the command line.
+   * Command line:
 
-1. Download this file: [https://susedoc.github.io/ymp/Documentation.ymp](https://susedoc.github.io/ymp/Documentation.ymp)
-2. Double-click the downloaded file, you should see a prompt for your `root` password and then a YaST screen.
+     ```
+     sudo OneClickInstallUI https://susedoc.github.io/ymp/Documentation.ymp
+     ```
 
+     Enter your `root` password. YaST should open.
 
-## Actual installation
+   * GUI:
 
-Independently of how you started it, the installation consists of two steps:
+     a. Download this file: [https://susedoc.github.io/ymp/Documentation.ymp](https://susedoc.github.io/ymp/Documentation.ymp).
 
-1. You will be offered a list of repositories to subscribe to.
-2. You will be offered a list of packages to install.
+     b. Double-click the downloaded file. You should see a prompt for your `root` password and then a YaST screen.
 
-Review the suggestions, in particular the package suggestions.
-In many cases, it is not necessary to change the default settings.
-However, you can select additional optional packages.
+2. Independently of how you started the installation, there are two steps:
+
+   a. You will be offered a list of repositories to subscribe to.
+
+   b. You will be offered a list of packages to install.
+
+   Review the suggestions, in particular the package suggestions.
+   In many cases, it is not necessary to change the default settings.
+   However, you can select additional optional packages.
 
 
 ## Feedback
@@ -49,7 +49,7 @@ If you are missing any packages or have other feedback, open an issue at https:/
 
 ## More information
 
-* openSUSE Wiki article about One Click Installation:
+* openSUSE Wiki article about One-Click Installation:
 
   https://en.opensuse.org/openSUSE:One_Click_Install_Developer
 

@@ -26,7 +26,7 @@ Enter your root password, YaST should open afterward.
 
 ## Starting the installation, GUI
 
-1. Download this file: https://susedoc.github.io/ymp/Documentation.ymp
+1. Download this file: [https://susedoc.github.io/ymp/Documentation.ymp](https://susedoc.github.io/ymp/Documentation.ymp)
 2. Double-click the downloaded file, you should see a prompt for your `root` password and then a YaST screen.
 
 

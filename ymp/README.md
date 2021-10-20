@@ -3,8 +3,8 @@
 The YMP file (YaST "1-click" installer) from this repository helps you quickly set up the SUSE documentation toolchain on openSUSE Leap or Tumbleweed.
 It automatically subscribes you to necessary repositories and sets up necessary packages.
 
-If you are using any other Linux distribution, see https://github.com/openSUSE/daps2docker.
-If you are using any other OS, you can use the container image also used by daps2docker, via `docker pull susedoc/ci:latest` (additional steps need to be figured out manually).
+If you are using any other Linux distribution, see [the daps2docker project](https://github.com/openSUSE/daps2docker).
+If you are using any other OS, you can use the same container image also used by daps2docker, via `docker pull susedoc/ci:latest` (in that case, you need to figure out additional steps on your own though).
 
 
 ## Prerequisites

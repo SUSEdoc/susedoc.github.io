@@ -177,7 +177,7 @@
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide (previous)</doc>
 
 
-  
+  <doc cat="sle-rt" doc="SLE-RT-bogus"                 branches="main">A document that does not exist</doc>
   <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main">Hardware Testing</doc>
   <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main">Setup Guide</doc>
   <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP2 SLERT15SP1 SLERT12SP5 SLERT12SP4">Shielding Linux Resources</doc>

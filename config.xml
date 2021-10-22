@@ -161,7 +161,7 @@
   <doc cat="sbp"   doc="SLES-rpiquick"            branches="main">Introduction to SUSE Linux Enterprise Server for ARM on Raspberry Pi (SLES 12 SP2)</doc>
   <doc cat="sbp"   doc="SBP-Private-Registry"     branches="main">SUSE Private Registry Powered by Harbor 2.1</doc>
 
-  
+
   <doc cat="sle-ha" doc="SLE-HA-administration"       branches="main">Administration Guide</doc>
   <doc cat="sle-ha" doc="SLE-HA-installation"         branches="main">Installation and Setup Quick Start</doc>
   <doc cat="sle-ha" doc="SLE-HA-nfs-storage"          branches="main">Highly Available NFS Storage with DRBD and Pacemaker</doc>
@@ -177,7 +177,7 @@
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Geo Clustering Guide (previous)</doc>
 
 
-  <doc cat="sle-rt" doc="SLE-RT-bogus"                 branches="main">A document that does not exist</doc>
+
   <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main">Hardware Testing</doc>
   <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main">Setup Guide</doc>
   <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP2 SLERT15SP1 SLERT12SP5 SLERT12SP4">Shielding Linux Resources</doc>

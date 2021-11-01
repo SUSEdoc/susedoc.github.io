@@ -199,7 +199,7 @@
   <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring (previous)</doc>
 
 
-  <doc cat="sle-hpc"  doc="hpc-guide"      branches="main">HPC Guide</doc>
+  <doc cat="sle-hpc"  doc="hpc-guide"      branches="main SLE15SP3">HPC Guide</doc>
 
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="main">AutoYaST Guide</doc>

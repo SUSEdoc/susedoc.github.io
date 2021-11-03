@@ -1,4 +1,4 @@
-FROM susedoc/mini-ci:openSUSE-42.3
+FROM registry.opensuse.org/documentation/containers/containers/opensuse-git-ssh:latest
 
 COPY update-script/ /update-script/
 COPY action.sh /action.sh

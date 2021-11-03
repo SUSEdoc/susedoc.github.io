@@ -103,10 +103,10 @@
   <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP3 SLE15SP2">Container Guide</doc>
 
 
-  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="SLE_Micro_5.1">Deployment Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="SLE_Micro_5.1">AutoYaST Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="SLE_Micro_5.1">Upgrade Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-administration" branches="SLE_Micro_5.1">Administration Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1">Deployment Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1">AutoYaST Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE_Micro_5.1">Upgrade Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1">Administration Guide</doc>
 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP3">Administration Guide</doc>

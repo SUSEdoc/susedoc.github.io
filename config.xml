@@ -68,6 +68,7 @@
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
+    <cat id="release-notes" repo="release-notes">Release Notes</cat>
   </cats>
 
   <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
@@ -261,5 +262,8 @@
 
   <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>
   <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="main">Style Guide with Change Log</doc>
+
+  <doc cat="release-notes" doc="sles" branches="15_SP4 15_SP3">SUSE Linux Enterprise Server</doc>
+  <doc cat="release-notes" doc="sled" branches="15_SP4 15_SP3">SUSE Linux Enterprise Desktop</doc>
 
 </indexconfig>

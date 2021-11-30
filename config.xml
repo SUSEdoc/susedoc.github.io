@@ -50,6 +50,7 @@
     </variants>
   </meta>
   <cats>
+    <cat id="release-notes" repo="release-notes">Release Notes</cat>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
@@ -68,7 +69,6 @@
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
-    <cat id="release-notes" repo="release-notes">Release Notes</cat>
   </cats>
 
   <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>

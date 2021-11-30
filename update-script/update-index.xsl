@@ -109,6 +109,12 @@
       </xsl:if>
       <xsl:value-of select="/indexconfig/cats/cat[@id = $cat]/@repo"/>
     </xsl:variable>
+    <xsl:variable name="docname">
+      <xsl:choose>
+        <xsl:when test="@outputname"><xsl:value-of select="@outputname"/></xsl:when>
+        <xsl:otherwise><xsl:value-of select="@doc"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <li>
       <h3 class="doctitle">
         <xsl:value-of select="."/>
@@ -116,7 +122,7 @@
       <ul class="branchlist">
         <xsl:call-template name="prepare-links">
           <xsl:with-param name="urlstart" select="$urlstart"/>
-          <xsl:with-param name="doc" select="@doc"/>
+          <xsl:with-param name="doc" select="$docname"/>
           <xsl:with-param name="branches" select="concat(normalize-space(@branches), ' ')"/>
         </xsl:call-template>
       </ul>

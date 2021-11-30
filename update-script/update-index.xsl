@@ -156,6 +156,7 @@
       <xsl:call-template name="prepare-links">
         <xsl:with-param name="urlstart" select="$urlstart"/>
         <xsl:with-param name="doc" select="$doc"/>
+        <xsl:with-param name="formats" select="$formats"/>
         <xsl:with-param name="branches" select="substring-after($branches, ' ')"/>
       </xsl:call-template>
     </xsl:if>

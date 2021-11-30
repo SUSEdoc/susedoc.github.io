@@ -13,7 +13,6 @@
   <xsl:key name="categories" match="/indexconfig/doc" use="@cat"/>
 
   <xsl:variable name="baseurl" select="/indexconfig/meta/baseurl"/>
-  <xsl:variable name="formats" select="/indexconfig/meta/formats"/>
 
   <xsl:template match="/indexconfig">
     <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#10;</xsl:text>
@@ -115,6 +114,12 @@
         <xsl:otherwise><xsl:value-of select="@doc"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="formats">
+      <xsl:choose>
+        <xsl:when test="@formats"><xsl:value-of select="concat(normalize-space(@formats), ' ')"/></xsl:when>
+        <xsl:otherwise><xsl:apply-templates select="/indexconfig/meta/formats/format/@dir"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <li>
       <h3 class="doctitle">
         <xsl:value-of select="."/>
@@ -124,16 +129,20 @@
           <xsl:with-param name="urlstart" select="$urlstart"/>
           <xsl:with-param name="doc" select="$docname"/>
           <xsl:with-param name="branches" select="concat(normalize-space(@branches), ' ')"/>
+          <xsl:with-param name="formats" select="$formats"/>
         </xsl:call-template>
       </ul>
     </li>
   </xsl:template>
 
+  <xsl:template match="format/@dir"><xsl:value-of select="."/><xsl:text> </xsl:text></xsl:template>
+
   <xsl:template name="prepare-links">
     <xsl:param name="urlstart" select="''"/>
     <xsl:param name="doc" select="''"/>
     <xsl:param name="branches" select="''"/>
-    <xsl:param name="branch" select="substring-before($branches, ' ')"/>
+    <xsl:param name="formats" select="''"/>
+    <xsl:variable name="branch" select="substring-before($branches, ' ')"/>
 
     <xsl:if test="$branch != '' and $branch != ' '">
       <li class="branch">
@@ -141,6 +150,7 @@
         <xsl:call-template name="generate-links">
           <xsl:with-param name="url" select="concat($urlstart, '/', translate($branch, '/', ','))"/>
           <xsl:with-param name="doc" select="$doc"/>
+          <xsl:with-param name="formats" select="$formats"/>
         </xsl:call-template>
       </li>
       <xsl:call-template name="prepare-links">
@@ -154,15 +164,21 @@
   <xsl:template name="generate-links">
     <xsl:param name="url" select="''"/>
     <xsl:param name="doc" select="''"/>
-    <xsl:param name="context" select="/indexconfig/meta/formats/format[1]"/>
-    <xsl:variable name="format-dir" select="$context/@dir"/>
-    <xsl:variable name="format-name" select="$context/text()"/>
-    <a href="{$url}/{$format-dir}/{$doc}/"><xsl:value-of select="$format-name"/></a>
-    <xsl:if test="$context/following-sibling::format[1]">
+    <xsl:param name="formats" select="''"/>
+    <xsl:variable name="format" select="substring-before($formats, ' ')"/>
+
+    <xsl:if test="$format != '' and $format != ' '">
+      <xsl:variable name="format-name">
+        <xsl:choose>
+          <xsl:when test="/indexconfig/meta/formats/format[@dir = $format]"><xsl:value-of select="/indexconfig/meta/formats/format[@dir = $format]/text()"/></xsl:when>
+          <xsl:otherwise><xsl:value-of select="$format"/></xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <a href="{$url}/{$format}/{$doc}/"><xsl:value-of select="$format-name"/></a>
       <xsl:call-template name="generate-links">
         <xsl:with-param name="url" select="$url"/>
         <xsl:with-param name="doc" select="$doc"/>
-        <xsl:with-param name="context" select="$context/following-sibling::format[1]"/>
+        <xsl:with-param name="formats" select="substring-after($formats, ' ')"/>
       </xsl:call-template>
     </xsl:if>
   </xsl:template>

@@ -261,8 +261,8 @@
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
 
-  <doc cat="styleguide" doc="docu_styleguide" branches="main">Style Guide</doc>
-  <doc cat="styleguide" doc="docu_styleguide_with_changes" branches="main">Style Guide with Change Log</doc>
+  <doc cat="styleguide" doc="docu_styleguide" outputname="style-guide" branches="main">Style Guide</doc>
+  <doc cat="styleguide" doc="docu_styleguide_with_changes" outputname="style-guide-with-change-log" branches="main">Style Guide with Change Log</doc>
 
   <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4">SUSE Linux Enterprise Server</doc>
   <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4">SUSE Linux Enterprise Desktop</doc>

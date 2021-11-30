@@ -20,6 +20,7 @@
 <!ATTLIST doc
                           cat        CDATA   #REQUIRED
                           doc        CDATA   #REQUIRED
+                          outputname CDATA   #IMPLIED
                           branches   CDATA   #REQUIRED >
 
 <!ELEMENT redirect        EMPTY >

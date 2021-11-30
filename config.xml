@@ -71,7 +71,8 @@
     <cat id="release-notes" repo="release-notes">Release Notes</cat>
   </cats>
 
-  <redirect from="caasp-5-rn" to="caasp-release-notes/master/html/release-notes/"/>
+  <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>
+  <redirect from="sled-15sp4-rn" to="release-notes/sled-15_SP4/html/release-notes/"/>
 
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP3">GNOME User Guide</doc>

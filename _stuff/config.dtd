@@ -21,7 +21,8 @@
                           cat        CDATA   #REQUIRED
                           doc        CDATA   #REQUIRED
                           outputname CDATA   #IMPLIED
-                          branches   CDATA   #REQUIRED >
+                          branches   CDATA   #REQUIRED
+                          formats    CDATA   #IMPLIED >
 
 <!ELEMENT redirect        EMPTY >
 <!ATTLIST redirect
@@ -36,7 +37,7 @@
                           repo       CDATA   #REQUIRED >
 
 
-<!ELEMENT meta            (title, head, tabs?, desc?, bottominfo?, style+, baseurl?, variants) >
+<!ELEMENT meta            (title, head, tabs?, desc?, bottominfo?, style+, baseurl?, formats) >
 
 <!ELEMENT title           (#PCDATA) >
 
@@ -51,10 +52,10 @@
 
 <!ELEMENT baseurl         (#PCDATA) >
 
-<!ELEMENT variants        (variant)+ >
+<!ELEMENT formats         (format)+ >
 
-<!ELEMENT variant         (#PCDATA) >
-<!ATTLIST variant
+<!ELEMENT format          (#PCDATA) >
+<!ATTLIST format
                           dir        CDATA   #REQUIRED >
 
 <!-- wild HTML -->

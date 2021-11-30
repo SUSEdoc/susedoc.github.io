@@ -1,4 +1,13 @@
-## Navigation page for susedoc.github.io and configuration of which documents to build in GitHub Actions
+## Build configuration and navigation page for susedoc.github.io
+
+This repo has two purposes:
+
+* It determines which SUSE documentation is built via GitHub Actions
+* It creates an `index.html` page that links to all documents built this way
+
+The set of documents built and the set of documents linked are the same, but there's not exactly a guarantee that each link will work (though that's obviously the goal).
+The actual documents generated are published to different repos within the same GitHub org as this one.
+GitHub then builds a cohesive site from all the repos published within this org.
 
 ### Updating the GitHub Action build configuration and the navigation page
 

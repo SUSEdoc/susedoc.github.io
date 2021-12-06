@@ -73,6 +73,9 @@
 
   <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>
   <redirect from="sled-15sp4-rn" to="release-notes/sled-15_SP4/html/release-notes/"/>
+  <redirect from="sle-sap-15sp4-rn" to="release-notes/sle-sap-15_SP4/html/release-notes/"/>
+  <redirect from="sle-ha-15sp4-rn" to="release-notes/sle-ha-15_SP4/html/release-notes/"/>
+  <redirect from="sle-hpc-15sp4-rn" to="release-notes/sle-hpc-15_SP4/html/release-notes/"/>
 
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP3">GNOME User Guide</doc>

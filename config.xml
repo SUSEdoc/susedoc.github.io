@@ -111,7 +111,7 @@
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE-Micro_5.1 SLE_Micro_5.2">Deployment Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE-Micro_5.1 SLE_Micro_5.2">AutoYaST Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE-Micro_5.1SLE_Micro_5.2 ">Upgrade Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE-Micro_5.1 SLE_Micro_5.2">Upgrade Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE-Micro_5.1 SLE_Micro_5.2">Administration Guide</doc>
 
 

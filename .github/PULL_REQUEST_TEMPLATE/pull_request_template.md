@@ -1,5 +1,7 @@
 # Changes
 <!-- describe your changes briefly -->
 
-* [ ] I also added the config to docserv-config
+* [ ] This change affects documentation already published on docs.suse.com as well.
+    * [ ] I made an MR to the `docserv-config` repo
+    * [ ] Please update the `docserv-config` repo for me
 

@@ -68,7 +68,7 @@
     <cat id="caasp-rn"   repo="caasp-release-notes">SUSE CaaS Platform (Release Notes)</cat>
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
-    <cat id="smartdocs"   repo="doc-modular">Smart Docs</cat>
+    <cat id="smartdocs"   repo="doc-modular">SUSE Smart Docs</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
   </cats>
 
@@ -108,8 +108,7 @@
   <doc cat="sles"  doc="SLES-jeos"         branches="SLE15SP3 SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLES-minimal-vm"   branches="main">Minimal VM Quick Start Guide</doc>
   <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP3 SLE15SP2">Container Guide</doc>
-  <doc cat="sles"  doc="SLES-concept-minimal-vm"    branches="main">Introduction to SLES Minimal VM</doc>
-
+  
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE-Micro_5.1 SLE_Micro_5.2">Deployment Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE-Micro_5.1 SLE_Micro_5.2">AutoYaST Guide</doc>
@@ -264,8 +263,9 @@
   <doc cat="soc"   doc="suse-openstack-cloud-installation"   branches="cloud_8">Installing with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
-
-
+  
+  <doc cat="smartdocs"  doc="concept-minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
+ 
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
 

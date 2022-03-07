@@ -68,7 +68,7 @@
     <cat id="caasp-rn"   repo="caasp-release-notes">SUSE CaaS Platform (Release Notes)</cat>
     <cat id="soc"        repo="doc-cloud">SUSE OpenStack Cloud</cat>
     <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
-    <cat id="smartdocs"   repo="doc-modular">SUSE Smart Docs</cat>
+    <cat id="smartdocs"  repo="doc-modular">SUSE Smart Docs</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
   </cats>
 
@@ -273,6 +273,11 @@
   <doc cat="smartdocs" doc="concept-virtual-disk-cache-modes" branches="main">Virtual disk cache: Basic concept</doc>
   <doc cat="smartdocs" doc="concept-virtualization" branches="main">Virtualization: Basic concept</doc>
   <doc cat="smartdocs" doc="concept-zypper" branches="main">Zypper package manager</doc>
+  <doc cat="smartdocs" doc="reference-connection-accounting-utilities" branches="main">Connection accounting utilities</doc>
+  <doc cat="smartdocs" doc="reference-managing-systemd-targets-systemctl" branches="main">Managing systemd targets with systemctl</doc>
+  <doc cat="smartdocs" doc="reference-systemctl-enable-disable-services" branches="main">Enabling and disabling systemd services</doc>
+  <doc cat="smartdocs" doc="reference-systemctl-start-stop-services" branches="main">Starting and stopping systemd services</doc>
+  <doc cat="smartdocs" doc="reference-zypper-install" branches="main">Installing and removing software with Zypper; reference</doc>
  
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 

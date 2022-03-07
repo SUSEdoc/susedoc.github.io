@@ -264,7 +264,15 @@
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
   
-  <doc cat="smartdocs"  doc="concept-minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="concept-minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="concept-klp" branches="main">Kernel Live Patching Concept</doc>
+  <doc cat="smartdocs" doc="concept-manage-virtual-machines-libvirt" branches="main">Managing virtual machines with libvirt: Basic Concept</doc>
+  <doc cat="smartdocs" doc="concept-sudo" branches="main">sudoc: Basic Concept</doc>
+  <doc cat="smartdocs" doc="concept-systemd" branches="main">Basic systemd Concepts</doc>
+  <doc cat="smartdocs" doc="concept-time-synchronization-ntp" branches="main">Time synchronization with NTP: Basic Concept</doc>
+  <doc cat="smartdocs" doc="concept-virtual-disk-cache-modes" branches="main">Virtual disk cache: Basic concept</doc>
+  <doc cat="smartdocs" doc="concept-virtualization" branches="main">Virtualization: Basic concept</doc>
+  <doc cat="smartdocs" doc="concept-zypper" branches="main">Zypper package manager</doc>
  
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 

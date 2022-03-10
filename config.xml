@@ -95,7 +95,7 @@
   <doc cat="sles"  doc="SLES-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Installation Quick Start (previous)</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (previous)</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4 SLE12SP3">Security and Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start (previous)</doc>
   <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4 SLE12SP3">SMT Guide</doc>
@@ -127,7 +127,7 @@
   <doc cat="sled"  doc="SLED-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide (previous)</doc>
   <doc cat="sled"  doc="SLED-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide (previous)</doc>
   <doc cat="sled"  doc="SLED-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (previous)</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Security Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Security and Hardening Guide</doc>
   <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
   <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
 
@@ -214,7 +214,7 @@
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="main">AutoYaST Guide</doc>
   <doc cat="opensuse" doc="opensuse-gnome-user" branches="main">Gnome User Guide</doc>
   <doc cat="opensuse" doc="opensuse-reference" branches="main">Reference Guide</doc>
-  <doc cat="opensuse" doc="opensuse-security"  branches="main">Security Guide</doc>
+  <doc cat="opensuse" doc="opensuse-security"  branches="main">Security and Hardening Guide</doc>
   <doc cat="opensuse" doc="opensuse-startup"   branches="main">Startup Guide</doc>
   <doc cat="opensuse" doc="opensuse-tuning"    branches="main">Tuning Guide</doc>
   <doc cat="opensuse" doc="opensuse-virtualization" branches="main">Virtualization Guide</doc>

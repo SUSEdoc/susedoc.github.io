@@ -71,6 +71,7 @@
     <cat id="smartdocs"  repo="doc-modular">SUSE Smart Docs</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
     <cat id="liberty"    repo="doc-liberty">SUSE Liberty Linux</cat>
+    <cat id="unvers"     repo="doc-unversioned">SUSE Linux Enterprise unversioned</cat>
   </cats>
 
   <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>
@@ -311,4 +312,7 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
   <doc cat="liberty" doc="quickstart-8" branches="main">SUSE Liberty Linux</doc>
+
+  <!-- Unversioned -->
+  <doc cat="unvers" doc="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
 </indexconfig>

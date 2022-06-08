@@ -110,7 +110,7 @@
   <doc cat="sles"  doc="SLES-jeos"         branches="SLE15SP3 SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLES-minimal-vm"   branches="main">Minimal VM Quick Start Guide</doc>
   <doc cat="sles"  doc="SLES-container"    branches="main SLE15SP3 SLE15SP2">Container Guide</doc>
-  
+
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 maintenance/SLE_Micro_5.2">Deployment Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 maintenance/SLE_Micro_5.2">AutoYaST Guide</doc>
@@ -179,7 +179,7 @@
   <doc cat="sle-ha" doc="SLE-HA-pacemaker-remote"     branches="main">Pacemaker Remote Quick Start</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-clustering"       branches="main">Geo Clustering Quick Start</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-clustering-guide" branches="main">Geo Clustering Guide</doc>
-  
+
   <doc cat="sle-ha" doc="SLE-HA-guide"      branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Administration Guide (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Installation and Setup Quick Start (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-nfs-quick"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4 SLEHA12SP3">Highly Available NFS Storage with DRBD and Pacemaker (previous)</doc>
@@ -313,7 +313,8 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
-  <doc cat="liberty" doc="quickstart-8" branches="main">SUSE Liberty Linux</doc>
+  <doc cat="liberty" doc="quickstart-8" branches="main">Registering RHEL 8 or CentOS Linux 8</doc>
+  <doc cat="liberty" doc="quickstart-7" branches="maintenance/SLL7">Registering RHEL 7 or CentOS Linux 7</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>

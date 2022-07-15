@@ -158,12 +158,12 @@
   <doc cat="sle-rt" doc="SLE-RT-quick"      branches="SLERT15SP2 SLERT15SP1 SLERT12SP5 SLERT12SP4">Quick Start (previous)</doc>
   <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="SLERT15SP2 SLERT15SP1 SLERT12SP5 SLERT12SP4">Virtualization Guide (previous)</doc>
 
-  <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main 15_SP3">Quick Start</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main 15_SP3">SAP Automation</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main 15_SP3">SAP Monitoring</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-trento"  branches="main 15_SP3">Trento</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main 15_SP4 15_SP3">Quick Start</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main 15_SP4 15_SP3">SAP Automation</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main 15_SP4 15_SP3">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-trento"  branches="main 15_SP4 15_SP3">Trento</doc>
 
-  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP2">Guide</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP4 15_SP3 15_SP2">Guide</doc>
   <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (previous, #1)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide (previous)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start (previous, #2)</doc>

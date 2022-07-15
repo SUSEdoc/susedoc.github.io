@@ -124,15 +124,10 @@
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP4 SLE15SP3">GNOME User Guide</doc>
   <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP4 SLE15SP3">Installation Guide</doc>
   <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP4 SLE15SP3">Modules and Extensions Quick Start</doc>
-
-  <doc cat="sled"  doc="SLED-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0">Administration Guide (previous)</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0">GNOME User Guide (previous)</doc>
-  <doc cat="sled"  doc="SLED-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Installation Guide (previous)</doc>
-  <doc cat="sled"  doc="SLED-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (previous)</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP4 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Security and Hardening Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP4 SLE15SP3">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP4 SLE15SP3">Security and Hardening Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP4 SLE15SP3">System Analysis and Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP4 SLE15SP3">Upgrade Guide</doc>
 
   <doc cat="sle-ha" doc="SLE-HA-administration"       branches="main SLEHA15SP4 SLEHA15SP3">Administration Guide</doc>
   <doc cat="sle-ha" doc="SLE-HA-installation"         branches="main SLEHA15SP4 SLEHA15SP3">Installation and Setup Quick Start</doc>

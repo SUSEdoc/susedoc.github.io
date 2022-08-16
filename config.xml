@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+
 <indexconfig>
   <meta>
     <title>SUSE Documentation Draft Builds</title>
@@ -273,5 +274,6 @@
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
-  <doc cat="unvers" doc="SLE-container-guide" branches="main">SUSE Linux Enterprise Containers</doc>
+  <doc cat="unvers" doc="container-guide/SLE-container-guide" branches="main">SUSE Linux Enterprise Containers</doc>
+
 </indexconfig>

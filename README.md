@@ -21,7 +21,12 @@ To configure a new branch for building, there is:
 1. From this repository, open `config.xml` for editing.
    * To change document builds, modify/add/remove `<doc/>` tags. `<doc/>` tags have the following attributes:
       * `cat="..."`, a category ID (usually for the product), categories are defined in the `<cats/>` section of the document
-      * `doc="..."`, the name of the DC file but with the `DC-` suffix removed
+      * `doc="..."`, the name of the DC file but with the `DC-` suffix removed.
+        It is allowed to prefix it with a subdirectory, for example
+        `subdir/my-dc-file-without-dc-prefix`.
+      * `outputname="..."`, a directory name which should appear under
+         susedoc.github.io. Usually in combination with the `doc` attribute
+         or when you want to rename the output directory.
       * `branches="..."`, a space-separated list of branches for which the DC file in question will be published here
      Finally, a `<doc/>` tag includes the human-readable name of the document as its element text.
    * Preamble text changes need to happen within in the `<meta/>` element.

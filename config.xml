@@ -274,6 +274,6 @@
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
-  <doc cat="unvers" doc="container-guide/SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
+  <doc cat="unvers" doc="container-guide/SLES-container" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
 
 </indexconfig>

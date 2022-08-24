@@ -269,8 +269,9 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
-  <doc cat="liberty" doc="quickstart-8" branches="main">Registering RHEL 8 or CentOS Linux 8</doc>
-  <doc cat="liberty" doc="quickstart-7" branches="maintenance/SLL7">Registering RHEL 7 or CentOS Linux 7</doc>
+  <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9</doc>
+  <doc cat="liberty" doc="quickstart" branches="maintenance/SLL8">Registering RHEL 8 or CentOS Linux 8</doc>
+  <doc cat="liberty" doc="quickstart" branches="maintenance/SLL7">Registering RHEL 7 or CentOS Linux 7</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>

@@ -257,6 +257,8 @@
   <doc cat="smartdocs" doc="task-setup-free-radius-server" branches="main">Setting up a FreeRADIUS server</doc>
   <doc cat="smartdocs" doc="task-set-up-uefi-http-boot-server" branches="main">Setting up a UEFI HTTP Boot server</doc>
   <doc cat="smartdocs" doc="task-working-sudo" branches="main">Working with sudo</doc>
+  <!-- ALP -->
+  <doc cat="smartdocs" doc="alp" branches="main">The Adaptable Linux Platform Guide</doc>
 
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
@@ -277,4 +279,6 @@
   <doc cat="unvers" doc="pcidss/SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
   <doc cat="unvers" doc="container-guide/SLES-container" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
+  
+  
 </indexconfig>

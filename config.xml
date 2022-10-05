@@ -157,7 +157,6 @@
   <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main 15_SP4 15_SP3">Quick Start</doc>
   <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main 15_SP4 15_SP3">SAP Automation</doc>
   <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main 15_SP4 15_SP3">SAP Monitoring</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-trento"  branches="main 15_SP4 15_SP3">Trento</doc>
 
   <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP4 15_SP3 15_SP2">Guide</doc>
   <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (previous, #1)</doc>
@@ -279,6 +278,6 @@
   <doc cat="unvers" doc="pcidss/SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
   <doc cat="unvers" doc="container-guide/SLES-container" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
-  
+  <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="trento" branches="main">Getting started with Trento Premium</doc>
   
 </indexconfig>

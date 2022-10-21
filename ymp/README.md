@@ -49,7 +49,5 @@ If you are missing any packages or have other feedback, open an issue at https:/
 
 ## More information
 
-* openSUSE Wiki article about One-Click Installation:
-
-  https://en.opensuse.org/openSUSE:One_Click_Install_Developer
+* [openSUSE Wiki article about One-Click Installation](https://en.opensuse.org/openSUSE:One_Click_Install_Developer)
 

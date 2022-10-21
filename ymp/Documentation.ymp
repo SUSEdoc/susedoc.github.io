@@ -4,6 +4,141 @@
 See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
 -->
 <metapackage xmlns="http://opensuse.org/Standards/One_Click_Install">
+ <group distversion="openSUSE Leap 15.4" recommended="true">
+  <name>SUSE Documentation Tools</name>
+  <summary>Tools for editing SUSE documentation</summary>
+  <description/>
+  <remainSubscribed>true</remainSubscribed>
+  <repositories>
+   <repository>
+    <name>OBS: Documentation:Tools</name>
+    <summary>Open-source documentation tools</summary>
+    <description/>
+    <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.4/</url>
+   </repository>
+   <repository>
+    <name>OBS: Publishing</name>
+    <summary>Publishing tools</summary>
+    <description/>
+    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.4/</url>
+   </repository>
+  </repositories>
+  <software>
+   <!-- Standard -->
+   <item recommended="false">
+    <name>emacs</name>
+    <summary>GNU Emacs Base Package</summary>
+    <description>Basic package for the GNU Emacs editor.</description>
+   </item>
+   <item recommended="false">
+    <name>virt-manager</name>
+    <summary>Virtual Machine Manager</summary>
+    <description>Virtual Machine Manager provides a graphical tool for administering virtual
+     machines for KVM, Xen, and QEmu.</description>
+   </item>
+   <item recommended="false">
+    <name>libvirt</name>
+    <summary>Library providing a simple virtualization API</summary>
+    <description>Libvirt is a C toolkit to interact with the virtualization
+     capabilities of Linux. Virtualization of the Linux Operating System means
+     the ability to run multiple instances of Operating Systems concurrently
+     on a single hardware system where the basic resources are driven by a
+     Linux instance. The library aims to provide long term stable C API
+     to interact with Linux virtualization technologies.</description>
+   </item>
+   <item recommended="false">
+    <name>qemu-kvm</name>
+    <summary>Wrapper to enable KVM acceleration under QEMU</summary>
+    <description>QEMU provides full machine emulation and cross architecture
+     usage. It closely integrates with KVM and Xen virtualization, allowing
+     for excellent performance. Many options are available for defining the
+     emulated environment, including traditional devices, direct host device
+     access, and interfaces specific to virtualization.</description>
+   </item>
+   <item>
+    <name>git</name>
+    <summary>Fast, scalable, distributed revision control system</summary>
+    <description>Git is a fast, scalable, distributed revision control system with an
+     unusually rich command set that provides both high-level operations and
+     full access to internals.</description>
+   </item>
+   <item recommended="false">
+    <name>subversion</name>
+    <summary>Subversion version control system</summary>
+    <description>Subversion exists to be universally recognized and adopted
+     as an open-source, centralized version control system characterized by
+     its reliability as a safe haven for valuable data; the simplicity of its
+     model and usage; and its ability to support the needs of a wide variety
+     of users and projects, from individuals to large-scale enterprise
+     operations.</description>
+   </item>
+   <item recommended="false">
+    <name>meld</name>
+    <summary>Visual diff and merge tool</summary>
+    <description>Meld is a visual diff and merge tool. Two or three files can be
+     compared and be edited in place. (The diffs update dynamically). Two
+     or three directories can be compared and file comparisons be launched.
+     The working copy directory from version control systems such as CVS,
+     Subversion, Bazaar-ng and Mercurial can be browsed and viewed.</description>
+   </item>
+   <item recommended="false">
+    <name>gitg</name>
+    <summary>Git repository viewer</summary>
+    <description>gitg is a GitX clone for GNOME/gtk+. It aims at being a small, fast and
+     convenient tool to visualize git history and actions that benefit from a
+     graphical presentation.</description>
+   </item>
+   <item>
+    <name>docker</name>
+    <summary>The Linux container runtime</summary>
+    <description>Docker complements LXC with a high-level API which operates at the process
+     level. It runs unix processes with strong guarantees of isolation and
+     repeatability across servers.</description>
+   </item>
+   <!-- Documentation:Tools -->
+   <item>
+    <name>daps</name>
+    <summary>DocBook Authoring and Publishing Suite (DAPS)</summary>
+    <description>DAPS contains a set of stylesheets, scripts and makefiles that enable
+     you to create HTML, PDF, EPUB and other formats from DocBook XML with a
+     single command. It also contains tools to generate profiled source
+     tarballs for distributing your XML sources for translation or review.</description>
+   </item>
+   <item>
+    <name>geekodoc</name>
+    <summary>RELAX NG schema</summary>
+    <description>GeekoDoc is a RELAX NG schema used for current SUSE documentation.</description>
+   </item>
+   <item recommended="false">
+    <name>novdoc</name>
+    <summary>DTD/RELAX NG schema</summary>
+    <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
+   </item>
+   <item>
+    <name>suse-documentation-dicts-en</name>
+    <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
+    <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
+     openSUSE documentation.</description>
+   </item>
+   <item>
+    <name>perl-checkbot</name>
+    <summary>WWW Link Verifier</summary>
+    <description>Checkbot is a perl5 script which can verify links within a region of
+     the World Wide Web. It checks all pages within an identified region,
+     and all links within that region. After checking all links within the
+     region, it will also check all links which point outside of the
+     region, and then stop.</description>
+   </item>
+   <!-- Publishing -->
+   <item recommended="false">
+    <name>pdfgrep</name>
+    <summary>Search tool similar to grep</summary>
+    <description>pdfgrep is a tool to search text in PDF files, similar to grep.</description>
+   </item>
+  </software>
+ </group>
+
+
  <group distversion="openSUSE Leap 15.3" recommended="true">
   <name>SUSE Documentation Tools</name>
   <summary>Tools for editing SUSE documentation</summary>
@@ -120,131 +255,14 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
      openSUSE documentation.</description>
    </item>
-   <!-- Publishing -->
-   <item recommended="false">
-    <name>pdfgrep</name>
-    <summary>Search tool similar to grep</summary>
-    <description>pdfgrep is a tool to search text in PDF files, similar to grep.</description>
-   </item>
-  </software>
- </group>
-
-
- <group distversion="openSUSE Leap 15.2" recommended="true">
-  <name>SUSE Documentation Tools</name>
-  <summary>Tools for editing SUSE documentation</summary>
-  <description/>
-  <remainSubscribed>true</remainSubscribed>
-  <repositories>
-   <repository>
-    <name>OBS: Documentation:Tools</name>
-    <summary>Open-source documentation tools</summary>
-    <description/>
-    <url>https://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_Leap_15.2/</url>
-   </repository>
-   <repository>
-    <name>OBS: Publishing</name>
-    <summary>Publishing tools</summary>
-    <description/>
-    <url>https://download.opensuse.org/repositories/Publishing/openSUSE_Leap_15.2/</url>
-   </repository>
-  </repositories>
-  <software>
-   <!-- Standard -->
-   <item recommended="false">
-    <name>emacs</name>
-    <summary>GNU Emacs Base Package</summary>
-    <description>Basic package for the GNU Emacs editor.</description>
-   </item>
-   <item recommended="false">
-    <name>virt-manager</name>
-    <summary>Virtual Machine Manager</summary>
-    <description>Virtual Machine Manager provides a graphical tool for administering virtual
-     machines for KVM, Xen, and QEmu.</description>
-   </item>
-   <item recommended="false">
-    <name>libvirt</name>
-    <summary>Library providing a simple virtualization API</summary>
-    <description>Libvirt is a C toolkit to interact with the virtualization
-     capabilities of Linux. Virtualization of the Linux Operating System means
-     the ability to run multiple instances of Operating Systems concurrently
-     on a single hardware system where the basic resources are driven by a
-     Linux instance. The library aims to provide long term stable C API
-     to interact with Linux virtualization technologies.</description>
-   </item>
-   <item recommended="false">
-    <name>qemu-kvm</name>
-    <summary>Wrapper to enable KVM acceleration under QEMU</summary>
-    <description>QEMU provides full machine emulation and cross architecture
-     usage. It closely integrates with KVM and Xen virtualization, allowing
-     for excellent performance. Many options are available for defining the
-     emulated environment, including traditional devices, direct host device
-     access, and interfaces specific to virtualization.</description>
-   </item>
    <item>
-    <name>git</name>
-    <summary>Fast, scalable, distributed revision control system</summary>
-    <description>Git is a fast, scalable, distributed revision control system with an
-     unusually rich command set that provides both high-level operations and
-     full access to internals.</description>
-   </item>
-   <item recommended="false">
-    <name>subversion</name>
-    <summary>Subversion version control system</summary>
-    <description>Subversion exists to be universally recognized and adopted
-     as an open-source, centralized version control system characterized by
-     its reliability as a safe haven for valuable data; the simplicity of its
-     model and usage; and its ability to support the needs of a wide variety
-     of users and projects, from individuals to large-scale enterprise
-     operations.</description>
-   </item>
-   <item recommended="false">
-    <name>meld</name>
-    <summary>Visual diff and merge tool</summary>
-    <description>Meld is a visual diff and merge tool. Two or three files can be
-     compared and be edited in place. (The diffs update dynamically). Two
-     or three directories can be compared and file comparisons be launched.
-     The working copy directory from version control systems such as CVS,
-     Subversion, Bazaar-ng and Mercurial can be browsed and viewed.</description>
-   </item>
-   <item recommended="false">
-    <name>gitg</name>
-    <summary>Git repository viewer</summary>
-    <description>gitg is a GitX clone for GNOME/gtk+. It aims at being a small, fast and
-     convenient tool to visualize git history and actions that benefit from a
-     graphical presentation.</description>
-   </item>
-   <item recommended="false">
-    <name>docker</name>
-    <summary>The Linux container runtime</summary>
-    <description>Docker complements LXC with a high-level API which operates at the process
-     level. It runs unix processes with strong guarantees of isolation and
-     repeatability across servers.</description>
-   </item>
-   <!-- Documentation:Tools -->
-   <item>
-    <name>daps</name>
-    <summary>DocBook Authoring and Publishing Suite (DAPS)</summary>
-    <description>DAPS contains a set of stylesheets, scripts and makefiles that enable
-     you to create HTML, PDF, EPUB and other formats from DocBook XML with a
-     single command. It also contains tools to generate profiled source
-     tarballs for distributing your XML sources for translation or review.</description>
-   </item>
-   <item>
-    <name>geekodoc</name>
-    <summary>RELAX NG schema</summary>
-    <description>GeekoDoc is a RELAX NG schema used for current SUSE documentation.</description>
-   </item>
-   <item>
-    <name>novdoc</name>
-    <summary>DTD/RELAX NG schema</summary>
-    <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>
-   </item>
-   <item>
-    <name>suse-documentation-dicts-en</name>
-    <summary>Spellcheck Dictionaries for SUSE Documentation</summary>
-    <description>English Dictionaries for aspell, Hunspell, and Vim to spellcheck SUSE and
-     openSUSE documentation.</description>
+    <name>perl-checkbot</name>
+    <summary>WWW Link Verifier</summary>
+    <description>Checkbot is a perl5 script which can verify links within a region of
+     the World Wide Web. It checks all pages within an identified region,
+     and all links within that region. After checking all links within the
+     region, it will also check all links which point outside of the
+     region, and then stop.</description>
    </item>
    <!-- Publishing -->
    <item recommended="false">
@@ -340,7 +358,7 @@ machines for KVM, Xen, and QEmu.</description>
     convenient tool to visualize git history and actions that benefit from a
     graphical presentation.</description>
    </item>
-   <item recommended="false">
+   <item>
     <name>docker</name>
     <summary>The Linux container runtime</summary>
     <description>Docker complements LXC with a high-level API which operates at the process
@@ -361,7 +379,7 @@ tarballs for distributing your XML sources for translation or review.</descripti
     <summary>RELAX NG schema</summary>
     <description>GeekoDoc is a RELAX NG schema used for current SUSE documentation.</description>
    </item>
-   <item>
+   <item recommended="false">
     <name>novdoc</name>
     <summary>DTD/RELAX NG schema</summary>
     <description>NovDoc is a DTD/RELAX NG schema used for older SUSE documentation.</description>

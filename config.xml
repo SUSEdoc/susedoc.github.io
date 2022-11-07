@@ -112,13 +112,13 @@
   <doc cat="sles"  doc="SLES-minimal-vm"   branches="main SLE15SP4">Minimal VM Quick Start Guide</doc>
 
 
-  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2">Deployment Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 SLE_Micro_5.2">AutoYaST Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE_Micro_5.1 SLE_Micro_5.2">Upgrade Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2">Administration Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2">Podman Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2">Security Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-cockpit" branches="main">Cockpit Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Deployment Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">AutoYaST Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Upgrade Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Administration Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Podman Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Security Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-cockpit" branches="main SLE_Micro_5.3">Cockpit Guide</doc>
 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP4 SLE15SP3">Administration Guide</doc>

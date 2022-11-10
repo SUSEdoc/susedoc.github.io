@@ -265,10 +265,10 @@
   <doc cat="styleguide" doc="docu_styleguide_with_changes" outputname="style-guide-with-change-log" branches="main">Style Guide with Change Log</doc>
 
   <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5" formats="html">SUSE Linux Enterprise Server</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4" formats="html">SUSE Linux Enterprise Desktop</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4" formats="html">SUSE Linux Enterprise Server for SAP Applications</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5" formats="html">SUSE Linux Enterprise Desktop</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5" formats="html">SUSE Linux Enterprise Server for SAP Applications</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
   <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9</doc>
   <doc cat="liberty" doc="quickstart" branches="maintenance/SLL8">Registering RHEL 8 or CentOS Linux 8</doc>

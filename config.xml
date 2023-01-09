@@ -279,5 +279,6 @@
   <doc cat="unvers" doc="container-guide/SLES-container" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
   <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="SLES-SAP-trento" branches="main">Getting started with Trento Premium</doc>
+  <doc cat="unvers" doc="kubevirt/SLE-kubevirt" outputname="SLE-kubevirt" branches="main">Using KubeVirt on SUSE Linux Enterprise</doc>
   
 </indexconfig>

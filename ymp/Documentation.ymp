@@ -117,6 +117,13 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
      review.</description>
    </item>
    <item>
+    <name>daps2docker</name>
+    <summary>Build DAPS-compatible documentation within a container</summary>
+    <description>A script which allows building DAPS-compliant DocBook and
+     AsciiDoc documents within a container. Allows using Docker (default) or
+     Podman 1.1.0 or higher as the container engine.</description>
+   </item>
+   <item>
     <name>geekodoc</name>
     <summary>RELAX NG schema</summary>
     <description>GeekoDoc is a RELAX NG schema used for current SUSE
@@ -268,6 +275,13 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <description>GeekoDoc is a RELAX NG schema used for current SUSE
      documentation.</description>
    </item>
+   <item>
+    <name>daps2docker</name>
+    <summary>Build DAPS-compatible documentation within a container</summary>
+    <description>A script which allows building DAPS-compliant DocBook and
+     AsciiDoc documents within a container. Allows using Docker (default) or
+     Podman 1.1.0 or higher as the container engine.</description>
+   </item>
    <item recommended="false">
     <name>novdoc</name>
     <summary>DTD/RELAX NG schema</summary>
@@ -413,6 +427,13 @@ See also: https://en.opensuse.org/openSUSE:One_Click_Install_Developer
     <summary>RELAX NG schema</summary>
     <description>GeekoDoc is a RELAX NG schema used for current SUSE
      documentation.</description>
+   </item>
+   <item>
+    <name>daps2docker</name>
+    <summary>Build DAPS-compatible documentation within a container</summary>
+    <description>A script which allows building DAPS-compliant DocBook and
+     AsciiDoc documents within a container. Allows using Docker (default) or
+     Podman 1.1.0 or higher as the container engine.</description>
    </item>
    <item recommended="false">
     <name>novdoc</name>

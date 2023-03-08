@@ -144,7 +144,7 @@
   <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Geo Clustering Quick Start (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Geo Clustering Guide (previous)</doc>
 
-  
+
   <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main SLERT15SP3">Hardware Testing</doc>
   <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main SLERT15SP3">Setup Guide</doc>
   <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP3 SLERT15SP2 SLERT15SP1 SLERT12SP5">Shielding Linux Resources</doc>
@@ -280,5 +280,6 @@
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
   <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="SLES-SAP-trento" branches="main">Getting started with Trento Premium</doc>
   <doc cat="unvers" doc="kubevirt/SLE-kubevirt" outputname="SLE-kubevirt" branches="main">Using KubeVirt on SUSE Linux Enterprise</doc>
-  
+  <doc cat="unvers" doc="sap-ha-support/sap-ha-support" outputname="sap-ha-support" branches="main">Supported High Availability Solutions by SLES for SAP Applications</doc>
+
 </indexconfig>

@@ -73,6 +73,7 @@
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
     <cat id="liberty"    repo="doc-liberty">SUSE Liberty Linux</cat>
     <cat id="unvers"     repo="doc-unversioned">SUSE Linux Enterprise unversioned</cat>
+    <cat id="submgt"     repo="doc-unversioned">Subscription Management</cat>
   </cats>
 
   <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>
@@ -284,4 +285,5 @@
   <doc cat="unvers" doc="kubevirt/SLE-kubevirt" outputname="SLE-kubevirt" branches="main">Using KubeVirt on SUSE Linux Enterprise</doc>
   <doc cat="unvers" doc="sap-ha-support/sap-ha-support" outputname="sap-ha-support" branches="main">Supported High Availability Solutions by SLES for SAP Applications</doc>
 
+  <doc cat="submgt" doc="scc-hypervisor-collector/SLE-scc-hypervisor-collector" outputname="SLE-scc-hypervisor-collector" branches="main">Collecting hypervisor details in SUSE Customer Center</doc>
 </indexconfig>

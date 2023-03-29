@@ -54,6 +54,7 @@
     <cat id="release-notes" repo="release-notes">Release Notes</cat>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
+    <cat id="modular-micro"  repo="doc-modular">SUSE Linux Enterprise Micro</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
@@ -120,6 +121,7 @@
   <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Podman Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Security Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-cockpit" branches="main SLE_Micro_5.3 SLE_Micro_5.4">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="main">SLE Micro in Public Clouds</doc>
 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP4 SLE15SP3">Administration Guide</doc>

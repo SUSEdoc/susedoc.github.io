@@ -226,7 +226,6 @@
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
 
   <doc cat="smartdocs" doc="concept-bci" branches="main">Introduction to SLES base container images</doc>
-  <doc cat="smartdocs" doc="concept-bci-variants" branches="main">BCI-Base, BCI-Minimal, BCI-Micro, and BCI-BusyBox</doc>
   <doc cat="smartdocs" doc="concept-bci-get-started" branches="main">Getting started with SLE Base Container Images</doc>
   <doc cat="smartdocs" doc="concept-minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="concept-klp" branches="main">Kernel Live Patching Concept</doc>

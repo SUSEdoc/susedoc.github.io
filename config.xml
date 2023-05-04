@@ -227,7 +227,7 @@
 
   <doc cat="smartdocs" doc="concept-bci" branches="main">Introduction to SLES base container images</doc>
   <doc cat="smartdocs" doc="concept-bci-get-started" branches="main">Getting started with SLE Base Container Images</doc>
-  <doc cat="smartdocs" doc="concept-minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="minivm-intro" branches="main">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="concept-klp" branches="main">Kernel Live Patching Concept</doc>
   <doc cat="smartdocs" doc="concept-manage-virtual-machines-libvirt" branches="main">Managing virtual machines with libvirt: Basic Concept</doc>
   <doc cat="smartdocs" doc="concept-sudo" branches="main">sudo: Basic Concept</doc>

@@ -232,7 +232,7 @@
   <doc cat="smartdocs" doc="concept-manage-virtual-machines-libvirt" branches="main">Managing virtual machines with libvirt: Basic Concept</doc>
   <doc cat="smartdocs" doc="concept-sudo" branches="main">sudo: Basic Concept</doc>
   <doc cat="smartdocs" doc="concept-systemd" branches="main">Basic systemd Concepts</doc>
-  <doc cat="smartdocs" doc="concept-time-synchronization-ntp" branches="main">Time synchronization with NTP: Basic Concept</doc>
+  <doc cat="smartdocs" doc="ntp-time-synchronization" branches="main">Time synchronization using NTP</doc>
   <doc cat="smartdocs" doc="concept-virtual-disk-cache-modes" branches="main">Virtual disk cache: Basic concept</doc>
   <doc cat="smartdocs" doc="concept-virtualization" branches="main">Virtualization: Basic concept</doc>
   <doc cat="smartdocs" doc="concept-zypper" branches="main">Zypper package manager</doc>
@@ -244,8 +244,7 @@
   <doc cat="smartdocs" doc="task-add-modules-extensions-after-installation" branches="main">Adding modules and extensions after installation</doc>
   <doc cat="smartdocs" doc="task-assign-pci-device-libvirt" branches="main">Assigning a PCI device to a virtual machine</doc>
   <doc cat="smartdocs" doc="task-check-cpu-temperature" branches="main">Checking CPU temperature</doc>
-  <doc cat="smartdocs" doc="task-configure-ntp" branches="main">Configuring NTP time synchronization</doc>
-  <doc cat="smartdocs" doc="task-configure-sudo" branches="main">Configuring sudo</doc>
+    <doc cat="smartdocs" doc="task-configure-sudo" branches="main">Configuring sudo</doc>
   <doc cat="smartdocs" doc="task-configure-virtual-machine-manager" branches="main">Configuring virtual machines with Virtual Machine Manager</doc>
   <doc cat="smartdocs" doc="task-create-systemd-timers" branches="main">Working with systemd timers</doc>
   <doc cat="smartdocs" doc="task-debug-failed-systemd-services" branches="main">Debugging failed systemd services</doc>

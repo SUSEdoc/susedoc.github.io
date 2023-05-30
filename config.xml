@@ -258,11 +258,14 @@
   <doc cat="smartdocs" doc="task-set-up-uefi-http-boot-server" branches="main">Setting up a UEFI HTTP Boot server</doc>
   <doc cat="smartdocs" doc="task-working-sudo" branches="main">Working with sudo</doc>
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
-
+  
   <!-- ALP -->
   <doc cat="smartdocs" doc="alp-micro" branches="main">The SUSE ALP Micro Guide</doc>
   <doc cat="smartdocs" doc="alp-bedrock" branches="main">The SUSE ALP Bedrock Guide</doc>
 
+  <!-- SLE Micro -->
+  <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit guide</doc>
+  
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>
 

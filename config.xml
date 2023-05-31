@@ -258,6 +258,7 @@
   <doc cat="smartdocs" doc="task-set-up-uefi-http-boot-server" branches="main">Setting up a UEFI HTTP Boot server</doc>
   <doc cat="smartdocs" doc="task-working-sudo" branches="main">Working with sudo</doc>
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
+  <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   
   <!-- ALP -->
   <doc cat="smartdocs" doc="alp-micro" branches="main">The SUSE ALP Micro Guide</doc>

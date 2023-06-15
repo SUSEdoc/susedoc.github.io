@@ -265,7 +265,8 @@
   <doc cat="smartdocs" doc="alp-bedrock" branches="main">The SUSE ALP Bedrock Guide</doc>
 
   <!-- SLE Micro -->
-  <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit guide</doc>
+  <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
+  <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>

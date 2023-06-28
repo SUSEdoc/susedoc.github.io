@@ -262,7 +262,7 @@
   
   <!-- ALP -->
   <doc cat="smartdocs" doc="alp-micro" branches="main">The SUSE ALP Micro Guide</doc>
-  <doc cat="smartdocs" doc="alp-bedrock" branches="main">The SUSE ALP Bedrock Guide</doc>
+  <!-- <doc cat="smartdocs" doc="alp-bedrock" branches="main">The SUSE ALP Bedrock Guide</doc> -->
 
   <!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>

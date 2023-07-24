@@ -260,11 +260,11 @@
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   
-  <!-- ALP -->
+<!-- ALP -->
   <doc cat="smartdocs" doc="alp-micro" branches="main">The SUSE ALP Micro Guide</doc>
-  <!-- <doc cat="smartdocs" doc="alp-bedrock" branches="main">The SUSE ALP Bedrock Guide</doc> -->
+  <doc cat="smartdocs" doc="cockpit-alp-micro" branches="main">The SUSE ALP Micro Cockpit Guide</doc>
 
-  <!-- SLE Micro -->
+<!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
   <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   

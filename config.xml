@@ -261,8 +261,8 @@
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   
 <!-- ALP -->
-  <doc cat="smartdocs" doc="alp-micro" branches="main">The SUSE ALP Micro Guide</doc>
-  <doc cat="smartdocs" doc="cockpit-alp-micro" branches="main">The SUSE ALP Micro Cockpit Guide</doc>
+  <doc cat="smartdocs" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
+  <doc cat="smartdocs" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
 
 <!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>

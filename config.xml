@@ -114,11 +114,11 @@
   <doc cat="sles"  doc="SLES-minimal-vm"   branches="main SLE15SP4">Minimal VM Quick Start Guide</doc>
 
 
-  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Deployment Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">AutoYaST Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Upgrade Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Podman Guide</doc>
-  <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Security Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Deployment Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">AutoYaST Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-upgrade" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Upgrade Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Podman Guide</doc>
+  <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Security Guide</doc>
   <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="main">SLE Micro in Public Clouds</doc>
   <doc cat="modular-micro" doc="SLE-Micro-admin" branches="main">Administration Guide</doc>
   <doc cat="modular-micro" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>

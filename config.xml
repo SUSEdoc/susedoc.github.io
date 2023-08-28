@@ -245,7 +245,6 @@
   <doc cat="smartdocs" doc="task-assign-pci-device-libvirt" branches="main">Assigning a PCI device to a virtual machine</doc>
   <doc cat="smartdocs" doc="task-check-cpu-temperature" branches="main">Checking CPU temperature</doc>
   <doc cat="smartdocs" doc="task-configure-virtual-machine-manager" branches="main">Configuring virtual machines with Virtual Machine Manager</doc>
-  <doc cat="smartdocs" doc="task-create-systemd-timers" branches="main">Working with systemd timers</doc>
   <doc cat="smartdocs" doc="task-debug-failed-systemd-services" branches="main">Debugging failed systemd services</doc>
   <doc cat="smartdocs" doc="task-delete-modules-extensions" branches="main">Deleting modules and extensions</doc>
   <doc cat="smartdocs" doc="forward-root-mail" branches="main">Configuring mail forwarding for root</doc>

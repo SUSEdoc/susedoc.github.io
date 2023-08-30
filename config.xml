@@ -257,6 +257,7 @@
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
+  <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="main">Creating customized virtual machines using virt-scenario</doc>
   
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>

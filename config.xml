@@ -253,7 +253,7 @@
   <doc cat="smartdocs" doc="task-modify-kernel-boot-parameter" branches="main">Modifying kernel boot parameters</doc>
   <doc cat="smartdocs" doc="task-register-deregister-product-after-installation" branches="main">Registering and deregistering your product after installation</doc>
   <doc cat="smartdocs" doc="task-send-termination-signals-systemd" branches="main">Sending termination signals to systemd services</doc>
-  <doc cat="smartdocs" doc="task-setup-free-radius-server" branches="main">Setting up a FreeRADIUS server</doc>
+  <doc cat="smartdocs" doc="freeradius-setup-server" branches="main">Setting up a FreeRADIUS server</doc>
   <doc cat="smartdocs" doc="task-set-up-uefi-http-boot-server" branches="main">Setting up a UEFI HTTP Boot server</doc>
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>

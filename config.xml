@@ -84,35 +84,35 @@
   <redirect from="sle-ha-15sp4-rn" to="release-notes/sle-ha-15_SP4/html/release-notes/"/>
   <redirect from="sle-hpc-15sp4-rn" to="release-notes/sle-hpc-15_SP4/html/release-notes/"/>
 
-  <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP4 SLE15SP3">Administration Guide</doc>
-  <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP4 SLE15SP3">GNOME User Guide</doc>
-  <doc cat="sles"  doc="SLES-installation" branches="main SLE15SP4 SLE15SP3">Installation Quick Start</doc>
-  <doc cat="sles"  doc="SLES-modules"      branches="main SLE15SP4 SLE15SP3">Modules and Extensions Quick Start</doc>
-  <doc cat="sles"  doc="SLES-raspberry-pi" branches="main SLE15SP4 SLE15SP3">Raspberry Pi Quick Start</doc>
-  <doc cat="sles"  doc="SLES-virtualization-best-practices" branches="main SLE15SP4 SLE15SP3">Virtualization Best Practices</doc>
+  <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
+  <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>
+  <doc cat="sles"  doc="SLES-installation" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Installation Quick Start</doc>
+  <doc cat="sles"  doc="SLES-modules"      branches="main SLE15SP5 SLE15SP4 SLE15SP3">Modules and Extensions Quick Start</doc>
+  <doc cat="sles"  doc="SLES-raspberry-pi" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Raspberry Pi Quick Start</doc>
+  <doc cat="sles"  doc="SLES-virtualization-best-practices" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Virtualization Best Practices</doc>
 
   <doc cat="sles"  doc="SLES-admin"        branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Administration Guide (previous)</doc>
-  <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
-  <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AutoYaST Guide</doc>
-  <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Deployment Guide</doc>
+  <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
+  <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">AutoYaST Guide</doc>
+  <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Deployment Guide</doc>
   <doc cat="sles"  doc="SLES-dockerquick"  branches="SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Docker Guide</doc>
   <doc cat="sles"  doc="SLES-gnomeuser"    branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">GNOME User Guide (previous)</doc>
   <doc cat="sles"  doc="SLES-hardening"    branches="SLE12SP5 SLE12SP4">Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-installquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Installation Quick Start (previous)</doc>
   <doc cat="sles"  doc="SLES-kgraft"       branches="SLE12SP5 SLE12SP4 SLE12SP3">kGraft Guide</doc>
   <doc cat="sles"  doc="SLES-modulesquick" branches="SLE15SP2 SLE15SP1 SLE15SP0">Modules and Extensions Quick Start (previous)</doc>
-  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Security and Hardening Guide</doc>
+  <doc cat="sles"  doc="SLES-security"     branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Security and Hardening Guide</doc>
   <doc cat="sles"  doc="SLES-rpi-quick"    branches="SLE15SP2 SLE15SP1 SLE15SP0">Raspberry Pi Quick Start (previous)</doc>
-  <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
+  <doc cat="sles"  doc="SLES-rmt"          branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">RMT Guide</doc>
   <doc cat="sles"  doc="SLES-smt"          branches="SLE12SP5 SLE12SP4">SMT Guide</doc>
-  <doc cat="sles"  doc="SLES-storage"      branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Storage Guide</doc>
-  <doc cat="sles"  doc="SLES-tuning"       branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">System Analysis and Tuning Guide</doc>
-  <doc cat="sles"  doc="SLES-upgrade"      branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
-  <doc cat="sles"  doc="SLES-virtualization" branches="main SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Virtualization Guide</doc>
+  <doc cat="sles"  doc="SLES-storage"      branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Storage Guide</doc>
+  <doc cat="sles"  doc="SLES-tuning"       branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">System Analysis and Tuning Guide</doc>
+  <doc cat="sles"  doc="SLES-upgrade"      branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0">Upgrade Guide</doc>
+  <doc cat="sles"  doc="SLES-virtualization" branches="main SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Virtualization Guide</doc>
   <doc cat="sles"  doc="SLES-vt-best-practices" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Virtualization Best Practices (previous)</doc>
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE15SP1 SLE15SP0 SLE12SP5 SLE12SP4">Xen to KVM Migration Guide</doc>
   <doc cat="sles"  doc="SLES-jeos"         branches="SLE15SP3 SLE15SP2">JeOS Guide</doc>
-  <doc cat="sles"  doc="SLES-minimal-vm"   branches="main SLE15SP4">Minimal VM Quick Start Guide</doc>
+  <doc cat="sles"  doc="SLES-minimal-vm"   branches="main SLE15SP5 SLE15SP4">Minimal VM Quick Start Guide</doc>
 
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Deployment Guide</doc>
@@ -126,21 +126,21 @@
   <doc cat="modular-micro" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>
 
 
-  <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP4 SLE15SP3">Administration Guide</doc>
-  <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP4 SLE15SP3">GNOME User Guide</doc>
-  <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP4 SLE15SP3">Installation Guide</doc>
-  <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP4 SLE15SP3">Modules and Extensions Quick Start</doc>
-  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP4 SLE15SP3">Deployment Guide</doc>
-  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP4 SLE15SP3">Security and Hardening Guide</doc>
-  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP4 SLE15SP3">System Analysis and Tuning Guide</doc>
-  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP4 SLE15SP3">Upgrade Guide</doc>
+  <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
+  <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>
+  <doc cat="sled"  doc="SLED-installation" branches="main SLE15SP5 SLE15SP4 SLE15SP3">Installation Guide</doc>
+  <doc cat="sled"  doc="SLED-modules"      branches="main SLE15SP5 SLE15SP4 SLE15SP3">Modules and Extensions Quick Start</doc>
+  <doc cat="sled"  doc="SLED-deployment"   branches="main SLE15SP5 SLE15SP4 SLE15SP3">Deployment Guide</doc>
+  <doc cat="sled"  doc="SLED-security"     branches="main SLE15SP5 SLE15SP4 SLE15SP3">Security and Hardening Guide</doc>
+  <doc cat="sled"  doc="SLED-tuning"       branches="main SLE15SP5 SLE15SP4 SLE15SP3">System Analysis and Tuning Guide</doc>
+  <doc cat="sled"  doc="SLED-upgrade"      branches="main SLE15SP5 SLE15SP4 SLE15SP3">Upgrade Guide</doc>
 
-  <doc cat="sle-ha" doc="SLE-HA-administration"       branches="main SLEHA15SP4 SLEHA15SP3">Administration Guide</doc>
-  <doc cat="sle-ha" doc="SLE-HA-installation"         branches="main SLEHA15SP4 SLEHA15SP3">Installation and Setup Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-nfs-storage"          branches="main SLEHA15SP4 SLEHA15SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
-  <doc cat="sle-ha" doc="SLE-HA-pacemaker-remote"     branches="main SLEHA15SP4 SLEHA15SP3">Pacemaker Remote Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-clustering"       branches="main SLEHA15SP4 SLEHA15SP3">Geo Clustering Quick Start</doc>
-  <doc cat="sle-ha" doc="SLE-HA-geo-clustering-guide" branches="main SLEHA15SP4 SLEHA15SP3">Geo Clustering Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-administration"       branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Administration Guide</doc>
+  <doc cat="sle-ha" doc="SLE-HA-installation"         branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Installation and Setup Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-nfs-storage"          branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Highly Available NFS Storage with DRBD and Pacemaker</doc>
+  <doc cat="sle-ha" doc="SLE-HA-pacemaker-remote"     branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Pacemaker Remote Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-clustering"       branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Geo Clustering Quick Start</doc>
+  <doc cat="sle-ha" doc="SLE-HA-geo-clustering-guide" branches="main SLEHA15SP5 SLEHA15SP4 SLEHA15SP3">Geo Clustering Guide</doc>
 
   <doc cat="sle-ha" doc="SLE-HA-guide"      branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Administration Guide (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-install-quick" branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Installation and Setup Quick Start (previous)</doc>
@@ -150,20 +150,20 @@
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Geo Clustering Guide (previous)</doc>
 
 
-  <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main SLERT15SP3">Hardware Testing</doc>
-  <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main SLERT15SP3">Setup Guide</doc>
-  <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP3 SLERT15SP2 SLERT15SP1 SLERT12SP5">Shielding Linux Resources</doc>
-  <doc cat="sle-rt" doc="SLE-RT-virtualization"        branches="main SLERT15SP3">Virtualization Guide</doc>
+  <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3">Hardware Testing</doc>
+  <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3">Setup Guide</doc>
+  <doc cat="sle-rt" doc="SLE-RT-shielding"             branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3 SLERT15SP2 SLERT15SP1 SLERT12SP5">Shielding Linux Resources</doc>
+  <doc cat="sle-rt" doc="SLE-RT-virtualization"        branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3">Virtualization Guide</doc>
 
   <doc cat="sle-rt" doc="SLE-RT-hw"         branches="SLERT15SP2 SLERT15SP1 SLERT12SP5">Hardware Testing (previous)</doc>
   <doc cat="sle-rt" doc="SLE-RT-quick"      branches="SLERT15SP2 SLERT15SP1 SLERT12SP5">Quick Start (previous)</doc>
   <doc cat="sle-rt" doc="SLE-RT-virtguide"  branches="SLERT15SP2 SLERT15SP1 SLERT12SP5">Virtualization Guide (previous)</doc>
 
-  <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main 15_SP4 15_SP3">Quick Start</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main 15_SP4 15_SP3">SAP Automation</doc>
-  <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main 15_SP4 15_SP3">SAP Monitoring</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-installation" branches="main 15_SP5 15_SP4 15_SP3">Quick Start</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-automation" branches="main 15_SP5 15_SP4 15_SP3">SAP Automation</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-monitoring" branches="main 15_SP5 15_SP4 15_SP3">SAP Monitoring</doc>
 
-  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP4 15_SP3 15_SP2">Guide</doc>
+  <doc cat="sles-sap" doc="SLES-SAP-guide" branches="main 15_SP5 15_SP4 15_SP3 15_SP2">Guide</doc>
   <doc cat="sles-sap" doc="SLES-SAP-quick" branches="15_SP2">Quick Start (previous, #1)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="15_SP1 15_GA 12_SP5 12_SP4">Guide (previous)</doc>
   <doc cat="sles-sap" doc="SLES4SAP-quick" branches="15_SP1 15_GA">Quick Start (previous, #2)</doc>
@@ -171,7 +171,7 @@
   <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring (previous)</doc>
 
 
-  <doc cat="sle-hpc"  doc="hpc-guide"      branches="main SLE15SP4 SLE15SP3">HPC Guide</doc>
+  <doc cat="sle-hpc"  doc="hpc-guide"      branches="main SLE15SP5 SLE15SP4 SLE15SP3">HPC Guide</doc>
 
 
   <doc cat="opensuse" doc="opensuse-autoyast"  branches="main">AutoYaST Guide</doc>

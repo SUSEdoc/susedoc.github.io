@@ -260,7 +260,7 @@
   <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="main">Creating customized virtual machines using virt-scenario</doc>
   <doc cat="smartdocs" doc="network-bond-managing-devices" branches="main">Managing network bonding devices</doc>
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
-  <doc cat="smartdocs" doc="systemd-basics="main">systemd basics</doc>
+  <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
   
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>

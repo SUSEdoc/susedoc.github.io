@@ -228,7 +228,7 @@
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
 
   <doc cat="smartdocs" doc="rootless-podman" branches="main">Rootless containers with Podman</doc>
-  <doc cat="smartdocs" doc="minvm-intro" branches="main">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="concept-klp" branches="main">Kernel Live Patching Concept</doc>
   <doc cat="smartdocs" doc="concept-manage-virtual-machines-libvirt" branches="main">Managing virtual machines with libvirt: Basic Concept</doc>
   <doc cat="smartdocs" doc="concept-systemd" branches="main">Basic systemd Concepts</doc>

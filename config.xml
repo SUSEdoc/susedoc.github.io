@@ -113,6 +113,7 @@
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE12SP5 SLE12SP4">Xen to KVM Migration Guide</doc>
   <doc cat="sles"  doc="SLES-jeos"         branches="SLE15SP3 SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLES-minimal-vm"   branches="main SLE15SP5 SLE15SP4">Minimal VM Quick Start Guide</doc>
+  <doc cat="sles"  doc="SLE-kubevirt"      branches="main">Using KubeVirt on SUSE Linux Enterprise</doc>
 
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Deployment Guide</doc>
@@ -293,7 +294,6 @@
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
   <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="SLES-SAP-trento" branches="main">Getting started with Trento Premium</doc>
-  <doc cat="unvers" doc="kubevirt/SLE-kubevirt" outputname="SLE-kubevirt" branches="main">Using KubeVirt on SUSE Linux Enterprise</doc>
   <doc cat="unvers" doc="sap-ha-support/sap-ha-support" outputname="sap-ha-support" branches="main">Supported High Availability Solutions by SLES for SAP Applications</doc>
 
   <doc cat="submgt" doc="scc-hypervisor-collector/SLE-scc-hypervisor-collector" outputname="SLE-scc-hypervisor-collector" branches="main">Collecting hypervisor details in SUSE Customer Center</doc>

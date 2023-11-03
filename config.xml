@@ -265,7 +265,7 @@
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
   <doc cat="alp" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
-  <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
+  <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
 
 <!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>

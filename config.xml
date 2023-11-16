@@ -280,10 +280,10 @@
   <doc cat="styleguide" doc="docu_styleguide" outputname="style-guide" branches="main">Style Guide</doc>
 
   <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5 sles-15_SP6" formats="html">SUSE Linux Enterprise Server</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5" formats="html">SUSE Linux Enterprise Desktop</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5" formats="html">SUSE Linux Enterprise Server for SAP Applications</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5 sled-15_SP6" formats="html">SUSE Linux Enterprise Desktop</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5 sle-sap-15_SP6" formats="html">SUSE Linux Enterprise Server for SAP Applications</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5 sle-ha-15_SP6" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5 sle-hpc-15_SP6" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
   <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9</doc>
   <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8</doc>

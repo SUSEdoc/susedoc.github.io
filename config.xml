@@ -263,6 +263,7 @@
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
   <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
+  <doc cat="smartdocs" doc="elemental" branches="main">Elemental teal</doc>
   
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>

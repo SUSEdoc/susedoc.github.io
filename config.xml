@@ -252,7 +252,6 @@
   <doc cat="smartdocs" doc="task-install-virtualization-components" branches="main">Installing virtualization components </doc>
   <doc cat="smartdocs" doc="task-modify-kernel-boot-parameter" branches="main">Modifying kernel boot parameters</doc>
   <doc cat="smartdocs" doc="task-register-deregister-product-after-installation" branches="main">Registering and deregistering your product after installation</doc>
-  <doc cat="smartdocs" doc="task-send-termination-signals-systemd" branches="main">Sending termination signals to systemd services</doc>
   <doc cat="smartdocs" doc="freeradius-setup-server" branches="main">Setting up a FreeRADIUS server</doc>
   <doc cat="smartdocs" doc="task-set-up-uefi-http-boot-server" branches="main">Setting up a UEFI HTTP Boot server</doc>
   <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
@@ -264,7 +263,7 @@
   <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="smartdocs" doc="elemental" branches="main">Elemental teal</doc>
-  
+
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
   <doc cat="alp" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
@@ -275,7 +274,7 @@
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
   <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>
-  
+
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>
 

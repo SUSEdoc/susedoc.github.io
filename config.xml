@@ -265,6 +265,7 @@
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="smartdocs" doc="elemental" branches="main">Elemental teal</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
+  <doc cat="smartdocs" doc="transactional-updates-marble" branches="main">About the transactional-update command</doc>
 
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>

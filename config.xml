@@ -301,6 +301,7 @@
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
   <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="SLES-SAP-trento" branches="main">Getting started with Trento Premium</doc>
   <doc cat="unvers" doc="sap-ha-support/sap-ha-support" outputname="sap-ha-support" branches="main">Supported High Availability Solutions by SLES for SAP Applications</doc>
+  <doc cat="unvers" doc="licenses/gfdl" outputname="licenses" branches="main">Licenses</doc>
 
   <doc cat="submgt" doc="scc-hypervisor-collector/SLE-scc-hypervisor-collector" outputname="SLE-scc-hypervisor-collector" branches="main">Collecting hypervisor details in SUSE Customer Center</doc>
 </indexconfig>

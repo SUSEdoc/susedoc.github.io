@@ -234,7 +234,7 @@
   <doc cat="smartdocs" doc="rootless-podman" branches="main">Rootless containers with Podman</doc>
   <doc cat="smartdocs" doc="minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="concept-klp" branches="main">Kernel Live Patching Concept</doc>
-  <doc cat="smartdocs" doc="concept-manage-virtual-machines-libvirt" branches="main">Managing virtual machines with libvirt: Basic Concept</doc>
+  <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="main">Unified Virtual Machine Administration using libvirt</doc>
   <doc cat="smartdocs" doc="ntp-time-synchronization" branches="main">Time synchronization using NTP</doc>
   <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="main">Configuring a Virtual Disk Cache Mode</doc>
   <doc cat="smartdocs" doc="virtualization" branches="main">Virtualization</doc>

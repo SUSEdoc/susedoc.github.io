@@ -266,7 +266,7 @@
   <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
   <doc cat="smartdocs" doc="systemd-securing" branches="main">Securing systemd Services</doc>
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
-  <doc cat="smartdocs" doc="elemental" branches="main">Elemental teal</doc>
+  <doc cat="smartdocs" doc="Rancher-OS" branches="main">Rancher-OS</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
   <doc cat="smartdocs" doc="transactional-updates-marble" branches="main">About the transactional-update command</doc>
   <doc cat="smartdocs" doc="SLE-Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>

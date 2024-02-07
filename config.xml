@@ -129,6 +129,7 @@
   <doc cat="modular-micro" doc="transactional-updates-marble" branches="main">About the transactional-update command</doc>
   <doc cat="modular-micro" doc="SLE-Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
   <doc cat="modular-micro" doc="SLE-Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-deployment-raw-images-virtual-machines" branches="main">Deployment of raw images on virtual machines</doc>
 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP5 SLE15SP4">Administration Guide</doc>

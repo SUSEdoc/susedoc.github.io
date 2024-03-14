@@ -298,9 +298,10 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5 sle-ha-15_SP6" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5 sle-hpc-15_SP6" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
-  <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9</doc>
-  <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8</doc>
-  <doc cat="liberty" doc="quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7</doc>
+  <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9 with RMT</doc>
+  <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with RMT</doc>
+  <doc cat="liberty" doc="quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with RMT</doc>
+  <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SMT</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>

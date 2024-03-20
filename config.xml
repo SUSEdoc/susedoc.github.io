@@ -276,13 +276,13 @@
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
   <doc cat="alp" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
-  <doc cat="alp" doc="alp-deployment" branches="main">Introduction to ALP deployment</doc>
   <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
 
 <!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
   <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>
+  <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
 
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>

@@ -124,12 +124,25 @@
   <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Administration Guide</doc>
   <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="main">SLE Micro in Public Clouds</doc>
   <doc cat="modular-micro" doc="SLE-Micro-admin" branches="main">Administration Guide</doc>
-  <doc cat="modular-micro" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-security" branches="main">Security Guide</doc>
-  <doc cat="modular-micro" doc="transactional-updates-marble" branches="main">About the transactional-update command</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-deployment-raw-images-virtual-machines" branches="main">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-security" branches="main">Security Guide</doc>  
+  <doc cat="modular-micro" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
+  <doc cat="modular-micro" doc="Micro-PAM-security" branches="main">PAM security</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="main">NTP synchronization</doc>
+  <doc cat="modular-micro" doc="Micro-selinux" branches="main">SELinux basics</doc>
+  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="main">setroubleshoot to analyze SELinux denial messages</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="main">Configuring superuser privileges</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="main">Run commands as a superuser</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="main">systemd basics</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="main">Configuring systemd timers</doc>
+  <doc cat="modular-micro" doc="Micro-raids" branches="main">Software RAID</doc>
+  <doc cat="modular-micro" doc="Rancher-OS" branches="main">Rancher-OS</doc>
+  <doc cat="modular-micro" doc="Micro-keylime" branches="main">Remote attestation using Keylime</doc>
+  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main">Managing system log files</doc>
+  <doc cat="modular-micro" doc="Micro-compose" branches="main">Podman compose</doc>
+  <doc cat="modular-micro" doc="Micro-network-configuration" branches="main">Network configuration</doc>
+  <doc cat="modular-micro" doc="Micro-upgrade" branches="main">Upgradeing procedure</doc>
 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP5 SLE15SP4">Administration Guide</doc>
@@ -258,7 +271,7 @@
   <doc cat="smartdocs" doc="task-send-termination-signals-systemd" branches="main">Sending termination signals to systemd services</doc>
   <doc cat="smartdocs" doc="freeradius-setup-server" branches="main">Setting up a FreeRADIUS server</doc>
   <doc cat="smartdocs" doc="http-boot-setting-up-server" branches="main">Setting up an HTTP Boot server</doc>
-  <doc cat="smartdocs" doc="raids" branches="main">Software RAID</doc>
+  <doc cat="smartdocs" doc="Micro-raids" branches="main">Software RAID</doc>
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
   <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="main">Creating customized virtual machines using virt-scenario</doc>
@@ -269,9 +282,7 @@
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="smartdocs" doc="Rancher-OS" branches="main">Rancher-OS</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
-  <doc cat="smartdocs" doc="transactional-updates-marble" branches="main">About the transactional-update command</doc>
-  <doc cat="smartdocs" doc="SLE-Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
-  <doc cat="smartdocs" doc="SLE-Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>
+  
 
 <!-- ALP -->
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
@@ -281,9 +292,10 @@
 <!-- SLE Micro -->
   <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
   <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
-  <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">Cockpit Guide</doc>
+  <doc cat="smartdocs" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
   <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
-
+  
+  
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>
 

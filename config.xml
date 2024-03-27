@@ -143,7 +143,9 @@
   <doc cat="modular-micro" doc="Micro-compose" branches="main">Podman compose</doc>
   <doc cat="modular-micro" doc="Micro-network-configuration" branches="main">Network configuration</doc>
   <doc cat="modular-micro" doc="Micro-upgrade" branches="main">Upgradeing procedure</doc>
-
+  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="main">About the transactional-update command</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP5 SLE15SP4">GNOME User Guide</doc>
@@ -290,7 +292,6 @@
   <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
 
 <!-- SLE Micro -->
-  <doc cat="smartdocs" doc="cockpit-slemicro" branches="main">The SLE Micro Cockpit Guide</doc>
   <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   <doc cat="smartdocs" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
   <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc>

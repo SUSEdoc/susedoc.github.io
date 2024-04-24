@@ -123,8 +123,12 @@
   <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Security Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Administration Guide</doc>
   <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="main">SLE Micro in Public Clouds</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-admin" branches="main">Administration Guide</doc>
-  <doc cat="modular-micro" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-public-cloud" branches="main">SLE Micro in Public Clouds v6.0</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.4-admin" branches="main">Administration Guide v5.4</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="main">Administration Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="main">Cockpit Guide v5.4</doc>
+  <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="main">Cockpit Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="main">Cockpit Guide v6.0</doc>
   <doc cat="modular-micro" doc="SLE-Micro-security" branches="main">Security Guide</doc>  
   <doc cat="modular-micro" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
   <doc cat="modular-micro" doc="Micro-PAM-security" branches="main">PAM security</doc>
@@ -142,7 +146,7 @@
   <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main">Managing system log files</doc>
   <doc cat="modular-micro" doc="Micro-compose" branches="main">Podman compose</doc>
   <doc cat="modular-micro" doc="Micro-network-configuration" branches="main">Network configuration</doc>
-  <doc cat="modular-micro" doc="Micro-upgrade" branches="main">Upgradeing procedure</doc>
+  <doc cat="modular-micro" doc="Micro-upgrade" branches="main">Upgrading procedure</doc>
   <doc cat="modular-micro" doc="Micro-transactional-updates" branches="main">About the transactional-update command</doc>
   <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>

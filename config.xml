@@ -297,9 +297,9 @@
   <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
 
 <!-- SLE Micro -->
-  <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
+ <!-- <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   <doc cat="smartdocs" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
-  <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
+  <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc> -->
   
   
   <!-- Real documents from assemblies -->

@@ -331,4 +331,5 @@
   <doc cat="unvers" doc="stig/SLES-stig" outputname="SLES-stig" branches="main">Hardening SUSE Linux Enterprise with STIG</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>
   <doc cat="unvers" doc="trento/SLES-SAP-trento" outputname="SLES-SAP-trento" branches="main">Getting started with Trento Premium</doc>
+  <doc cat="unvers" doc="openscap/SLES-openscap" branch="main">Hardening SUSE Linux Enterprise with OpenSCAP</doc>
 </indexconfig>

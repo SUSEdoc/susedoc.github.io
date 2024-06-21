@@ -288,6 +288,7 @@
   <doc cat="smartdocs" doc="Rancher-OS" branches="main">Rancher-OS</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
+  <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
   
 
 <!-- ALP -->

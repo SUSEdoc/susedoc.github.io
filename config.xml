@@ -322,6 +322,7 @@
   <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with RMT</doc>
   <doc cat="liberty" doc="quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with RMT</doc>
   <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SMT</doc>
+  <doc cat="liberty" doc="lite-quickstart" branches="SLL7">Registering CentOS Linux 7 with SUSE Liberty Linux Lite</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>

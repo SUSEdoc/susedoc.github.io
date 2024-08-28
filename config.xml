@@ -289,6 +289,7 @@
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
   <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
+  <doc cat="smartdocs" doc="virt-components" branches="main">Installing Virtualization Components</doc>
   
 
 <!-- ALP -->

@@ -270,7 +270,6 @@
   <doc cat="smartdocs" doc="task-debug-failed-systemd-services" branches="main">Debugging failed systemd services</doc>
   <doc cat="smartdocs" doc="task-delete-modules-extensions" branches="main">Deleting modules and extensions</doc>
   <doc cat="smartdocs" doc="forward-root-mail" branches="main">Configuring mail forwarding for root</doc>
-  <doc cat="smartdocs" doc="task-install-virtualization-components" branches="main">Installing virtualization components </doc>
   <doc cat="smartdocs" doc="task-modify-kernel-boot-parameter" branches="main">Modifying kernel boot parameters</doc>
   <doc cat="smartdocs" doc="task-register-deregister-product-after-installation" branches="main">Registering and deregistering your product after installation</doc>
   <doc cat="smartdocs" doc="task-send-termination-signals-systemd" branches="main">Sending termination signals to systemd services</doc>

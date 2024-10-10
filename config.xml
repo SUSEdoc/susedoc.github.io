@@ -91,7 +91,7 @@
   <doc cat="sles"  doc="SLES-raspberry-pi" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Raspberry Pi Quick Start</doc>
   <doc cat="sles"  doc="SLES-virtualization-best-practices" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Virtualization Best Practices</doc>
 
-  <doc cat="sles"  doc="SLES-admin"        branches="SLE15SP2 SLE12SP5 SLE12SP4">Administration Guide (previous)</doc>
+  <doc cat="sles"  doc="SLES-admin"        branches="SLE15SP2 SLE12SP5 SLE12SP4">Administration Guide (previous) </doc>
   <doc cat="sles"  doc="SLES-amd-sev"      branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE12SP5 SLE12SP4">AMD Secure Encrypted Virtualization (AMD-SEV) Guide</doc>
   <doc cat="sles"  doc="SLES-autoyast"     branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE12SP5 SLE12SP4">AutoYaST Guide</doc>
   <doc cat="sles"  doc="SLES-deployment"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3 SLE15SP2 SLE12SP5 SLE12SP4">Deployment Guide</doc>

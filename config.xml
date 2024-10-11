@@ -121,34 +121,36 @@
   <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Podman Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Security Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Administration Guide</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="main">SLE Micro in Public Clouds</doc>
-  <doc cat="modular-micro" doc="Micro-6.0-public-cloud" branches="main">SLE Micro in Public Clouds v6.0</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-5.4-admin" branches="main">Administration Guide v5.4</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="main">Administration Guide v5.5</doc>
-  <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="main">Cockpit Guide v5.4</doc>
-  <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="main">Cockpit Guide v5.5</doc>
-  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="main">Cockpit Guide v6.0</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-security" branches="main">Security Guide</doc>  
-  <doc cat="modular-micro" doc="Micro-deployment-images" branches="main">Deployment images description</doc>
-  <doc cat="modular-micro" doc="Micro-PAM-security" branches="main">PAM security</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main">Deployment of raw images on virtual machines</doc>
-  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="main">NTP synchronization</doc>
-  <doc cat="modular-micro" doc="Micro-selinux" branches="main">SELinux basics</doc>
-  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="main">setroubleshoot to analyze SELinux denial messages</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="main">Configuring superuser privileges</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="main">Run commands as a superuser</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="maintenance/SLE_Micro_6.0">SLE Micro in Public Clouds</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-public-cloud" branches="maintenance/SLE_Micro_6.0">SLE Micro in Public Clouds v6.0</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.4-admin" branches="maintenance/SLE_Micro_6.0">Administration Guide v5.4</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="maintenance/SLE_Micro_6.0">Administration Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.4</doc>
+  <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>  
+  <doc cat="modular-micro" doc="Micro-deployment-images" branches="main maintenance/SLE_Micro_6.0">Deployment images description</doc>
+  <doc cat="modular-micro" doc="Micro-PAM-security" branches="main maintenance/SLE_Micro_6.0">PAM security</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="main maintenance/SLE_Micro_6.0">NTP synchronization</doc>
+  <doc cat="modular-micro" doc="Micro-selinux" branches="main maintenance/SLE_Micro_6.0">SELinux basics</doc>
+  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="main maintenance/SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="main maintenance/SLE_Micro_6.0">Configuring superuser privileges</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="main maintenance/SLE_Micro_6.0">Run commands as a superuser</doc>
   <doc cat="modular-micro" doc="Micro-systemd-basics" branches="main">systemd basics</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="main">Configuring systemd timers</doc>
-  <doc cat="modular-micro" doc="Micro-raids" branches="main">Software RAID</doc>
-  <doc cat="modular-micro" doc="Rancher-OS" branches="main">Rancher-OS</doc>
-  <doc cat="modular-micro" doc="Micro-keylime" branches="main">Remote attestation using Keylime</doc>
-  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main">Managing system log files</doc>
-  <doc cat="modular-micro" doc="Micro-compose" branches="main">Podman compose</doc>
-  <doc cat="modular-micro" doc="Micro-network-configuration" branches="main">Network configuration</doc>
-  <doc cat="modular-micro" doc="Micro-upgrade" branches="main">Upgrading procedure</doc>
-  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="main">About the transactional-update command</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main">Deployment of selfinstall images on bare metal</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="main maintenance/SLE_Micro_6.0">Configuring systemd timers</doc>
+  <doc cat="modular-micro" doc="Micro-raids" branches="main maintenance/SLE_Micro_6.0">Software RAID</doc>
+  <doc cat="modular-micro" doc="Rancher-OS" branches="main maintenance/SLE_Micro_6.0">Rancher-OS</doc>
+  <doc cat="modular-micro" doc="Micro-keylime" branches="main maintenance/SLE_Micro_6.0">Remote attestation using Keylime</doc>
+  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main maintenance/SLE_Micro_6.0">Managing system log files</doc>
+  <doc cat="modular-micro" doc="Micro-compose" branches="main maintenance/SLE_Micro_6.0">Podman compose</doc>
+  <doc cat="modular-micro" doc="Micro-network-configuration" branches="main maintenance/SLE_Micro_6.0">Network configuration</doc>
+  <doc cat="modular-micro" doc="Micro-upgrade" branches="main maintenance/SLE_Micro_6.0">Upgrading procedure</doc>
+  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="main maintenance/SLE_Micro_6.0">About the transactional-update command</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main maintenance/SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

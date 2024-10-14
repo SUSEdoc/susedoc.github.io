@@ -151,6 +151,7 @@
   <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-vhostmd" branches="main">Setting Up Virtual Host Metrics Daemon</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

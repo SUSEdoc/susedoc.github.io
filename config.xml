@@ -128,7 +128,7 @@
   <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.4</doc>
   <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.5</doc>
   <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>  
+  <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>
   <doc cat="modular-micro" doc="Micro-deployment-images" branches="main maintenance/SLE_Micro_6.0">Deployment images description</doc>
   <doc cat="modular-micro" doc="Micro-PAM-security" branches="main maintenance/SLE_Micro_6.0">PAM security</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
@@ -291,21 +291,21 @@
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
   <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
   <doc cat="smartdocs" doc="virt-components" branches="main">Installing Virtualization Components</doc>
-  
+
 
 <!-- ALP -->
- <!-- 
+ <!--
   <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
   <doc cat="alp" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
-  <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc> 
+  <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
   -->
 
 <!-- SLE Micro -->
  <!-- <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
   <doc cat="smartdocs" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
   <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc> -->
-  
-  
+
+
   <!-- Real documents from assemblies -->
   <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>
 
@@ -321,10 +321,12 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5 sle-hpc-15_SP6" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
 
   <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9 with RMT</doc>
+  <doc cat="liberty" doc="suma-quickstart" branches="main">Registering RHEL 9 with SUSE Manager</doc>
   <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with RMT</doc>
+  <doc cat="liberty" doc="suma-quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with SUSE Manager</doc>
   <doc cat="liberty" doc="quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with RMT</doc>
   <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SMT</doc>
-  <doc cat="liberty" doc="lite-quickstart" branches="SLL7">Registering CentOS Linux 7 with SUSE Liberty Linux Lite</doc>
+  <doc cat="liberty" doc="suma-quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SUSE Manager</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>

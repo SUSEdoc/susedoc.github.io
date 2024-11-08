@@ -150,7 +150,11 @@
   <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main maintenance/SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc> Micro-pf_bb_config
+  <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="main">Using pf_bb_config</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="main">Cockpit guide v6.1</doc>
+  <doc cat="modular-micro" doc="Micro-vhostmd" branches="main">Collecting metrics with vhostmd</doc>
+  <doc cat="modular-micro" doc="Micro-zram" branches="main">Creating zram devices</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

@@ -73,7 +73,7 @@
     <cat id="pubcloud"   repo="doc-public-cloud">SUSE Public Cloud</cat>
     <cat id="smartdocs"  repo="doc-modular">SUSE Smart Docs</cat>
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
-    <cat id="liberty"    repo="doc-liberty">SUSE Liberty Linux</cat>
+    <cat id="liberty"    repo="doc-liberty">SUSE Multi-Linux Support</cat>
     <cat id="unvers"     repo="doc-unversioned">SUSE Linux Enterprise unversioned</cat>
     <cat id="submgt"     repo="doc-unversioned">Subscription Management</cat>
   </cats>

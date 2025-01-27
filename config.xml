@@ -52,6 +52,9 @@
   </meta>
   <cats>
     <cat id="release-notes" repo="release-notes">Release Notes</cat>
+    <cat id="sles16"     repo="doc-modular">SUSE Linux Enterprise Server 16</cat>
+    <cat id="sles16-sap" repo="doc-modular">SUSE Linux Enterprise for SAP Applications 16</cat>
+    <cat id="sle16-ha"   repo="doc-modular">SUSE Linux Enterprise High Availability Extension 16</cat>
     <cat id="alp"        repo="doc-modular">SUSE ALP</cat>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
@@ -75,7 +78,7 @@
     <cat id="styleguide" repo="doc-styleguide">SUSE Documentation Style Guide</cat>
     <cat id="liberty"    repo="doc-liberty">SUSE Multi-Linux Support</cat>
     <cat id="unvers"     repo="doc-unversioned">SUSE Linux Enterprise unversioned</cat>
-    <cat id="submgt"     repo="doc-unversioned">Subscription Management</cat>
+    <cat id="submgt"     repo="doc-unversioned">Subscription Management</cat>    
   </cats>
 
   <redirect from="sles-15sp4-rn" to="release-notes/sles-15_SP4/html/release-notes/"/>
@@ -84,6 +87,8 @@
   <redirect from="sle-ha-15sp4-rn" to="release-notes/sle-ha-15_SP4/html/release-notes/"/>
   <redirect from="sle-hpc-15sp4-rn" to="release-notes/sle-hpc-15_SP4/html/release-notes/"/>
 
+  <doc cat="sles16"  doc="SLES-networkmanager-nmcli" branches="main">Networking management using NetworkManager</doc>
+  
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>
   <doc cat="sles"  doc="SLES-installation" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Installation Quick Start</doc>

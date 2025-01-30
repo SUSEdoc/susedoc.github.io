@@ -160,6 +160,7 @@
   <doc cat="modular-micro" doc="Micro-cockpit" branches="main">Cockpit guide v6.1</doc>
   <doc cat="modular-micro" doc="Micro-vhostmd" branches="main">Collecting metrics with vhostmd</doc>
   <doc cat="modular-micro" doc="Micro-zram" branches="main">Creating zram devices</doc>
+  <doc cat="modular-micro" doc="Micro-NVIDIA-Jetson" branches="main">NVIDIA Jetson platform deployment</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>
@@ -299,6 +300,7 @@
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
   <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
   <doc cat="smartdocs" doc="virt-components" branches="main">Installing Virtualization Components</doc>
+  <doc cat="smartdocs" doc="NVIDIA-Jetson" branches="main">NVIDIA Jetson platform deployment</doc>
 
 
 <!-- ALP -->

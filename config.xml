@@ -327,7 +327,8 @@
   <doc cat="styleguide" doc="docu_styleguide" outputname="style-guide" branches="main">Style Guide</doc>
 
   <doc cat="release-notes" doc="release-notes" branches="sl-micro_60 sl-micro_61" formats="html">SUSE Linux Enterprise Micro</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5 sles-15_SP6 sles-15_SP7 sles-16_SP0" formats="html">SUSE Linux Enterprise Server</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5 sles-15_SP6 sles-15_SP7" formats="html">SUSE Linux Enterprise Server 15</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sles-16.0" formats="html">SUSE Linux Enterprise Server 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5 sled-15_SP6" formats="html">SUSE Linux Enterprise Desktop</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5 sle-sap-15_SP6" formats="html">SUSE Linux Enterprise Server for SAP Applications</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5 sle-ha-15_SP6" formats="html">SUSE Linux Enterprise High Availability Extension</doc>

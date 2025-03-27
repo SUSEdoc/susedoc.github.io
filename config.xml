@@ -306,7 +306,7 @@
   <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
   <doc cat="smartdocs" doc="virt-components" branches="main">Installing Virtualization Components</doc>
   <doc cat="smartdocs" doc="NVIDIA-Jetson" branches="main">NVIDIA Jetson platform deployment</doc>
-
+  <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
 
 <!-- ALP -->
  <!--

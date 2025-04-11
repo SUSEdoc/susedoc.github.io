@@ -89,7 +89,9 @@
 
   <doc cat="sles16"  doc="SLES-networkmanager-nmcli" branches="main">Networking management using NetworkManager</doc>
   <doc cat="sles16"  doc="SLES-cockpit" branches="main">Administering SLE16 using Cockpit</doc>
-  <doc cat="sles16"  doc="SLE-agama-installation-x86-64" branches="main">Installing SLE16 using Agama</doc>
+  <doc cat="sles16"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE16 using Agama</doc>
+  <doc cat="sles16"  doc="SLES-s390-agama-based-installation" branches="main">Installing SLE16 using Agama</doc>
+  <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE16 using Agama</doc>
   <doc cat="sles16"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   

@@ -139,8 +139,10 @@
   <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="maintenance/SLE_Micro_6.0">Administration Guide v5.5</doc>
   <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.4</doc>
   <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.5</doc>
-  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
   <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="main maintenance/SLE_Micro_6.1">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-public-cloud" branches="main maintenance/SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
   <doc cat="modular-micro" doc="Micro-deployment-images" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment images description</doc>
   <doc cat="modular-micro" doc="Micro-PAM-security" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">PAM security</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>

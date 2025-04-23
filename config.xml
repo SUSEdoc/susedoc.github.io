@@ -125,8 +125,6 @@
   <doc cat="sles"  doc="SLES-xen2kvmquick" branches="SLE15SP2 SLE12SP5 SLE12SP4">Xen to KVM Migration Guide</doc>
   <doc cat="sles"  doc="SLES-jeos"         branches="SLE15SP3 SLE15SP2">JeOS Guide</doc>
   <doc cat="sles"  doc="SLE-kubevirt"      branches="main SLE15SP6 SLE15SP5 SLE15SP4">Using KubeVirt on SUSE Linux Enterprise</doc>
-  <doc cat="sles"  doc="SLES-klp"        branches="main">Kernel Live Patching</doc>
-
 
   <doc cat="sle-micro" doc="SLE-Micro-deployment" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Deployment Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-autoyast" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">AutoYaST Guide</doc>
@@ -194,8 +192,6 @@
   <doc cat="sle-ha" doc="SLE-HA-pmremote-quick" branches="SLEHA15SP2 SLEHA12SP5 SLEHA12SP4">Pacemaker Remote Quick Start (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-quick"  branches="SLEHA15SP2 SLEHA12SP5 SLEHA12SP4">Geo Clustering Quick Start (previous)</doc>
   <doc cat="sle-ha" doc="SLE-HA-geo-guide"  branches="SLEHA15SP2 SLEHA15SP1 SLEHA15 SLEHA12SP5 SLEHA12SP4">Geo Clustering Guide (previous)</doc>
-  <doc cat="sle-ha"  doc="SLE-HA-klp"        branches="main">Kernel Live Patching</doc>
-
 
   <doc cat="sle-rt" doc="SLE-RT-hardware-testing"      branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3">Hardware Testing</doc>
   <doc cat="sle-rt" doc="SLE-RT-setup"                 branches="main SLERT15SP5 SLERT15SP4 SLERT15SP3">Setup Guide</doc>
@@ -215,8 +211,6 @@
   <doc cat="sles-sap" doc="SLES4SAP-guide" branches="12_SP5 12_SP4">Guide (previous)</doc>
   <doc cat="sles-sap" doc="SLES-SAP-sol-automation" branches="15_SP2">SAP Automation (previous)</doc>
   <doc cat="sles-sap" doc="SLES-SAP-sol-monitoring" branches="15_SP2">SAP Monitoring (previous)</doc>
-  <doc cat="sles-ha"  doc="SLES-SAP-klp"        branches="main">Kernel Live Patching</doc>
-
 
   <doc cat="sle-hpc"  doc="hpc-guide"      branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">HPC Guide</doc>
 
@@ -277,6 +271,9 @@
   <doc cat="smartdocs" doc="rootless-podman" branches="main">Rootless containers with Podman</doc>
   <doc cat="smartdocs" doc="minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="klp" branches="main">Kernel Live Patching Concept</doc>
+  <doc cat="smartdocs" doc="SLES-SAP-klp" branches="main">Kernel Live Patching</doc>
+  <doc cat="smartdocs" doc="SLE-HA-klp" branches="main">Kernel Live Patching</doc>
+  <doc cat="smartdocs" doc="SLES-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="main">Unified Virtual Machine Administration using libvirt</doc>
   <doc cat="smartdocs" doc="ntp-time-synchronization" branches="main">Time synchronization using NTP</doc>
   <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="main">Configuring a Virtual Disk Cache Mode</doc>

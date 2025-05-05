@@ -94,6 +94,7 @@
   <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE16 for x86-64 using Agama</doc>
   <doc cat="sles16"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
+  <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS indetification</doc>
   
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>

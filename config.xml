@@ -96,6 +96,7 @@
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS indetification</doc>
   <doc cat="sles16"  doc="SLES-SELinux" branches="main">Understanding SELinux Basics</doc>
+   <doc cat="sles16"  doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
   
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>

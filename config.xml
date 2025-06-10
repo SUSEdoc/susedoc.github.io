@@ -335,7 +335,8 @@
 
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
-  <doc cat="styleguide" doc="docu_styleguide" outputname="style-guide" branches="main">Style Guide</doc>
+  <doc cat="styleguide" doc="style-guide-db" branches="main">Style Guide</doc>
+  <doc cat="styleguide" doc="style-guide-adoc" branches="main">Style Guide</doc>
 
   <doc cat="release-notes" doc="release-notes" branches="sl-micro_60 sl-micro_61 sl-micro_62" formats="html">SUSE Linux Enterprise Micro</doc>
   <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5 sles-15_SP6 sles-15_SP7" formats="html">SUSE Linux Enterprise Server 15</doc>

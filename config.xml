@@ -96,11 +96,12 @@
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>
   <doc cat="sles16"  doc="SLES-SELinux" branches="main">Understanding SELinux Basics</doc>
-   <doc cat="sles16" doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
+  <doc cat="sles16" doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
   <doc cat="sles16"  doc="SLES-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
   <doc cat="sles16"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
   <doc cat="sles16"  doc="SLES-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
+  <doc cat="sles16"  doc="SLE-PXE-server" branches="main">Installing the PXE boot server</doc>
   
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>

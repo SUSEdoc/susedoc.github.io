@@ -109,6 +109,7 @@
   <doc cat="sles16"  doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="sles16"  doc="systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
+  <doc cat="sles16"  doc="virtualization" branches="main">Virtualization</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>
@@ -311,7 +312,6 @@
   <doc cat="smartdocs" doc="Micro-raids" branches="main">Software RAID</doc>
   <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
   <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
-  <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="main">Creating customized virtual machines using virt-scenario</doc>
   <doc cat="smartdocs" doc="network-bond-managing-devices" branches="main">Managing network bonding devices</doc>
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
   <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>

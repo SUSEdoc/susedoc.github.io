@@ -158,7 +158,7 @@
   <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
   <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>
   <doc cat="modular-micro" doc="Micro-cockpit" branches="main maintenance/SLE_Micro_6.1">Cockpit Guide</doc>
-  <doc cat="modular-micro" doc="Micro-public-cloud" branches="main maintenance/SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
+  <doc cat="modular-micro" doc="Micro-public-cloud" branches="maintenance/SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
   <doc cat="modular-micro" doc="Micro-deployment-images" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment images description</doc>
   <doc cat="modular-micro" doc="Micro-PAM-security" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">PAM security</doc>
   <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
@@ -170,7 +170,7 @@
   <doc cat="modular-micro" doc="Micro-systemd-basics" branches="main">systemd basics</doc>
   <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring systemd timers</doc>
   <doc cat="modular-micro" doc="Micro-raids" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Software RAID</doc>
-  <doc cat="modular-micro" doc="Rancher-OS" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Rancher-OS</doc>
+  <doc cat="modular-micro" doc="Rancher-OS" branches="maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Rancher-OS</doc>
   <doc cat="modular-micro" doc="Micro-keylime" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Remote attestation using Keylime</doc>
   <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Managing system log files</doc>
   <doc cat="modular-micro" doc="Micro-compose" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Podman compose</doc>
@@ -293,7 +293,7 @@
   <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="main">Unified Virtual Machine Administration using libvirt</doc>
   <doc cat="smartdocs" doc="ntp-time-synchronization" branches="main">Time synchronization using NTP</doc>
   <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="main">Configuring a Virtual Disk Cache Mode</doc>
-  <doc cat="smartdocs" doc="virtualization" branches="main">Virtualization</doc>
+  <doc cat="smartdocs" doc="SLES-virtualization" branches="main">Virtualization</doc>
   <doc cat="smartdocs" doc="concept-zypper" branches="main">Zypper package manager</doc>
   <doc cat="smartdocs" doc="reference-connection-accounting-utilities" branches="main">Connection accounting utilities</doc>
   <doc cat="smartdocs" doc="reference-managing-systemd-targets-systemctl" branches="main">Managing systemd targets with systemctl</doc>
@@ -322,8 +322,7 @@
   <doc cat="smartdocs" doc="Rancher-OS" branches="main">Rancher-OS</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
-  <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc>
-  <doc cat="smartdocs" doc="virt-components" branches="main">Installing Virtualization Components</doc>
+  <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc> 
   <doc cat="smartdocs" doc="SLES-NVIDIA-jetson" branches="main">NVIDIA Jetson platform deployment</doc>
   <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
 

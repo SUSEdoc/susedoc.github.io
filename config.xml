@@ -318,8 +318,7 @@
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
   <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
   <doc cat="smartdocs" doc="systemd-securing" branches="main">Securing systemd Services</doc>
-  <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
-  <doc cat="smartdocs" doc="Rancher-OS" branches="main">Rancher-OS</doc>
+  <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>  
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
   <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
   <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc> 

@@ -109,7 +109,7 @@
   <doc cat="sles16"  doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="sles16"  doc="systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
-  <doc cat="sles16"  doc="virtualization" branches="main">Virtualization</doc>
+  <doc cat="sles16"  doc="SLES-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sles16"  doc="HA-installing-three-node-cluster" branches="main">Installing a Basic Three-Node High Availability Cluster</doc>  
   

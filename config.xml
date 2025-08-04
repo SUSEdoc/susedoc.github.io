@@ -357,17 +357,12 @@
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5 sle-hpc-15_SP6" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
   <doc cat="release-notes" doc="release-notes" branches="leap-16.0" formats="html">openSUSE Leap 16</doc>
 
-  <doc cat="liberty" doc="quickstart" branches="main">Registering RHEL 9 with RMT</doc>
-  <doc cat="liberty" doc="suma-quickstart" branches="main">Registering RHEL 9 with SUSE Manager</doc>
-  <doc cat="liberty" doc="compliance-scans" branches="main">Running OpenSCAP Compliance Scans for SUSE Multi-Linux Support 9</doc>
-  <doc cat="liberty" doc="quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with RMT</doc>
-  <doc cat="liberty" doc="suma-quickstart" branches="SLL8">Registering RHEL 8 or CentOS Linux 8 with SUSE Manager</doc>
-  <doc cat="liberty" doc="compliance-scans" branches="SLL8">Running OpenSCAP Compliance Scans for SUSE Multi-Linux Support 8</doc>
-  <doc cat="liberty" doc="quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with RMT</doc>
-  <doc cat="liberty" doc="quickstart-scc" branches="SLL7">Registering CentOS Linux 7 with the SUSE Customer Center</doc>
-  <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SMT</doc>
-  <doc cat="liberty" doc="suma-quickstart" branches="SLL7">Registering RHEL 7 or CentOS Linux 7 with SUSE Manager</doc>
-  <doc cat="liberty" doc="compliance-scans" branches="SLL7">Running OpenSCAP Compliance Scans for SUSE Multi-Linux Support 7</doc>
+  <doc cat="liberty" doc="quickstart-smlm" branches="main">Registering with SUSE Multi-Linux Manager</doc>
+  <doc cat="liberty" doc="quickstart" branches="main SLL9 SLL8 SLL7">Registering with RMT</doc>
+  <doc cat="liberty" doc="compliance-scans" branches="main SLL9 SLL8 SLL7">Running OpenSCAP Compliance Scans for SUSE Multi-Linux Support</doc>
+  <doc cat="liberty" doc="suma-quickstart" branches="SLL9 SLL8 SLL7">Registering with SUSE Multi-Linux Manager (previous)</doc>
+  <doc cat="liberty" doc="quickstart-scc" branches="SLL7">Registering with the SUSE Customer Center</doc>
+  <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering with SMT</doc>
 
   <!-- Unversioned -->
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>

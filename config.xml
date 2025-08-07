@@ -112,7 +112,8 @@
   <doc cat="sles16"  doc="SLES-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sles16"  doc="HA-installing-three-node-cluster" branches="main">Installing a Basic Three-Node High Availability Cluster</doc> 
-   <doc cat="sles16"  doc="SLES-systemd-securing" branches="main">Installing a Basic Three-Node High Availability Cluster</doc>
+  <doc cat="sles16"  doc="SLES-systemd-securing" branches="main">Securing systemd services</doc>
+  <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

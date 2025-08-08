@@ -92,6 +92,8 @@
   <doc cat="sles16"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
   <doc cat="sles16"  doc="SLES-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
   <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
+  <doc cat="sles16"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>
+  <doc cat="sles16   doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
   <doc cat="sles16"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>

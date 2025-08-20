@@ -103,7 +103,7 @@
   <doc cat="sles16"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
   <doc cat="sles16"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
   <doc cat="sles16"  doc="SLES-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
-  <doc cat="sles16"  doc="SLE-PXE-server" branches="main">Installing the PXE boot server</doc>
+  <doc cat="sles16"  doc="SLES-PXE-server" branches="main">Installing the PXE boot server</doc>
   <doc cat="sles16"  doc="SLES-supportconfig" branches="main">Gathering System Information for Support</doc>
   <doc cat="sles16"  doc="SLES-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
@@ -117,6 +117,7 @@
   <doc cat="sles16"  doc="HA-introduction" branches="main">Introduction to SUSE Linux Enterprise High Availability</doc>
   <doc cat="sles16"  doc="SLES-systemd-securing" branches="main">Securing systemd services</doc>
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
+  <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

@@ -103,7 +103,7 @@
   <doc cat="sles16"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
   <doc cat="sles16"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
   <doc cat="sles16"  doc="SLES-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
-  <doc cat="sles16"  doc="SLES-PXE-server" branches="main">Installing the PXE boot server</doc>
+  <doc cat="sles16"  doc="SLES-PXE-server" branches="main">Setting Up a PXE Boot Server on SLE 16.0</doc>
   <doc cat="sles16"  doc="SLES-supportconfig" branches="main">Gathering System Information for Support</doc>
   <doc cat="sles16"  doc="SLES-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>

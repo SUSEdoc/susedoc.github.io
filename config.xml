@@ -92,8 +92,7 @@
   <doc cat="sles16"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
   <doc cat="sles16"  doc="SLES-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
   <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>
-  <doc cat="sles16"  doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
+  <doc cat="sles16"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
   <doc cat="sles16"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>
@@ -109,7 +108,7 @@
   <doc cat="sles16"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
   <doc cat="sles16"  doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
   <doc cat="sles16"  doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
-  <doc cat="sles16"  doc="systemd-basics" branches="main">Introduction to systemd Basics</doc>
+  <doc cat="sles16"  doc="SLES-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
   <doc cat="sles16"  doc="SLES-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
@@ -119,6 +118,30 @@
   <doc cat="sles16"  doc="SLES-systemd-securing" branches="main">Securing systemd services</doc>
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
   <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
+
+  <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
+  <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
+  <doc cat="sles16-sap"  doc="SAP-cockpit" branches="main">Administering SLES for SAP Using Cockpit</doc>
+  <doc cat="sles16-sap"  doc="SAP-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
+  <doc cat="sles16-sap"  doc="SAP-deployment-pxe-client" branches="main">Deploying Using Network PXE Boot</doc>
+  <doc cat="sles16-sap"  doc="SAP-gnome-remote-desktop" branches="main">Configuring a Remote Desktop Server</doc>
+  <doc cat="sles16-sap"  doc="SAP-intro-firewalld" branches="main">Introduction to firewalld</doc>
+  <doc cat="sles16-sap"  doc="SAP-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise</doc>
+  <doc cat="sles16-sap"  doc="SAP-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
+  <doc cat="sles16-sap"  doc="SAP-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
+  <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-snapper-basics" branches="main">The Basic Concepts of Snapper</doc>
+  <doc cat="sles16-sap"  doc="SAP-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
+  <doc cat="sles16-sap"  doc="SAP-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>  
+  <doc cat="sles16-sap"  doc="SAP-systemd-timers" branches="main">Working with systemd Timers</doc>
+  <doc cat="sles16-sap"  doc="SAP-valkey" branches="main">Introduction to Valkey</doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main"></doc>
+  <doc cat="sles16-sap"  doc="SAP-systemd-basics" branches="main">Introduction to systemd Basics</doc>
+  <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
+  <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main">Gathering System Information for Support</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

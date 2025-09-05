@@ -347,7 +347,7 @@
   <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
   <doc cat="smartdocs" doc="network-bond-managing-devices" branches="main">Managing network bonding devices</doc>
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
-  <doc cat="smartdocs" doc="systemd-basics" branches="main">systemd basics</doc>
+  <doc cat="smartdocs" doc="SLES-systemd-basics" branches="main">systemd basics</doc>
   <doc cat="smartdocs" doc="SLES-systemd-securing" branches="main">Securing systemd Services</doc>
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>  
   <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>

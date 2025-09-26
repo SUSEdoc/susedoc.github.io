@@ -119,7 +119,7 @@
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
   <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
   <doc cat="sles16"  doc="SLES-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
-  <doc cat="sles16"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of &sle; Components</doc>
+  <doc cat="sles16"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -144,7 +144,7 @@
   <doc cat="sles16-sap"  doc="SAP-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main">Gathering System Information for Support</doc>
-  <doc cat="sles16-sap"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of &sle; Components</doc>
+  <doc cat="sles16-sap"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

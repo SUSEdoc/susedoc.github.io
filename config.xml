@@ -115,6 +115,7 @@
   <doc cat="sles16"  doc="HA-installing-three-node-cluster" branches="main">Installing a Basic Three-Node High Availability Cluster</doc>
   <doc cat="sles16"  doc="HA-introduction" branches="main">Introduction to SUSE Linux Enterprise High Availability</doc>
   <doc cat="sles16"  doc="HA-qdevice-configuring" branches="main">Configuring QDevice and QNetd in an Existing High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-sbd-configuring-diskbased" branches="main">Configuring Disk-Based SBD in an Existing High Availability Cluster</doc>
   <doc cat="sles16"  doc="SLES-systemd-securing" branches="main">Securing systemd services</doc>
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
   <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>

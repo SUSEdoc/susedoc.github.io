@@ -322,6 +322,7 @@
 
   <doc cat="smartdocs" doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc>
   <doc cat="smartdocs" doc="minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="SAP-saptune" branches="main">System tuning with saptune</doc>
   <doc cat="smartdocs" doc="SAP-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="smartdocs" doc="HA-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="smartdocs" doc="SLES-klp" branches="main">Kernel Live Patching</doc>

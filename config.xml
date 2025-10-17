@@ -132,16 +132,15 @@
   <doc cat="sles16-sap"  doc="SAP-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise</doc>
   <doc cat="sles16-sap"  doc="SAP-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16-sap"  doc="SAP-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
-  <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main">Installing SLES for SAP 16 for PPC Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-s390-agama-based-installation" branches="main">Installing SLE for SAP for IBM Z Manually Using Agama</doc>
   <doc cat="sles16-sap"  doc="SAP-snapper-basics" branches="main">The Basic Concepts of Snapper</doc>
   <doc cat="sles16-sap"  doc="SAP-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
   <doc cat="sles16-sap"  doc="SAP-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>  
   <doc cat="sles16-sap"  doc="SAP-systemd-timers" branches="main">Working with systemd Timers</doc>
   <doc cat="sles16-sap"  doc="SAP-valkey" branches="main">Introduction to Valkey</doc>
   <doc cat="sles16-sap"  doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main"></doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main">Installing SLES for SAP 16 for x86-64 Manually Using Agama</doc>
   <doc cat="sles16-sap"  doc="SAP-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main">Gathering System Information for Support</doc>
@@ -327,13 +326,12 @@
   <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="SLE15SP7">Unified Virtual Machine Administration using libvirt</doc>
   <doc cat="smartdocs" doc="ntp-time-synchronization" branches="SLE15SP7">Time synchronization using NTP</doc>
   <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="SLE15SP7">Configuring a Virtual Disk Cache Mode</doc>
-  <doc cat="smartdocs" doc="concept-zypper" branches="SLE15SP7">Zypper package manager</doc>
   <doc cat="smartdocs" doc="vm-assign-pci-device" branches="SLE15SP7">Assigning host devices to a virtual machine</doc>
   <doc cat="smartdocs" doc="cpu-check-temperature" branches="SLE15SP7">Check and monitor CPU temperature</doc>
   <doc cat="smartdocs" doc="forward-root-mail" branches="SLE15SP7">Configuring mail forwarding for root</doc>
   <doc cat="smartdocs" doc="freeradius-setup-server" branches="SLE15SP6">Setting up a FreeRADIUS server</doc>
   <doc cat="smartdocs" doc="http-boot-setting-up-server" branches="SLE15SP6">Setting up an HTTP Boot server</doc>
-  <doc cat="smartdocs" doc="ulp-livepatching" branches="SLE15SP6">ULP patching a library</doc>
+  <doc cat="smartdocs" doc="ulp-livepatching" branches="SLE15SP6">Creating a User Space Live Patch</doc>
   <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="SLE15SP7">Predictable naming scheme for network interfaces</doc>
   <doc cat="smartdocs" doc="network-bond-managing-devices" branches="SLE15SP7">Managing network bonding devices</doc>
   <doc cat="smartdocs" doc="network-team-managing-devices" branches="SLE15SP7">Managing network teaming devices</doc>
@@ -343,7 +341,6 @@
   <doc cat="smartdocs" doc="systemd-management" branches="SLE15SP7">Managing systemd Services</doc>
   <doc cat="smartdocs" doc="subnet-manager-configuring" branches="SLE15SP7">Configuring a Subnet Manager</doc>
   <doc cat="smartdocs" doc="PAM-security" branches="SLE15SP6">PAM introduction</doc>
-  <doc cat="smartdocs" doc="minimal-vm" branches="SLE15SP7">Introduction to SLES Minimal VM</doc>
   <doc cat="smartdocs" doc="virtualization" branches="SLE15SP7">Introduction to virtualization</doc>
   <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="SLE15SP7">Creating Customized Virtual Machines Using virt-scenario</doc>
   <doc cat="smartdocs" doc="vxlan" branches="SLE15SP7">Connecting Virtual Machines to a VXLAN</doc>
@@ -352,7 +349,6 @@
   <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="SLE15SP7">Copying Files and Directories with rsync</doc>
   <doc cat="smartdocs" doc="GNOME-getting-started" branches="SLE15SP7">Getting Started with GNOME Desktop</doc>
   <doc cat="smartdocs" doc="rootless-podman" branches="SLE15SP7">Running Podman in Rootless Mode</doc>
-  <doc cat="smartdocs" doc="cpu-check-temperature" branches="SLE15SP7">Check and Monitor CPU Temperature</doc>
   <doc cat="smartdocs" doc="kernel-boot-parameters-modify" branches="SLE15SP7">Modifying Kernel Boot Parameters</doc>
   <doc cat="smartdocs" doc="supportconfig" branches="SLE15SP7">Gathering System Information for Support</doc>
  

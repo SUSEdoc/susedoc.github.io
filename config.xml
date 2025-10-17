@@ -348,7 +348,7 @@
   <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="SLE15SP7">Creating Customized Virtual Machines Using virt-scenario</doc>
   <doc cat="smartdocs" doc="vxlan" branches="SLE15SP7">Connecting Virtual Machines to a VXLAN</doc>
   <doc cat="smartdocs" doc="tls-certificates" branches="SLE15SP6">Securing Communication with TLS Certificates</doc>
-  <doc cat="smartdocs" doc="SLES-NVIDIA-jetson" SLE15SP6="main">NVIDIA Jetson platform deployment</doc>
+  <doc cat="smartdocs" doc="SLES-NVIDIA-jetson" branches="SLE15SP6">NVIDIA Jetson platform deployment</doc>
   <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="SLE15SP7">Copying Files and Directories with rsync</doc>
   <doc cat="smartdocs" doc="GNOME-getting-started" branches="SLE15SP7">Getting Started with GNOME Desktop</doc>
   <doc cat="smartdocs" doc="rootless-podman" branches="SLE15SP7">Running Podman in Rootless Mode</doc>

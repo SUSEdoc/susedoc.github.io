@@ -106,8 +106,6 @@
   <doc cat="sles16"  doc="SLES-supportconfig" branches="main">Gathering System Information for Support</doc>
   <doc cat="sles16"  doc="SLES-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
-  <doc cat="sles16"  doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
-  <doc cat="sles16"  doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="sles16"  doc="SLES-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
   <doc cat="sles16"  doc="SLES-virtualization" branches="main">Virtualization</doc>
@@ -121,6 +119,7 @@
   <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
   <doc cat="sles16"  doc="SLES-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
+  <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -146,6 +145,7 @@
   <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
   <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main">Gathering System Information for Support</doc>
   <doc cat="sles16-sap"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
+  <doc cat="sles16-sap"  doc="SAP-saptune" branches="main">System tuning with saptune</doc>
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>
@@ -320,63 +320,41 @@
   <doc cat="soc"   doc="suse-openstack-cloud-planning"       branches="cloud_8">Planning an Installation with Cloud Lifecycle Manager</doc>
   <doc cat="soc"   doc="suse-openstack-cloud-opsconsole"     branches="cloud_8">Operations Console Guide</doc>
 
-  <doc cat="smartdocs" doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc>
-  <doc cat="smartdocs" doc="minimal-vm" branches="main">Introduction to SLES Minimal VM</doc>
-  <doc cat="smartdocs" doc="SAP-saptune" branches="main">System tuning with saptune</doc>
-  <doc cat="smartdocs" doc="SAP-klp" branches="main">Kernel Live Patching</doc>
-  <doc cat="smartdocs" doc="HA-klp" branches="main">Kernel Live Patching</doc>
-  <doc cat="smartdocs" doc="SLES-klp" branches="main">Kernel Live Patching</doc>
-  <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="main">Unified Virtual Machine Administration using libvirt</doc>
-  <doc cat="smartdocs" doc="ntp-time-synchronization" branches="main">Time synchronization using NTP</doc>
-  <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="main">Configuring a Virtual Disk Cache Mode</doc>
-  <doc cat="smartdocs" doc="SLES-virtualization" branches="main">Virtualization</doc>
-  <doc cat="smartdocs" doc="concept-zypper" branches="main">Zypper package manager</doc>
-  <doc cat="smartdocs" doc="reference-connection-accounting-utilities" branches="main">Connection accounting utilities</doc>
-  <doc cat="smartdocs" doc="reference-managing-systemd-targets-systemctl" branches="main">Managing systemd targets with systemctl</doc>
-  <doc cat="smartdocs" doc="reference-systemctl-enable-disable-services" branches="main">Enabling and disabling systemd services</doc>
-  <doc cat="smartdocs" doc="reference-systemctl-start-stop-services" branches="main">Starting and stopping systemd services</doc>
-  <doc cat="smartdocs" doc="reference-zypper-install" branches="main">Installing and removing software with Zypper; reference</doc>
-  <doc cat="smartdocs" doc="task-add-modules-extensions-after-installation" branches="main">Adding modules and extensions after installation</doc>
-  <doc cat="smartdocs" doc="vm-assign-pci-device" branches="main">Assigning host devices to a virtual machine</doc>
-  <doc cat="smartdocs" doc="cpu-check-temperature" branches="main">Check and monitor CPU temperature</doc>
-  <doc cat="smartdocs" doc="task-configure-virtual-machine-manager" branches="main">Configuring virtual machines with Virtual Machine Manager</doc>
-  <doc cat="smartdocs" doc="task-delete-modules-extensions" branches="main">Deleting modules and extensions</doc>
-  <doc cat="smartdocs" doc="forward-root-mail" branches="main">Configuring mail forwarding for root</doc>
-  <doc cat="smartdocs" doc="task-modify-kernel-boot-parameter" branches="main">Modifying kernel boot parameters</doc>
-  <doc cat="smartdocs" doc="task-register-deregister-product-after-installation" branches="main">Registering and deregistering your product after installation</doc>
-  <doc cat="smartdocs" doc="task-send-termination-signals-systemd" branches="main">Sending termination signals to systemd services</doc>
-  <doc cat="smartdocs" doc="freeradius-setup-server" branches="main">Setting up a FreeRADIUS server</doc>
-  <doc cat="smartdocs" doc="http-boot-setting-up-server" branches="main">Setting up an HTTP Boot server</doc>
-  <doc cat="smartdocs" doc="Micro-raids" branches="main">Software RAID</doc>
-  <doc cat="smartdocs" doc="ulp-livepatching" branches="main">ULP patching a library</doc>
-  <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="main">Predictable naming scheme for network interfaces</doc>
-  <doc cat="smartdocs" doc="network-bond-managing-devices" branches="main">Managing network bonding devices</doc>
-  <doc cat="smartdocs" doc="network-team-managing-devices" branches="main">Managing network teaming devices</doc>
-  <doc cat="smartdocs" doc="SLES-systemd-basics" branches="main">systemd basics</doc>
-  <doc cat="smartdocs" doc="SLES-systemd-securing" branches="main">Securing systemd Services</doc>
-  <doc cat="smartdocs" doc="subnet-manager-configuring" branches="main">Configuring a Subnet Manager</doc>  
-  <doc cat="smartdocs" doc="PAM-security" branches="main">PAM introduction</doc>
-  <doc cat="smartdocs" doc="vxlan" branches="main">Connecting Virtual Machines to a VXLAN</doc>
-  <doc cat="smartdocs" doc="tls-certificates" branches="main">Securing Communication with TLS Certificates</doc> 
-  <doc cat="smartdocs" doc="SLES-NVIDIA-jetson" branches="main">NVIDIA Jetson platform deployment</doc>
-  <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
-
-<!-- ALP -->
- <!--
-  <doc cat="alp" doc="alp-dolomite" branches="main">The SUSE ALP Dolomite Guide</doc>
-  <doc cat="alp" doc="cockpit-alp-dolomite" branches="main">The SUSE ALP Dolomite Cockpit Guide</doc>
-  <doc cat="alp" doc="deploying-alp-dolomite-interactively-using-agama" branches="main">Deploying ALP Dolomite interactively using Agama</doc>
-  -->
-
-<!-- SLE Micro -->
- <!-- <doc cat="smartdocs" doc="SLE-Micro-admin" branches="main">The SLE Micro Admin Guide</doc>
-  <doc cat="smartdocs" doc="Micro-cockpit" branches="main">Cockpit Guide</doc>
-  <doc cat="smartdocs" doc="Micro-deployment-images" branches="main">Deployment images description</doc> -->
-
-
-  <!-- Real documents from assemblies -->
-  <doc cat="smartdocs" doc="systemd-working-with-timers" branches="main">Working with systemd timers</doc>
-
+  
+  <doc cat="smartdocs" doc="systemd-working-with-timers" branches="SLE15SP7">Working with systemd timers</doc>
+  <doc cat="smartdocs" doc="minimal-vm" branches="SLE15SP7">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="manage-vm-on-commandline" branches="SLE15SP7">Unified Virtual Machine Administration using libvirt</doc>
+  <doc cat="smartdocs" doc="ntp-time-synchronization" branches="SLE15SP7">Time synchronization using NTP</doc>
+  <doc cat="smartdocs" doc="virtual-disk-cache-mode-configure" branches="SLE15SP7">Configuring a Virtual Disk Cache Mode</doc>
+  <doc cat="smartdocs" doc="concept-zypper" branches="SLE15SP7">Zypper package manager</doc>
+  <doc cat="smartdocs" doc="vm-assign-pci-device" branches="SLE15SP7">Assigning host devices to a virtual machine</doc>
+  <doc cat="smartdocs" doc="cpu-check-temperature" branches="SLE15SP7">Check and monitor CPU temperature</doc>
+  <doc cat="smartdocs" doc="forward-root-mail" branches="SLE15SP7">Configuring mail forwarding for root</doc>
+  <doc cat="smartdocs" doc="freeradius-setup-server" branches="SLE15SP6">Setting up a FreeRADIUS server</doc>
+  <doc cat="smartdocs" doc="http-boot-setting-up-server" branches="SLE15SP6">Setting up an HTTP Boot server</doc>
+  <doc cat="smartdocs" doc="ulp-livepatching" branches="SLE15SP6">ULP patching a library</doc>
+  <doc cat="smartdocs" doc="network-interface-predictable-naming" branches="SLE15SP7">Predictable naming scheme for network interfaces</doc>
+  <doc cat="smartdocs" doc="network-bond-managing-devices" branches="SLE15SP7">Managing network bonding devices</doc>
+  <doc cat="smartdocs" doc="network-team-managing-devices" branches="SLE15SP7">Managing network teaming devices</doc>
+  <doc cat="smartdocs" doc="systemd-basics" branches="SLE15SP7">Introduction to systemd basics</doc>
+  <doc cat="smartdocs" doc="systemd-securing" branches="SLE15SP6">Securing systemd Services</doc>
+  <doc cat="smartdocs" doc="systemd-setting-up-service" branches="SLE15SP7">Setting Up a systemd Service</doc>
+  <doc cat="smartdocs" doc="systemd-management" branches="SLE15SP7">Managing systemd Services</doc>
+  <doc cat="smartdocs" doc="subnet-manager-configuring" branches="SLE15SP7">Configuring a Subnet Manager</doc>
+  <doc cat="smartdocs" doc="PAM-security" branches="SLE15SP6">PAM introduction</doc>
+  <doc cat="smartdocs" doc="minimal-vm" branches="SLE15SP7">Introduction to SLES Minimal VM</doc>
+  <doc cat="smartdocs" doc="virtualization" branches="SLE15SP7">Introduction to virtualization</doc>
+  <doc cat="smartdocs" doc="virt-scenario-creating-customized-vm-guests" branches="SLE15SP7">Creating Customized Virtual Machines Using virt-scenario</doc>
+  <doc cat="smartdocs" doc="vxlan" branches="SLE15SP7">Connecting Virtual Machines to a VXLAN</doc>
+  <doc cat="smartdocs" doc="tls-certificates" branches="SLE15SP6">Securing Communication with TLS Certificates</doc>
+  <doc cat="smartdocs" doc="SLES-NVIDIA-jetson" SLE15SP6="main">NVIDIA Jetson platform deployment</doc>
+  <doc cat="smartdocs" doc="SLES-copy-file-rsync" branches="SLE15SP7">Copying Files and Directories with rsync</doc>
+  <doc cat="smartdocs" doc="GNOME-getting-started" branches="SLE15SP7">Getting Started with GNOME Desktop</doc>
+  <doc cat="smartdocs" doc="rootless-podman" branches="SLE15SP7">Running Podman in Rootless Mode</doc>
+  <doc cat="smartdocs" doc="cpu-check-temperature" branches="SLE15SP7">Check and Monitor CPU Temperature</doc>
+  <doc cat="smartdocs" doc="kernel-boot-parameters-modify" branches="SLE15SP7">Modifying Kernel Boot Parameters</doc>
+  <doc cat="smartdocs" doc="supportconfig" branches="SLE15SP7">Gathering System Information for Support</doc>
+ 
   <doc cat="pubcloud" doc="public-cloud" branches="main">SUSE Public Cloud Guide</doc>
 
   <doc cat="styleguide" doc="style-guide-db" branches="main">DocBook Style Guide</doc>

@@ -122,6 +122,7 @@
   <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc>
   <doc cat="sles16"  doc="SLES-apache-tomcat-cloud" branches="main">Apache Tomcat on SLES</doc>
   <doc cat="sles16"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
+  <doc cat="sles16"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -149,6 +150,8 @@
   <doc cat="sles16-sap"  doc="SAP-saptune" branches="main">System tuning with saptune</doc>
   <doc cat="sles16-sap"  doc="SAP-sles-to-sap" branches="main">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
   <doc cat="sles16-sap"  doc="SAP-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server for SAP applications 16</doc>
+  <doc cat="sles16-sap"  doc="SAP-Ansible" branches="main">Introduction to Ansible core</doc>
+
   
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

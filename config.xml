@@ -123,6 +123,7 @@
   <doc cat="sles16"  doc="SLES-apache-tomcat-cloud" branches="main">Apache Tomcat on SLES</doc>
   <doc cat="sles16"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
   <doc cat="sles16"  doc="SLES-ansible-roles" branches="main">Ansible Linux system roles</doc>
+  <doc cat="sles16"  doc="DC-SLES-intro-firewalld" branches="main">Introduction to firewalld</doc>  
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>

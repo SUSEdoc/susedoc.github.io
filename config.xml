@@ -53,7 +53,7 @@
   <cats>
     <cat id="release-notes" repo="release-notes">Release Notes</cat>
     <cat id="sles16"     repo="doc-modular">SUSE Linux Enterprise Server 16</cat>
-    <cat id="sles16-sap" repo="doc-modular">SUSE Linux Enterprise for SAP Applications 16</cat>
+    <cat id="sles16-sap" repo="doc-modular">SUSE Linux Enterprise for SAP applications 16</cat>
     <cat id="sle16-ha"   repo="doc-modular">SUSE Linux Enterprise High Availability Extension 16</cat>
     <cat id="alp"        repo="doc-modular">SUSE ALP</cat>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
@@ -62,7 +62,7 @@
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
-    <cat id="sles-sap"   repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP Applications</cat>
+    <cat id="sles-sap"   repo="doc-slesforsap">SUSE Linux Enterprise Server for SAP applications</cat>
     <cat id="sle-hpc"    repo="doc-hpc">SUSE Linux Enterprise High Performance Computing</cat>
     <cat id="sbp"        repo="suse-best-practices">SUSE Best Practices</cat>
     <cat id="opensuse"   repo="doc-sle">openSUSE</cat>

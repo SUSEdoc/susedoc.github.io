@@ -120,7 +120,7 @@
   <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
   <doc cat="sles16"  doc="SLES-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
-  <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc>
+ !-- <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc> -->
   <doc cat="sles16"  doc="SLES-apache-tomcat-cloud" branches="main">Apache Tomcat on SLES</doc>
   <doc cat="sles16"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
   <doc cat="sles16"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc>

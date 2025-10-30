@@ -378,9 +378,10 @@
   <doc cat="release-notes" doc="release-notes" branches="leap-16.0" formats="html">openSUSE Leap 16</doc>
 
   <doc cat="liberty" doc="quickstart-smlm" branches="main">Registering with SUSE Multi-Linux Manager</doc>
-  <doc cat="liberty" doc="quickstart" branches="main SLL9 SLL8 SLL7">Registering with RMT</doc>
+  <doc cat="liberty" doc="quickstart-rmt" branches="main">Registering with RMT</doc>
   <doc cat="liberty" doc="compliance-scans" branches="main SLL9 SLL8 SLL7">Running OpenSCAP Compliance Scans for SUSE Multi-Linux Support</doc>
   <doc cat="liberty" doc="suma-quickstart" branches="SLL9 SLL8 SLL7">Registering with SUSE Multi-Linux Manager (previous)</doc>
+  <doc cat="liberty" doc="quickstart" branches="SLL9 SLL8 SLL7">Registering with RMT (previous)</doc>
   <doc cat="liberty" doc="quickstart-scc" branches="SLL7">Registering with the SUSE Customer Center</doc>
   <doc cat="liberty" doc="quickstart-smt" branches="SLL7">Registering with SMT</doc>
 

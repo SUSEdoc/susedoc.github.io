@@ -115,6 +115,7 @@
   <doc cat="sles16"  doc="HA-introduction" branches="main">Introduction to SUSE Linux Enterprise High Availability</doc>
   <doc cat="sles16"  doc="HA-qdevice-configuring" branches="main">Configuring QDevice and QNetd in an Existing High Availability Cluster</doc>
   <doc cat="sles16"  doc="HA-sbd-configuring-diskbased" branches="main">Configuring Disk-Based SBD in an Existing High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-sbd-configuring-diskless" branches="main">Configuring Diskless SBD in an Existing High Availability Cluster</doc>
   <doc cat="sles16"  doc="HA-sbd-changing-configuration" branches="main">Changing the Configuration of SBD</doc>
   <doc cat="sles16"  doc="HA-fencing-configuring" branches="main">Configuring Node Fencing in a High Availability Cluster</doc>
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>

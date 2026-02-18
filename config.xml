@@ -372,7 +372,7 @@
 
   <doc cat="release-notes" doc="release-notes" branches="sl-micro_60 sl-micro_61 sl-micro_62" formats="html">SUSE Linux Enterprise Micro</doc>
   <doc cat="release-notes" doc="release-notes" branches="sles-15_SP4 sles-15_SP5 sles-15_SP6 sles-15_SP7" formats="html">SUSE Linux Enterprise Server 15</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sles-16.0" formats="html">SUSE Linux Enterprise Server 16</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sles-16.0 sles-16.1" formats="html">SUSE Linux Enterprise Server 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="sleha-16.0" formats="html">SUSE Linux Enterprise High Availability 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="slesap-16.0" formats="html">SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5 sled-15_SP6" formats="html">SUSE Linux Enterprise Desktop</doc>

@@ -376,7 +376,7 @@
   <doc cat="release-notes" doc="release-notes" branches="sleha-16.0" formats="html">SUSE Linux Enterprise High Availability 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="slesap-16.0" formats="html">SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="release-notes" doc="release-notes" branches="sled-15_SP4 sled-15_SP5 sled-15_SP6" formats="html">SUSE Linux Enterprise Desktop</doc>
-  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5 sle-sap-15_SP6" formats="html">SUSE Linux Enterprise Server for SAP applications</doc>
+  <doc cat="release-notes" doc="release-notes" branches="sle-sap-15_SP4 sle-sap-15_SP5 sle-sap-15_SP6 sle-sap-15_SP7" formats="html">SUSE Linux Enterprise Server for SAP applications</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-ha-15_SP4 sle-ha-15_SP5 sle-ha-15_SP6" formats="html">SUSE Linux Enterprise High Availability Extension</doc>
   <doc cat="release-notes" doc="release-notes" branches="sle-hpc-15_SP4 sle-hpc-15_SP5 sle-hpc-15_SP6" formats="html">SUSE Linux Enterprise High Performance Computing</doc>
   <doc cat="release-notes" doc="release-notes" branches="leap-16.0" formats="html">openSUSE Leap 16</doc>

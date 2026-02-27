@@ -127,7 +127,11 @@
   <doc cat="sles16"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
   <doc cat="sles16"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc>
   <doc cat="sles16"  doc="SLES-ansible-roles" branches="main">Ansible Linux system roles</doc>
-  <doc cat="sles16"  doc="DC-SLES-intro-firewalld" branches="main">Introduction to firewalld</doc>  
+  <doc cat="sles16"  doc="SLES-intro-firewalld" branches="main">Introduction to firewalld</doc> 
+  <doc cat="sles16"  doc="SLES-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
+  <doc cat="sles16"  doc="SLES-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
+  <doc cat="sles16"  doc="SLES-ulp" branches="main">Creating a User Space Live Patch</doc>
+  <doc cat="sles16"  doc="SLES-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -159,6 +163,10 @@
   <doc cat="sles16-sap"  doc="SAP-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16-sap"  doc="SAP-intro-sap-ansible-automation" branches="main">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="sles16-sap"  doc="SAP-SELinux" branches="main">Understanding SELinux basics</doc>
+  <doc cat="sles16-sap"  doc="SAP-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
+  <doc cat="sles16-sap"  doc="SAP-ulp" branches="main">Creating a User Space Live Patch</doc>
+  <doc cat="sles16-sap"  doc="SAP-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
+  <doc cat="sles16-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
  
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

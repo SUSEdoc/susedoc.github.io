@@ -132,6 +132,12 @@
   <doc cat="sles16"  doc="SLES-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="sles16"  doc="SLES-ulp" branches="main">Creating a User Space Live Patch</doc>
   <doc cat="sles16"  doc="SLES-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-disk-cache" branches="main">Configuring a Virtual Disk Cache Mode</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-libvirt" branches="main">Managing Virtualization Platforms with libvirt</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-qemu" branches="main">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>

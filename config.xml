@@ -56,6 +56,7 @@
     <cat id="sles16"     repo="doc-modular">SUSE Linux Enterprise Server 16</cat>
     <cat id="sles16-sap" repo="doc-modular">SUSE Linux Enterprise for SAP applications 16</cat>
     <cat id="sle16-ha"   repo="doc-modular">SUSE Linux Enterprise High Availability Extension 16</cat>
+    <cat id="sle16-ai"   repo="doc-suse-ai">SUSE Linux Agentic AI</cat>
     <cat id="alp"        repo="doc-modular">SUSE ALP</cat>
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
@@ -173,6 +174,8 @@
   <doc cat="sles16-sap"  doc="SAP-ulp" branches="main">Creating a User Space Live Patch</doc>
   <doc cat="sles16-sap"  doc="SAP-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
+
+  <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
   <doc cat="sles"  doc="SLES-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">GNOME User Guide</doc>

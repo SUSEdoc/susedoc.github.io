@@ -151,7 +151,6 @@
   <doc cat="sles16-sap"  doc="SAP-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16-sap"  doc="SAP-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main">Installing SLES for SAP 16 for PPC Manually Using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-s390-agama-based-installation" branches="main">Installing SLE for SAP for IBM Z Manually Using Agama</doc>
   <doc cat="sles16-sap"  doc="SAP-snapper-basics" branches="main">The Basic Concepts of Snapper</doc>
   <doc cat="sles16-sap"  doc="SAP-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
   <doc cat="sles16-sap"  doc="SAP-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>  

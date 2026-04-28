@@ -89,90 +89,90 @@
   <redirect from="sle-ha-15sp4-rn" to="release-notes/sle-ha-15_SP4/html/release-notes/"/>
   <redirect from="sle-hpc-15sp4-rn" to="release-notes/sle-hpc-15_SP4/html/release-notes/"/>
 
-  <doc cat="sles16"  doc="SLES-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
-  <doc cat="sles16"  doc="SLES-cockpit" branches="main">Administering SLE Using Cockpit</doc>
-  <doc cat="sles16"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
-  <doc cat="sles16"  doc="SLES-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
-  <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
-  <doc cat="sles16"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
-  <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
-  <doc cat="sles16"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>
-  <doc cat="sles16"  doc="SLES-SELinux" branches="main">Understanding SELinux Basics</doc>
-  <doc cat="sles16"  doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
-  <doc cat="sles16"  doc="SLES-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
-  <doc cat="sles16"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
-  <doc cat="sles16"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
-  <doc cat="sles16"  doc="SLES-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
-  <doc cat="sles16"  doc="SLES-PXE-server" branches="main">Setting Up a PXE Boot Server on SLE 16.0</doc>
-  <doc cat="sles16"  doc="SLES-supportconfig" branches="main">Gathering System Information for Support</doc>
-  <doc cat="sles16"  doc="SLES-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
-  <doc cat="sles16"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
-  <doc cat="sles16"  doc="SLES-systemd-basics" branches="main">Introduction to systemd Basics</doc>
-  <doc cat="sles16"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
-  <doc cat="sles16"  doc="SLES-virtualization" branches="main">Virtualization</doc>
-  <doc cat="sles16"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
-  <doc cat="sles16"  doc="HA-installing-three-node-cluster" branches="main">Installing a Basic Three-Node High Availability Cluster</doc>
-  <doc cat="sles16"  doc="HA-introduction" branches="main">Introduction to SUSE Linux Enterprise High Availability</doc>
-  <doc cat="sles16"  doc="HA-qdevice-configuring" branches="main">Configuring QDevice and QNetd in an Existing High Availability Cluster</doc>
-  <doc cat="sles16"  doc="HA-sbd-configuring-diskbased" branches="main">Configuring Disk-Based SBD in an Existing High Availability Cluster</doc>
-  <doc cat="sles16"  doc="HA-sbd-configuring-diskless" branches="main">Configuring Diskless SBD in an Existing High Availability Cluster</doc>
-  <doc cat="sles16"  doc="HA-sbd-changing-configuration" branches="main">Changing the Configuration of SBD</doc>
-  <doc cat="sles16"  doc="HA-fencing-configuring" branches="main">Configuring Node Fencing in a High Availability Cluster</doc>
+  <doc cat="sles16"  doc="SLES-networkmanager-nmcli" branches="main maintenance/SLE16.0">Setting Up and Managing Network Connections Using NetworkManager</doc>
+  <doc cat="sles16"  doc="SLES-cockpit" branches="main maintenance/SLE16.0">Administering SLE Using Cockpit</doc>
+  <doc cat="sles16"  doc="SLES-ppc-agama-based-installation" branches="main maintenance/SLE16.0">Installing SLE 16 for PPC Manually Using Agama</doc>
+  <doc cat="sles16"  doc="SLES-s390-agama-based-installation" branches="main maintenance/SLE16.0">Installing SLE 16 for IBM Z Manually Using Agama</doc>
+  <doc cat="sles16"  doc="SLES-x86-64-agama-based-installation" branches="main maintenance/SLE16.0">Installing SLE 16 for x86-64 Manually Using Agama</doc>
+  <doc cat="sles16"  doc="SLES-x86-64-agama-automated-installation" branches="main maintenance/SLE16.0">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
+  <doc cat="sles16"  doc="SLES-snapper-basics" branches="main maintenance/SLE16.0">Snapper basics</doc>
+  <doc cat="sles16"  doc="SLES-copy-file-rsync" branches="main maintenance/SLE16.0">Copying Files and Directories with rsync</doc>
+  <doc cat="sles16"  doc="SLE-os-identification" branches="main maintenance/SLE16.0">SLE OS identification</doc>
+  <doc cat="sles16"  doc="SLES-SELinux" branches="main maintenance/SLE16.0">Understanding SELinux Basics</doc>
+  <doc cat="sles16"  doc="SLES-systemd-timers" branches="main maintenance/SLE16.0">Working with Systemd Timers</doc>
+  <doc cat="sles16"  doc="SLES-ntp-time-synchronization" branches="main maintenance/SLE16.0">Synchronizing Time Using NTP/NTS</doc>
+  <doc cat="sles16"  doc="SLES-sudo-run-commands-as-superuser" branches="main maintenance/SLE16.0">Running Commands as Superuser with sudo</doc>
+  <doc cat="sles16"  doc="SLES-sudo-configure-superuser-privileges" branches="main maintenance/SLE16.0">Configuring Superuser Privileges with sudo</doc>
+  <doc cat="sles16"  doc="SLES-deployment-pxe-client" branches="main maintenance/SLE16.0">Deploying SLES via PXE Client</doc>
+  <doc cat="sles16"  doc="SLES-PXE-server" branches="main maintenance/SLE16.0">Setting Up a PXE Boot Server on SLE 16.0</doc>
+  <doc cat="sles16"  doc="SLES-supportconfig" branches="main maintenance/SLE16.0">Gathering System Information for Support</doc>
+  <doc cat="sles16"  doc="SLES-klp" branches="main maintenance/SLE16.0">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLE-comparison" branches="main maintenance/SLE16.0">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
+  <doc cat="sles16"  doc="SLES-systemd-basics" branches="main maintenance/SLE16.0">Introduction to systemd Basics</doc>
+  <doc cat="sles16"  doc="SLES-valkey" branches="main maintenance/SLE16.0">Introduction to Valkey</doc>
+  <doc cat="sles16"  doc="SLES-virtualization" branches="main maintenance/SLE16.0">Virtualization</doc>
+  <doc cat="sles16"  doc="HA-installing-two-node-cluster" branches="main maintenance/SLE16.0">Installing a Basic Two-Node High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-installing-three-node-cluster" branches="main maintenance/SLE16.0">Installing a Basic Three-Node High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-introduction" branches="main maintenance/SLE16.0">Introduction to SUSE Linux Enterprise High Availability</doc>
+  <doc cat="sles16"  doc="HA-qdevice-configuring" branches="main maintenance/SLE16.0">Configuring QDevice and QNetd in an Existing High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-sbd-configuring-diskbased" branches="main maintenance/SLE16.0">Configuring Disk-Based SBD in an Existing High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-sbd-configuring-diskless" branches="main maintenance/SLE16.0">Configuring Diskless SBD in an Existing High Availability Cluster</doc>
+  <doc cat="sles16"  doc="HA-sbd-changing-configuration" branches="main maintenance/SLE16.0">Changing the Configuration of SBD</doc>
+  <doc cat="sles16"  doc="HA-fencing-configuring" branches="main maintenance/SLE16.0">Configuring Node Fencing in a High Availability Cluster</doc>
   <doc cat="sles16"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
-  <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
-  <doc cat="sles16"  doc="SLES-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
+  <doc cat="sles16"  doc="SLES-gnome-remote-desktop" branches="main maintenance/SLE16.0">Configuring a remote desktop</doc>
+  <doc cat="sles16"  doc="SLES-vm-host-network-multihome-setup" branches="main maintenance/SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
   <!-- <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc> -->
-  <doc cat="sles16"  doc="SLES-apache-tomcat-cloud" branches="main">Apache Tomcat on SLES</doc>
-  <doc cat="sles16"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
-  <doc cat="sles16"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc>
-  <doc cat="sles16"  doc="SLES-ansible-roles" branches="main">Ansible Linux system roles</doc>
-  <doc cat="sles16"  doc="SLES-intro-firewalld" branches="main">Introduction to firewalld</doc> 
-  <doc cat="sles16"  doc="SLES-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
-  <doc cat="sles16"  doc="SLES-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
-  <doc cat="sles16"  doc="SLES-ulp" branches="main">Creating a User Space Live Patch</doc>
-  <doc cat="sles16"  doc="SLES-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-disk-cache" branches="main">Configuring a Virtual Disk Cache Mode</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-libvirt" branches="main">Managing Virtualization Platforms with libvirt</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-qemu" branches="main">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
-  <doc cat="sles16"  doc="SLES-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-apache-tomcat-cloud" branches="main maintenance/SLE16.0">Apache Tomcat on SLES</doc>
+  <doc cat="sles16"  doc="SLES-upgrading" branches="main maintenance/SLE16.0">Upgrading to SUSE Linux Enterprise Server 16</doc>
+  <doc cat="sles16"  doc="SLES-Ansible" branches="main maintenance/SLE16.0">Introduction to Ansible core</doc>
+  <doc cat="sles16"  doc="SLES-ansible-roles" branches="main maintenance/SLE16.0">Ansible Linux system roles</doc>
+  <doc cat="sles16"  doc="SLES-intro-firewalld" branches="main maintenance/SLE16.0">Introduction to firewalld</doc> 
+  <doc cat="sles16"  doc="SLES-GNOME-getting-started" branches="main maintenance/SLE16.0">Getting Started with GNOME Desktop</doc>
+  <doc cat="sles16"  doc="SLES-subnet-manager" branches="main maintenance/SLE16.0">Configuring a Subnet Manager</doc>
+  <doc cat="sles16"  doc="SLES-ulp" branches="main maintenance/SLE16.0">Creating a User Space Live Patch</doc>
+  <doc cat="sles16"  doc="SLES-predictable-naming" branches="main maintenance/SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-disk-cache" branches="main maintenance/SLE16.0">Configuring a Virtual Disk Cache Mode</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-io" branches="main maintenance/SLE16.0">I/O Virtualization for Virtual Machines</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-libvirt" branches="main maintenance/SLE16.0">Managing Virtualization Platforms with libvirt</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-qemu" branches="main maintenance/SLE16.0">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-spice-removal" branches="main maintenance/SLE16.0">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-virtualization-support" branches="main maintenance/SLE16.0">Virtualization Support in SUSE Linux Enterprise Server</doc>
 
-  <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
-  <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
-  <doc cat="sles16-sap"  doc="SAP-cockpit" branches="main">Administering SLES for SAP Using Cockpit</doc>
-  <doc cat="sles16-sap"  doc="SAP-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
-  <doc cat="sles16-sap"  doc="SAP-deployment-pxe-client" branches="main">Deploying Using Network PXE Boot</doc>
-  <doc cat="sles16-sap"  doc="SAP-gnome-remote-desktop" branches="main">Configuring a Remote Desktop Server</doc>
-  <doc cat="sles16-sap"  doc="SAP-intro-firewalld" branches="main">Introduction to firewalld</doc>
-  <doc cat="sles16-sap"  doc="SAP-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise</doc>
-  <doc cat="sles16-sap"  doc="SAP-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
-  <doc cat="sles16-sap"  doc="SAP-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
-  <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main">Installing SLES for SAP 16 for PPC Manually Using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-snapper-basics" branches="main">The Basic Concepts of Snapper</doc>
-  <doc cat="sles16-sap"  doc="SAP-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
-  <doc cat="sles16-sap"  doc="SAP-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>  
-  <doc cat="sles16-sap"  doc="SAP-systemd-timers" branches="main">Working with systemd Timers</doc>
-  <doc cat="sles16-sap"  doc="SAP-valkey" branches="main">Introduction to Valkey</doc>
-  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main">Installing SLES for SAP 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16-sap"  doc="SAP-systemd-basics" branches="main">Introduction to systemd Basics</doc>
-  <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
-  <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main">Gathering System Information for Support</doc>
-  <doc cat="sles16-sap"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
-  <doc cat="sles16-sap"  doc="SAP-saptune" branches="main">System tuning with saptune</doc>
-  <doc cat="sles16-sap"  doc="SAP-sles-to-sap" branches="main">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
-  <doc cat="sles16-sap"  doc="SAP-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server for SAP applications 16</doc>
-  <doc cat="sles16-sap"  doc="SAP-Ansible" branches="main">Introduction to Ansible core</doc>
-  <doc cat="sles16-sap"  doc="SAP-ansible-roles" branches="main">Ansible Linux system roles</doc>
-  <doc cat="sles16-sap"  doc="SAP-intro-sap-ansible-automation" branches="main">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
-  <doc cat="sles16-sap"  doc="SAP-SELinux" branches="main">Understanding SELinux basics</doc>
-  <doc cat="sles16-sap"  doc="SAP-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
-  <doc cat="sles16-sap"  doc="SAP-ulp" branches="main">Creating a User Space Live Patch</doc>
-  <doc cat="sles16-sap"  doc="SAP-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
-  <doc cat="sles16-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
+  <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main maintenance/SLE16.0">Getting Started with GNOME Desktop</doc>
+  <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main maintenance/SLE16.0">Setting Up a PXE Boot Server</doc>
+  <doc cat="sles16-sap"  doc="SAP-cockpit" branches="main maintenance/SLE16.0">Administering SLES for SAP Using Cockpit</doc>
+  <doc cat="sles16-sap"  doc="SAP-copy-file-rsync" branches="main maintenance/SLE16.0">Copying Files and Directories with rsync</doc>
+  <doc cat="sles16-sap"  doc="SAP-deployment-pxe-client" branches="main maintenance/SLE16.0">Deploying Using Network PXE Boot</doc>
+  <doc cat="sles16-sap"  doc="SAP-gnome-remote-desktop" branches="main maintenance/SLE16.0">Configuring a Remote Desktop Server</doc>
+  <doc cat="sles16-sap"  doc="SAP-intro-firewalld" branches="main maintenance/SLE16.0">Introduction to firewalld</doc>
+  <doc cat="sles16-sap"  doc="SAP-klp" branches="main maintenance/SLE16.0">Kernel Live Patching on SUSE Linux Enterprise</doc>
+  <doc cat="sles16-sap"  doc="SAP-networkmanager-nmcli" branches="main maintenance/SLE16.0">Setting Up and Managing Network Connections Using NetworkManager</doc>
+  <doc cat="sles16-sap"  doc="SAP-ntp-time-synchronization" branches="main maintenance/SLE16.0">Synchronizing Time Using NTP/NTS</doc>
+  <doc cat="sles16-sap"  doc="SAP-ppc-agama-based-installation" branches="main maintenance/SLE16.0">Installing SLES for SAP 16 for PPC Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-snapper-basics" branches="main maintenance/SLE16.0">The Basic Concepts of Snapper</doc>
+  <doc cat="sles16-sap"  doc="SAP-sudo-configure-superuser-privileges" branches="main maintenance/SLE16.0">Configuring Superuser Privileges with sudo</doc>
+  <doc cat="sles16-sap"  doc="SAP-sudo-run-commands-as-superuser" branches="main maintenance/SLE16.0">Running Commands as Superuser with sudo</doc>  
+  <doc cat="sles16-sap"  doc="SAP-systemd-timers" branches="main maintenance/SLE16.0">Working with systemd Timers</doc>
+  <doc cat="sles16-sap"  doc="SAP-valkey" branches="main maintenance/SLE16.0">Introduction to Valkey</doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-automated-installation" branches="main maintenance/SLE16.0">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-x86-64-agama-based-installation" branches="main maintenance/SLE16.0">Installing SLES for SAP 16 for x86-64 Manually Using Agama</doc>
+  <doc cat="sles16-sap"  doc="SAP-systemd-basics" branches="main maintenance/SLE16.0">Introduction to systemd Basics</doc>
+  <doc cat="sles16-sap"  doc="SAP-virtualization" branches="main maintenance/SLE16.0">Virtualization</doc>
+  <doc cat="sles16-sap"  doc="SAP-supportconfig" branches="main maintenance/SLE16.0">Gathering System Information for Support</doc>
+  <doc cat="sles16-sap"  doc="SLE-packages-lifecycle" branches="main maintenance/SLE16.0">Lifecycles of SLE Components</doc>
+  <doc cat="sles16-sap"  doc="SAP-saptune" branches="main maintenance/SLE16.0">System tuning with saptune</doc>
+  <doc cat="sles16-sap"  doc="SAP-sles-to-sap" branches="main maintenance/SLE16.0">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
+  <doc cat="sles16-sap"  doc="SAP-upgrading" branches="main maintenance/SLE16.0">Upgrading to SUSE Linux Enterprise Server for SAP applications 16</doc>
+  <doc cat="sles16-sap"  doc="SAP-Ansible" branches="main maintenance/SLE16.0">Introduction to Ansible core</doc>
+  <doc cat="sles16-sap"  doc="SAP-ansible-roles" branches="main maintenance/SLE16.0">Ansible Linux system roles</doc>
+  <doc cat="sles16-sap"  doc="SAP-intro-sap-ansible-automation" branches="main maintenance/SLE16.0">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
+  <doc cat="sles16-sap"  doc="SAP-SELinux" branches="main maintenance/SLE16.0">Understanding SELinux basics</doc>
+  <doc cat="sles16-sap"  doc="SAP-subnet-manager" branches="main maintenance/SLE16.0">Configuring a Subnet Manager</doc>
+  <doc cat="sles16-sap"  doc="SAP-ulp" branches="main maintenance/SLE16.0">Creating a User Space Live Patch</doc>
+  <doc cat="sles16-sap"  doc="SAP-predictable-naming" branches="main maintenance/SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
+  <doc cat="sles16-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main maintenance/SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
 
   <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  
@@ -220,36 +220,36 @@
   <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.5</doc>
   <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
   <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>
-  <doc cat="modular-micro" doc="Micro-cockpit" branches="main maintenance/SLE_Micro_6.1">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Cockpit Guide</doc>
   <doc cat="modular-micro" doc="Micro-public-cloud" branches="maintenance/SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-images" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment images description</doc>
-  <doc cat="modular-micro" doc="Micro-PAM-security" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">PAM security</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
-  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">NTP synchronization</doc>
-  <doc cat="modular-micro" doc="Micro-selinux" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">SELinux basics</doc>
-  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring superuser privileges</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Run commands as a superuser</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="main">systemd basics</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring systemd timers</doc>
-  <doc cat="modular-micro" doc="Micro-raids" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Software RAID</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment images description</doc>
+  <doc cat="modular-micro" doc="Micro-PAM-security" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">PAM security</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">NTP synchronization</doc>
+  <doc cat="modular-micro" doc="Micro-selinux" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">SELinux basics</doc>
+  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring superuser privileges</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Run commands as a superuser</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="maintenance/SLE16.0">systemd basics</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring systemd timers</doc>
+  <doc cat="modular-micro" doc="Micro-raids" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Software RAID</doc>
   <doc cat="modular-micro" doc="Rancher-OS" branches="maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Rancher-OS</doc>
-  <doc cat="modular-micro" doc="Micro-keylime" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Remote attestation using Keylime</doc>
-  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Managing system log files</doc>
-  <doc cat="modular-micro" doc="Micro-compose" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Podman compose</doc>
-  <doc cat="modular-micro" doc="Micro-network-configuration" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Network configuration</doc>
-  <doc cat="modular-micro" doc="Micro-upgrade" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Upgrading procedure</doc>
-  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">About the transactional-update command</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="main maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="main maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-pxe" branches="main maintenance/SLE_Micro_6.1">Deployment using the PXE images</doc>
-  <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="main maintenance/SLE_Micro_6.1">Using pf_bb_config</doc>  
-  <doc cat="modular-micro" doc="Micro-vhostmd" branches="main maintenance/SLE_Micro_6.1">Collecting metrics with vhostmd</doc>
-  <doc cat="modular-micro" doc="Micro-zram" branches="main maintenance/SLE_Micro_6.1">Creating zram devices</doc>
-  <doc cat="modular-micro" doc="Micro-NVIDIA-Jetson" branches="main">NVIDIA Jetson platform deployment</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="main maintenance/SLE_Micro_6.1">NVIDIA Jetson platform deployment</doc>
+  <doc cat="modular-micro" doc="Micro-keylime" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Remote attestation using Keylime</doc>
+  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Managing system log files</doc>
+  <doc cat="modular-micro" doc="Micro-compose" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Podman compose</doc>
+  <doc cat="modular-micro" doc="Micro-network-configuration" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Network configuration</doc>
+  <doc cat="modular-micro" doc="Micro-upgrade" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Upgrading procedure</doc>
+  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">About the transactional-update command</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-pxe" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Deployment using the PXE images</doc>
+  <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Using pf_bb_config</doc>  
+  <doc cat="modular-micro" doc="Micro-vhostmd" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Collecting metrics with vhostmd</doc>
+  <doc cat="modular-micro" doc="Micro-zram" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Creating zram devices</doc>
+  
+  <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">NVIDIA Jetson platform deployment</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

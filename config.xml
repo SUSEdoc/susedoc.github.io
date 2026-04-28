@@ -248,7 +248,7 @@
   <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Using pf_bb_config</doc>  
   <doc cat="modular-micro" doc="Micro-vhostmd" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Collecting metrics with vhostmd</doc>
   <doc cat="modular-micro" doc="Micro-zram" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Creating zram devices</doc>
-  <doc cat="modular-micro" doc="Micro-NVIDIA-Jetson" branches="maintenance/SLE16.0">NVIDIA Jetson platform deployment</doc>
+  
   <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">NVIDIA Jetson platform deployment</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>

@@ -139,6 +139,7 @@
   <doc cat="sles16"  doc="SLES-virtualization-qemu" branches="main SLE16.0">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16"  doc="SLES-virtualization-spice-removal" branches="main SLE16.0">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16"  doc="SLES-virtualization-support" branches="main SLE16.0">Virtualization Support in SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16"  doc="SLES-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLES on NVIDIA Jetson platforms</doc>
 
   <doc cat="sles16-sap"  doc="SAP-GNOME-getting-started" branches="main SLE16.0">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16-sap"  doc="SAP-PXE-server" branches="main SLE16.0">Setting Up a PXE Boot Server</doc>
@@ -173,7 +174,7 @@
   <doc cat="sles16-sap"  doc="SAP-ulp" branches="main SLE16.0">Creating a User Space Live Patch</doc>
   <doc cat="sles16-sap"  doc="SAP-predictable-naming" branches="main SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
-
+ 
   <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  
   <doc cat="sles"  doc="SLES-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4 SLE15SP3">Administration Guide</doc>
@@ -212,44 +213,45 @@
   <doc cat="sle-micro" doc="SLE-Micro-podman" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4 SLE_Micro_5.5">Podman Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-security" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3 SLE_Micro_5.4">Security Guide</doc>
   <doc cat="sle-micro" doc="SLE-Micro-administration" branches="main SLE_Micro_5.1 SLE_Micro_5.2 SLE_Micro_5.3">Administration Guide</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="maintenance/SLE_Micro_6.0">SLE Micro in Public Clouds</doc>
-  <doc cat="modular-micro" doc="Micro-6.0-public-cloud" branches="maintenance/SLE_Micro_6.0">SLE Micro in Public Clouds v6.0</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-5.4-admin" branches="maintenance/SLE_Micro_6.0">Administration Guide v5.4</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="maintenance/SLE_Micro_6.0">Administration Guide v5.5</doc>
-  <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.4</doc>
-  <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v5.5</doc>
-  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="maintenance/SLE_Micro_6.0">Cockpit Guide v6.0</doc>
-  <doc cat="modular-micro" doc="SLE-Micro-security" branches="maintenance/SLE_Micro_6.0">Security Guide</doc>
-  <doc cat="modular-micro" doc="Micro-cockpit" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Cockpit Guide</doc>
-  <doc cat="modular-micro" doc="Micro-public-cloud" branches="maintenance/SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment images description</doc>
-  <doc cat="modular-micro" doc="Micro-PAM-security" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">PAM security</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
-  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">NTP synchronization</doc>
-  <doc cat="modular-micro" doc="Micro-selinux" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">SELinux basics</doc>
-  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring superuser privileges</doc>
-  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Run commands as a superuser</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="maintenance/SLE16.0">systemd basics</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Configuring systemd timers</doc>
-  <doc cat="modular-micro" doc="Micro-raids" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Software RAID</doc>
-  <doc cat="modular-micro" doc="Rancher-OS" branches="maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Rancher-OS</doc>
-  <doc cat="modular-micro" doc="Micro-keylime" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Remote attestation using Keylime</doc>
-  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Managing system log files</doc>
-  <doc cat="modular-micro" doc="Micro-compose" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Podman compose</doc>
-  <doc cat="modular-micro" doc="Micro-network-configuration" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Network configuration</doc>
-  <doc cat="modular-micro" doc="Micro-upgrade" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Upgrading procedure</doc>
-  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">About the transactional-update command</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1 maintenance/SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
-  <doc cat="modular-micro" doc="Micro-deployment-pxe" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Deployment using the PXE images</doc>
-  <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Using pf_bb_config</doc>  
-  <doc cat="modular-micro" doc="Micro-vhostmd" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Collecting metrics with vhostmd</doc>
-  <doc cat="modular-micro" doc="Micro-zram" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">Creating zram devices</doc>
-  
-  <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="maintenance/SLE16.0 maintenance/SLE_Micro_6.1">NVIDIA Jetson platform deployment</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-public-cloud" branches="SLE_Micro_6.0">SLE Micro in Public Clouds</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-public-cloud" branches="SLE_Micro_6.0">SLE Micro in Public Clouds v6.0</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.4-admin" branches="SLE_Micro_6.0">Administration Guide v5.4</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-5.5-admin" branches="SLE_Micro_6.0">Administration Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-5.4-cockpit" branches="SLE_Micro_6.0">Cockpit Guide v5.4</doc>
+  <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="SLE_Micro_6.0">Cockpit Guide v5.5</doc>
+  <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="SLE_Micro_6.0">Cockpit Guide v6.0</doc>
+  <doc cat="modular-micro" doc="SLE-Micro-security" branches="SLE_Micro_6.0">Security Guide</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="SLE16.0 SLE_Micro_6.1">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-public-cloud" branches="SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-images" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Deployment images description</doc>
+  <doc cat="modular-micro" doc="Micro-PAM-security" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">PAM security</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-virtual-machines" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro" doc="Micro-ntp-time-synchronization" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">NTP synchronization</doc>
+  <doc cat="modular-micro" doc="Micro-selinux" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">SELinux basics</doc>
+  <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Configuring superuser privileges</doc>
+  <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Run commands as a superuser</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="SLE16.0">systemd basics</doc>
+  <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Configuring systemd timers</doc>
+  <doc cat="modular-micro" doc="Micro-raids" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Software RAID</doc>
+  <doc cat="modular-micro" doc="Rancher-OS" branches="SLE_Micro_6.1 SLE_Micro_6.0">Rancher-OS</doc>
+  <doc cat="modular-micro" doc="Micro-keylime" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Remote attestation using Keylime</doc>
+  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Managing system log files</doc>
+  <doc cat="modular-micro" doc="Micro-compose" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Podman compose</doc>
+  <doc cat="modular-micro" doc="Micro-network-configuration" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Network configuration</doc>
+  <doc cat="modular-micro" doc="Micro-upgrade" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Upgrading procedure</doc>
+  <doc cat="modular-micro" doc="Micro-transactional-updates" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">About the transactional-update command</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.1 SLE_Micro_6.0">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz-zfcp" branches="SLE16.0 SLE_Micro_6.0">Deployment of raw images on zFCP disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-raw-images-ibmz" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Deployment of raw images on DASD disks on IBM Z</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-pxe" branches="SLE16.0 SLE_Micro_6.1">Deployment using the PXE images</doc>
+  <doc cat="modular-micro" doc="Micro-pf_bb_config" branches="SLE16.0 SLE_Micro_6.1">Using pf_bb_config</doc>  
+  <doc cat="modular-micro" doc="Micro-vhostmd" branches="SLE16.0 SLE_Micro_6.1">Collecting metrics with vhostmd</doc>
+  <doc cat="modular-micro" doc="Micro-zram" branches="SLE16.0 SLE_Micro_6.1">Creating zram devices</doc>
+  <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="SLE16.0 SLE_Micro_6.1">Deploying SUSE Linux Micro on vSphere Using VMDK Images</doc>
+  <doc cat="modular-micro" doc="Micro-NVIDIA-jetson" branches="SLE_Micro_6.1 SLE_Micro_6.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
+  <doc cat="modular-micro" doc="Micro-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

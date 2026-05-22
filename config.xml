@@ -134,6 +134,33 @@
   <doc cat="sles16.1"  doc="SLES-virtualization-qemu" branches="main">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1"  doc="SLES-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1"  doc="SLES-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16.1" doc="SLES-active-directory" branches="main">Accessing Active Directory</doc>
+<doc cat="sles16.1" doc="SLES-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
+<doc cat="sles16.1" doc="SLES-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
+<doc cat="sles16.1" doc="SLES-deployment-raw-images-bare-metal" branches="main">Deploying Immutable SLES Using a Raw Disk Image on Bare Metal</doc>
+<doc cat="sles16.1" doc="SLES-deployment-raw-images-ibmz" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries</doc>
+<doc cat="sles16.1" doc="SLES-deployment-raw-images-ibmz-zfcp" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries zfcp Disks</doc>
+<doc cat="sles16.1" doc="SLES-deployment-raw-images-VM" branches="main">Deploying Immutable SLES on Virtual Machines</doc>
+<doc cat="sles16.1" doc="SLES-deployment-selfinstall-images" branches="main">Deploying Immutable SLES Using an ISO Image</doc>
+<!-- <doc cat="sles16.1" doc="SLES-developers-guide" branches="main">Customizing Immutable SLES on Premises</doc> -->
+<doc cat="sles16.1" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
+<doc cat="sles16.1" doc="SLES-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
+<doc cat="sles16.1" doc="SLES-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
+<doc cat="sles16.1" doc="SLES-keylime" branches="main">Securing SLES Using Keylime</doc>
+<doc cat="sles16.1" doc="SLES-managing-system-logfiles" branches="main">Managing System Logs</doc>
+<doc cat="sles16.1" doc="SLES-PAM-security" branches="main">Authentication with PAM</doc>
+<doc cat="sles16.1" doc="SLES-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
+<doc cat="sles16.1" doc="SLES-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
+<!--<doc cat="sles16.1" doc="SLES-podman" branches="main"></doc>-->
+<doc cat="sles16.1" doc="SLES-raids" branches="main">Software RAID on SLES</doc>
+<doc cat="sles16.1" doc="SLES-systemd-coredump" branches="main">Managing Core Dumps with systemd-coredump</doc>
+<doc cat="sles16.1" doc="SLES-systemd-management" branches="main">Managing systemd Services</doc>
+<doc cat="sles16.1" doc="SLES-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>
+<doc cat="sles16.1" doc="SLES-system-tuning" branches="main">System Tuning Fundamentals and Methodology</doc>
+<doc cat="sles16.1" doc="SLES-transactional-updates" branches="main">Administering SLES Using transactional-update</doc>
+<doc cat="sles16.1" doc="SLES-vhostmd" branches="main">Setting Up Virtual Host Metrics Daemon</doc>
+<doc cat="sles16.1" doc="SLES-zram" branches="main">Installation, Configuration and Management of zram</doc>
+
 
   <doc cat="sles16.1-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16.1-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -168,6 +195,34 @@
   <doc cat="sles16.1-sap"  doc="SAP-ulp" branches="main">Creating a User Space Live Patch</doc>
   <doc cat="sles16.1-sap"  doc="SAP-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.1-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
+  <doc cat="sles16.1-sap" doc="SAP-active-directory" branches="main">Accessing Active Directory</doc>
+<doc cat="sles16.1-sap" doc="SAP-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
+<doc cat="sles16.1-sap" doc="SAP-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
+<doc cat="sles16.1-sap" doc="SAP-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
+<doc cat="sles16.1-sap" doc="SAP-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
+<doc cat="sles16.1-sap" doc="SAP-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
+<doc cat="sles16.1-sap" doc="SAP-keylime" branches="main">Securing SLES for SAP Using Keylime</doc>
+<doc cat="sles16.1-sap" doc="SAP-managing-system-logfiles" branches="main">Managing System Logs</doc>
+<!--<doc cat="sles16.1-sap" doc="SAP-NVIDIA-jetson" branches="main"></doc>-->
+<doc cat="sles16.1-sap" doc="SAP-PAM-security" branches="main">Authentication with PAM</doc>
+<doc cat="sles16.1-sap" doc="SAP-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
+<doc cat="sles16.1-sap" doc="SAP-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
+<!--<doc cat="sles16.1-sap" doc="SAP-podman" branches="main"></doc>-->
+<doc cat="sles16.1-sap" doc="SAP-raids" branches="main">Software RAID on SLES for SAP</doc>
+<!--<doc cat="sles16.1-sap" doc="SAP-rootless-podman" branches="main"></doc>-->
+<doc cat="sles16.1-sap" doc="SAP-systemd-coredump" branches="main">Managing Core Dumps with systemd-coredump</doc>
+<doc cat="sles16.1-sap" doc="SAP-systemd-management" branches="main">Managing systemd Services</doc>
+<doc cat="sles16.1-sap" doc="SAP-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>
+<doc cat="sles16.1-sap" doc="SAP-system-tuning" branches="main">System Tuning Fundamentals and Methodology</doc>
+<doc cat="sles16.1-sap" doc="SAP-vhostmd" branches="main">Setting Up Virtual Host Metrics Daemon</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-disk-cache" branches="main">Configuring a Virtual Disk Cache Mode</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-libvirt" branches="main">Managing Virtualization Platforms with libvirt</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-qemu" branches="main">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
+<doc cat="sles16.1-sap" doc="SAP-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
+<doc cat="sles16.1-sap" doc="SAP-zram" branches="main">Installation, Configuration and Management of zram</doc>
+
 
 <doc cat="sle16.1-ha"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sle16.1-ha"  doc="HA-installing-three-node-cluster" branches="main">Installing a Basic Three-Node High Availability Cluster</doc>

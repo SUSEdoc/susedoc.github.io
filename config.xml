@@ -236,6 +236,9 @@
   <doc cat="sle16.1-ha"  doc="HA-sbd-configuring-diskless" branches="main">Configuring Diskless SBD in an Existing High Availability Cluster</doc>
   <doc cat="sle16.1-ha"  doc="HA-sbd-changing-configuration" branches="main">Changing the Configuration of SBD</doc>
   <doc cat="sle16.1-ha"  doc="HA-fencing-configuring" branches="main">Configuring Node Fencing in a High Availability Cluster</doc>
+  <doc cat="sle16.1-ha"  doc="HA-resources-configuring" branches="main">Configuring HA Cluster Resources</doc>
+  <doc cat="sle16.1-ha"  doc="HA-resources-managing" branches="main">Managing HA Cluster Resources</doc>
+  <doc cat="sle16.1-ha"  doc="HA-resources-adding-constraints" branches="main">Adding Constraints to HA Cluster Resources</doc>
   
   <doc cat="sles16.0"  doc="SLES-networkmanager-nmcli" branches="SLE16.0">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.0"  doc="SLES-cockpit" branches="SLE16.0">Administering SLE Using Cockpit</doc>
@@ -327,6 +330,9 @@
   <doc cat="sle16.0-ha"  doc="HA-sbd-configuring-diskless" branches="SLE16.0">Configuring Diskless SBD in an Existing High Availability Cluster</doc>
   <doc cat="sle16.0-ha"  doc="HA-sbd-changing-configuration" branches="SLE16.0">Changing the Configuration of SBD</doc>
   <doc cat="sle16.0-ha"  doc="HA-fencing-configuring" branches="SLE16.0">Configuring Node Fencing in a High Availability Cluster</doc>
+  <doc cat="sle16.0-ha"  doc="HA-resources-configuring" branches="SLE16.0">Configuring HA Cluster Resources</doc>
+  <doc cat="sle16.0-ha"  doc="HA-resources-managing" branches="SLE16.0">Managing HA Cluster Resources</doc>
+  <doc cat="sle16.0-ha"  doc="HA-resources-adding-constraints" branches="SLE16.0">Adding Constraints to HA Cluster Resources</doc>
   
   <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  

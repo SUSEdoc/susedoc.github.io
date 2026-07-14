@@ -241,6 +241,7 @@
   <doc cat="sle16.1-ha"  doc="HA-resources-configuring" branches="main">Configuring High Availability Cluster Resources</doc>
   <doc cat="sle16.1-ha"  doc="HA-resources-managing" branches="main">Managing High Availability Cluster Resources</doc>
   <doc cat="sle16.1-ha"  doc="HA-resources-adding-constraints" branches="main">Adding Constraints to High Availability Cluster Resources</doc>
+  <doc cat="sle16.1-ha"  doc="HA-resources-manually-moving" branches="main">Manually Moving High Availability Cluster Resources</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-infra" branches="main">Performing Maintenance Tasks on Cluster Infrastructure</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="main">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="main">Performing Maintenance Tasks on Cluster Resources</doc>
@@ -340,6 +341,7 @@
   <doc cat="sle16.0-ha"  doc="HA-resources-configuring" branches="SLE16.0">Configuring High Availability Cluster Resources</doc>
   <doc cat="sle16.0-ha"  doc="HA-resources-managing" branches="SLE16.0">Managing High Availability Cluster Resources</doc>
   <doc cat="sle16.0-ha"  doc="HA-resources-adding-constraints" branches="SLE16.0">Adding Constraints to High Availability Cluster Resources</doc>
+  <doc cat="sle16.0-ha"  doc="HA-resources-manually-moving" branches="SLE16.0">Manually Moving High Availability Cluster Resources</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-infra" branches="SLE16.0">Performing Maintenance Tasks on Cluster Infrastructure</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="SLE16.0">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="SLE16.0">Performing Maintenance Tasks on Cluster Resources</doc>

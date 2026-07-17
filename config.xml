@@ -162,7 +162,8 @@
 <doc cat="sles16.1" doc="SLES-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1" doc="SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-<doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>  
+<doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+<doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  
 
   <doc cat="sles16.1-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16.1-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
@@ -225,7 +226,9 @@
 <doc cat="sles16.1-sap" doc="SAP-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
 <doc cat="sles16.1-sap" doc="SAP-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
- <doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>   
+ <doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+<doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc>
+  
 
   
 
@@ -292,7 +295,8 @@
   <doc cat="sles16.0"  doc="SLES-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLES on NVIDIA Jetson platforms</doc>
   <doc cat="sles16.0" doc="SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
   <doc cat="sles16.0" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-  <doc cat="sles16.0" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>  
+  <doc cat="sles16.0" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>
 
 
   <doc cat="sles16.0-sap"  doc="SAP-GNOME-getting-started" branches="SLE16.0">Getting Started with GNOME Desktop</doc>
@@ -329,7 +333,8 @@
   <doc cat="sles16.0-sap"  doc="SAP-predictable-naming" branches="SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.0-sap"  doc="SAP-vm-host-network-multihome-setup" branches="SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.0-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
-  <doc cat="sles16.0-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>  
+  <doc cat="sles16.0-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc>
 
 <doc cat="sle16.0-ha"  doc="HA-installing-two-node-cluster" branches="SLE16.0">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sle16.0-ha"  doc="HA-installing-three-node-cluster" branches="SLE16.0">Installing a Basic Three-Node High Availability Cluster</doc>

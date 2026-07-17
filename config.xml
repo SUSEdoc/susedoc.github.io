@@ -188,7 +188,7 @@
   <doc cat="sles16.1-sap"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SLE Components</doc>
   <doc cat="sles16.1-sap"  doc="SAP-saptune" branches="main">System tuning with saptune</doc>
   <doc cat="sles16.1-sap"  doc="SAP-sles-to-sap" branches="main">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
-  <doc cat="sles16.1-sap"  doc="SAP-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server for SAP applications 16</doc>
+  <doc cat="sles16.1-sap"  doc="SAP-upgrading" branches="main">Upgrading from SLES for SAP 15 to SLES for SAP 16.1</doc>
   <doc cat="sles16.1-sap"  doc="SAP-Ansible" branches="main">Introduction to Ansible core</doc>
   <doc cat="sles16.1-sap"  doc="SAP-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16.1-sap"  doc="SAP-intro-sap-ansible-automation" branches="main">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
@@ -245,6 +245,7 @@
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-infra" branches="main">Performing Maintenance Tasks on Cluster Infrastructure</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="main">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="main">Performing Maintenance Tasks on Cluster Resources</doc>
+  <doc cat="sle16.1-ha"  doc="HA-upgrading" branches="main">Upgrading from SLE HA 15 to SLE HA 16.1</doc>
   
   <doc cat="sles16.0"  doc="SLES-networkmanager-nmcli" branches="SLE16.0">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.0"  doc="SLES-cockpit" branches="SLE16.0">Administering SLE Using Cockpit</doc>
@@ -318,7 +319,7 @@
   <doc cat="sles16.0-sap"  doc="SLE-packages-lifecycle" branches="SLE16.0">Lifecycles of SLE Components</doc>
   <doc cat="sles16.0-sap"  doc="SAP-saptune" branches="SLE16.0">System tuning with saptune</doc>
   <doc cat="sles16.0-sap"  doc="SAP-sles-to-sap" branches="SLE16.0">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
-  <doc cat="sles16.0-sap"  doc="SAP-upgrading" branches="SLE16.0">Upgrading to SUSE Linux Enterprise Server for SAP applications 16</doc>
+  <doc cat="sles16.0-sap"  doc="SAP-upgrading" branches="SLE16.0">Upgrading from SLES for SAP 15 to SLES for SAP 16.0</doc>
   <doc cat="sles16.0-sap"  doc="SAP-Ansible" branches="SLE16.0">Introduction to Ansible core</doc>
   <doc cat="sles16.0-sap"  doc="SAP-ansible-roles" branches="SLE16.0">Ansible Linux system roles</doc>
   <doc cat="sles16.0-sap"  doc="SAP-intro-sap-ansible-automation" branches="SLE16.0">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
@@ -345,6 +346,7 @@
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-infra" branches="SLE16.0">Performing Maintenance Tasks on Cluster Infrastructure</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="SLE16.0">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="SLE16.0">Performing Maintenance Tasks on Cluster Resources</doc>
+  <doc cat="sle16.0-ha"  doc="HA-upgrading" branches="SLE16.0">Upgrading from SLE HA 15 to SLE HA 16.0</doc>
   
   <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  

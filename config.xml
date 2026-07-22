@@ -102,6 +102,7 @@
   <doc cat="sles16.1"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16.1"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>
   <doc cat="sles16.1"  doc="SLES-SELinux" branches="main">Understanding SELinux Basics</doc>
+  <doc cat="sles16.1"  doc="SLES-SELinux-sap" branches="main">Using SELinux with SAP Workloads</doc>
   <doc cat="sles16.1"  doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
   <doc cat="sles16.1"  doc="SLES-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16.1"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
@@ -196,6 +197,7 @@
   <doc cat="sles16.1-sap"  doc="SAP-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16.1-sap"  doc="SAP-intro-sap-ansible-automation" branches="main">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="sles16.1-sap"  doc="SAP-SELinux" branches="main">Understanding SELinux basics</doc>
+  <doc cat="sles16.1-sap"  doc="SAP-SELinux-sap" branches="main">Using SELinux with SAP Workloads</doc>
   <doc cat="sles16.1-sap"  doc="SAP-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
   <doc cat="sles16.1-sap"  doc="SAP-ulp" branches="main">Creating a User Space Live Patch</doc>
   <doc cat="sles16.1-sap"  doc="SAP-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
@@ -260,6 +262,7 @@
   <doc cat="sles16.0"  doc="SLES-copy-file-rsync" branches="SLE16.0">Copying Files and Directories with rsync</doc>
   <doc cat="sles16.0"  doc="SLE-os-identification" branches="SLE16.0">SLE OS identification</doc>
   <doc cat="sles16.0"  doc="SLES-SELinux" branches="SLE16.0">Understanding SELinux Basics</doc>
+  <doc cat="sles16.0"  doc="SLES-SELinux-sap" branches="SLE16.0">Using SELinux with SAP Workloads</doc>
   <doc cat="sles16.0"  doc="SLES-systemd-timers" branches="SLE16.0">Working with Systemd Timers</doc>
   <doc cat="sles16.0"  doc="SLES-ntp-time-synchronization" branches="SLE16.0">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16.0"  doc="SLES-sudo-run-commands-as-superuser" branches="SLE16.0">Running Commands as Superuser with sudo</doc>
@@ -329,6 +332,7 @@
   <doc cat="sles16.0-sap"  doc="SAP-ansible-roles" branches="SLE16.0">Ansible Linux system roles</doc>
   <doc cat="sles16.0-sap"  doc="SAP-intro-sap-ansible-automation" branches="SLE16.0">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="sles16.0-sap"  doc="SAP-SELinux" branches="SLE16.0">Understanding SELinux basics</doc>
+  <doc cat="sles16.0-sap"  doc="SAP-SELinux-sap" branches="SLE16.0">Using SELinux with SAP Workloads</doc>
   <doc cat="sles16.0-sap"  doc="SAP-subnet-manager" branches="SLE16.0">Configuring a Subnet Manager</doc>
   <doc cat="sles16.0-sap"  doc="SAP-ulp" branches="SLE16.0">Creating a User Space Live Patch</doc>
   <doc cat="sles16.0-sap"  doc="SAP-predictable-naming" branches="SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>

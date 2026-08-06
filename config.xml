@@ -595,7 +595,9 @@
   <doc cat="unvers" doc="container-guide/Container-guide" outputname="SLES-container" branches="main">SUSE Linux Enterprise Containers</doc>
   <doc cat="unvers" doc="licenses/gfdl" outputname="licenses" branches="main">Licenses</doc>
   <doc cat="unvers" doc="pcidss/SLES-pci-dss" outputname="SLES-pci-dss" branches="main">Payment Card Industry Data Security Standard (PCI DSS) Guide</doc>
-  <doc cat="unvers" doc="sap-ha-support/sap-ha-support" outputname="sap-ha-support" branches="main">Supported High Availability Solutions by SLES for SAP applications</doc>
+  <doc cat="unvers" doc="sap-ha-support/sap-ha-support-angi" outputname="sap-ha-support-angi" branches="main">HA Solutions for SAP HANA using SAPHanaSR-angi</doc>
+  <doc cat="unvers" doc="sap-ha-support/sap-ha-support-classic" outputname="sap-ha-support-classic" branches="main">HA Solutions for SAP HANA using SAPHanaSR and SAPHanaSR-ScaleOut</doc>
+  <doc cat="unvers" doc="sap-ha-support/sap-ha-support-s4hana-nw" outputname="sap-ha-support-s4hana-nw" branches="main">HA Solutions for SAP S/4HANA and SAP NetWeaver</doc>
   <doc cat="submgt" doc="scc-hypervisor-collector/SLE-scc-hypervisor-collector" outputname="SLE-scc-hypervisor-collector" branches="main">Collecting hypervisor details in SUSE Customer Center</doc>
   <doc cat="unvers" doc="stig/SLES-stig" outputname="SLES-stig" branches="main">Hardening SUSE Linux Enterprise with STIG</doc>
   <doc cat="unvers" doc="suseconnect-visibility/SLE-suseconnect-visibility" outputname="SLE-suseconnect-visibility" branches="main">Enriched system visibility in the SUSE Customer Center</doc>

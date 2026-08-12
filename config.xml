@@ -97,7 +97,8 @@
   <doc cat="sles16.1"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
   <doc cat="sles16.1"  doc="SLES-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
   <doc cat="sles16.1"  doc="SLES-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16.1"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
+  <doc cat="sles16.1"  doc="SLES-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>
+  <doc cat="sles16.1"  doc="SLES-x86-64-agama-autoyast-profiles" branches="main">Using AutoYaST Profiles with Agama on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1"  doc="SLES-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16.1"  doc="SLES-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16.1"  doc="SLE-os-identification" branches="main">SLE OS identification</doc>
@@ -185,6 +186,7 @@
   <doc cat="sles16.1-sap"  doc="SAP-systemd-timers" branches="main">Working with systemd Timers</doc>
   <doc cat="sles16.1-sap"  doc="SAP-valkey" branches="main">Introduction to Valkey</doc>
   <doc cat="sles16.1-sap"  doc="SAP-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
+  <doc cat="sles16.1-sap"  doc="SAP-x86-64-agama-autoyast-profiles" branches="main">Using AutoYaST Profiles with Agama on SUSE Linux Enterprise Server for SAP applications</doc>
   <doc cat="sles16.1-sap"  doc="SAP-x86-64-agama-based-installation" branches="main">Installing SLES for SAP 16 for x86-64 Manually Using Agama</doc>
   <doc cat="sles16.1-sap"  doc="SAP-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16.1-sap"  doc="SAP-virtualization" branches="main">Virtualization</doc>
@@ -257,7 +259,8 @@
   <doc cat="sles16.0"  doc="SLES-ppc-agama-based-installation" branches="SLE16.0">Installing SLE 16 for PPC Manually Using Agama</doc>
   <doc cat="sles16.0"  doc="SLES-s390-agama-based-installation" branches="SLE16.0">Installing SLE 16 for IBM Z Manually Using Agama</doc>
   <doc cat="sles16.0"  doc="SLES-x86-64-agama-based-installation" branches="SLE16.0">Installing SLE 16 for x86-64 Manually Using Agama</doc>
-  <doc cat="sles16.0"  doc="SLES-x86-64-agama-automated-installation" branches="SLE16.0">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
+  <doc cat="sles16.0"  doc="SLES-x86-64-agama-automated-installation" branches="SLE16.0">Automated installation of SUSE Linux Enterprise Server using Agama</doc>
+  <doc cat="sles16.0"  doc="SLES-x86-64-agama-autoyast-profiles" branches="SLE16.0">Using AutoYaST Profiles with Agama on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.0"  doc="SLES-snapper-basics" branches="SLE16.0">Snapper basics</doc>
   <doc cat="sles16.0"  doc="SLES-copy-file-rsync" branches="SLE16.0">Copying Files and Directories with rsync</doc>
   <doc cat="sles16.0"  doc="SLE-os-identification" branches="SLE16.0">SLE OS identification</doc>
@@ -320,6 +323,7 @@
   <doc cat="sles16.0-sap"  doc="SAP-systemd-timers" branches="SLE16.0">Working with systemd Timers</doc>
   <doc cat="sles16.0-sap"  doc="SAP-valkey" branches="SLE16.0">Introduction to Valkey</doc>
   <doc cat="sles16.0-sap"  doc="SAP-x86-64-agama-automated-installation" branches="SLE16.0">Automated installation of SUSE Linux Enterprise Server for SAP applications using Agama</doc>
+  <doc cat="sles16.0-sap"  doc="SAP-x86-64-agama-autoyast-profiles" branches="SLE16.0">Using AutoYaST Profiles with Agama on SUSE Linux Enterprise Server for SAP applications</doc>
   <doc cat="sles16.0-sap"  doc="SAP-x86-64-agama-based-installation" branches="SLE16.0">Installing SLES for SAP 16 for x86-64 Manually Using Agama</doc>
   <doc cat="sles16.0-sap"  doc="SAP-systemd-basics" branches="SLE16.0">Introduction to systemd Basics</doc>
   <doc cat="sles16.0-sap"  doc="SAP-virtualization" branches="SLE16.0">Virtualization</doc>

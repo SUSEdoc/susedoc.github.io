@@ -167,6 +167,7 @@
 <doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
 <doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  
 <doc cat="sles16.1" doc="SLES-ISCSI" branches="main">Understanding iSCSI</doc>
+<doc cat="sles16.1" doc="SLES-zypper-immutable" branches="main">Using zypper on the immutable SLES</doc>
  
 
   <doc cat="sles16.1-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>

@@ -256,6 +256,7 @@
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="main">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.1-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="main">Performing Maintenance Tasks on Cluster Resources</doc>
   <doc cat="sle16.1-ha"  doc="HA-upgrading" branches="main">Upgrading from SLE HA 15 to SLE HA 16.1</doc>
+  <doc cat="sle16.1-ha"  doc="HA-crmsh-introduction" branches="main">Introduction to the CRM Shell</doc>
   
   <doc cat="sles16.0"  doc="SLES-networkmanager-nmcli" branches="SLE16.0">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.0"  doc="SLES-cockpit" branches="SLE16.0">Administering SLE Using Cockpit</doc>
@@ -367,6 +368,7 @@
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-nodes" branches="SLE16.0">Performing Maintenance Tasks on Cluster Nodes</doc>
   <doc cat="sle16.0-ha"  doc="HA-maintenance-performing-tasks-cluster-resources" branches="SLE16.0">Performing Maintenance Tasks on Cluster Resources</doc>
   <doc cat="sle16.0-ha"  doc="HA-upgrading" branches="SLE16.0">Upgrading from SLE HA 15 to SLE HA 16.0</doc>
+  <doc cat="sle16.0-ha"  doc="HA-crmsh-introduction" branches="SLE16.0">Introduction to the CRM Shell</doc>
   
   <doc cat="sle16-ai"  doc="SLES-mcphost" branches="main">Setting up an MCP Host on SLES</doc>
  

@@ -92,6 +92,7 @@
   <redirect from="sle-ha-15sp4-rn" to="release-notes/sle-ha-15_SP4/html/release-notes/"/>
   <redirect from="sle-hpc-15sp4-rn" to="release-notes/sle-hpc-15_SP4/html/release-notes/"/>
 
+  <doc cat="sles16.1"  doc="SLES-rt-hardware-testing" branches="main">SUSE Linux Real Time Hardware Testing and Latency</doc>
   <doc cat="sles16.1"  doc="SLES-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.1"  doc="SLES-cockpit" branches="main">Administering SLE Using Cockpit</doc>
   <doc cat="sles16.1"  doc="SLES-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>

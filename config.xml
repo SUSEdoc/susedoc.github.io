@@ -150,7 +150,7 @@
 <doc cat="sles16.1" doc="SLES-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
 <doc cat="sles16.1" doc="SLES-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
 <doc cat="sles16.1" doc="SLES-keylime" branches="main">Securing SLES Using Keylime</doc>
-<doc cat="sles16.1" doc="SLES-managing-system-logfiles" branches="main">Managing System Logs</doc>
+<doc cat="sles16.1" doc="SLES-managing-system-logfiles" branches="main">Managing and Analyzing System Log Files</doc>
 <doc cat="sles16.1" doc="SLES-PAM-security" branches="main">Authentication with PAM</doc>
 <doc cat="sles16.1" doc="SLES-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
 <doc cat="sles16.1" doc="SLES-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
@@ -214,7 +214,7 @@
 <doc cat="sles16.1-sap" doc="SAP-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
 <doc cat="sles16.1-sap" doc="SAP-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
 <doc cat="sles16.1-sap" doc="SAP-keylime" branches="main">Securing SLES for SAP Using Keylime</doc>
-<doc cat="sles16.1-sap" doc="SAP-managing-system-logfiles" branches="main">Managing System Logs</doc>
+<doc cat="sles16.1-sap" doc="SAP-managing-system-logfiles" branches="main">Managing and Analyzing System Log Files</doc>
 <!--<doc cat="sles16.1-sap" doc="SAP-NVIDIA-jetson" branches="main"></doc>-->
 <doc cat="sles16.1-sap" doc="SAP-PAM-security" branches="main">Authentication with PAM</doc>
 <doc cat="sles16.1-sap" doc="SAP-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>

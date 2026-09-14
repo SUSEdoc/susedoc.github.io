@@ -183,12 +183,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-raw-images-bare-metal" branches="main">Deploying Immutable SLES Using a Raw Disk Image on Bare Metal</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-raw-images-ibmz" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-raw-images-ibmz-zfcp" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries zfcp Disks</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-raw-images-VM" branches="main">Deploying Immutable SLES on Virtual Machines</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-selfinstall-images" branches="main">Deploying Immutable SLES Using an ISO Image</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
@@ -216,8 +211,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-rootless-podman" branches="main">Rootless containers with Podman</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-s390-agama-based-installation" branches="main">Installing SLE 16 for IBM Z Manually Using Agama</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-rootless-podman" branches="main">Rootless containers with Podman</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-SELinux" branches="main">Understanding SELinux Basics</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
@@ -242,8 +236,8 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-x86-64-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-x86-64-agama-based-installation" branches="main">Installing SLE 16 for x86-64 Manually Using Agama</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-based-installation" branches="main">Installing SLE 16 Manually Using Agama</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-zram" branches="main">Installation, Configuration and Management of zram</doc>
  
 

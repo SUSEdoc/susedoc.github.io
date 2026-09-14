@@ -172,9 +172,6 @@
 <doc cat="sles16.1" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
 <doc cat="sles16.1" doc="SLES-zypper-immutable" branches="main">Using zypper on the immutable SLES</doc>
 
-  <!-- Category Definition to add to <cats> -->
-  <cat id="sles16.1-nvidia" repo="doc-modular">SUSE Linux Enterprise Server 16.1 NVIDIA</cat>
-
   <!-- Document Records -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-active-directory" branches="main">Accessing Active Directory</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-Ansible" branches="main">Introduction to Ansible core</doc>

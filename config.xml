@@ -182,9 +182,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-intro-firewalld" branches="main">Introduction to firewalld</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-ISCSI" branches="main">Understanding iSCSI</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
@@ -192,10 +190,9 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-boot-parameters-modify" branches="main">Modifying Kernel Boot Parameters</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-control-groups" branches="main">Kernel Control Groups</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-keylime" branches="main">Securing SLES Using Keylime</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-managing-system-logfiles" branches="main">Managing and Analyzing System Log Files</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-managing-system-logfiles" branches="main">Managing and Analyzing System Log Files</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-multipath" branches="main">Managing multipath I/O for devices</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
@@ -203,8 +200,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PAM-security" branches="main">Authentication with PAM</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-podman" branches="main">Podman Guide</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-ppc-agama-based-installation" branches="main">Installing SLE 16 for PPC Manually Using Agama</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-podman" branches="main">Podman Guide</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc>
@@ -229,11 +225,10 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-gpu-passthru" branches="main">Virtualization GPU Pass-Through</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-libvirt" branches="main">Managing Virtualization Platforms with libvirt</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-qemu" branches="main">Managing KVM Virtualization on SUSE Linux Enterprise Server</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-spice-removal" branches="main">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-qemu" branches="main">Managing KVM Virtualization</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-support" branches="main">Virtualization Support</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SUSE Linux Enterprise Server using Agama</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SLES for NVIDIA using Agama</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-based-installation" branches="main">Installing SLE 16 Manually Using Agama</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-zram" branches="main">Installation, Configuration and Management of zram</doc>
  

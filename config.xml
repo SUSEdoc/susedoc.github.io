@@ -344,8 +344,7 @@
   <doc cat="sles16.0"  doc="SLE-comparison" branches="SLE16.0">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
   <doc cat="sles16.0"  doc="SLES-systemd-basics" branches="SLE16.0">Introduction to systemd Basics</doc>
   <doc cat="sles16.0"  doc="SLES-valkey" branches="SLE16.0">Introduction to Valkey</doc>
-  <doc cat="sles16.0"  doc="SLES-virtualization" branches="SLE16.0">Virtualization</doc>  
-  <doc cat="sles16.0"  doc="SLE-differences-faq" branches="SLE16.0">Differences between SLE 15 and SLE 16 FAQ</doc>
+  <doc cat="sles16.0"  doc="SLES-virtualization" branches="SLE16.0">Virtualization</doc>    
   <doc cat="sles16.0"  doc="SLES-gnome-remote-desktop" branches="SLE16.0">Configuring a remote desktop</doc>
   <doc cat="sles16.0"  doc="SLES-vm-host-network-multihome-setup" branches="SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.0"  doc="SLE-packages-lifecycle" branches="SLE16.0">Lifecycles of SLE Components</doc>

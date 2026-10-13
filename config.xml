@@ -171,6 +171,9 @@
 <doc cat="sles16.1" doc="SLES-ISCSI" branches="main">Understanding iSCSI</doc>
 <doc cat="sles16.1" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
 <doc cat="sles16.1" doc="SLES-zypper-immutable" branches="main">Using zypper on the immutable SLES</doc>
+<doc cat="sles16.1" doc="SLES-rmt-installing-configuring" branches="main">Installing and configuring RMT/doc>
+<doc cat="sles16.1" doc="SLES-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT/doc>
+ 
 
   <!-- Document Records -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-active-directory" branches="main">Accessing Active Directory</doc>
@@ -298,8 +301,10 @@
 <doc cat="sles16.1-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
 <doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc> 
-<doc cat="sles16.1" doc="SAP-ISCSI" branches="main">Understanding iSCSI</doc>
-<doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
+<doc cat="sles16.1-sap" doc="SAP-ISCSI" branches="main">Understanding iSCSI</doc>
+<doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
+<doc cat="sles16.1-sap" doc="SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT/doc>
+<doc cat="sles16.1-sap" doc="SAP-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT/doc>  
 
 
   <doc cat="sle16.1-ha"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>
@@ -370,7 +375,10 @@
   <doc cat="sles16.0" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
   <doc cat="sles16.0" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>
   <doc cat="sles16.0" doc="SLES-ISCSI" branches="main">Understanding iSCSI</doc>
-  <doc cat="sles16.0" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
+  <doc cat="sles16.0" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
+  <doc cat="sles16.0" doc="SLES-rmt-installing-configuring" branches="main">Installing and configuring RMT/doc>
+  <doc cat="sles16.0" doc="SLES-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT/doc>
+    
  
 
   <doc cat="sles16.0-sap"  doc="SAP-GNOME-getting-started" branches="SLE16.0">Getting Started with GNOME Desktop</doc>
@@ -412,7 +420,9 @@
   <doc cat="sles16.0-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
   <doc cat="sles16.0-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc>
   <doc cat="sles16.0-sap" doc="SAP-ISCSI" branches="main">Understanding iSCSI</doc>
-  <doc cat="sles16.0-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
+  <doc cat="sles16.0-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
+  <doc cat="sles16.0-sap" doc="SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT/doc> 
+    <doc cat="sles16.0-sap" doc="SAP-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT/doc>
 
   <doc cat="sle16.0-ha"  doc="HA-installing-two-node-cluster" branches="SLE16.0">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sle16.0-ha"  doc="HA-installing-three-node-cluster" branches="SLE16.0">Installing a Basic Three-Node High Availability Cluster</doc>

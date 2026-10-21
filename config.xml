@@ -117,8 +117,7 @@
   <doc cat="sles16.1"  doc="SLE-comparison" branches="main">Adopting SUSE Linux Enterprise 16 - Key differences between SLE 15 and 16</doc>
   <doc cat="sles16.1"  doc="SLES-systemd-basics" branches="main">Introduction to systemd Basics</doc>
   <doc cat="sles16.1"  doc="SLES-valkey" branches="main">Introduction to Valkey</doc>
-  <doc cat="sles16.1"  doc="SLES-virtualization" branches="main">Virtualization</doc>  
-  <doc cat="sles16.1"  doc="SLE-differences-faq" branches="main">Differences between SLE 15 and SLE 16 FAQ</doc>
+  <doc cat="sles16.1"  doc="SLES-virtualization" branches="main">Virtualization</doc>    
   <doc cat="sles16.1"  doc="SLES-gnome-remote-desktop" branches="main">Configuring a remote desktop</doc>
   <doc cat="sles16.1"  doc="SLES-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1"  doc="SLE-packages-lifecycle" branches="main">Lifecycles of SUSE Linux Components</doc>
@@ -205,8 +204,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-podman" branches="main">Podman Guide</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-rootless-podman" branches="main">Rootless containers with Podman</doc> 
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-SELinux" branches="main">Understanding SELinux Basics</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
@@ -218,17 +216,12 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-systemd-management" branches="main">Managing systemd Services</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-systemd-timers" branches="main">Working with Systemd Timers</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-system-tuning" branches="main">System Tuning Fundamentals and Methodology</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-ulp" branches="main">Creating a User Space Live Patch</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-valkey" branches="main">Introduction to Valkey</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-vhostmd" branches="main">Setting Up Virtual Host Metrics Daemon</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-system-tuning" branches="main">System Tuning Fundamentals and Methodology</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-valkey" branches="main">Introduction to Valkey</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization" branches="main">Virtualization</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-disk-cache" branches="main">Configuring a Virtual Disk Cache Mode</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-gpu-passthru" branches="main">Virtualization GPU Pass-Through</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-libvirt" branches="main">Managing Virtualization Platforms with libvirt</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-qemu" branches="main">Managing KVM Virtualization</doc>  
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-support" branches="main">Virtualization Support</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-disk-cache" branches="main">Configuring a Virtual Disk Cache Mode</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-io" branches="main">I/O Virtualization for Virtual Machines</doc>  
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-virtualization-qemu" branches="main">Managing KVM Virtualization</doc>    
   <doc cat="sles16.1-nvidia" doc="NVIDIA-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SLES for NVIDIA using Agama</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-based-installation" branches="main">Installing SLE 16 Manually Using Agama</doc>

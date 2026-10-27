@@ -265,7 +265,7 @@
   <doc cat="sles16.1-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1-sap" doc="SAP-active-directory" branches="main">Accessing Active Directory</doc>
 <doc cat="sles16.1-sap" doc="SAP-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
-<doc cat="sles16.1-sap" doc="SAP-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
+<!-- <doc cat="sles16.1-sap" doc="SAP-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc> -->
 <doc cat="sles16.1-sap" doc="SAP-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
 <doc cat="sles16.1-sap" doc="SAP-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
 <doc cat="sles16.1-sap" doc="SAP-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>

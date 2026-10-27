@@ -124,7 +124,7 @@
   <!-- <doc cat="sles16"  doc="SLES-rootless-podman" branches="main">Rootless containers with Podman</doc> -->
   <doc cat="sles16.1"  doc="SLES-apache-tomcat-cloud" branches="main">Apache Tomcat on SLES</doc>
   <doc cat="sles16.1"  doc="SLES-upgrading" branches="main">Upgrading to SUSE Linux Enterprise Server 16</doc>
-  <doc cat="sles16.1"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc>
+ <!-- <doc cat="sles16.1"  doc="SLES-Ansible" branches="main">Introduction to Ansible core</doc> -->
   <doc cat="sles16.1"  doc="SLES-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16.1"  doc="SLES-intro-firewalld" branches="main">Introduction to firewalld</doc> 
   <doc cat="sles16.1"  doc="SLES-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
@@ -139,7 +139,7 @@
   <doc cat="sles16.1"  doc="SLES-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.1" doc="SLES-active-directory" branches="main">Accessing Active Directory</doc>
 <doc cat="sles16.1" doc="SLES-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
-<doc cat="sles16.1" doc="SLES-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
+<!-- <doc cat="sles16.1" doc="SLES-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc> -->
 <doc cat="sles16.1" doc="SLES-deployment-raw-images-bare-metal" branches="main">Deploying Immutable SLES Using a Raw Disk Image on Bare Metal</doc>
 <doc cat="sles16.1" doc="SLES-deployment-raw-images-ibmz" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries</doc>
 <doc cat="sles16.1" doc="SLES-deployment-raw-images-ibmz-zfcp" branches="main">Deploying Immutable SLES Using a Raw Disk Image on ZSeries zfcp Disks</doc>
@@ -166,7 +166,7 @@
 <doc cat="sles16.1" doc="SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
 <doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
-<doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  
+<!-- <doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  -->
 <doc cat="sles16.1" doc="SLES-ISCSI" branches="main">Understanding iSCSI</doc>
 <doc cat="sles16.1" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
 <doc cat="sles16.1" doc="SLES-zypper-immutable" branches="main">Using zypper on the immutable SLES</doc>
@@ -175,12 +175,12 @@
 
   <!-- Document Records -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-active-directory" branches="main">Accessing Active Directory</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-Ansible" branches="main">Introduction to Ansible core</doc>
+ <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-Ansible" branches="main">Introduction to Ansible core</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-cockpit" branches="main">Administering SLE Using Cockpit</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>  
@@ -194,7 +194,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-managing-system-logfiles" branches="main">Managing and Analyzing System Log Files</doc>  
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-multipath" branches="main">Managing multipath I/O for devices</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-multipath" branches="main">Managing multipath I/O for devices</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-networkmanager-nmcli" branches="main">Setting Up and Managing Network Connections Using NetworkManager</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-openscap" branches="main">Hardening SUSE Linux Enterprise with OpenSCAP</doc>
@@ -254,7 +254,7 @@
   <doc cat="sles16.1-sap"  doc="SAP-saptune" branches="main">System tuning with saptune</doc>
   <doc cat="sles16.1-sap"  doc="SAP-sles-to-sap" branches="main">Make SUSE Linux Enterprise Server Ready for SAP Workloads</doc>
   <doc cat="sles16.1-sap"  doc="SAP-upgrading" branches="main">Upgrading from SLES for SAP 15 to SLES for SAP 16.1</doc>
-  <doc cat="sles16.1-sap"  doc="SAP-Ansible" branches="main">Introduction to Ansible core</doc>
+ <!-- <doc cat="sles16.1-sap"  doc="SAP-Ansible" branches="main">Introduction to Ansible core</doc> -->
   <doc cat="sles16.1-sap"  doc="SAP-ansible-roles" branches="main">Ansible Linux system roles</doc>
   <doc cat="sles16.1-sap"  doc="SAP-intro-sap-ansible-automation" branches="main">Introduction to Ansible automation for SUSE Linux Enterprise Server for SAP applications 16</doc>
   <doc cat="sles16.1-sap"  doc="SAP-SELinux" branches="main">Understanding SELinux basics</doc>
@@ -292,7 +292,7 @@
 <doc cat="sles16.1-sap" doc="SAP-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
-<doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc> 
+<!--<doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc> -->
 <doc cat="sles16.1-sap" doc="SAP-ISCSI" branches="main">Understanding iSCSI</doc>
 <doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
 <doc cat="sles16.1-sap" doc="SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>

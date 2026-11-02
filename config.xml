@@ -183,9 +183,9 @@
   <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>  
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-intro-firewalld" branches="main">Introduction to firewalld</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-ISCSI" branches="main">Understanding iSCSI</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-ISCSI" branches="main">Understanding iSCSI</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-boot-parameters-modify" branches="main">Modifying Kernel Boot Parameters</doc>
@@ -200,10 +200,10 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-openscap" branches="main">Hardening SUSE Linux Enterprise with OpenSCAP</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PAM-security" branches="main">Authentication with PAM</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-podman" branches="main">Podman Guide</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-SELinux" branches="main">Understanding SELinux Basics</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-snapper-basics" branches="main">Snapper basics</doc>
@@ -225,7 +225,7 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SLES for NVIDIA using Agama</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-based-installation" branches="main">Installing SLE 16 Manually Using Agama</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-zram" branches="main">Installation, Configuration and Management of zram</doc>
+  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-zram" branches="main">Installation, Configuration and Management of zram</doc> -->
  
 
   <doc cat="sles16.1-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
@@ -363,15 +363,15 @@
   <doc cat="sles16.0"  doc="en/SLES-virtualization-spice-removal" branches="SLE16.0">Migrating Spice Virtual Machines to VNC on SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.0"  doc="en/SLES-virtualization-support" branches="SLE16.0">Virtualization Support in SUSE Linux Enterprise Server</doc>
   <doc cat="sles16.0"  doc="en/SLES-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLES on NVIDIA Jetson platforms</doc>
-  <doc cat="sles16.0" doc="en/SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
-  <doc cat="sles16.0" doc="en/SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-  <doc cat="sles16.0" doc="en/SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
-  <doc cat="sles16.0" doc="en/SLES-multipath" branches="main">Managing multipath I/O for devices</doc>
-  <doc cat="sles16.0" doc="en/SLES-ISCSI" branches="main">Understanding iSCSI</doc>
-  <doc cat="sles16.0" doc="en/SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
-  <doc cat="sles16.0" doc="en/SLES-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>
-  <doc cat="sles16.0" doc="en/SLES-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT</doc>
-  <doc cat="sles16.0" doc="en/SLES-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>
+  <doc cat="sles16.0" doc="en/SLES-lsm" branches="SLE16.0">Hardening Linux with Linux Security Module Framework and Yama</doc>
+  <doc cat="sles16.0" doc="en/SLES-fqdn" branches="SLE16.0">Understanding and Configuring FQDNs</doc>
+  <doc cat="sles16.0" doc="en/SLES-kdump" branches="SLE16.0">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0" doc="en/SLES-multipath" branches="SLE16.0">Managing multipath I/O for devices</doc>
+  <doc cat="sles16.0" doc="en/SLES-ISCSI" branches="SLE16.0">Understanding iSCSI</doc>
+  <doc cat="sles16.0" doc="en/SLES-memory-hotplugging" branches="SLE16.0">Mastering Memory Hot Plugging</doc>
+  <doc cat="sles16.0" doc="en/SLES-rmt-installing-configuring" branches="SLE16.0">Installing and configuring RMT</doc>
+  <doc cat="sles16.0" doc="en/SLES-rmt-mirroring-repositories" branches="SLE16.0">Mirroring repositories on RMT</doc>
+  <doc cat="sles16.0" doc="en/SLES-systemd-setting-up-service" branches="SLE16.0">Setting Up a systemd Service</doc>
 
   <doc cat="sles16.0-sap"  doc="en/SAP-GNOME-getting-started" branches="SLE16.0">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16.0-sap"  doc="en/SAP-PXE-server" branches="SLE16.0">Setting Up a PXE Boot Server</doc>
@@ -408,14 +408,14 @@
   <doc cat="sles16.0-sap"  doc="en/SAP-ulp" branches="SLE16.0">Creating a User Space Live Patch</doc>
   <doc cat="sles16.0-sap"  doc="en/SAP-predictable-naming" branches="SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.0-sap"  doc="en/SAP-vm-host-network-multihome-setup" branches="SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-multipath" branches="main">Managing multipath I/O for devices</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-ISCSI" branches="main">Understanding iSCSI</doc>
-  <doc cat="sles16.0-sap" doc="en/SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>
-    <doc cat="sles16.0-sap" doc="en/SAP-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-lsm" branches="SLE16.0">Hardening Linux with Linux Security Module Framework and Yama</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-kdump" branches="SLE16.0">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-multipath" branches="SLE16.0">Managing multipath I/O for devices</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-ISCSI" branches="SLE16.0">Understanding iSCSI</doc>
+  <doc cat="sles16.0-sap" doc="en/SLES-memory-hotplugging" branches="SLE16.0">Mastering Memory Hot Plugging</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-rmt-installing-configuring" branches="SLE16.0">Installing and configuring RMT</doc>
+    <doc cat="sles16.0-sap" doc="en/SAP-rmt-mirroring-repositories" branches="SLE16.0">Mirroring repositories on RMT</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-systemd-setting-up-service" branches="SLE16.0">Setting Up a systemd Service</doc>
 
   <doc cat="sle16.0-ha"  doc="en/HA-installing-two-node-cluster" branches="SLE16.0">Installing a Basic Two-Node High Availability Cluster</doc>
   <doc cat="sle16.0-ha"  doc="en/HA-installing-three-node-cluster" branches="SLE16.0">Installing a Basic Three-Node High Availability Cluster</doc>

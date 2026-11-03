@@ -109,8 +109,7 @@
   <doc cat="sles16.1"  doc="SLES-systemd-timers" branches="main">Working with Systemd Timers</doc>
   <doc cat="sles16.1"  doc="SLES-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16.1"  doc="SLES-sudo-run-commands-as-superuser" branches="main">Running Commands as Superuser with sudo</doc>
-  <doc cat="sles16.1"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>
-  <doc cat="sles16.1"  doc="SLES-deployment-pxe-client" branches="main">Deploying SLES via PXE Client</doc>
+  <doc cat="sles16.1"  doc="SLES-sudo-configure-superuser-privileges" branches="main">Configuring Superuser Privileges with sudo</doc>  
   <doc cat="sles16.1"  doc="SLES-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
   <doc cat="sles16.1"  doc="SLES-supportconfig" branches="main">Gathering System Information for Support</doc>
   <doc cat="sles16.1"  doc="SLES-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise Server</doc>
@@ -172,6 +171,10 @@
 <doc cat="sles16.1" doc="SLES-zypper-immutable" branches="main">Using zypper on the immutable SLES</doc>
 <doc cat="sles16.1" doc="SLES-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>
 <doc cat="sles16.1" doc="SLES-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT</doc>
+<doc cat="sles16.1" doc="SLES-arm-deployment-pxe-client" branches="main">ARM: Deploying using the PXE boot</doc>
+<doc cat="sles16.1" doc="SLES-s390-deployment-pxe-client" branches="main">IBMZ: Deploying using the PXE boot</doc>
+<doc cat="sles16.1" doc="SLES-ppc-deployment-pxe-client" branches="main">PowerPC: Deploying using the PXE boot</doc>
+<doc cat="sles16.1" doc="SLES-x86-64-deployment-pxe-client" branches="main">Intel/AMD: Deploying using the PXE boot</doc>  
 
   <!-- Document Records -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-active-directory" branches="main">Accessing Active Directory</doc>
@@ -225,14 +228,13 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-automated-installation" branches="main">Automated installation of SLES for NVIDIA using Agama</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-agama-based-installation" branches="main">Installing SLE 16 Manually Using Agama</doc>
-  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-zram" branches="main">Installation, Configuration and Management of zram</doc> -->
+  
  
 
   <doc cat="sles16.1-sap"  doc="SAP-GNOME-getting-started" branches="main">Getting Started with GNOME Desktop</doc>
   <doc cat="sles16.1-sap"  doc="SAP-PXE-server" branches="main">Setting Up a PXE Boot Server</doc>
   <doc cat="sles16.1-sap"  doc="SAP-cockpit" branches="main">Administering SLES for SAP Using Cockpit</doc>
-  <doc cat="sles16.1-sap"  doc="SAP-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>
-  <doc cat="sles16.1-sap"  doc="SAP-deployment-pxe-client" branches="main">Deploying Using Network PXE Boot</doc>
+  <doc cat="sles16.1-sap"  doc="SAP-copy-file-rsync" branches="main">Copying Files and Directories with rsync</doc>  
   <doc cat="sles16.1-sap"  doc="SAP-gnome-remote-desktop" branches="main">Configuring a Remote Desktop Server</doc>
   <doc cat="sles16.1-sap"  doc="SAP-intro-firewalld" branches="main">Introduction to firewalld</doc>
   <doc cat="sles16.1-sap"  doc="SAP-klp" branches="main">Kernel Live Patching on SUSE Linux Enterprise</doc>
@@ -297,6 +299,8 @@
 <doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
 <doc cat="sles16.1-sap" doc="SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>
 <doc cat="sles16.1-sap" doc="SAP-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT</doc>
+<doc cat="sles16.1-sap" doc="SAP-x86-64-deployment-pxe-client" branches="main">Intel/AMD: Deploying using the PXE boot</doc> 
+<doc cat="sles16.1-sap" doc="SAP-arm-deployment-pxe-client" branches="main">ARM: Deploying using the PXE boot</doc>
 
 
   <doc cat="sle16.1-ha"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>

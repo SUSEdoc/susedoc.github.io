@@ -202,12 +202,10 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-ntp-time-synchronization" branches="main">Synchronizing Time Using NTP/NTS</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-openscap" branches="main">Hardening SUSE Linux Enterprise with OpenSCAP</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-PAM-security" branches="main">Authentication with PAM</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
-  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc> -->
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-podman" branches="main">Podman Guide</doc> 
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>
-  <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-PXE-server" branches="main">Setting Up a PXE Boot Server</doc> -->
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc> 
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-predictable-naming" branches="main">Enabling Predictable Naming Scheme for Network Interfaces</doc>  
+  <!--<doc cat="sles16.1-nvidia" doc="NVIDIA-raids" branches="main">Software RAID on SLES</doc>--> 
   <doc cat="sles16.1-nvidia" doc="NVIDIA-SELinux" branches="main">Understanding SELinux Basics</doc>  
   <doc cat="sles16.1-nvidia" doc="NVIDIA-snapper-basics" branches="main">Snapper basics</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-subnet-manager" branches="main">Configuring a Subnet Manager</doc>
@@ -267,7 +265,7 @@
   <doc cat="sles16.1-sap"  doc="SAP-vm-host-network-multihome-setup" branches="main">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.1-sap" doc="SAP-active-directory" branches="main">Accessing Active Directory</doc>
 <doc cat="sles16.1-sap" doc="SAP-compose" branches="main">Managing Multi-Container Applications Using podman-compose</doc>
-<!-- <doc cat="sles16.1-sap" doc="SAP-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc> -->
+<doc cat="sles16.1-sap" doc="SAP-cpu-cpu-check-temperature" branches="main">Check and Monitor CPU Temperature</doc>
 <doc cat="sles16.1-sap" doc="SAP-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
 <doc cat="sles16.1-sap" doc="SAP-freeradius-setup-server" branches="main">Setting Up a FreeRADIUS Server</doc>
 <doc cat="sles16.1-sap" doc="SAP-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
@@ -278,7 +276,7 @@
 <doc cat="sles16.1-sap" doc="SAP-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
 <doc cat="sles16.1-sap" doc="SAP-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
 <!--<doc cat="sles16.1-sap" doc="SAP-podman" branches="main"></doc>-->
-<doc cat="sles16.1-sap" doc="SAP-raids" branches="main">Software RAID on SLES for SAP</doc>
+<!--<doc cat="sles16.1-sap" doc="SAP-raids" branches="main">Software RAID on SLES for SAP</doc> -->
 <!--<doc cat="sles16.1-sap" doc="SAP-rootless-podman" branches="main"></doc>-->
 <doc cat="sles16.1-sap" doc="SAP-systemd-coredump" branches="main">Managing Core Dumps with systemd-coredump</doc>
 <doc cat="sles16.1-sap" doc="SAP-systemd-management" branches="main">Managing systemd Services</doc>

@@ -154,7 +154,7 @@
 <doc cat="sles16.1" doc="SLES-pcp" branches="main">Analyzing Performance Metrics Using the Performance Co-Pilot Analysis Toolkit</doc>
 <doc cat="sles16.1" doc="SLES-pf_bb_config" branches="main">The Physical Function Baseband Device Configuration Using pf_bb_config</doc>
 <!--<doc cat="sles16.1" doc="SLES-podman" branches="main"></doc>-->
-<doc cat="sles16.1" doc="SLES-raids" branches="main">Software RAID on SLES</doc>
+<!-- <doc cat="sles16.1" doc="SLES-raids" branches="main">Software RAID on SLES</doc> -->
 <doc cat="sles16.1" doc="SLES-systemd-coredump" branches="main">Managing Core Dumps with systemd-coredump</doc>
 <doc cat="sles16.1" doc="SLES-systemd-management" branches="main">Managing systemd Services</doc>
 <doc cat="sles16.1" doc="SLES-systemd-setting-up-service" branches="main">Setting Up a systemd Service</doc>

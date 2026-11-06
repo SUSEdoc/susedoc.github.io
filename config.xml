@@ -502,7 +502,7 @@
   <doc cat="modular-micro" doc="Micro-keylime" branches="SLE_Micro_6.1 SLE_Micro_6.0">Remote attestation using Keylime</doc>
   <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="SLE_Micro_6.1 SLE_Micro_6.0">Managing system log files</doc>
   <doc cat="modular-micro" doc="Micro-compose" branches="SLE_Micro_6.1 SLE_Micro_6.0">Podman compose</doc>
-  <doc cat="modular-micro" doc="Micro-network-configuration" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Network configuration</doc>
+  <doc cat="modular-micro" doc="Micro-network-configuration" branches="SLE_Micro_6.1 SLE_Micro_6.0">Network configuration</doc>
   <doc cat="modular-micro" doc="Micro-upgrade" branches="SLE_Micro_6.1 SLE_Micro_6.0">Upgrading procedure</doc>
   <doc cat="modular-micro" doc="Micro-transactional-updates" branches="SLE_Micro_6.1 SLE_Micro_6.0">About the transactional-update command</doc>
   <doc cat="modular-micro" doc="Micro-deployment-selfinstall-images" branches="SLE_Micro_6.1 SLE_Micro_6.0">Deployment of selfinstall images on bare metal</doc>

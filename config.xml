@@ -528,7 +528,6 @@
   <doc cat="modular-micro-en" doc="en/Micro-sudo-configure-superuser-privileges" branches="SLE16.0">Configuring superuser privileges</doc>
   <doc cat="modular-micro-en" doc="en/Micro-sudo-run-commands-as-superuser" branches="SLE16.0">Run commands as a superuser</doc>
   <doc cat="modular-micro-en" doc="en/Micro-systemd-working-with-timers" branches="SLE16.0">Configuring systemd timers</doc>
-  <doc cat="modular-micro-en" doc="en/Micro-raids" branches="SLE16.0">Software RAID</doc>
   <doc cat="modular-micro-en" doc="en/Micro-keylime" branches="SLE16.0">Remote attestation using Keylime</doc>
   <doc cat="modular-micro-en" doc="en/Micro-compose" branches="SLE16.0">Podman compose</doc>
   <doc cat="modular-micro-en" doc="en/Micro-upgrade" branches="SLE16.0">Upgrading procedure</doc>

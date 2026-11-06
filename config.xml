@@ -519,6 +519,30 @@
 
   <doc cat="modular-micro-en" doc="en/Micro-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
   <doc cat="modular-micro-en" doc="en/Micro-systemd-basics" branches="SLE16.0">systemd basics</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-images" branches="SLE16.0">Deployment images description</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-PAM-security" branches="SLE16.0">PAM security</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-raw-images-virtual-machines" branches="SLE16.0">Deployment of raw images on virtual machines</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-ntp-time-synchronization" branches="SLE16.0">NTP synchronization</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-selinux" branches="SLE16.0">SELinux basics</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-setroubleshoot" branches="SLE16.0">setroubleshoot to analyze SELinux denial messages</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-sudo-configure-superuser-privileges" branches="SLE16.0">Configuring superuser privileges</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-sudo-run-commands-as-superuser" branches="SLE16.0">Run commands as a superuser</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-systemd-working-with-timers" branches="SLE16.0">Configuring systemd timers</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-raids" branches="SLE16.0">Software RAID</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-keylime" branches="SLE16.0">Remote attestation using Keylime</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-compose" branches="SLE16.0">Podman compose</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-upgrade" branches="SLE16.0">Upgrading procedure</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-transactional-updates" branches="SLE16.0">About the transactional-update command</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-selfinstall-images" branches="SLE16.0">Deployment of selfinstall images on bare metal</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-raw-images" branches="SLE16.0">Deployment of raw images on bare metal</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-raw-images-ibmz-zfcp" branches="SLE16.0">Deployment of raw images on zFCP disks on IBM Z</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-raw-images-ibmz" branches="SLE16.0">Deployment of raw images on DASD disks on IBM Z</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-pxe" branches="SLE16.0">Deployment using the PXE images</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-pf_bb_config" branches="SLE16.0">Using pf_bb_config</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-vhostmd" branches="SLE16.0">Collecting metrics with vhostmd</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-zram" branches="SLE16.0">Creating zram devices</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-deployment-vmdk" branches="SLE16.0">Deploying SUSE Linux Micro on vSphere Using VMDK Images</doc>
+ 
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

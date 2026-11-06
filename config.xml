@@ -486,7 +486,7 @@
   <doc cat="modular-micro" doc="Micro-5.5-cockpit" branches="SLE_Micro_6.0">Cockpit Guide v5.5</doc>
   <doc cat="modular-micro" doc="Micro-6.0-cockpit" branches="SLE_Micro_6.0">Cockpit Guide v6.0</doc>
   <doc cat="modular-micro" doc="SLE-Micro-security" branches="SLE_Micro_6.0">Security Guide</doc>
-  <doc cat="modular-micro" doc="Micro-cockpit" branches="SLE16.0 SLE_Micro_6.1">Cockpit Guide</doc>
+  <doc cat="modular-micro" doc="Micro-cockpit" branches="SLE_Micro_6.1">Cockpit Guide</doc>
   <doc cat="modular-micro" doc="Micro-public-cloud" branches="SLE_Micro_6.1">SUSE Linux Micro in Public Clouds</doc>
   <doc cat="modular-micro" doc="Micro-deployment-images" branches="SLE_Micro_6.1 SLE_Micro_6.0">Deployment images description</doc>
   <doc cat="modular-micro" doc="Micro-PAM-security" branches="SLE_Micro_6.1 SLE_Micro_6.0">PAM security</doc>
@@ -500,7 +500,7 @@
   <doc cat="modular-micro" doc="Micro-raids" branches="SLE_Micro_6.1 SLE_Micro_6.0">Software RAID</doc>
   <doc cat="modular-micro" doc="Rancher-OS" branches="SLE_Micro_6.1 SLE_Micro_6.0">Rancher-OS</doc>
   <doc cat="modular-micro" doc="Micro-keylime" branches="SLE_Micro_6.1 SLE_Micro_6.0">Remote attestation using Keylime</doc>
-  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Managing system log files</doc>
+  <doc cat="modular-micro" doc="Micro-managing-system-logfiles" branches="SLE_Micro_6.1 SLE_Micro_6.0">Managing system log files</doc>
   <doc cat="modular-micro" doc="Micro-compose" branches="SLE_Micro_6.1 SLE_Micro_6.0">Podman compose</doc>
   <doc cat="modular-micro" doc="Micro-network-configuration" branches="SLE16.0 SLE_Micro_6.1 SLE_Micro_6.0">Network configuration</doc>
   <doc cat="modular-micro" doc="Micro-upgrade" branches="SLE_Micro_6.1 SLE_Micro_6.0">Upgrading procedure</doc>
@@ -542,7 +542,11 @@
   <doc cat="modular-micro-en" doc="en/Micro-vhostmd" branches="SLE16.0">Collecting metrics with vhostmd</doc>
   <doc cat="modular-micro-en" doc="en/Micro-zram" branches="SLE16.0">Creating zram devices</doc>
   <doc cat="modular-micro-en" doc="en/Micro-deployment-vmdk" branches="SLE16.0">Deploying SUSE Linux Micro on vSphere Using VMDK Images</doc>
- 
+  <doc cat="modular-micro-en" doc="en/Micro-cockpit" branches="SLE16.0">Cockpit Guide</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-compose" branches="SLE16.0">Podman compose</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-managing-system-logfiles" branches="SLE16.0">Managing system log files</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-network-configuration" branches="SLE16.0">Network configuration</doc>
+
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

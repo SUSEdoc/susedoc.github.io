@@ -65,6 +65,7 @@
     <cat id="sles"       repo="doc-sle">SUSE Linux Enterprise Server</cat>
     <cat id="sle-micro"  repo="doc-sle">SUSE Linux Enterprise Micro</cat>
     <cat id="modular-micro"  repo="doc-modular">SUSE Linux Enterprise Micro</cat>
+    <cat id="modular-micro-en"  repo="doc-modular">SUSE Linux Micro</cat>
     <cat id="sled"       repo="doc-sle">SUSE Linux Enterprise Desktop</cat>
     <cat id="sle-ha"     repo="doc-sleha">SUSE Linux Enterprise High Availability Extension</cat>
     <cat id="sle-rt"     repo="doc-slert">SUSE Linux Enterprise Real-Time</cat>
@@ -495,7 +496,6 @@
   <doc cat="modular-micro" doc="Micro-setroubleshoot" branches="SLE_Micro_6.1 SLE_Micro_6.0">setroubleshoot to analyze SELinux denial messages</doc>
   <doc cat="modular-micro" doc="Micro-sudo-configure-superuser-privileges" branches="SLE_Micro_6.1 SLE_Micro_6.0">Configuring superuser privileges</doc>
   <doc cat="modular-micro" doc="Micro-sudo-run-commands-as-superuser" branches="SLE_Micro_6.1 SLE_Micro_6.0">Run commands as a superuser</doc>
-  <doc cat="modular-micro" doc="Micro-systemd-basics" branches="SLE16.0">systemd basics</doc>
   <doc cat="modular-micro" doc="Micro-systemd-working-with-timers" branches="SLE_Micro_6.1 SLE_Micro_6.0">Configuring systemd timers</doc>
   <doc cat="modular-micro" doc="Micro-raids" branches="SLE_Micro_6.1 SLE_Micro_6.0">Software RAID</doc>
   <doc cat="modular-micro" doc="Rancher-OS" branches="SLE_Micro_6.1 SLE_Micro_6.0">Rancher-OS</doc>
@@ -515,7 +515,10 @@
   <doc cat="modular-micro" doc="Micro-zram" branches="SLE_Micro_6.1">Creating zram devices</doc>
   <doc cat="modular-micro" doc="Micro-deployment-vmdk" branches="SLE_Micro_6.1">Deploying SUSE Linux Micro on vSphere Using VMDK Images</doc>
   <doc cat="modular-micro" doc="Micro-NVIDIA-jetson" branches="SLE_Micro_6.1 SLE_Micro_6.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
-  <doc cat="modular-micro" doc="Micro-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
+
+
+  <doc cat="modular-micro-en" doc="en/Micro-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLE Micro on NVIDIA Jetson platforms</doc>
+  <doc cat="modular-micro-en" doc="en/Micro-systemd-basics" branches="SLE16.0">systemd basics</doc>
 
   <doc cat="sled"  doc="SLED-administration" branches="main SLE15SP6 SLE15SP5 SLE15SP4">Administration Guide</doc>
   <doc cat="sled"  doc="SLED-gnome-user"   branches="main SLE15SP6 SLE15SP5 SLE15SP4">GNOME User Guide</doc>

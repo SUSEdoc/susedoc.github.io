@@ -298,8 +298,7 @@
 <doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>
 <doc cat="sles16.1-sap" doc="SAP-rmt-installing-configuring" branches="main">Installing and configuring RMT</doc>
 <doc cat="sles16.1-sap" doc="SAP-rmt-mirroring-repositories" branches="main">Mirroring repositories on RMT</doc>
-<doc cat="sles16.1-sap" doc="SAP-x86-64-deployment-pxe-client" branches="main">Intel/AMD: Deploying using the PXE boot</doc> 
-<doc cat="sles16.1-sap" doc="SAP-arm-deployment-pxe-client" branches="main">ARM: Deploying using the PXE boot</doc>
+<doc cat="sles16.1-sap" doc="SAP-x86-64-deployment-pxe-client" branches="main">Intel/AMD: Deploying using the PXE boot</doc>
 
 
   <doc cat="sle16.1-ha"  doc="HA-installing-two-node-cluster" branches="main">Installing a Basic Two-Node High Availability Cluster</doc>

@@ -166,6 +166,8 @@
 <doc cat="sles16.1" doc="SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
 <doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+<doc cat="sles16.1" doc="SLES-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
+<doc cat="sles16.1" doc="SLES-kexec-rebooting-faster" branches="main">Using Kexec for Faster Reboots</doc>
 <!-- <doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  -->
 <doc cat="sles16.1" doc="SLES-ISCSI" branches="main">Understanding iSCSI</doc>
 <doc cat="sles16.1" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc> 
@@ -192,8 +194,10 @@
   <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-ISCSI" branches="main">Understanding iSCSI</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-boot-parameters-modify" branches="main">Modifying Kernel Boot Parameters</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-control-groups" branches="main">Kernel Control Groups</doc>
+  <doc cat="sles16.1-nvidia" doc="NVIDIA-kexec-rebooting-faster" branches="main">Using Kexec for Faster Reboots</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-keylime" branches="main">Securing SLES Using Keylime</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-klp" branches="main">Kernel Live Patching</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
@@ -293,6 +297,8 @@
 <doc cat="sles16.1-sap" doc="SAP-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
+<doc cat="sles16.1-sap" doc="SAP-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
+<doc cat="sles16.1-sap" doc="SAP-kexec-rebooting-faster" branches="main">Using Kexec for Faster Reboots</doc>
 <!--<doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc> -->
 <doc cat="sles16.1-sap" doc="SAP-ISCSI" branches="main">Understanding iSCSI</doc>
 <doc cat="sles16.1-sap" doc="SLES-memory-hotplugging" branches="main">Mastering Memory Hot Plugging</doc>

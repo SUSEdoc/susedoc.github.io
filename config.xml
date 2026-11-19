@@ -165,7 +165,6 @@
 <doc cat="sles16.1" doc="SLES-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1" doc="SLES-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
 <doc cat="sles16.1" doc="SLES-fqdn" branches="main">Understanding and Configuring FQDNs</doc>
-<doc cat="sles16.1" doc="SLES-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
 <doc cat="sles16.1" doc="SLES-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
 <doc cat="sles16.1" doc="SLES-kexec-rebooting-faster" branches="main">Using Kexec for Faster Reboots</doc>
 <!-- <doc cat="sles16.1" doc="SLES-multipath" branches="main">Managing multipath I/O for devices</doc>  -->

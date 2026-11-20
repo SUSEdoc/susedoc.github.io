@@ -192,7 +192,6 @@
   <doc cat="sles16.1-nvidia" doc="NVIDIA-intro-firewalld" branches="main">Introduction to firewalld</doc>
   <!-- <doc cat="sles16.1-nvidia" doc="NVIDIA-ISCSI" branches="main">Understanding iSCSI</doc> -->
   <doc cat="sles16.1-nvidia" doc="NVIDIA-journalctl" branches="main">Mastering System Logs: From systemd-journald to journalctl</doc>
-  <doc cat="sles16.1-nvidia" doc="NVIDIA-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-boot-parameters-modify" branches="main">Modifying Kernel Boot Parameters</doc>
   <doc cat="sles16.1-nvidia" doc="NVIDIA-kernel-control-groups" branches="main">Kernel Control Groups</doc>
@@ -295,7 +294,6 @@
 <doc cat="sles16.1-sap" doc="SAP-virtualization-support" branches="main">Virtualization Support in SUSE Linux Enterprise Server</doc>
 <doc cat="sles16.1-sap" doc="SAP-zram" branches="main">Installation, Configuration and Management of zram</doc>
 <doc cat="sles16.1-sap" doc="SAP-lsm" branches="main">Hardening Linux with Linux Security Module Framework and Yama</doc>
-<doc cat="sles16.1-sap" doc="SAP-kdump" branches="main">Kdump Configuration and Troubleshooting Guide</doc>
 <doc cat="sles16.1-sap" doc="SAP-kdump-capturing-crash-dumps" branches="main">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
 <doc cat="sles16.1-sap" doc="SAP-kexec-rebooting-faster" branches="main">Using Kexec for Faster Reboots</doc>
 <!--<doc cat="sles16.1-sap" doc="SAP-multipath" branches="main">Managing multipath I/O for devices</doc> -->
@@ -372,7 +370,8 @@
   <doc cat="sles16.0"  doc="en/SLES-arm-deployment-nvidia-jetson" branches="SLE16.0">Deploying SLES on NVIDIA Jetson platforms</doc>
   <doc cat="sles16.0" doc="en/SLES-lsm" branches="SLE16.0">Hardening Linux with Linux Security Module Framework and Yama</doc>
   <doc cat="sles16.0" doc="en/SLES-fqdn" branches="SLE16.0">Understanding and Configuring FQDNs</doc>
-  <doc cat="sles16.0" doc="en/SLES-kdump" branches="SLE16.0">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0" doc="en/SLES-kdump-capturing-crash-dumps" branches="SLE16.0">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
+  <doc cat="sles16.0" doc="en/SLES-kexec-rebooting-faster" branches="SLE16.0">Using Kexec for Faster Reboots</doc>
   <doc cat="sles16.0" doc="en/SLES-multipath" branches="SLE16.0">Managing multipath I/O for devices</doc>
   <doc cat="sles16.0" doc="en/SLES-ISCSI" branches="SLE16.0">Understanding iSCSI</doc>
   <doc cat="sles16.0" doc="en/SLES-memory-hotplugging" branches="SLE16.0">Mastering Memory Hot Plugging</doc>
@@ -416,7 +415,8 @@
   <doc cat="sles16.0-sap"  doc="en/SAP-predictable-naming" branches="SLE16.0">Enabling Predictable Naming Scheme for Network Interfaces</doc>
   <doc cat="sles16.0-sap"  doc="en/SAP-vm-host-network-multihome-setup" branches="SLE16.0">Configuring Multihome Networking on VM Hosts</doc>
   <doc cat="sles16.0-sap" doc="en/SAP-lsm" branches="SLE16.0">Hardening Linux with Linux Security Module Framework and Yama</doc>
-  <doc cat="sles16.0-sap" doc="en/SAP-kdump" branches="SLE16.0">Kdump Configuration and Troubleshooting Guide</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-kdump-capturing-crash-dumps" branches="SLE16.0">Capturing and Analyzing Kernel Crash Dumps with Kdump</doc>
+  <doc cat="sles16.0-sap" doc="en/SAP-kexec-rebooting-faster" branches="SLE16.0">Using Kexec for Faster Reboots</doc>
   <doc cat="sles16.0-sap" doc="en/SAP-multipath" branches="SLE16.0">Managing multipath I/O for devices</doc>
   <doc cat="sles16.0-sap" doc="en/SAP-ISCSI" branches="SLE16.0">Understanding iSCSI</doc>
   <doc cat="sles16.0-sap" doc="en/SLES-memory-hotplugging" branches="SLE16.0">Mastering Memory Hot Plugging</doc>
